@@ -1,0 +1,3 @@
+year,player_key,full_name,position,hometown_city,hometown_state,committed_school,profile_url_api,profile_lookup_url,profile_lookup_status,profile_resolution_method,height,weight,actual_profile_url
+2013,32239,Spencer Clayton,C,Gresham,OR,,/player/Spencer-Clayton-32239,https://247sports.com/player/spencer-clayton-32239/,500,api_profile_url,'6-10,230,
+2013,16402,Desmond Ringer,PF,McDonough,GA,South Carolina,/player/Desmond-Ringer-16402,https://247sports.com/player/desmond-ringer-16402/,404,api_profile_url,'6-9,220,https://247sports.com/player/desmond-ringer-16402/high-school-27184/
