@@ -1,0 +1,52 @@
+ranking,name,highSchool,position,height,weight,stars,rating,college
+1,AJ Dybantsa,"Utah Prep (Brockton, MA)",SF," 6-9 "," 210 ",5,0.9999,BYU
+2,Darryn Peterson,"Prolific Prep (Napa, CA)",CG," 6-5 "," 195 ",5,0.9995,Kansas
+3,Cameron Boozer,"Miami Columbus (Miami, FL)",PF," 6-9 "," 235 ",5,0.9993,Duke
+4,Nate Ament,"Highland School (Warrenton, VA)",PF," 6-10 "," 185 ",5,0.9991,Tennessee
+5,Caleb Wilson,"Holy Innocents Episcopal School (Atlanta, GA)",PF," 6-9 "," 205 ",5,0.9981,North Carolina
+6,Chris Cenac Jr.,"Link Academy (Branson, MO)",C," 6-10 "," 233 ",5,0.9981,Houston
+7,Alijah Arenas,"Chatsworth (Chatsworth, CA)",SG," 6-6 "," 195 ",5,0.9974,USC
+8,Mikel Brown Jr.,"DME Academy (Daytona Beach, FL)",PG," 6-3 "," 172 ",5,0.9969,Louisville
+9,Koa Peat,"Perry (Gilbert, AZ)",PF," 6-8 "," 235 ",5,0.9969,Arizona
+10,Brayden Burries,"Eastvale Roosevelt (San Bernardino, CA)",CG," 6-4 "," 200 ",5,0.9965,Arizona
+11,Darius Acuff Jr.,"IMG Academy (Bradenton, FL)",PG," 6-2 "," 180 ",5,0.9964,Arkansas
+12,Meleek Thomas,"Overtime Elite (Atlanta, GA)",SG," 6-3 "," 181 ",5,0.9956,Arkansas
+13,Isiah Harwell,"Wasatch Academy (Mount Pleasant, UT)",SG," 6-6 "," 200 ",5,0.9955,Houston
+14,Tounde Yessoufou,"St Joseph (Benin, BENI)",SF," 6-6 "," 210 ",5,0.9952,Baylor
+15,Braylon Mullins,"Greenfield-Central (Greenfield, IN)",SG," 6-4 "," 180 ",5,0.9941,UConn
+16,Kingston Flemings,"Brennan (San Antonio, TX)",PG," 6-3 "," 175 ",5,0.9934,Houston
+17,Jalen Haralson,"La Lumiere School (La Porte, IN)",SF," 6-7 "," 210 ",5,0.9927,Notre Dame
+18,Trey McKenney,"Orchard Lake St. Mary's (Flint, MI)",CG," 6-4 "," 225 ",5,0.9927,Michigan
+19,Nikolas Khamenia,"Harvard Westlake (Studio City, CA)",SF," 6-8 "," 210 ",5,0.9922,Duke
+20,Cayden Boozer,"Miami Columbus (Miami, FL)",PG," 6-4 "," 205 ",5,0.9921,Duke
+21,Jasper Johnson,"Overtime Elite (Atlanta, GA)",SG," 6-4 "," 175 ",5,0.9917,Kentucky
+22,Shon Abaev,"Calvary Christian Academy (Fort Lauderdale, FL)",SF," 6-7 "," 195 ",5,0.9915,Cincinnati
+23,Shelton Henderson,"Bellaire (Bellaire, TX)",SF," 6-6 "," 220 ",5,0.9914,Miami
+24,Dwayne Aristode,"Brewster Academy (Netherlands, NETH)",SF," 6-8 "," 215 ",5,0.9913,Arizona
+25,Malachi Moreno,"Great Crossing (Georgetown, KY)",C," 6-11 "," 230 ",5,0.9910,Kentucky
+26,Matt Able,"Sagemont Prep (Fort Lauderdale, FL)",SG," 6-5 "," 190 ",5,0.9909,NC State
+27,Darius Adams,"La Lumiere School (La Porte, IN)",CG," 6-5 "," 165 ",5,0.9900,Maryland
+28,Eric Reibe,"The Bullis School (Germany, GERM)",C," 7-0 "," 235 ",4,0.9891,UConn
+29,CJ Ingram,"Montverde Academy (Montverde, FL)",SF," 6-6 "," 195 ",4,0.9883,Florida
+30,Sadiq White Jr.,"IMG Academy (Bradenton, FL)",PF," 6-8 "," 195 ",4,0.9881,Syracuse
+31,Niko Bundalo,"Prolific Prep (Napa, CA)",PF," 6-10 "," 215 ",4,0.9879,Ole Miss
+32,Dame Sarr,"Italy (Italy, ITAL)",SG," 6-7 "," 190 ",4,0.9873,Duke
+33,Acaden Lewis,"Sidwell Friends School (Washington, DC)",PG," 6-2 "," 170 ",4,0.9873,Villanova
+34,Kiyan Anthony,"Long Island Lutheran (Glen Head, NY)",SG," 6-5 "," 185 ",4,0.9872,Syracuse
+35,Sebastian Wilkins,"Brewster Academy (Wolfeboro, NH)",PF," 6-8 "," 215 ",4,0.9871,Duke
+36,Xavion Staton,"Utah Prep (Hurricane, UT)",C," 6-11 "," 207 ",4,0.9871,BYU
+37,Kayden Mingo,"Long Island Lutheran (Glen Head, NY)",CG," 6-2 "," 178 ",4,0.9859,Penn State
+38,London Jemison,"St. Thomas More (Oakdale, CT)",PF," 6-8 "," 200 ",4,0.9858,Alabama
+39,Davis Fogle,"Compass Prep (Chandler, AZ)",SF," 6-7 "," 185 ",4,0.9847,Gonzaga
+40,Jamier Jones,"Oak Ridge (Orlando, FL)",PF," 6-6 "," 210 ",4,0.9847,Providence
+41,Jaden Toombs,"Dynamic Prep (Dallas, TX)",C," 6-9 "," 245 ",4,0.9840,SMU
+42,Alex Lloyd,"Westminster Academy (Fort Lauderdale, FL)",SG," 6-3 "," 165 ",4,0.9827,Florida
+43,Jerry Easter II,"Link Academy (Branson, MO)",CG," 6-3 "," 183 ",4,0.9823,USC
+44,Derek Dixon,"Gonzaga (Washington, DC)",CG," 6-3 "," 190 ",4,0.9822,North Carolina
+45,Jacob Wilkins,"Grayson (Loganville, GA)",SF," 6-7 "," 167 ",4,0.9822,Georgia
+46,Davion Hannah,"Link Academy (Branson, MO)",SG," 6-5 "," 175 ",4,0.9815,Alabama
+47,Hudson Greer,"Montverde Academy (Montverde, FL)",SF," 6-6 "," 190 ",4,0.9814,Creighton
+48,Sebastian Williams-Adams,"St. John's (Houston, TX)",PF," 6-8 "," 230 ",4,0.9804,Auburn
+49,Billy White III,"Corpus Christi Veterans Memorial (Corpus Christi, TX)",SF," 6-8 "," 195 ",4,0.9801,SMU
+50,Neoklis Avdalas,"Peristeri B.C. (Greece, GREE)",SG," 6-8 "," 187 ",4,0.9800,Virginia Tech
+51,,,,,,0,,uncommitted
