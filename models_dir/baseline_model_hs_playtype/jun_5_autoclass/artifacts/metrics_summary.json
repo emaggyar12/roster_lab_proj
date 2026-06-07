@@ -1,0 +1,123 @@
+{
+  "target_col": "bv_role",
+  "feature_cols": [
+    "hs_position",
+    "hs_height_in",
+    "hs_weight",
+    "hs_stars",
+    "hs_rating",
+    "hs_national_rank",
+    "hs_position_rank"
+  ],
+  "cat_features": [
+    "hs_position"
+  ],
+  "class_order": [
+    "C",
+    "Combo G",
+    "PF/C",
+    "Pure PG",
+    "Scoring PG",
+    "Stretch 4",
+    "Wing F",
+    "Wing G"
+  ],
+  "class_weight_options_searched": [
+    "None",
+    "SqrtBalanced",
+    "Balanced"
+  ],
+  "selected_auto_class_weights": "None",
+  "best_valid_log_loss": 1.3518843860820686,
+  "test_log_loss": 1.3136949803894042,
+  "best_params": {
+    "auto_class_weights": "None",
+    "iterations": 2255,
+    "learning_rate": 0.020423075421278712,
+    "depth": 4,
+    "l2_leaf_reg": 1.7954435880423065,
+    "bagging_temperature": 0.896053382856933
+  },
+  "final_params": {
+    "iterations": 2255,
+    "learning_rate": 0.020423075421278712,
+    "depth": 4,
+    "l2_leaf_reg": 1.7954435880423065,
+    "bagging_temperature": 0.896053382856933,
+    "loss_function": "MultiClass",
+    "eval_metric": "MultiClass",
+    "random_seed": 42,
+    "verbose": false,
+    "allow_writing_files": false
+  },
+  "train_hs_year_range": [
+    2009,
+    2021
+  ],
+  "valid_hs_year_range": [
+    2022,
+    2023
+  ],
+  "test_hs_year_range": [
+    2024,
+    2025
+  ],
+  "train_rows": 6822,
+  "valid_rows": 1117,
+  "test_rows": 1051,
+  "metrics_by_split": [
+    {
+      "split": "train",
+      "rows": 6822,
+      "log_loss": 1.1740672175466322,
+      "top1_accuracy": 0.5263852242744064,
+      "top3_accuracy": 0.9034007622398124,
+      "macro_f1": 0.3939241010871131,
+      "weighted_f1": 0.4856714117772318,
+      "balanced_accuracy": 0.4128529798621044
+    },
+    {
+      "split": "valid",
+      "rows": 1117,
+      "log_loss": 1.225210949069126,
+      "top1_accuracy": 0.5174574753804835,
+      "top3_accuracy": 0.88272157564906,
+      "macro_f1": 0.3655344205851624,
+      "weighted_f1": 0.46490753635050763,
+      "balanced_accuracy": 0.3999386336531749
+    },
+    {
+      "split": "test",
+      "rows": 1051,
+      "log_loss": 1.3136949803894042,
+      "top1_accuracy": 0.46336822074215034,
+      "top3_accuracy": 0.8801141769743102,
+      "macro_f1": 0.3319853872024112,
+      "weighted_f1": 0.41247066075289046,
+      "balanced_accuracy": 0.3603964025075137
+    }
+  ],
+  "artifact_files": {
+    "optuna_trials": "optuna_trials.csv",
+    "optuna_iteration_metrics": "optuna_iteration_metrics.csv",
+    "final_iteration_metrics": "final_iteration_metrics.csv",
+    "metrics_by_split": "metrics_by_split.csv",
+    "class_distribution_by_split": "class_distribution_by_split.csv",
+    "feature_importance": "feature_importance.csv",
+    "prediction_probability_files": [
+      "train_predictions_with_probabilities.csv",
+      "valid_predictions_with_probabilities.csv",
+      "test_predictions_with_probabilities.csv"
+    ],
+    "predicted_class_distributions": [
+      "train_predicted_class_distribution.csv",
+      "valid_predicted_class_distribution.csv",
+      "test_predicted_class_distribution.csv"
+    ],
+    "confusion_matrices": [
+      "train_confusion_matrix.csv",
+      "valid_confusion_matrix.csv",
+      "test_confusion_matrix.csv"
+    ]
+  }
+}

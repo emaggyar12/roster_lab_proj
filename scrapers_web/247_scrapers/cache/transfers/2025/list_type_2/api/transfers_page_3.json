@@ -1,0 +1,1892 @@
+{
+  "lastUpdated": "2026-05-23T00:27:00Z",
+  "pagination": {
+    "count": 531,
+    "currentPage": 3,
+    "itemsPerPage": 250,
+    "limit": 250,
+    "offset": 500,
+    "pageCount": 3
+  },
+  "players": [
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/518/13/12013518.png",
+        "eligibility": {
+          "type": "Immediate",
+          "years": null
+        },
+        "endDate": null,
+        "firstName": "Chance",
+        "height": "6-3",
+        "highSchoolRank": 418,
+        "highSchoolRating": 0.78,
+        "institutionStatus": "T",
+        "key": 46102555,
+        "lastName": "Stephens",
+        "lastUpdateDate": "2025-05-09T14:07:44Z",
+        "playerProfileUrl": "https://247sports.com/player/chance-stephens-46102555/college-299040",
+        "position": "SG",
+        "positionGroupKey": 9,
+        "positionGroupName": "Guard",
+        "positionKey": 32,
+        "positionRank": 122,
+        "rank": 503,
+        "rankTrend": 1,
+        "rating": 0.85,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 9,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/62/543/12543062.png",
+              "institution": "Minnesota",
+              "institutionKey": 24044,
+              "institutionRootPath": "/college/minnesota",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/62/543/12543062.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/920/639/9639920.png",
+            "institution": "Maryland",
+            "institutionKey": 24012,
+            "institutionRootPath": "/college/maryland",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/379/617/12617379.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-05-09T14:07:00Z",
+        "transferDate": "2025-04-08T21:04:00Z",
+        "transferRank": 503,
+        "transferRating": 0.85,
+        "weight": 185
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/828/8/13008828.jpg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": null
+        },
+        "endDate": null,
+        "firstName": "Will",
+        "height": "6-6",
+        "highSchoolRank": null,
+        "highSchoolRating": null,
+        "institutionStatus": "T",
+        "key": 46157290,
+        "lastName": "Cooper",
+        "lastUpdateDate": "2025-04-09T14:04:31Z",
+        "playerProfileUrl": "https://247sports.com/player/will-cooper-46157290/college-335028",
+        "position": "SF",
+        "positionGroupKey": 10,
+        "positionGroupName": "Forward",
+        "positionKey": 33,
+        "positionRank": 82,
+        "rank": 504,
+        "rankTrend": null,
+        "rating": 0.85,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 6,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/974/544/12544974.png",
+              "institution": "Nebraska",
+              "institutionKey": 24025,
+              "institutionRootPath": "/college/nebraska",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/257/617/12617257.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/250/483/8483250.png",
+            "institution": "Air Force",
+            "institutionKey": 24078,
+            "institutionRootPath": "/college/air-force",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/251/483/8483251.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-04-09T14:04:00Z",
+        "transferDate": "2025-03-28T18:06:00Z",
+        "transferRank": 504,
+        "transferRating": 0.85,
+        "weight": 210
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/890/41/13041890.jpeg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": null
+        },
+        "endDate": null,
+        "firstName": "Jason",
+        "height": "6-2",
+        "highSchoolRank": null,
+        "highSchoolRating": null,
+        "institutionStatus": "T",
+        "key": 46102970,
+        "lastName": "Drake",
+        "lastUpdateDate": "2025-04-22T16:33:53Z",
+        "playerProfileUrl": "https://247sports.com/player/jason-drake-46102970/college-336176",
+        "position": "CG",
+        "positionGroupKey": 9,
+        "positionGroupName": "Guard",
+        "positionKey": 36,
+        "positionRank": 47,
+        "rank": 505,
+        "rankTrend": null,
+        "rating": 0.85,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 20,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/345/617/12617345.png",
+              "institution": "Indiana",
+              "institutionKey": 24040,
+              "institutionRootPath": "/college/indiana",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/345/617/12617345.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/753/551/12551753.png",
+            "institution": "Drexel",
+            "institutionKey": 24330,
+            "institutionRootPath": "/college/drexel",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/753/551/12551753.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-04-22T16:33:00Z",
+        "transferDate": "2025-04-15T16:12:00Z",
+        "transferRank": 505,
+        "transferRating": 0.85,
+        "weight": 190
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/59/22/13022059.jpeg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": null
+        },
+        "endDate": null,
+        "firstName": "Morris",
+        "height": "6-4",
+        "highSchoolRank": null,
+        "highSchoolRating": null,
+        "institutionStatus": "T",
+        "key": 46141171,
+        "lastName": "Ugusuk",
+        "lastUpdateDate": "2025-05-04T18:20:37Z",
+        "playerProfileUrl": "https://247sports.com/player/morris-ugusuk-46141171/college-300304",
+        "position": "CG",
+        "positionGroupKey": 9,
+        "positionGroupName": "Guard",
+        "positionKey": 36,
+        "positionRank": 48,
+        "rank": 506,
+        "rankTrend": null,
+        "rating": 0.85,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 10,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/39/543/12543039.png",
+              "institution": "West Virginia",
+              "institutionKey": 24038,
+              "institutionRootPath": "/college/west-virginia",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/41/543/12543041.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/574/543/12543574.png",
+            "institution": "South Carolina",
+            "institutionKey": 24105,
+            "institutionRootPath": "/college/south-carolina",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/574/543/12543574.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-05-04T18:20:00Z",
+        "transferDate": "2025-04-04T16:29:00Z",
+        "transferRank": 506,
+        "transferRating": 0.85,
+        "weight": 160
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/312/2/13002312.jpg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": null
+        },
+        "endDate": null,
+        "firstName": "Evan",
+        "height": "6-2",
+        "highSchoolRank": 238,
+        "highSchoolRating": 0.89,
+        "institutionStatus": "T",
+        "key": 46047876,
+        "lastName": "Nelson",
+        "lastUpdateDate": "2025-04-11T14:19:38Z",
+        "playerProfileUrl": "https://247sports.com/player/evan-nelson-46047876/college-334767",
+        "position": "PG",
+        "positionGroupKey": 9,
+        "positionGroupName": "Guard",
+        "positionKey": 31,
+        "positionRank": 82,
+        "rank": 507,
+        "rankTrend": null,
+        "rating": 0.85,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 10,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/925/542/12542925.png",
+              "institution": "Arizona",
+              "institutionKey": 24087,
+              "institutionRootPath": "/college/arizona",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/925/542/12542925.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/109/550/12550109.png",
+            "institution": "Harvard",
+            "institutionKey": 24167,
+            "institutionRootPath": "/college/harvard",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/109/550/12550109.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-04-11T02:19:00Z",
+        "transferDate": "2025-03-25T21:02:00Z",
+        "transferRank": 507,
+        "transferRating": 0.85,
+        "weight": 170
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/240/133/13133240.jpg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": null
+        },
+        "endDate": null,
+        "firstName": "George",
+        "height": "6-4",
+        "highSchoolRank": null,
+        "highSchoolRating": null,
+        "institutionStatus": "T",
+        "key": 46157758,
+        "lastName": "Beale Jr.",
+        "lastUpdateDate": "2025-04-13T00:20:56Z",
+        "playerProfileUrl": "https://247sports.com/player/george-beale-jr-46157758/college-336066",
+        "position": "CG",
+        "positionGroupKey": 9,
+        "positionGroupName": "Guard",
+        "positionKey": 36,
+        "positionRank": 49,
+        "rank": 508,
+        "rankTrend": null,
+        "rating": 0.85,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 22,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/854/188/13188854.png",
+              "institution": "UCF",
+              "institutionKey": 24060,
+              "institutionRootPath": "/college/central-florida",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/854/188/13188854.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/54/550/12550054.png",
+            "institution": "Hampton",
+            "institutionKey": 24174,
+            "institutionRootPath": "/college/hampton",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/54/550/12550054.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-04-13T00:20:00Z",
+        "transferDate": "2025-04-01T00:20:00Z",
+        "transferRank": 508,
+        "transferRating": 0.85,
+        "weight": 200
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/785/8/13008785.jpg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": null
+        },
+        "endDate": null,
+        "firstName": "Justin",
+        "height": "6-3",
+        "highSchoolRank": null,
+        "highSchoolRating": null,
+        "institutionStatus": "T",
+        "key": 46157289,
+        "lastName": "Bailey",
+        "lastUpdateDate": "2025-04-11T14:17:20Z",
+        "playerProfileUrl": "https://247sports.com/player/justin-bailey-46157289/college-335024",
+        "position": "SG",
+        "positionGroupKey": 9,
+        "positionGroupName": "Guard",
+        "positionKey": 32,
+        "positionRank": 123,
+        "rank": 509,
+        "rankTrend": null,
+        "rating": 0.85,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 11,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/543/543/12543543.png",
+              "institution": "Georgia",
+              "institutionKey": 24100,
+              "institutionRootPath": "/college/georgia",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/543/543/12543543.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/25/183/9183025.png",
+            "institution": "Wofford",
+            "institutionKey": 24232,
+            "institutionRootPath": "/college/wofford",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/25/183/9183025.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-04-11T14:17:00Z",
+        "transferDate": "2025-03-28T17:49:00Z",
+        "transferRank": 509,
+        "transferRating": 0.85,
+        "weight": 185
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/182/143/13143182.jpg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": null
+        },
+        "endDate": null,
+        "firstName": "Josh",
+        "height": "6-5",
+        "highSchoolRank": null,
+        "highSchoolRating": null,
+        "institutionStatus": "T",
+        "key": 46159772,
+        "lastName": "Omojafo",
+        "lastUpdateDate": "2025-06-17T21:48:28Z",
+        "playerProfileUrl": "https://247sports.com/player/josh-omojafo-46159772/college-339391",
+        "position": "SG",
+        "positionGroupKey": 9,
+        "positionGroupName": "Guard",
+        "positionKey": 32,
+        "positionRank": 124,
+        "rank": 510,
+        "rankTrend": null,
+        "rating": 0.85,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 21,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/319/544/12544319.png",
+              "institution": "South Florida",
+              "institutionKey": 24036,
+              "institutionRootPath": "/college/south-florida",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/319/544/12544319.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/703/551/12551703.png",
+            "institution": "Robert Morris",
+            "institutionKey": 24194,
+            "institutionRootPath": "/college/robert-morris",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/703/551/12551703.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-06-13T21:47:00Z",
+        "transferDate": "2025-03-27T21:47:00Z",
+        "transferRank": 510,
+        "transferRating": 0.85,
+        "weight": 200
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/879/787/12787879.jpeg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": 3
+        },
+        "endDate": null,
+        "firstName": "RJ",
+        "height": "6-3",
+        "highSchoolRank": 316,
+        "highSchoolRating": 0.84,
+        "institutionStatus": "T",
+        "key": 46125670,
+        "lastName": "Smith",
+        "lastUpdateDate": "2025-04-10T14:18:33Z",
+        "playerProfileUrl": "https://247sports.com/player/rj-smith-46125670/college-288547",
+        "position": "SG",
+        "positionGroupKey": 9,
+        "positionGroupName": "Guard",
+        "positionKey": 32,
+        "positionRank": 125,
+        "rank": 511,
+        "rankTrend": null,
+        "rating": 0.85,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 7,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/950/546/12546950.png",
+              "institution": "DePaul",
+              "institutionKey": 24329,
+              "institutionRootPath": "/college/depaul",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/950/546/12546950.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/979/542/12542979.png",
+            "institution": "Colorado",
+            "institutionKey": 24020,
+            "institutionRootPath": "/college/colorado",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/979/542/12542979.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-04-09T23:02:00Z",
+        "transferDate": "2025-04-03T14:17:00Z",
+        "transferRank": 511,
+        "transferRating": 0.85,
+        "weight": 190
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/498/13/12013498.png",
+        "eligibility": {
+          "type": "Immediate",
+          "years": null
+        },
+        "endDate": null,
+        "firstName": "Braden",
+        "height": "7-0",
+        "highSchoolRank": 296,
+        "highSchoolRating": 0.85,
+        "institutionStatus": "T",
+        "key": 46118228,
+        "lastName": "Pierce",
+        "lastUpdateDate": "2025-04-17T16:26:05Z",
+        "playerProfileUrl": "https://247sports.com/player/braden-pierce-46118228/college-302874",
+        "position": "C",
+        "positionGroupKey": 11,
+        "positionGroupName": "Center",
+        "positionKey": 35,
+        "positionRank": 64,
+        "rank": 512,
+        "rankTrend": null,
+        "rating": 0.85,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 10,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/984/546/12546984.png",
+              "institution": "Villanova",
+              "institutionKey": 24152,
+              "institutionRootPath": "/college/villanova",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/984/546/12546984.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/920/639/9639920.png",
+            "institution": "Maryland",
+            "institutionKey": 24012,
+            "institutionRootPath": "/college/maryland",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/379/617/12617379.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-04-17T16:25:00Z",
+        "transferDate": "2025-04-01T16:03:00Z",
+        "transferRank": 512,
+        "transferRating": 0.85,
+        "weight": 230
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/956/676/12676956.jpg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": 2
+        },
+        "endDate": null,
+        "firstName": "A.J.",
+        "height": "6-4",
+        "highSchoolRank": 373,
+        "highSchoolRating": 0.88,
+        "institutionStatus": "T",
+        "key": 46083618,
+        "lastName": "Staton-McCray",
+        "lastUpdateDate": "2025-05-04T01:06:43Z",
+        "playerProfileUrl": "https://247sports.com/player/aj-staton-mccray-46083618/college-316815",
+        "position": "SG",
+        "positionGroupKey": 9,
+        "positionGroupName": "Guard",
+        "positionKey": 32,
+        "positionRank": 126,
+        "rank": 513,
+        "rankTrend": null,
+        "rating": 0.85,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 34,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/972/546/12546972.png",
+              "institution": "Seton Hall",
+              "institutionKey": 24310,
+              "institutionRootPath": "/college/seton-hall",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/972/546/12546972.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/865/542/12542865.png",
+            "institution": "Miami",
+            "institutionKey": 24013,
+            "institutionRootPath": "/college/miami",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/865/542/12542865.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-04-30T01:06:00Z",
+        "transferDate": "2025-04-04T16:46:00Z",
+        "transferRank": 513,
+        "transferRating": 0.85,
+        "weight": 196
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/822/952/12952822.jpeg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": 1
+        },
+        "endDate": null,
+        "firstName": "Tanahj",
+        "height": "6-2",
+        "highSchoolRank": null,
+        "highSchoolRating": null,
+        "institutionStatus": "T",
+        "key": 46035550,
+        "lastName": "Pettway",
+        "lastUpdateDate": "2025-03-18T14:04:15Z",
+        "playerProfileUrl": "https://247sports.com/player/tanahj-pettway-46035550/college-325639",
+        "position": "PG",
+        "positionGroupKey": 9,
+        "positionGroupName": "Guard",
+        "positionKey": 31,
+        "positionRank": 83,
+        "rank": 514,
+        "rankTrend": null,
+        "rating": 0.84,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 34,
+        "status": "",
+        "statusDate": null,
+        "transfer": {
+          "destination": [],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/787/542/12542787.png",
+            "institution": "Prairie View A&M",
+            "institutionKey": 24247,
+            "institutionRootPath": "/college/pvamu",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/787/542/12542787.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": null,
+        "transferDate": "2025-03-12T14:03:00Z",
+        "transferRank": 514,
+        "transferRating": 0.84,
+        "weight": 185
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/64/976/12976064.jpeg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": null
+        },
+        "endDate": null,
+        "firstName": "Jared",
+        "height": "6-8",
+        "highSchoolRank": 354,
+        "highSchoolRating": 0.82,
+        "institutionStatus": "T",
+        "key": 46103150,
+        "lastName": "Turner",
+        "lastUpdateDate": "2025-05-04T15:03:36Z",
+        "playerProfileUrl": "https://247sports.com/player/jared-turner-46103150/college-333368",
+        "position": "SF",
+        "positionGroupKey": 10,
+        "positionGroupName": "Forward",
+        "positionKey": 33,
+        "positionRank": 83,
+        "rank": 515,
+        "rankTrend": null,
+        "rating": 0.84,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 11,
+        "status": "Committed",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/556/871/11871556.png",
+              "institution": "Old Dominion",
+              "institutionKey": 24160,
+              "institutionRootPath": "/college/old-dominion",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/556/871/11871556.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/774/551/12551774.png",
+            "institution": "Northeastern",
+            "institutionKey": 24148,
+            "institutionRootPath": "/college/northeastern",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/771/551/12551771.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-03-25T03:03:00Z",
+        "transferDate": "2025-03-10T19:48:00Z",
+        "transferRank": 515,
+        "transferRating": 0.84,
+        "weight": 210
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/73/715/12715073.jpg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": 4
+        },
+        "endDate": null,
+        "firstName": "Marlon",
+        "height": "6-6",
+        "highSchoolRank": 331,
+        "highSchoolRating": 0.83,
+        "institutionStatus": "T",
+        "key": 46103389,
+        "lastName": "Barnes Jr.",
+        "lastUpdateDate": "2025-05-04T01:14:11Z",
+        "playerProfileUrl": "https://247sports.com/player/marlon-barnes-jr-46103389/college-302748",
+        "position": "SF",
+        "positionGroupKey": 10,
+        "positionGroupName": "Forward",
+        "positionKey": 33,
+        "positionRank": 84,
+        "rank": 516,
+        "rankTrend": null,
+        "rating": 0.84,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 22,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/497/551/12551497.png",
+              "institution": "Evansville",
+              "institutionKey": 24344,
+              "institutionRootPath": "/college/evansville",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/497/551/12551497.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/891/542/12542891.png",
+            "institution": "Pittsburgh",
+            "institutionKey": 24034,
+            "institutionRootPath": "/college/pittsburgh",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/714/953/12953714.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-04-26T01:13:00Z",
+        "transferDate": "2025-03-24T14:40:00Z",
+        "transferRank": 516,
+        "transferRating": 0.84,
+        "weight": 190
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/351/776/12776351.jpeg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": 4
+        },
+        "endDate": null,
+        "firstName": "Jakai",
+        "height": "6-3",
+        "highSchoolRank": 127,
+        "highSchoolRating": 0.9,
+        "institutionStatus": "T",
+        "key": 46117360,
+        "lastName": "Newton",
+        "lastUpdateDate": "2025-04-04T14:53:52Z",
+        "playerProfileUrl": "https://247sports.com/player/jakai-newton-46117360/college-302766",
+        "position": "CG",
+        "positionGroupKey": 9,
+        "positionGroupName": "Guard",
+        "positionKey": 36,
+        "positionRank": 50,
+        "rank": 517,
+        "rankTrend": -1,
+        "rating": 0.84,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 18,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/829/620/12620829.png",
+              "institution": "Georgia State",
+              "institutionKey": 24332,
+              "institutionRootPath": "/college/georgia-state",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/829/620/12620829.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/345/617/12617345.png",
+            "institution": "Indiana",
+            "institutionKey": 24040,
+            "institutionRootPath": "/college/indiana",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/345/617/12617345.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-04-04T14:53:00Z",
+        "transferDate": "2025-03-24T14:16:00Z",
+        "transferRank": 517,
+        "transferRating": 0.84,
+        "weight": 190
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/166/985/12985166.jpeg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": null
+        },
+        "endDate": null,
+        "firstName": "Kenyon",
+        "height": "5-10",
+        "highSchoolRank": null,
+        "highSchoolRating": null,
+        "institutionStatus": "T",
+        "key": 46145493,
+        "lastName": "Giles",
+        "lastUpdateDate": "2025-05-06T01:00:58Z",
+        "playerProfileUrl": "https://247sports.com/player/kenyon-giles-46145493/college-333735",
+        "position": "PG",
+        "positionGroupKey": 9,
+        "positionGroupName": "Guard",
+        "positionKey": 31,
+        "positionRank": 84,
+        "rank": 518,
+        "rankTrend": null,
+        "rating": 0.84,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 28,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/345/544/12544345.png",
+              "institution": "Wichita State",
+              "institutionKey": 24345,
+              "institutionRootPath": "/college/wichita-state",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/345/544/12544345.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/792/551/12551792.png",
+            "institution": "UNC Greensboro",
+            "institutionKey": 24352,
+            "institutionRootPath": "/college/uncg",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/792/551/12551792.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-04-13T01:00:00Z",
+        "transferDate": "2025-03-16T14:45:00Z",
+        "transferRank": 518,
+        "transferRating": 0.84,
+        "weight": 165
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/528/730/12730528.jpg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": null
+        },
+        "endDate": null,
+        "firstName": "Jason",
+        "height": "6-6",
+        "highSchoolRank": 114,
+        "highSchoolRating": 0.9,
+        "institutionStatus": "T",
+        "key": 46138178,
+        "lastName": "Rivera-Torres",
+        "lastUpdateDate": "2025-05-04T02:05:16Z",
+        "playerProfileUrl": "https://247sports.com/player/jason-rivera-torres-46138178/college-324224",
+        "position": "SG",
+        "positionGroupKey": 9,
+        "positionGroupName": "Guard",
+        "positionKey": 32,
+        "positionRank": 127,
+        "rank": 519,
+        "rankTrend": -1,
+        "rating": 0.84,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 39,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/66/550/12550066.png",
+              "institution": "Monmouth",
+              "institutionKey": 24193,
+              "institutionRootPath": "/college/monmouth",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/68/550/12550068.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/648/551/12551648.png",
+            "institution": "San Francisco",
+            "institutionKey": 24350,
+            "institutionRootPath": null,
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/647/551/12551647.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-04-27T02:05:00Z",
+        "transferDate": "2025-03-27T11:30:00Z",
+        "transferRank": 519,
+        "transferRating": 0.84,
+        "weight": 180
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/203/709/11709203.jpeg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": null
+        },
+        "endDate": null,
+        "firstName": "Ben",
+        "height": "6-4",
+        "highSchoolRank": 216,
+        "highSchoolRating": 0.88,
+        "institutionStatus": "T",
+        "key": 46113352,
+        "lastName": "Shtolzberg",
+        "lastUpdateDate": "2025-04-09T22:01:18Z",
+        "playerProfileUrl": "https://247sports.com/player/ben-shtolzberg-46113352/college-334635",
+        "position": "PG",
+        "positionGroupKey": 9,
+        "positionGroupName": "Guard",
+        "positionKey": 31,
+        "positionRank": 85,
+        "rank": 520,
+        "rankTrend": null,
+        "rating": 0.84,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 40,
+        "status": "Committed",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/219/550/12550219.png",
+              "institution": "Murray State",
+              "institutionKey": 24202,
+              "institutionRootPath": "/college/murray-state",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/219/550/12550219.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/51/547/12547051.png",
+            "institution": "UC Santa Barbara",
+            "institutionKey": 24378,
+            "institutionRootPath": "/college/uc-santa-barbara",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/51/547/12547051.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-04-03T22:00:00Z",
+        "transferDate": "2025-03-24T13:31:00Z",
+        "transferRank": 520,
+        "transferRating": 0.84,
+        "weight": 200
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/873/774/12774873.jpeg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": 2
+        },
+        "endDate": null,
+        "firstName": "Zach",
+        "height": "6-11",
+        "highSchoolRank": 73,
+        "highSchoolRating": 0.93,
+        "institutionStatus": "T",
+        "key": 46076617,
+        "lastName": "Clemence",
+        "lastUpdateDate": "2025-04-14T00:05:16Z",
+        "playerProfileUrl": "https://247sports.com/player/zach-clemence-46076617/college-273050",
+        "position": "PF",
+        "positionGroupKey": 10,
+        "positionGroupName": "Forward",
+        "positionKey": 34,
+        "positionRank": 111,
+        "rank": 521,
+        "rankTrend": -1,
+        "rating": 0.84,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 13,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/385/617/12617385.png",
+              "institution": "Texas A&M",
+              "institutionKey": 24029,
+              "institutionRootPath": "/college/texas-am",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/385/617/12617385.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/993/542/12542993.png",
+            "institution": "Kansas",
+            "institutionKey": 24022,
+            "institutionRootPath": "/college/kansas",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/993/542/12542993.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-04-14T00:05:00Z",
+        "transferDate": "2025-03-28T15:25:00Z",
+        "transferRank": 521,
+        "transferRating": 0.84,
+        "weight": 230
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/283/27/13027283.jpg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": null
+        },
+        "endDate": null,
+        "firstName": "Josh",
+        "height": "6-2",
+        "highSchoolRank": null,
+        "highSchoolRating": null,
+        "institutionStatus": "T",
+        "key": 46157521,
+        "lastName": "Holloway",
+        "lastUpdateDate": "2025-04-18T01:24:36Z",
+        "playerProfileUrl": "https://247sports.com/player/josh-holloway-46157521/college-335583",
+        "position": "SG",
+        "positionGroupKey": 9,
+        "positionGroupName": "Guard",
+        "positionKey": 32,
+        "positionRank": 128,
+        "rank": 522,
+        "rankTrend": null,
+        "rating": 0.84,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 22,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/385/617/12617385.png",
+              "institution": "Texas A&M",
+              "institutionKey": 24029,
+              "institutionRootPath": "/college/texas-am",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/385/617/12617385.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/494/214/12214494.png",
+            "institution": "Samford",
+            "institutionKey": 24230,
+            "institutionRootPath": "/college/samford",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/494/214/12214494.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-04-18T01:24:00Z",
+        "transferDate": "2025-04-05T14:14:00Z",
+        "transferRank": 522,
+        "transferRating": 0.84,
+        "weight": 160
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/53/2/13002053.jpg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": null
+        },
+        "endDate": null,
+        "firstName": "Isaiah",
+        "height": "6-5",
+        "highSchoolRank": 399,
+        "highSchoolRating": 0.83,
+        "institutionStatus": "T",
+        "key": 46103287,
+        "lastName": "Walker",
+        "lastUpdateDate": "2025-05-04T15:09:13Z",
+        "playerProfileUrl": "https://247sports.com/player/isaiah-walker-46103287/college-326654",
+        "position": "SF",
+        "positionGroupKey": 10,
+        "positionGroupName": "Forward",
+        "positionKey": 33,
+        "positionRank": 85,
+        "rank": 523,
+        "rankTrend": null,
+        "rating": 0.84,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 12,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/994/546/12546994.png",
+              "institution": "Xavier",
+              "institutionKey": 24316,
+              "institutionRootPath": "/college/xavier",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/994/546/12546994.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/459/551/12551459.png",
+            "institution": "Belmont",
+            "institutionKey": 24361,
+            "institutionRootPath": "/college/belmont",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/459/551/12551459.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-04-18T03:09:00Z",
+        "transferDate": "2025-03-25T19:32:00Z",
+        "transferRank": 523,
+        "transferRating": 0.84,
+        "weight": 200
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/97/709/12709097.jpg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": 1
+        },
+        "endDate": null,
+        "firstName": "Cam'Ron",
+        "height": "6-7",
+        "highSchoolRank": 90,
+        "highSchoolRating": 0.94,
+        "institutionStatus": "T",
+        "key": 46048763,
+        "lastName": "Fletcher",
+        "lastUpdateDate": "2025-05-03T23:46:40Z",
+        "playerProfileUrl": "https://247sports.com/player/camron-fletcher-46048763/college-323277",
+        "position": "PF",
+        "positionGroupKey": 10,
+        "positionGroupName": "Forward",
+        "positionKey": 34,
+        "positionRank": 112,
+        "rank": 524,
+        "rankTrend": -1,
+        "rating": 0.83,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 27,
+        "status": "Committed",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/877/825/7825877.png",
+              "institution": "High Point",
+              "institutionKey": 24369,
+              "institutionRootPath": "/college/high-point",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/877/825/7825877.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/994/546/12546994.png",
+            "institution": "Xavier",
+            "institutionKey": 24316,
+            "institutionRootPath": "/college/xavier",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/994/546/12546994.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-04-01T23:46:00Z",
+        "transferDate": "2025-03-24T19:25:00Z",
+        "transferRank": 524,
+        "transferRating": 0.83,
+        "weight": 230
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/249/991/12991249.jpeg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": null
+        },
+        "endDate": null,
+        "firstName": "Santiago",
+        "height": "6-10",
+        "highSchoolRank": null,
+        "highSchoolRating": null,
+        "institutionStatus": "T",
+        "key": 46157048,
+        "lastName": "Trouet",
+        "lastUpdateDate": "2025-04-19T23:54:19Z",
+        "playerProfileUrl": "https://247sports.com/player/santiago-trouet-46157048/college-334115",
+        "position": "PF",
+        "positionGroupKey": 10,
+        "positionGroupName": "Forward",
+        "positionKey": 34,
+        "positionRank": 113,
+        "rank": 525,
+        "rankTrend": null,
+        "rating": 0.83,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 41,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/888/472/8472888.png",
+              "institution": "Arizona State",
+              "institutionKey": 24088,
+              "institutionRootPath": "/college/arizona-state",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/890/472/8472890.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/629/827/7827629.png",
+            "institution": "San Diego",
+            "institutionKey": 24222,
+            "institutionRootPath": "/college/san-diego",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/629/827/7827629.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-04-19T21:54:00Z",
+        "transferDate": "2025-03-20T15:32:00Z",
+        "transferRank": 525,
+        "transferRating": 0.83,
+        "weight": 218
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/34/117/13117034.png",
+        "eligibility": {
+          "type": "Immediate",
+          "years": null
+        },
+        "endDate": null,
+        "firstName": "Bryce",
+        "height": "6-3",
+        "highSchoolRank": null,
+        "highSchoolRating": null,
+        "institutionStatus": "T",
+        "key": 46159149,
+        "lastName": "Ford",
+        "lastUpdateDate": "2025-05-30T19:29:55Z",
+        "playerProfileUrl": "https://247sports.com/player/bryce-ford-46159149/college-338481",
+        "position": "SG",
+        "positionGroupKey": 9,
+        "positionGroupName": "Guard",
+        "positionKey": 32,
+        "positionRank": 129,
+        "rank": 526,
+        "rankTrend": null,
+        "rating": 0.83,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 28,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/888/472/8472888.png",
+              "institution": "Arizona State",
+              "institutionKey": 24088,
+              "institutionRootPath": "/college/arizona-state",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/890/472/8472890.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/117/547/12547117.png",
+            "institution": "Toledo",
+            "institutionKey": 24076,
+            "institutionRootPath": "/college/toledo",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/115/547/12547115.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-04-14T17:28:00Z",
+        "transferDate": "2025-04-14T17:28:00Z",
+        "transferRank": 526,
+        "transferRating": 0.83,
+        "weight": 190
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/392/716/12716392.jpg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": null
+        },
+        "endDate": null,
+        "firstName": "Jordyn",
+        "height": "6-3",
+        "highSchoolRank": 383,
+        "highSchoolRating": 0.83,
+        "institutionStatus": "T",
+        "key": 46134813,
+        "lastName": "Kee",
+        "lastUpdateDate": "2025-04-27T18:35:02Z",
+        "playerProfileUrl": "https://247sports.com/player/jordyn-kee-46134813/college-323064",
+        "position": "CG",
+        "positionGroupKey": 9,
+        "positionGroupName": "Guard",
+        "positionKey": 36,
+        "positionRank": 51,
+        "rank": 527,
+        "rankTrend": null,
+        "rating": 0.82,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 11,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/865/542/12542865.png",
+              "institution": "Miami",
+              "institutionKey": 24013,
+              "institutionRootPath": "/college/miami",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/865/542/12542865.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/543/543/12543543.png",
+            "institution": "Georgia",
+            "institutionKey": 24100,
+            "institutionRootPath": "/college/georgia",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/543/543/12543543.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-04-27T18:34:00Z",
+        "transferDate": "2025-04-22T18:37:00Z",
+        "transferRank": 527,
+        "transferRating": 0.82,
+        "weight": 185
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/41/716/12716041.jpg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": null
+        },
+        "endDate": null,
+        "firstName": "George",
+        "height": "6-2",
+        "highSchoolRank": 141,
+        "highSchoolRating": 0.9,
+        "institutionStatus": "T",
+        "key": 46114393,
+        "lastName": "Washington III",
+        "lastUpdateDate": "2025-05-04T12:16:11Z",
+        "playerProfileUrl": "https://247sports.com/player/george-washington-iii-46114393/college-324020",
+        "position": "SG",
+        "positionGroupKey": 9,
+        "positionGroupName": "Guard",
+        "positionKey": 32,
+        "positionRank": 130,
+        "rank": 528,
+        "rankTrend": -1,
+        "rating": 0.8,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": 23,
+        "status": "Committed",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/915/544/12544915.png",
+              "institution": "Florida Gulf Coast",
+              "institutionKey": 24362,
+              "institutionRootPath": "/college/florida-gulf-coast",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/915/544/12544915.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/843/268/9268843.png",
+            "institution": "Richmond",
+            "institutionKey": 24150,
+            "institutionRootPath": "/college/richmond",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/845/268/9268845.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-05-03T00:00:00Z",
+        "transferDate": "2025-03-24T14:30:00Z",
+        "transferRank": 528,
+        "transferRating": 0.8,
+        "weight": 195
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/562/1/13001562.jpeg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": null
+        },
+        "endDate": null,
+        "firstName": "Derrian",
+        "height": "6-3",
+        "highSchoolRank": 80,
+        "highSchoolRating": 0.93,
+        "institutionStatus": "HS",
+        "key": 46086122,
+        "lastName": "Ford",
+        "lastUpdateDate": "2025-05-10T15:01:52Z",
+        "playerProfileUrl": "https://247sports.com/player/derrian-ford-46086122/college-334702",
+        "position": "SG",
+        "positionGroupKey": 9,
+        "positionGroupName": "Guard",
+        "positionKey": 32,
+        "positionRank": null,
+        "rank": 80,
+        "rankTrend": null,
+        "rating": 0.93,
+        "starRating": 4,
+        "startDate": null,
+        "stateRank": null,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/449/617/12617449.png",
+              "institution": "Temple",
+              "institutionKey": 24075,
+              "institutionRootPath": "/college/temple",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/449/617/12617449.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/974/549/12549974.png",
+            "institution": "Arkansas State",
+            "institutionKey": 24108,
+            "institutionRootPath": "/college/arkansas-state",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/974/549/12549974.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-05-10T14:53:00Z",
+        "transferDate": "2025-03-25T16:20:00Z",
+        "transferRank": null,
+        "transferRating": null,
+        "weight": 190
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/791/718/12718791.jpg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": null
+        },
+        "endDate": null,
+        "firstName": "Gavin",
+        "height": "6-7",
+        "highSchoolRank": 67,
+        "highSchoolRating": 0.93,
+        "institutionStatus": "HS",
+        "key": 46109691,
+        "lastName": "Griffiths",
+        "lastUpdateDate": "2025-04-25T14:34:15Z",
+        "playerProfileUrl": "https://247sports.com/player/gavin-griffiths-46109691/college-323167",
+        "position": "SF",
+        "positionGroupKey": 10,
+        "positionGroupName": "Forward",
+        "positionKey": 33,
+        "positionRank": null,
+        "rank": 67,
+        "rankTrend": null,
+        "rating": 0.93,
+        "starRating": 4,
+        "startDate": null,
+        "stateRank": null,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/449/617/12617449.png",
+              "institution": "Temple",
+              "institutionKey": 24075,
+              "institutionRootPath": "/college/temple",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/449/617/12617449.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/974/544/12544974.png",
+            "institution": "Nebraska",
+            "institutionKey": 24025,
+            "institutionRootPath": "/college/nebraska",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/257/617/12617257.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-04-25T14:34:00Z",
+        "transferDate": "2025-04-08T01:03:00Z",
+        "transferRank": null,
+        "transferRating": null,
+        "weight": 193
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/214/709/12709214.jpg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": 4
+        },
+        "endDate": null,
+        "firstName": "Spencer",
+        "height": "6-9",
+        "highSchoolRank": 210,
+        "highSchoolRating": 0.88,
+        "institutionStatus": "HS",
+        "key": 46125425,
+        "lastName": "Mahoney",
+        "lastUpdateDate": "2025-05-14T17:04:11Z",
+        "playerProfileUrl": "https://247sports.com/player/spencer-mahoney-46125425/college-321516",
+        "position": "PF",
+        "positionGroupKey": 10,
+        "positionGroupName": "Forward",
+        "positionKey": 34,
+        "positionRank": null,
+        "rank": 210,
+        "rankTrend": null,
+        "rating": 0.88,
+        "starRating": 3,
+        "startDate": null,
+        "stateRank": null,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/449/617/12617449.png",
+              "institution": "Temple",
+              "institutionKey": 24075,
+              "institutionRootPath": "/college/temple",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/449/617/12617449.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/217/617/12617217.png",
+            "institution": "California",
+            "institutionKey": 24089,
+            "institutionRootPath": "/college/california",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/487/342/12342487.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-05-14T17:02:00Z",
+        "transferDate": "2025-04-15T17:02:00Z",
+        "transferRank": null,
+        "transferRating": null,
+        "weight": 230
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/462/16/13016462.jpg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": null
+        },
+        "endDate": null,
+        "firstName": "AJ",
+        "height": "6-5",
+        "highSchoolRank": null,
+        "highSchoolRating": null,
+        "institutionStatus": "HS",
+        "key": 46085636,
+        "lastName": "Smith",
+        "lastUpdateDate": "2025-07-07T20:19:52Z",
+        "playerProfileUrl": "https://247sports.com/player/aj-smith-46085636/college-317894",
+        "position": "SG",
+        "positionGroupKey": 9,
+        "positionGroupName": "Guard",
+        "positionKey": 32,
+        "positionRank": null,
+        "rank": null,
+        "rankTrend": null,
+        "rating": null,
+        "starRating": null,
+        "startDate": null,
+        "stateRank": null,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/449/617/12617449.png",
+              "institution": "Temple",
+              "institutionKey": 24075,
+              "institutionRootPath": "/college/temple",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/449/617/12617449.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/533/252/8252533.png",
+            "institution": "College of Charleston",
+            "institutionKey": 24353,
+            "institutionRootPath": "/college/cofc",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/533/252/8252533.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": null,
+        "transferDate": "2025-04-01T19:03:00Z",
+        "transferRank": null,
+        "transferRating": null,
+        "weight": 210
+      }
+    },
+    {
+      "player": {
+        "avatar": "https://s3media.247sports.com/Uploads/Assets/90/59/13059090.jpeg",
+        "eligibility": {
+          "type": "Immediate",
+          "years": null
+        },
+        "endDate": null,
+        "firstName": "Jamai",
+        "height": "6-10",
+        "highSchoolRank": null,
+        "highSchoolRating": null,
+        "institutionStatus": "HS",
+        "key": 46158038,
+        "lastName": "Felt",
+        "lastUpdateDate": "2025-04-25T14:13:18Z",
+        "playerProfileUrl": "https://247sports.com/player/jamai-felt-46158038/college-336773",
+        "position": "C",
+        "positionGroupKey": 11,
+        "positionGroupName": "Center",
+        "positionKey": 35,
+        "positionRank": null,
+        "rank": null,
+        "rankTrend": null,
+        "rating": null,
+        "starRating": null,
+        "startDate": null,
+        "stateRank": null,
+        "status": "Enrolled",
+        "statusDate": null,
+        "transfer": {
+          "destination": [
+            {
+              "alternateAsset": null,
+              "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/449/617/12617449.png",
+              "institution": "Temple",
+              "institutionKey": 24075,
+              "institutionRootPath": "/college/temple",
+              "lightAsset": "https://s3media.247sports.com/Uploads/Assets/449/617/12617449.png",
+              "logo": null,
+              "percentage": null,
+              "transferred": true
+            }
+          ],
+          "source": {
+            "alternateAsset": null,
+            "defaultAsset": "https://s3media.247sports.com/Uploads/Assets/537/823/7823537.png",
+            "institution": "Bowling Green",
+            "institutionKey": 24067,
+            "institutionRootPath": "/college/bowling-green",
+            "lightAsset": "https://s3media.247sports.com/Uploads/Assets/537/823/7823537.png",
+            "logo": null
+          }
+        },
+        "transferCommitDateTime": "2025-04-25T12:12:00Z",
+        "transferDate": "2025-03-24T14:11:00Z",
+        "transferRank": null,
+        "transferRating": null,
+        "weight": 210
+      }
+    }
+  ]
+}

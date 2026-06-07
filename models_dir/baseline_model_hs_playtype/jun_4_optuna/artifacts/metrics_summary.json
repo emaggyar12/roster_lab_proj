@@ -1,0 +1,95 @@
+{
+  "target_col": "bv_role",
+  "feature_cols": [
+    "hs_position",
+    "hs_height_in",
+    "hs_weight",
+    "hs_stars",
+    "hs_rating",
+    "hs_national_rank",
+    "hs_position_rank"
+  ],
+  "cat_features": [
+    "hs_position"
+  ],
+  "class_order": [
+    "C",
+    "Combo G",
+    "PF/C",
+    "Pure PG",
+    "Scoring PG",
+    "Stretch 4",
+    "Wing F",
+    "Wing G"
+  ],
+  "best_valid_log_loss": 1.350719246824245,
+  "test_log_loss": 1.3604667574646236,
+  "best_params": {
+    "iterations": 1603,
+    "learning_rate": 0.1208477527445918,
+    "depth": 4,
+    "l2_leaf_reg": 2.1474533743252815,
+    "bagging_temperature": 0.8256178443374325
+  },
+  "final_params": {
+    "iterations": 1603,
+    "learning_rate": 0.1208477527445918,
+    "depth": 4,
+    "l2_leaf_reg": 2.1474533743252815,
+    "bagging_temperature": 0.8256178443374325,
+    "loss_function": "MultiClass",
+    "eval_metric": "MultiClass",
+    "random_seed": 42,
+    "verbose": false,
+    "allow_writing_files": false
+  },
+  "train_hs_year_range": [
+    2009,
+    2021
+  ],
+  "valid_hs_year_range": [
+    2022,
+    2023
+  ],
+  "test_hs_year_range": [
+    2024,
+    2025
+  ],
+  "train_rows": 6822,
+  "valid_rows": 1117,
+  "test_rows": 1051,
+  "metrics_by_split": [
+    {
+      "split": "train",
+      "rows": 6822,
+      "log_loss": 1.0104852361784569,
+      "top1_accuracy": 0.603048959249487,
+      "top3_accuracy": 0.9347698622104954
+    },
+    {
+      "split": "valid",
+      "rows": 1117,
+      "log_loss": 1.0566197755858204,
+      "top1_accuracy": 0.5819158460161146,
+      "top3_accuracy": 0.9158460161145927
+    },
+    {
+      "split": "test",
+      "rows": 1051,
+      "log_loss": 1.3604667574646236,
+      "top1_accuracy": 0.4548049476688868,
+      "top3_accuracy": 0.8667935299714558
+    }
+  ],
+  "artifact_files": {
+    "optuna_trials": "optuna_trials.csv",
+    "optuna_iteration_metrics": "optuna_iteration_metrics.csv",
+    "final_iteration_metrics": "final_iteration_metrics.csv",
+    "metrics_by_split": "metrics_by_split.csv",
+    "confusion_matrices": [
+      "train_confusion_matrix.csv",
+      "valid_confusion_matrix.csv",
+      "test_confusion_matrix.csv"
+    ]
+  }
+}

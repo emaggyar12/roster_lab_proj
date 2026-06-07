@@ -1,0 +1,27 @@
+model_dir: scouting_report_xfmr
+backup_timestamp: 20260604_212507
+copied_files: ['catboost_playtype_with_scouting_embeddings.cbm', 'catboost_playtype_with_scouting_embeddings_metadata.json']
+model_file_name: catboost_playtype_with_scouting_embeddings.cbm
+best_params:
+{
+  "iterations": 1187,
+  "learning_rate": 0.03174556449427722,
+  "depth": 4,
+  "l2_leaf_reg": 2.4202281174435583,
+  "bagging_temperature": 0.4734355286065646
+}
+final_params:
+{
+  "iterations": 1187,
+  "learning_rate": 0.03174556449427722,
+  "depth": 4,
+  "l2_leaf_reg": 2.4202281174435583,
+  "bagging_temperature": 0.4734355286065646,
+  "loss_function": "MultiClass",
+  "eval_metric": "MultiClass",
+  "random_seed": 42,
+  "verbose": false,
+  "allow_writing_files": false
+}
+best_valid_log_loss: 1.3570080461531382
+test_log_loss: 1.3228722714024017

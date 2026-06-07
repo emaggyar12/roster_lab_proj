@@ -1,14 +1,17 @@
-export type PortalStatus = "not_in_portal" | "entered" | "committed" | "enrolled";
+import { hsRecruitPlayers } from "./hsRecruits";
+import { transferPlayers } from "./transferPlayers";
+
+export type PortalStatus = "not_in_portal" | "entered" | "committed" | "enrolled" | "withdrawn";
 export type PlayerSource = "transfer" | "hs" | "roster";
 
 export type Player = {
   player_id: string;
   player_name: string;
   player_source: PlayerSource;
-  position: "PG" | "SG" | "SF" | "PF" | "C";
+  position: "PG" | "SG" | "CG" | "SF" | "PF" | "C" | "N/A";
   height: string;
   weight: number;
-  class_year: "Fr" | "So" | "Jr" | "Sr" | "Gr";
+  class_year: "Fr" | "So" | "Jr" | "Sr" | "Gr" | "N/A";
   current_team: string;
   previous_team?: string;
   new_team?: string;
@@ -26,9 +29,22 @@ export type Player = {
   recommendation_rank: number;
   fit_explanation: string;
   scouting_summary: string;
+  profile_image_url?: string | null;
+  transfer_247_status?: string | null;
+  transfer_247_stars?: number | null;
+  transfer_247_rating?: number | null;
+  transfer_247_rank?: number | null;
+  transfer_247_weight?: number | null;
+  transfer_247_player_key?: number | null;
+  hs_rating?: number | null;
+  hs_stars?: number | null;
+  hs_national_rank?: number | null;
+  hs_position_rank?: number | null;
+  hs_player_key?: number;
+  top3_roles?: Array<{ label: string | null; probability: number | null }>;
 };
 
-export const players: Player[] = [
+export const basePlayers: Player[] = [
   {
     player_id: "p001",
     player_name: "Malik Carter",
@@ -155,7 +171,7 @@ export const players: Player[] = [
   {
     player_id: "p006",
     player_name: "Eli Sanders",
-    player_source: "hs",
+    player_source: "roster",
     position: "PG",
     height: "6-1",
     weight: 176,
@@ -274,7 +290,7 @@ export const players: Player[] = [
   {
     player_id: "p011",
     player_name: "Jalen Ware",
-    player_source: "hs",
+    player_source: "roster",
     position: "SG",
     height: "6-3",
     weight: 184,
@@ -297,7 +313,7 @@ export const players: Player[] = [
   {
     player_id: "p012",
     player_name: "Sam Okoro",
-    player_source: "hs",
+    player_source: "roster",
     position: "C",
     height: "6-10",
     weight: 238,
@@ -317,96 +333,8 @@ export const players: Player[] = [
     fit_explanation: "Projects as a high-impact backup center if foul rate stays manageable.",
     scouting_summary: "Young rim protector with strong hands, raw post counters, and real vertical pop.",
   },
-  {
-    player_id: "p013",
-    player_name: "Isaiah Monroe",
-    player_source: "hs",
-    position: "SF",
-    height: "6-8",
-    weight: 206,
-    class_year: "Fr",
-    current_team: "Uncommitted",
-    conference: "Recruit",
-    portal_status: "not_in_portal",
-    is_in_portal: false,
-    projected_bpr: 5.1,
-    projected_minutes: 22,
-    projected_points: 10.6,
-    projected_rebounds: 5.1,
-    projected_assists: 1.8,
-    playtype_probabilities: { "Wing F": 0.44, "Wing G": 0.21, "Stretch 4": 0.2, "PF/C": 0.15 },
-    fit_score: 86,
-    recommendation_rank: 7,
-    fit_explanation: "Freshman wing profile with enough size to cover either forward spot early.",
-    scouting_summary: "Long slashing forward, active rebounder, developing spot-up shooter.",
-  },
-  {
-    player_id: "p014",
-    player_name: "Caleb Foster Jr.",
-    player_source: "hs",
-    position: "PG",
-    height: "6-3",
-    weight: 182,
-    class_year: "Fr",
-    current_team: "Uncommitted",
-    conference: "Recruit",
-    portal_status: "not_in_portal",
-    is_in_portal: false,
-    projected_bpr: 4.9,
-    projected_minutes: 20,
-    projected_points: 9.4,
-    projected_rebounds: 2.7,
-    projected_assists: 4.8,
-    playtype_probabilities: { "Pure PG": 0.4, "Scoring PG": 0.27, "Combo G": 0.22, "Wing G": 0.11 },
-    fit_score: 82,
-    recommendation_rank: 10,
-    fit_explanation: "Best for teams willing to give a freshman lead guard real on-ball reps.",
-    scouting_summary: "Advanced passer with patient ball-screen tempo and improving pull-up range.",
-  },
-  {
-    player_id: "p015",
-    player_name: "Micah Bryant",
-    player_source: "hs",
-    position: "C",
-    height: "6-11",
-    weight: 236,
-    class_year: "Fr",
-    current_team: "Uncommitted",
-    conference: "Recruit",
-    portal_status: "not_in_portal",
-    is_in_portal: false,
-    projected_bpr: 4.3,
-    projected_minutes: 17,
-    projected_points: 7.8,
-    projected_rebounds: 6.1,
-    projected_assists: 0.9,
-    playtype_probabilities: { C: 0.61, "PF/C": 0.25, "Stretch 4": 0.09, "Wing F": 0.05 },
-    fit_score: 78,
-    recommendation_rank: 14,
-    fit_explanation: "Rim-running center candidate for rosters short on freshman frontcourt size.",
-    scouting_summary: "Vertical finisher, high block rate, still learning defensive positioning.",
-  },
-  {
-    player_id: "p016",
-    player_name: "Trevor Lang",
-    player_source: "hs",
-    position: "SG",
-    height: "6-5",
-    weight: 190,
-    class_year: "Fr",
-    current_team: "Uncommitted",
-    conference: "Recruit",
-    portal_status: "not_in_portal",
-    is_in_portal: false,
-    projected_bpr: 4.0,
-    projected_minutes: 18,
-    projected_points: 8.9,
-    projected_rebounds: 3.0,
-    projected_assists: 1.7,
-    playtype_probabilities: { "Wing G": 0.45, "Combo G": 0.21, "Scoring PG": 0.19, "Wing F": 0.15 },
-    fit_score: 80,
-    recommendation_rank: 11,
-    fit_explanation: "Fits teams looking for freshman shooting depth with enough size to guard wings.",
-    scouting_summary: "Clean shooting mechanics, good relocation habits, needs added strength.",
-  },
 ];
+
+const rosterPlayers = basePlayers.filter((player) => player.player_source !== "transfer");
+
+export const players: Player[] = [...rosterPlayers, ...transferPlayers, ...hsRecruitPlayers];

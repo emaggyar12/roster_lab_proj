@@ -1,0 +1,12 @@
+{
+  "lastUpdated": "2025-03-20T14:17:05Z",
+  "pagination": {
+    "count": 4,
+    "currentPage": 2,
+    "itemsPerPage": 250,
+    "limit": 4,
+    "offset": 250,
+    "pageCount": 1
+  },
+  "players": []
+}

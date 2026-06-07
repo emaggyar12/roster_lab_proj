@@ -23,8 +23,12 @@ export function getPlayers(filters: PlayerFilters = {}) {
       (!query ||
         player.player_name.toLowerCase().includes(query) ||
         player.current_team.toLowerCase().includes(query) ||
-        player.previous_team?.toLowerCase().includes(query)) &&
-      (!filters.team || player.current_team === filters.team || player.committed_team === filters.team) &&
+        player.previous_team?.toLowerCase().includes(query) ||
+        player.new_team?.toLowerCase().includes(query)) &&
+      (!filters.team ||
+        player.current_team === filters.team ||
+        player.committed_team === filters.team ||
+        player.new_team === filters.team) &&
       (!filters.position || player.position === filters.position) &&
       (!filters.classYear || player.class_year === filters.classYear) &&
       (!filters.portalStatus || player.portal_status === filters.portalStatus) &&

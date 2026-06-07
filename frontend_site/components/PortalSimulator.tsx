@@ -6,6 +6,7 @@ import { ChevronDown, Minus, Plus, RotateCcw, UserCheck, Users } from "lucide-re
 import clsx from "clsx";
 import type { Player } from "@/data/players";
 import { getHsPlayers, getPortalPlayers, getTeamPlayers, getTeams, getTopPlaytypes } from "@/lib/data";
+import { PlayerAvatar } from "@/components/PlayerAvatar";
 import { SourceBadge } from "@/components/StatusBadge";
 
 type TargetPool = "transfer" | "hs" | "all";
@@ -175,13 +176,16 @@ function RosterList({
                 selected && (mode === "add" ? "bg-emerald-50 dark:bg-emerald-950" : "bg-rose-50 dark:bg-rose-950"),
               )}
             >
-              <div>
-                <div className="font-semibold text-ink">{player.player_name}</div>
-                <div className="mt-1 text-xs text-slate-500">
+              <div className="flex min-w-0 items-center gap-3">
+                <PlayerAvatar player={player} size="sm" />
+                <div className="min-w-0">
+                <div className="truncate font-semibold text-ink">{player.player_name}</div>
+                <div className="mt-1 truncate text-xs text-slate-500">
                   {player.position} | {player.height} | {player.current_team} | {topPlaytype}
                 </div>
                 <div className="mt-2">
                   <SourceBadge source={player.player_source} />
+                </div>
                 </div>
               </div>
               <div className="flex items-center gap-3">

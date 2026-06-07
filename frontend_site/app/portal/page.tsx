@@ -8,10 +8,10 @@ export default function PortalPage() {
       <div className="mb-5">
         <h1 className="text-2xl font-semibold text-ink">Who Is In The Portal</h1>
         <p className="mt-1 max-w-3xl text-sm leading-6 text-slate-600">
-          Portal-first view for entered, committed, and enrolled transfer players with the same sorting and expanded player profiles.
+          Portal-first view for entered and committed transfer players with the same sorting and expanded player profiles.
         </p>
       </div>
-      <PlayerTable players={getPortalPlayers()} portalDefault />
+      <PlayerTable players={getPortalPlayers()} playerMode="transfer" portalDefault />
     </Shell>
   );
 }

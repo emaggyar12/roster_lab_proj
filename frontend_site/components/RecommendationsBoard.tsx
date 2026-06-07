@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { ChevronDown, Target } from "lucide-react";
 import { getRecommendations, getTeams, getTopPlaytypes } from "@/lib/data";
+import { PlayerAvatar } from "@/components/PlayerAvatar";
 import { SourceBadge, StatusBadge } from "@/components/StatusBadge";
 
 type RecommendationSource = "all" | "transfer" | "hs";
@@ -64,7 +65,9 @@ export function RecommendationsBoard({ defaultTeam = "UConn" }: { defaultTeam?: 
                 <div className="flex h-12 w-12 items-center justify-center rounded bg-slate-900 text-lg font-semibold text-white dark:bg-slate-700">
                   {index + 1}
                 </div>
-                <div>
+                <div className="flex min-w-0 items-center gap-3">
+                  <PlayerAvatar player={player} />
+                  <div className="min-w-0">
                   <div className="flex flex-wrap items-center gap-2">
                     <h3 className="text-base font-semibold text-ink">{player.player_name}</h3>
                     <StatusBadge status={player.portal_status} />
@@ -72,6 +75,7 @@ export function RecommendationsBoard({ defaultTeam = "UConn" }: { defaultTeam?: 
                   </div>
                   <div className="mt-1 text-sm text-slate-600">
                     {player.position} | {player.height} | {player.current_team} | BPR {player.projected_bpr.toFixed(1)}
+                  </div>
                   </div>
                 </div>
                 <div>

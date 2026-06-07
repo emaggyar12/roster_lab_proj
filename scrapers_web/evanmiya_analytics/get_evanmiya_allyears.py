@@ -13,11 +13,13 @@ URL = "https://evanmiya.com/?player_ratings"
 OUT_DIR = Path("evanmiya_output")
 OUT_DIR.mkdir(exist_ok=True)
 
-CSV_OUT = OUT_DIR / "evanmiya_player_ratings_all_years.csv"
-DB_OUT = OUT_DIR / "evanmiya_player_ratings_all_years.db"
+CSV_OUT = OUT_DIR / "evanmiya_player_ratings_all_years_less_poss.csv"
+DB_OUT = OUT_DIR / "evanmiya_player_ratings_all_year_less_poss.db"
 TABLE_NAME = "evanmiya_player_ratings"
 
 MAX_ATTEMPTS_PER_TABLE = 4
+MIN_POSSESSIONS = 200
+PLAYWRIGHT_USER_DATA_DIR = Path("/private/tmp/evanmiya_playwright_profile")
 
 
 # ---------------------------------------------------------------------
@@ -338,6 +340,38 @@ def set_view(page, view: str):
     page.wait_for_timeout(1500)
 
 
+def set_min_possessions(page, value: int = MIN_POSSESSIONS):
+    """
+    Force the Evan Miya possessions slider to a lower threshold.
+    """
+    print(f"Setting minimum possessions: {value}")
+
+    page.evaluate(
+        """
+        ({value}) => {
+            const el = document.getElementById('player_ratings_page-poss_filter');
+            if (!el) {
+                throw new Error('Could not find possession filter slider: player_ratings_page-poss_filter');
+            }
+
+            if (el.noUiSlider) {
+                el.noUiSlider.set(value);
+            } else {
+                el.value = value;
+                el.dispatchEvent(new Event('input', { bubbles: true }));
+                el.dispatchEvent(new Event('change', { bubbles: true }));
+            }
+
+            if (window.Shiny) {
+                Shiny.setInputValue('player_ratings_page-poss_filter', value, { priority: 'event' });
+            }
+        }
+        """,
+        {"value": value},
+    )
+    page.wait_for_timeout(1500)
+
+
 # ---------------------------------------------------------------------
 # Scrape one season/view
 # ---------------------------------------------------------------------
@@ -407,6 +441,10 @@ def pull_one_view(page, capture: ShinyTableCapture, season: str, view: str) -> p
         # the forced view transition below will create the table we actually use.
         print(f"No new table after setting year={season}; continuing to forced view refresh.")
 
+    # The year change can reset the slider back to the site default, so apply it
+    # after the year transition has settled.
+    set_min_possessions(page, MIN_POSSESSIONS)
+
     # Step 2: force the app away from the requested view.
     away_baseline = capture.latest_msg_id
     set_view(page, opposite_view)
@@ -469,6 +507,7 @@ def pull_one_view_with_retries(page, capture: ShinyTableCapture, season: str, vi
                 page.wait_for_timeout(12_000)
                 page.locator("#player_ratings_page-year").wait_for(state="attached", timeout=30_000)
                 page.locator("#player_ratings_page-year-selectized").wait_for(state="visible", timeout=30_000)
+                set_min_possessions(page, MIN_POSSESSIONS)
 
     raise RuntimeError(
         f"FAILED permanently: season={season}, view={view}. "
@@ -607,15 +646,22 @@ def main():
     all_years = []
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
-
-        page = browser.new_page(
+        context = p.chromium.launch_persistent_context(
+            user_data_dir=str(PLAYWRIGHT_USER_DATA_DIR),
+            headless=True,
             viewport={"width": 1400, "height": 1200},
-            user_agent=(
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/148.0.0.0 Safari/537.36"
-            ),
+        )
+
+        page = context.new_page()
+        page.set_viewport_size({"width": 1400, "height": 1200})
+        page.set_extra_http_headers(
+            {
+                "User-Agent": (
+                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/148.0.0.0 Safari/537.36"
+                )
+            }
         )
 
         capture = ShinyTableCapture()
@@ -630,6 +676,7 @@ def main():
         # Hidden select must be attached; visible selectize input must be visible.
         page.locator("#player_ratings_page-year").wait_for(state="attached", timeout=30_000)
         page.locator("#player_ratings_page-year-selectized").wait_for(state="visible", timeout=30_000)
+        set_min_possessions(page, MIN_POSSESSIONS)
 
         try:
             for season in seasons:
@@ -644,7 +691,7 @@ def main():
                 print(f"Saved checkpoint: {checkpoint_path}")
 
         finally:
-            browser.close()
+            context.close()
 
     if len(all_years) != len(seasons):
         raise RuntimeError(
