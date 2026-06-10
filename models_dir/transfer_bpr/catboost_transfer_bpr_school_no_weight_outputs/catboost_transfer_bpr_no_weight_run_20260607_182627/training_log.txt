@@ -1,0 +1,318 @@
+Starting CatBoost transfer BPR training with Optuna
+NO SAMPLE WEIGHTS USED IN TRAINING OR OPTUNA SELECTION
+Run directory: catboost_transfer_bpr_school_no_weight_outputs/catboost_transfer_bpr_no_weight_run_20260607_182627
+DB path: /Users/anirudhhaharsha/Desktop/sports_analytics_projects/Basketball/College Basketball Project/uiuc_proj/data_dir/table1_with_next_year_bpr.db
+Table name: table1_with_next_year_bpr
+Target column: next_year_basic_bpr
+Year column: allyears_year
+Possessions column: evan_basic_poss
+
+Raw rows loaded: 6,632
+Raw columns loaded: 218
+
+Height source used: allyears_player_height
+Rows with non-null allyears_player_height: 6,625
+Rows filled from allyears_player_height: 6,625
+Remaining missing player_height_in: 7
+
+Height source used: transfer_player_height
+Rows with non-null transfer_player_height: 6,582
+Rows filled from transfer_player_height: 0
+Remaining missing player_height_in: 7
+
+Height source used: 247_height
+Rows with non-null 247_height: 5,143
+Rows filled from 247_height: 5
+Remaining missing player_height_in: 2
+
+Height source used: allyears_ht
+Rows with non-null allyears_ht: 6,625
+Rows filled from allyears_ht: 0
+Remaining missing player_height_in: 2
+
+Final height feature summary:
+Non-null player_height_in: 6,630
+Missing player_height_in: 2
+
+Feature selection:
+Numeric features used: 59
+Categorical features used: 9
+Total features used: 68
+
+Filtering:
+Rows before filter: 6,632
+Rows after target/year/poss filter: 4,121
+MIN_POSSESSIONS: 150
+
+Chronological year split row counts:
+ allyears_year  row_count  cum_rows  cum_pct
+          2018         98        98 0.023781
+          2019        154       252 0.061150
+          2020        274       526 0.127639
+          2021        555      1081 0.262315
+          2022        603      1684 0.408639
+          2023        651      2335 0.566610
+          2024        871      3206 0.777967
+          2025        915      4121 1.000000
+
+Train cutoff year: 2023
+Valid cutoff year: 2024
+Train rows: 2,335
+Valid rows: 871
+Test rows:  915
+
+Rows after chronological split:
+Train rows: 2,335
+Valid rows: 871
+Test rows:  915
+Total rows: 4,121
+
+Missingness report:
+                        column  missing_rate
+             247_transfer_rank      0.718272
+           247_transfer_rating      0.718272
+                    247_rating      0.482650
+                     247_stars      0.482650
+ 247_destination_options_count      0.233924
+                    247_weight      0.233924
+                  allyears_efg      0.000000
+              allyears_drb_per      0.000000
+              allyears_ast_per      0.000000
+               allyears_to_per      0.000000
+               allyears_ft_per      0.000000
+             allyears_twop_per      0.000000
+               allyears_tp_per      0.000000
+              allyears_blk_per      0.000000
+              allyears_orb_per      0.000000
+                  allyears_ftr      0.000000
+               allyears_porpag      0.000000
+                allyears_adjoe      0.000000
+                  allyears_pfr      0.000000
+              allyears_ast_tov      0.000000
+                 allyears_drtg      0.000000
+                allyears_adrtg      0.000000
+              allyears_dporpag      0.000000
+                allyears_stops      0.000000
+                  allyears_bpm      0.000000
+                 allyears_obpm      0.000000
+                 allyears_dbpm      0.000000
+                 allyears_gbpm      0.000000
+                   allyears_mp      0.000000
+                allyears_ogbpm      0.000000
+                allyears_dgbpm      0.000000
+                 allyears_oreb      0.000000
+                 allyears_dreb      0.000000
+                 allyears_treb      0.000000
+                  allyears_ast      0.000000
+                  allyears_stl      0.000000
+                  allyears_blk      0.000000
+                  allyears_pts      0.000000
+               allyears_3p_100      0.000000
+                  allyears_usg      0.000000
+                 allyears_ortg      0.000000
+              allyears_min_per      0.000000
+                   allyears_gp      0.000000
+               evan_basic_poss      0.000000
+              allyears_stl_per      0.000000
+               evan_basic_obpr      0.000000
+               evan_basic_dbpr      0.000000
+                evan_basic_bpr      0.000000
+               evan_basic_poss      0.000000
+           evan_basic_box_obpr      0.000000
+           evan_basic_box_dbpr      0.000000
+            evan_basic_box_bpr      0.000000
+   evan_basic_adj_team_off_eff      0.000000
+   evan_basic_adj_team_def_eff      0.000000
+evan_basic_adj_team_eff_margin      0.000000
+         evan_basic_plus_minus      0.000000
+        evan_advanced_position      0.000000
+            evan_advanced_role      0.000000
+              player_height_in      0.000000
+         allyears_player_class      0.000000
+                 allyears_role      0.000000
+             transfer_old_team      0.000000
+               allyears_ts_per      0.000000
+        transfer_old_team_conf      0.000000
+        transfer_new_team_conf      0.000000
+                  247_position      0.000000
+            247_position_group      0.000000
+           evan_advanced_class      0.000000
+           next_year_basic_bpr      0.000000
+                 allyears_year      0.000000
+             transfer_new_team      0.000000
+
+Starting Optuna search...
+N_OPTUNA_TRIALS: 75
+OPTUNA_TIMEOUT_SECONDS: None
+Optimization target: valid_rmse
+Sample weights: DISABLED
+
+Optuna search complete.
+Best trial number: 74
+Best objective value: 1.4947605915251756
+Best params:
+{
+  "iterations": 1334,
+  "learning_rate": 0.033788727733189645,
+  "depth": 3,
+  "l2_leaf_reg": 33.87050988135368,
+  "random_strength": 5.157260595198481,
+  "bagging_temperature": 6.63264088007512,
+  "border_count": 64,
+  "min_data_in_leaf": 40,
+  "od_wait": 174
+}
+
+Training final CatBoost model with best Optuna params...
+Sample weights: DISABLED
+{
+  "loss_function": "RMSE",
+  "eval_metric": "RMSE",
+  "random_seed": 42,
+  "allow_writing_files": false,
+  "verbose": 100,
+  "use_best_model": true,
+  "od_type": "Iter",
+  "iterations": 1334,
+  "learning_rate": 0.033788727733189645,
+  "depth": 3,
+  "l2_leaf_reg": 33.87050988135368,
+  "random_strength": 5.157260595198481,
+  "bagging_temperature": 6.63264088007512,
+  "border_count": 64,
+  "min_data_in_leaf": 40,
+  "od_wait": 174
+}
+
+Final model best iteration: 849
+
+Final metrics:
+split  rows  year_min  year_max  target_mean  target_std  pred_mean  pred_std      mae     rmse  weighted_rmse_diagnostic_only       r2     corr  spearman_corr  diagnostic_weight_mean  diagnostic_weight_min  diagnostic_weight_max   poss_mean  poss_min  poss_max
+train  2335    2018.0    2023.0     1.062618    2.354150   1.051272  1.805916 1.103741 1.382276                       1.377680 0.655089 0.810545       0.795535                0.731055               0.400000               0.879952 1009.855246     200.0    2199.0
+valid   871    2024.0    2024.0     1.346801    2.472878   1.310964  1.993082 1.192185 1.494761                       1.494658 0.634206 0.796564       0.790703                0.750993               0.400000               0.885932 1127.737084     200.0    2330.0
+ test   915    2025.0    2025.0     1.434043    2.735298   1.243471  1.950353 1.340456 1.688115                       1.688324 0.618697 0.793729       0.788817                0.754687               0.404762               0.884925 1121.379235     204.0    2307.0
+
+Feature importance:
+                       feature  importance
+                evan_basic_bpr   21.228727
+                  allyears_bpm   10.989205
+            evan_basic_box_bpr   10.592379
+                allyears_adjoe    6.178482
+           evan_basic_box_dbpr    4.060675
+               evan_basic_dbpr    3.185521
+             transfer_new_team    2.302252
+               allyears_porpag    2.058853
+              allyears_dporpag    1.978637
+               evan_basic_obpr    1.935769
+                 allyears_gbpm    1.917727
+                  allyears_usg    1.884350
+                allyears_stops    1.791400
+                  247_position    1.557348
+                 allyears_obpm    1.456777
+           evan_basic_box_obpr    1.365489
+                allyears_adrtg    1.259153
+                allyears_dgbpm    1.253562
+                  allyears_pts    1.158982
+           247_transfer_rating    1.106873
+                   allyears_mp    1.094660
+            247_position_group    1.084043
+              allyears_min_per    1.070145
+            evan_advanced_role    1.048164
+               allyears_tp_per    0.976504
+               allyears_ft_per    0.923515
+evan_basic_adj_team_eff_margin    0.878454
+        transfer_old_team_conf    0.824043
+                 allyears_ortg    0.806344
+         evan_basic_plus_minus    0.759431
+                allyears_ogbpm    0.709078
+                     247_stars    0.702392
+                    247_rating    0.671217
+   evan_basic_adj_team_def_eff    0.631367
+                  allyears_efg    0.614206
+                  allyears_ast    0.524438
+               allyears_to_per    0.509946
+               evan_basic_poss    0.508561
+              player_height_in    0.505353
+                   allyears_gp    0.489083
+              allyears_ast_per    0.414797
+                  allyears_stl    0.400199
+                 allyears_drtg    0.376003
+              allyears_stl_per    0.330234
+                 allyears_dbpm    0.312409
+                 allyears_treb    0.265916
+        evan_advanced_position    0.248623
+              allyears_ast_tov    0.244595
+               allyears_ts_per    0.211411
+                 allyears_role    0.206069
+             allyears_twop_per    0.203940
+              allyears_orb_per    0.202889
+              allyears_drb_per    0.202519
+                  allyears_blk    0.201308
+                 allyears_dreb    0.199040
+                  allyears_ftr    0.189977
+                  allyears_pfr    0.177844
+         allyears_player_class    0.176532
+ 247_destination_options_count    0.139546
+               allyears_3p_100    0.134611
+              allyears_blk_per    0.123748
+                    247_weight    0.106759
+             247_transfer_rank    0.101910
+             transfer_old_team    0.082206
+                 allyears_oreb    0.078356
+   evan_basic_adj_team_off_eff    0.075452
+        transfer_new_team_conf    0.000000
+           evan_advanced_class    0.000000
+
+Saved CatBoost model: catboost_transfer_bpr_school_no_weight_outputs/catboost_transfer_bpr_no_weight_run_20260607_182627/catboost_transfer_bpr_no_weight_model.cbm
+Saved pickle model: catboost_transfer_bpr_school_no_weight_outputs/catboost_transfer_bpr_no_weight_run_20260607_182627/catboost_transfer_bpr_no_weight_model.pkl
+
+Training production CatBoost model on train + valid...
+Sample weights: DISABLED
+{
+  "loss_function": "RMSE",
+  "eval_metric": "RMSE",
+  "random_seed": 42,
+  "allow_writing_files": false,
+  "verbose": 100,
+  "use_best_model": false,
+  "od_type": "Iter",
+  "iterations": 849,
+  "learning_rate": 0.033788727733189645,
+  "depth": 3,
+  "l2_leaf_reg": 33.87050988135368,
+  "random_strength": 5.157260595198481,
+  "bagging_temperature": 6.63264088007512,
+  "border_count": 64,
+  "min_data_in_leaf": 40,
+  "od_wait": 174
+}
+
+Saved production CatBoost model: catboost_transfer_bpr_school_no_weight_outputs/catboost_transfer_bpr_no_weight_run_20260607_182627/catboost_transfer_bpr_no_weight_production_train_valid_model.cbm
+Saved production pickle model: catboost_transfer_bpr_school_no_weight_outputs/catboost_transfer_bpr_no_weight_run_20260607_182627/catboost_transfer_bpr_no_weight_production_train_valid_model.pkl
+
+Production model test metrics:
+{
+  "split": "test_production_train_valid",
+  "rows": 915,
+  "year_min": 2025.0,
+  "year_max": 2025.0,
+  "target_mean": 1.4340425957614973,
+  "target_std": 2.7352975395847112,
+  "pred_mean": 1.2541743929425158,
+  "pred_std": 1.973364649246937,
+  "mae": 1.32799603268072,
+  "rmse": 1.6678870571440205,
+  "weighted_rmse_diagnostic_only": 1.667055669911362,
+  "r2": 0.6277805819459836,
+  "corr": 0.798766086084361,
+  "spearman_corr": 0.7906370357745887,
+  "diagnostic_weight_mean": 0.7546866448776665,
+  "diagnostic_weight_min": 0.40476190476190477,
+  "diagnostic_weight_max": 0.8849252013808976,
+  "poss_mean": 1121.3792349726775,
+  "poss_min": 204.0,
+  "poss_max": 2307.0
+}
+
+Done.
+Outputs saved to: catboost_transfer_bpr_school_no_weight_outputs/catboost_transfer_bpr_no_weight_run_20260607_182627

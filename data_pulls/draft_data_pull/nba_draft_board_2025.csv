@@ -1,0 +1,60 @@
+pick_number,team,team_abbr,player,position,school,country,height,weight_lbs,prospect_status,pick_details
+1,Dallas Mavericks,DAL,Cooper Flagg,F,Duke,United States,6-8,221,Freshman,
+2,San Antonio Spurs,SAS,Dylan Harper,G,Rutgers,United States,6-5,213,Freshman,
+3,Philadelphia 76ers,PHI,VJ Edgecombe,G,Baylor,Bahamas,6-4,193,Freshman,
+4,Charlotte Hornets,CHA,Kon Knueppel,G-F,Duke,United States,6-7,217,Freshman,
+5,Utah Jazz,UTA,Ace Bailey,F,Rutgers,United States,6-8,203,Freshman,
+6,Washington Wizards,WAS,Tre Johnson,G,Texas,United States,6-5,190,Freshman,
+7,New Orleans Pelicans,NOP,Jeremiah Fears,G,Oklahoma,United States,6-3,180,Freshman,
+8,Brooklyn Nets,BKN,Egor Demin,G-F,BYU,Russia,6-8,199,Freshman,
+9,Toronto Raptors,TOR,Collin Murray-Boyles,F,South Carolina,United States,6-7,240,Sophomore,
+10,Houston Rockets,HOU,Khaman Maluach,C,Duke,South Sudan,7-1,253,Freshman,Traded to Phoenix
+11,Portland Trail Blazers,POR,Cedric Coward,G-F,Washington State,United States,6-5,213,Junior,Traded to Memphis
+12,Chicago Bulls,CHI,Noa Essengue,F,Ratiopharm Ulm (Germany),France,6-9,194,International,
+13,Atlanta Hawks,ATL,Derik Queen,F-C,Maryland,United States,6-9,248,Freshman,Traded to New Orleans
+14,San Antonio Spurs,SAS,Carter Bryant,F,Arizona,United States,6-7,215,Freshman,
+15,Oklahoma City Thunder,OKC,Thomas Sorber,F-C,Georgetown,United States,6-9,263,Freshman,
+16,Memphis Grizzlies,MEM,Yang Hansen,C,Qingdao (China),China,7-1,249,International,Traded to Portland
+17,Minnesota Timberwolves,MIN,Joan Beringer,C,Cedevita Olimpija (Slovenia),France,6-11,230,International,
+18,Washington Wizards,WAS,Walter Clayton Jr.,G,Florida,United States,6-2,199,Senior,Traded to Utah
+19,Brooklyn Nets,BKN,Nolan Traoré,G,Saint-Quentin BB (France),France,6-5,175,International,
+20,Miami Heat,MIA,Kasparas Jakučionis,G-F,Illinois,Lithuania,6-5,205,Freshman,
+21,Utah Jazz,UTA,Will Riley,G-F,Illinois,Canada,6-8,186,Freshman,Traded to Washington
+22,Atlanta Hawks,ATL,Drake Powell,G-F,North Carolina,United States,6-6,195,Freshman,Traded to Brooklyn
+23,New Orleans Pelicans,NOP,Asa Newell,F-C,Georgia,United States,6-9,224,Freshman,Traded to Atlanta
+24,Oklahoma City Thunder,OKC,Nique Clifford,G-F,Colorado State,United States,6-5,202,Senior,Traded to Sacramento
+25,Orlando Magic,ORL,Jase Richardson,G,Michigan State,United States,6-1,178,Freshman,
+26,Brooklyn Nets,BKN,Ben Saraf,G,Ratiopharm Ulm (Germany),Israel,6-6,201,International,
+27,Brooklyn Nets,BKN,Danny Wolf,F-C,Michigan,United States,6-11,252,Junior,
+28,Boston Celtics,BOS,Hugo González,G-F,Real Madrid (Spain),Spain,6-6,205,International,
+29,Phoenix Suns,PHX,Liam McNeeley,F,Connecticut,United States,6-7,215,Freshman,Traded to Charlotte
+30,LA Clippers,LAC,Yanic Konan Niederhauser,F,Penn State,Switzerland,6-11,243,Junior,
+31,Minnesota Timberwolves,MIN,Rasheer Fleming,F-C,Saint Joseph’s,United States,6-8,232,Junior,Traded to Phoenix
+32,Boston Celtics,BOS,Noah Penda,F,Le Mans Sarthe Basket (France),France,6-8,225,International,Traded to Orlando
+33,Charlotte Hornets,CHA,Sion James,G-F,Duke,United States,6-5,218,Senior,
+34,Charlotte Hornets,CHA,Ryan Kalkbrenner,C,Creighton,United States,7-1,257,Senior,
+35,Philadelphia 76ers,PHI,Johni Broome,C,Auburn,United States,6-9,249,Senior,
+36,Brooklyn Nets,BKN,Adou Thiero,F,Arkansas,United States,6-6,218,Junior,Traded to Los Angeles Lakers
+37,Detroit Pistons,DET,Chaz Lanier,G,Tennessee,United States,6-4,206,Senior,
+38,San Antonio Spurs,SAS,Kam Jones,G,Marquette,United States,6-3,202,Senior,Traded to Indiana
+39,Toronto Raptors,TOR,Alijah Martin,G,Florida,United States,6-2,210,Senior,
+40,Washington Wizards,WAS,Micah Peavy,G-F,Georgetown,United States,6-8,220,Senior,Traded to New Orleans
+41,Golden State Warriors,GSW,Koby Brea,G-F,Kentucky,United States,6-6,202,Senior,Traded to Phoenix
+42,Sacramento Kings,SAC,Maxime Raynaud,C,Stanford,France,7-0,237,Senior,
+43,Washington Wizards,WAS,Jamir Watkins,G-F,Florida State,United States,6-5,215,Senior,
+44,Oklahoma City Thunder,OKC,Brooks Barnhizer,G,Northwestern,United States,6-6,230,Senior,
+45,Chicago Bulls,CHI,Rocco Zikarsky,C,Brisbane (Australia),Australia,7-2,227,International,Traded to Minnesota
+46,Orlando Magic,ORL,Amari Williams,C,Kentucky,England,7-0,262,Senior,Traded to Boston
+47,Milwaukee Bucks,MIL,Bogoljub Marković,F-C,Mega Basket (Serbia),Serbia,6-11,190,International,
+48,Memphis Grizzlies,MEM,Javon Small,G,West Virginia,United States,6-1,190,Senior,
+49,Cleveland Cavaliers,CLE,Tyrese Proctor,G,Duke,Australia,6-4,183,Junior,
+50,New York Knicks,NYK,Kobe Sanders,G,Nevada,United States,6-7,203,Senior,Traded to LA Clippers
+51,LA Clippers,LAC,Mohamed Diawara,F,Cholet Basket,France,6-8,200,International,Traded to New York
+52,Phoenix Suns,PHX,Alex Toohey,F,Sydney Kings (Australia),Australia,6-8,223,International,Traded to Golden State
+53,Utah Jazz,UTA,John Tonje,G-F,Wisconsin,United States,6-5,212,Senior,
+54,Indiana Pacers,IND,Taelon Peter,G,Liberty,United States,6-4,210,Senior,
+55,Los Angeles Lakers,LAL,Lachlan Olbrich,F-C,Illawarra Hawks (Australia),Australia,6-9,230,International,Traded to Chicago
+56,Memphis Grizzlies,MEM,Will Richard,G,Florida,United States,6-4,206,Senior,Traded to Golden State
+57,Orlando Magic,ORL,Max Shulga,G,VCU,Ukraine,6-4,206,Senior,Traded to Boston
+58,Cleveland Cavaliers,CLE,Saliou Niang,F,Aquila Trento,Senegal,6-8,190,International,
+59,Houston Rockets,HOU,Jahmai Mashack,G,Tennessee,United States,6-4,202,Senior,Traded to Memphis

@@ -1,4 +1,5 @@
 import { players, type Player, type PlayerSource, type PortalStatus } from "@/data/players";
+import { canonicalizeInstitution } from "@/data/teamAliases";
 import { teams, type Team } from "@/data/teams";
 
 export type PlayerFilters = {
@@ -16,6 +17,8 @@ export type PlayerFilters = {
 };
 
 export function getPlayers(filters: PlayerFilters = {}) {
+  const filterTeam = canonicalizeInstitution(filters.team);
+
   return players.filter((player) => {
     const query = filters.query?.trim().toLowerCase();
     const topPlaytype = getTopPlaytypes(player, 1)[0]?.label;
@@ -25,10 +28,10 @@ export function getPlayers(filters: PlayerFilters = {}) {
         player.current_team.toLowerCase().includes(query) ||
         player.previous_team?.toLowerCase().includes(query) ||
         player.new_team?.toLowerCase().includes(query)) &&
-      (!filters.team ||
-        player.current_team === filters.team ||
-        player.committed_team === filters.team ||
-        player.new_team === filters.team) &&
+      (!filterTeam ||
+        player.current_team === filterTeam ||
+        player.committed_team === filterTeam ||
+        player.new_team === filterTeam) &&
       (!filters.position || player.position === filters.position) &&
       (!filters.classYear || player.class_year === filters.classYear) &&
       (!filters.portalStatus || player.portal_status === filters.portalStatus) &&
@@ -43,11 +46,11 @@ export function getPlayers(filters: PlayerFilters = {}) {
 }
 
 export function getPortalPlayers() {
-  return players.filter((player) => player.player_source === "transfer" && player.is_in_portal);
+  return players.filter((player) => player.player_source === "transfer" && player.is_in_portal && !player.draft_status);
 }
 
 export function getHsPlayers() {
-  return players.filter((player) => player.player_source === "hs");
+  return players.filter((player) => player.player_source === "hs" && !player.draft_status);
 }
 
 export function getTeams() {
@@ -59,11 +62,14 @@ export function getTeam(teamId: string): Team | undefined {
 }
 
 export function getTeamPlayers(teamName: string) {
+  const canonicalTeamName = canonicalizeInstitution(teamName) ?? teamName;
+
   return players.filter(
     (player) =>
-      player.current_team === teamName ||
-      player.committed_team === teamName ||
-      player.new_team === teamName,
+      !player.draft_status &&
+      (player.current_team === canonicalTeamName ||
+        player.committed_team === canonicalTeamName ||
+        player.new_team === canonicalTeamName),
   );
 }
 

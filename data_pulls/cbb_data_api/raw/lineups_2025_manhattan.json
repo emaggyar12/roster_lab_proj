@@ -1,0 +1,8969 @@
+[
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3272,
+        "name": "Wesley Robinson"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 116,
+    "idHash": "3270-3271-3272-3273-3274",
+    "netRating": -10.8,
+    "offenseRating": 105.2,
+    "opponentStats": {
+      "assists": 110,
+      "blocks": 19,
+      "defensiveRebounds": 149,
+      "fieldGoals": {
+        "attempted": 422,
+        "made": 173,
+        "pct": 41
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 48.5,
+        "freeThrowRate": 12.8,
+        "offensiveReboundPct": 35.4,
+        "turnoverRatio": 0.17
+      },
+      "freeThrows": {
+        "attempted": 54,
+        "made": 41,
+        "pct": 75.9
+      },
+      "offensiveRebounds": 79,
+      "points": 450,
+      "possessions": 388,
+      "steals": 49,
+      "threePointers": {
+        "attempted": 178,
+        "made": 63,
+        "pct": 35.4
+      },
+      "trueShooting": 50.5,
+      "turnovers": 66,
+      "twoPointers": {
+        "attempted": 244,
+        "dunks": {
+          "attempted": 6,
+          "made": 6,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 132,
+          "made": 50,
+          "pct": 37.9
+        },
+        "layups": {
+          "attempted": 104,
+          "made": 53,
+          "pct": 51
+        },
+        "made": 110,
+        "pct": 45.1,
+        "tipIns": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        }
+      }
+    },
+    "pace": 62.8,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 95,
+      "blocks": 22,
+      "defensiveRebounds": 179,
+      "fieldGoals": {
+        "attempted": 396,
+        "made": 180,
+        "pct": 45.5
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 52,
+        "freeThrowRate": 17.2,
+        "offensiveReboundPct": 30.2,
+        "turnoverRatio": 0.19
+      },
+      "freeThrows": {
+        "attempted": 68,
+        "made": 54,
+        "pct": 79.4
+      },
+      "offensiveRebounds": 77,
+      "points": 466,
+      "possessions": 443,
+      "steals": 44,
+      "threePointers": {
+        "attempted": 146,
+        "made": 52,
+        "pct": 35.6
+      },
+      "trueShooting": 54.7,
+      "turnovers": 84,
+      "twoPointers": {
+        "attempted": 250,
+        "dunks": {
+          "attempted": 10,
+          "made": 10,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 120,
+          "made": 49,
+          "pct": 40.8
+        },
+        "layups": {
+          "attempted": 114,
+          "made": 66,
+          "pct": 57.9
+        },
+        "made": 128,
+        "pct": 51.2,
+        "tipIns": {
+          "attempted": 6,
+          "made": 3,
+          "pct": 50
+        }
+      }
+    },
+    "totalSeconds": 15891.3
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3272,
+        "name": "Wesley Robinson"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 120.6,
+    "idHash": "3270-3272-3273-3274-3282",
+    "netRating": 5.3,
+    "offenseRating": 125.9,
+    "opponentStats": {
+      "assists": 37,
+      "blocks": 10,
+      "defensiveRebounds": 70,
+      "fieldGoals": {
+        "attempted": 145,
+        "made": 65,
+        "pct": 44.8
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 51.7,
+        "freeThrowRate": 42.8,
+        "offensiveReboundPct": 32,
+        "turnoverRatio": 0.16
+      },
+      "freeThrows": {
+        "attempted": 62,
+        "made": 43,
+        "pct": 69.4
+      },
+      "offensiveRebounds": 33,
+      "points": 193,
+      "possessions": 160,
+      "steals": 15,
+      "threePointers": {
+        "attempted": 67,
+        "made": 20,
+        "pct": 29.9
+      },
+      "trueShooting": 56,
+      "turnovers": 25,
+      "twoPointers": {
+        "attempted": 78,
+        "dunks": {
+          "attempted": 2,
+          "made": 2,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 37,
+          "made": 19,
+          "pct": 51.4
+        },
+        "layups": {
+          "attempted": 38,
+          "made": 23,
+          "pct": 60.5
+        },
+        "made": 45,
+        "pct": 57.7,
+        "tipIns": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        }
+      }
+    },
+    "pace": 56.2,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 44,
+      "blocks": 4,
+      "defensiveRebounds": 60,
+      "fieldGoals": {
+        "attempted": 160,
+        "made": 73,
+        "pct": 45.6
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 52.8,
+        "freeThrowRate": 23.8,
+        "offensiveReboundPct": 41.9,
+        "turnoverRatio": 0.16
+      },
+      "freeThrows": {
+        "attempted": 38,
+        "made": 30,
+        "pct": 78.9
+      },
+      "offensiveRebounds": 26,
+      "points": 199,
+      "possessions": 158,
+      "steals": 19,
+      "threePointers": {
+        "attempted": 73,
+        "made": 23,
+        "pct": 31.5
+      },
+      "trueShooting": 56.3,
+      "turnovers": 25,
+      "twoPointers": {
+        "attempted": 87,
+        "dunks": {
+          "attempted": 7,
+          "made": 6,
+          "pct": 85.7
+        },
+        "jumpers": {
+          "attempted": 46,
+          "made": 22,
+          "pct": 47.8
+        },
+        "layups": {
+          "attempted": 33,
+          "made": 21,
+          "pct": 63.6
+        },
+        "made": 50,
+        "pct": 57.5,
+        "tipIns": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        }
+      }
+    },
+    "totalSeconds": 6786.2
+  },
+  {
+    "athletes": [
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3272,
+        "name": "Wesley Robinson"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 112.9,
+    "idHash": "3271-3272-3273-3274-3282",
+    "netRating": 38.1,
+    "offenseRating": 151,
+    "opponentStats": {
+      "assists": 40,
+      "blocks": 7,
+      "defensiveRebounds": 60,
+      "fieldGoals": {
+        "attempted": 156,
+        "made": 72,
+        "pct": 46.2
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 51.9,
+        "freeThrowRate": 27.6,
+        "offensiveReboundPct": 61.9,
+        "turnoverRatio": 0.23
+      },
+      "freeThrows": {
+        "attempted": 43,
+        "made": 31,
+        "pct": 72.1
+      },
+      "offensiveRebounds": 39,
+      "points": 193,
+      "possessions": 171,
+      "steals": 14,
+      "threePointers": {
+        "attempted": 60,
+        "made": 18,
+        "pct": 30
+      },
+      "trueShooting": 55.2,
+      "turnovers": 39,
+      "twoPointers": {
+        "attempted": 96,
+        "dunks": {
+          "attempted": 3,
+          "made": 3,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 40,
+          "made": 22,
+          "pct": 55
+        },
+        "layups": {
+          "attempted": 51,
+          "made": 28,
+          "pct": 54.9
+        },
+        "made": 54,
+        "pct": 56.3,
+        "tipIns": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        }
+      }
+    },
+    "pace": 57.5,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 42,
+      "blocks": 3,
+      "defensiveRebounds": 54,
+      "fieldGoals": {
+        "attempted": 146,
+        "made": 73,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 58.6,
+        "freeThrowRate": 52.7,
+        "offensiveReboundPct": 48.4,
+        "turnoverRatio": 0.16
+      },
+      "freeThrows": {
+        "attempted": 77,
+        "made": 57,
+        "pct": 74
+      },
+      "offensiveRebounds": 30,
+      "points": 228,
+      "possessions": 151,
+      "steals": 27,
+      "threePointers": {
+        "attempted": 61,
+        "made": 25,
+        "pct": 41
+      },
+      "trueShooting": 63.4,
+      "turnovers": 24,
+      "twoPointers": {
+        "attempted": 85,
+        "dunks": {
+          "attempted": 5,
+          "made": 5,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 34,
+          "made": 17,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 44,
+          "made": 24,
+          "pct": 54.5
+        },
+        "made": 48,
+        "pct": 56.5,
+        "tipIns": {
+          "attempted": 2,
+          "made": 2,
+          "pct": 100
+        }
+      }
+    },
+    "totalSeconds": 6719
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3272,
+        "name": "Wesley Robinson"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 120.3,
+    "idHash": "3270-3271-3272-3274-3282",
+    "netRating": -9.7,
+    "offenseRating": 110.5,
+    "opponentStats": {
+      "assists": 40,
+      "blocks": 10,
+      "defensiveRebounds": 66,
+      "fieldGoals": {
+        "attempted": 153,
+        "made": 66,
+        "pct": 43.1
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50.7,
+        "freeThrowRate": 31.4,
+        "offensiveReboundPct": 32.6,
+        "turnoverRatio": 0.16
+      },
+      "freeThrows": {
+        "attempted": 48,
+        "made": 35,
+        "pct": 72.9
+      },
+      "offensiveRebounds": 31,
+      "points": 190,
+      "possessions": 158,
+      "steals": 24,
+      "threePointers": {
+        "attempted": 68,
+        "made": 23,
+        "pct": 33.8
+      },
+      "trueShooting": 54.6,
+      "turnovers": 26,
+      "twoPointers": {
+        "attempted": 85,
+        "dunks": {
+          "attempted": 5,
+          "made": 5,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 42,
+          "made": 20,
+          "pct": 47.6
+        },
+        "layups": {
+          "attempted": 37,
+          "made": 17,
+          "pct": 45.9
+        },
+        "made": 43,
+        "pct": 50.6,
+        "tipIns": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        }
+      }
+    },
+    "pace": 57.4,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 36,
+      "blocks": 7,
+      "defensiveRebounds": 67,
+      "fieldGoals": {
+        "attempted": 143,
+        "made": 54,
+        "pct": 37.8
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 43.7,
+        "freeThrowRate": 37.8,
+        "offensiveReboundPct": 32.6,
+        "turnoverRatio": 0.2
+      },
+      "freeThrows": {
+        "attempted": 54,
+        "made": 43,
+        "pct": 79.6
+      },
+      "offensiveRebounds": 31,
+      "points": 168,
+      "possessions": 152,
+      "steals": 15,
+      "threePointers": {
+        "attempted": 54,
+        "made": 17,
+        "pct": 31.5
+      },
+      "trueShooting": 50.4,
+      "turnovers": 31,
+      "twoPointers": {
+        "attempted": 89,
+        "dunks": {
+          "attempted": 3,
+          "made": 3,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 40,
+          "made": 12,
+          "pct": 30
+        },
+        "layups": {
+          "attempted": 44,
+          "made": 21,
+          "pct": 47.7
+        },
+        "made": 37,
+        "pct": 41.6,
+        "tipIns": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        }
+      }
+    },
+    "totalSeconds": 6482.1
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3272,
+        "name": "Wesley Robinson"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 137.4,
+    "idHash": "3270-3271-3272-3273-3282",
+    "netRating": 2.6,
+    "offenseRating": 140,
+    "opponentStats": {
+      "assists": 40,
+      "blocks": 13,
+      "defensiveRebounds": 56,
+      "fieldGoals": {
+        "attempted": 154,
+        "made": 75,
+        "pct": 48.7
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 57.8,
+        "freeThrowRate": 29.2,
+        "offensiveReboundPct": 47.5,
+        "turnoverRatio": 0.15
+      },
+      "freeThrows": {
+        "attempted": 45,
+        "made": 35,
+        "pct": 77.8
+      },
+      "offensiveRebounds": 29,
+      "points": 213,
+      "possessions": 155,
+      "steals": 13,
+      "threePointers": {
+        "attempted": 67,
+        "made": 28,
+        "pct": 41.8
+      },
+      "trueShooting": 61.3,
+      "turnovers": 24,
+      "twoPointers": {
+        "attempted": 87,
+        "dunks": {
+          "attempted": 6,
+          "made": 5,
+          "pct": 83.3
+        },
+        "jumpers": {
+          "attempted": 30,
+          "made": 15,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 48,
+          "made": 25,
+          "pct": 52.1
+        },
+        "made": 47,
+        "pct": 54,
+        "tipIns": {
+          "attempted": 3,
+          "made": 2,
+          "pct": 66.7
+        }
+      }
+    },
+    "pace": 60.7,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 37,
+      "blocks": 11,
+      "defensiveRebounds": 57,
+      "fieldGoals": {
+        "attempted": 148,
+        "made": 66,
+        "pct": 44.6
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 51.7,
+        "freeThrowRate": 48.6,
+        "offensiveReboundPct": 59,
+        "turnoverRatio": 0.18
+      },
+      "freeThrows": {
+        "attempted": 72,
+        "made": 57,
+        "pct": 79.2
+      },
+      "offensiveRebounds": 36,
+      "points": 210,
+      "possessions": 150,
+      "steals": 16,
+      "threePointers": {
+        "attempted": 60,
+        "made": 21,
+        "pct": 35
+      },
+      "trueShooting": 58.4,
+      "turnovers": 27,
+      "twoPointers": {
+        "attempted": 88,
+        "dunks": {
+          "attempted": 4,
+          "made": 4,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 42,
+          "made": 24,
+          "pct": 57.1
+        },
+        "layups": {
+          "attempted": 36,
+          "made": 16,
+          "pct": 44.4
+        },
+        "made": 45,
+        "pct": 51.1,
+        "tipIns": {
+          "attempted": 6,
+          "made": 1,
+          "pct": 16.7
+        }
+      }
+    },
+    "totalSeconds": 6033.8
+  },
+  {
+    "athletes": [
+      {
+        "id": 3272,
+        "name": "Wesley Robinson"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 119.4,
+    "idHash": "3272-3273-3274-3276-3282",
+    "netRating": 10.3,
+    "offenseRating": 129.7,
+    "opponentStats": {
+      "assists": 15,
+      "blocks": 4,
+      "defensiveRebounds": 28,
+      "fieldGoals": {
+        "attempted": 75,
+        "made": 27,
+        "pct": 36
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 40.7,
+        "freeThrowRate": 30.7,
+        "offensiveReboundPct": 48.4,
+        "turnoverRatio": 0.18
+      },
+      "freeThrows": {
+        "attempted": 23,
+        "made": 19,
+        "pct": 82.6
+      },
+      "offensiveRebounds": 15,
+      "points": 80,
+      "possessions": 67,
+      "steals": 10,
+      "threePointers": {
+        "attempted": 38,
+        "made": 7,
+        "pct": 18.4
+      },
+      "trueShooting": 47,
+      "turnovers": 12,
+      "twoPointers": {
+        "attempted": 37,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 17,
+          "made": 8,
+          "pct": 47.1
+        },
+        "layups": {
+          "attempted": 19,
+          "made": 11,
+          "pct": 57.9
+        },
+        "made": 20,
+        "pct": 54.1,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 58.6,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 25,
+      "blocks": 3,
+      "defensiveRebounds": 39,
+      "fieldGoals": {
+        "attempted": 77,
+        "made": 41,
+        "pct": 53.2
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 64.3,
+        "freeThrowRate": 32.5,
+        "offensiveReboundPct": 25.5,
+        "turnoverRatio": 0.12
+      },
+      "freeThrows": {
+        "attempted": 25,
+        "made": 19,
+        "pct": 76
+      },
+      "offensiveRebounds": 12,
+      "points": 118,
+      "possessions": 91,
+      "steals": 6,
+      "threePointers": {
+        "attempted": 40,
+        "made": 17,
+        "pct": 42.5
+      },
+      "trueShooting": 67,
+      "turnovers": 11,
+      "twoPointers": {
+        "attempted": 37,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 15,
+          "made": 10,
+          "pct": 66.7
+        },
+        "layups": {
+          "attempted": 20,
+          "made": 13,
+          "pct": 65
+        },
+        "made": 24,
+        "pct": 64.9,
+        "tipIns": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 3234.2
+  },
+  {
+    "athletes": [
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3272,
+        "name": "Wesley Robinson"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 132,
+    "idHash": "3271-3272-3273-3274-3276",
+    "netRating": 18,
+    "offenseRating": 150,
+    "opponentStats": {
+      "assists": 18,
+      "blocks": 6,
+      "defensiveRebounds": 29,
+      "fieldGoals": {
+        "attempted": 72,
+        "made": 39,
+        "pct": 54.2
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 59,
+        "freeThrowRate": 27.8,
+        "offensiveReboundPct": 44.8,
+        "turnoverRatio": 0.09
+      },
+      "freeThrows": {
+        "attempted": 20,
+        "made": 14,
+        "pct": 70
+      },
+      "offensiveRebounds": 13,
+      "points": 99,
+      "possessions": 75,
+      "steals": 3,
+      "threePointers": {
+        "attempted": 24,
+        "made": 7,
+        "pct": 29.2
+      },
+      "trueShooting": 61.3,
+      "turnovers": 7,
+      "twoPointers": {
+        "attempted": 48,
+        "dunks": {
+          "attempted": 6,
+          "made": 5,
+          "pct": 83.3
+        },
+        "jumpers": {
+          "attempted": 18,
+          "made": 9,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 20,
+          "made": 14,
+          "pct": 70
+        },
+        "made": 32,
+        "pct": 66.7,
+        "tipIns": {
+          "attempted": 4,
+          "made": 4,
+          "pct": 100
+        }
+      }
+    },
+    "pace": 62.1,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 10,
+      "blocks": 0,
+      "defensiveRebounds": 23,
+      "fieldGoals": {
+        "attempted": 64,
+        "made": 29,
+        "pct": 45.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 50,
+        "offensiveReboundPct": 35.5,
+        "turnoverRatio": 0.1
+      },
+      "freeThrows": {
+        "attempted": 32,
+        "made": 23,
+        "pct": 71.9
+      },
+      "offensiveRebounds": 11,
+      "points": 87,
+      "possessions": 58,
+      "steals": 6,
+      "threePointers": {
+        "attempted": 21,
+        "made": 6,
+        "pct": 28.6
+      },
+      "trueShooting": 55.7,
+      "turnovers": 6,
+      "twoPointers": {
+        "attempted": 43,
+        "dunks": {
+          "attempted": 2,
+          "made": 2,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 15,
+          "made": 3,
+          "pct": 20
+        },
+        "layups": {
+          "attempted": 23,
+          "made": 16,
+          "pct": 69.6
+        },
+        "made": 23,
+        "pct": 53.5,
+        "tipIns": {
+          "attempted": 3,
+          "made": 2,
+          "pct": 66.7
+        }
+      }
+    },
+    "totalSeconds": 2572
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 86.3,
+    "idHash": "3270-3273-3274-3276-3282",
+    "netRating": 16.8,
+    "offenseRating": 103.1,
+    "opponentStats": {
+      "assists": 13,
+      "blocks": 4,
+      "defensiveRebounds": 32,
+      "fieldGoals": {
+        "attempted": 58,
+        "made": 25,
+        "pct": 43.1
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 47.4,
+        "freeThrowRate": 24.1,
+        "offensiveReboundPct": 22,
+        "turnoverRatio": 0.22
+      },
+      "freeThrows": {
+        "attempted": 14,
+        "made": 8,
+        "pct": 57.1
+      },
+      "offensiveRebounds": 9,
+      "points": 63,
+      "possessions": 73,
+      "steals": 8,
+      "threePointers": {
+        "attempted": 16,
+        "made": 5,
+        "pct": 31.3
+      },
+      "trueShooting": 49.1,
+      "turnovers": 16,
+      "twoPointers": {
+        "attempted": 42,
+        "dunks": {
+          "attempted": 2,
+          "made": 2,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 20,
+          "made": 6,
+          "pct": 30
+        },
+        "layups": {
+          "attempted": 20,
+          "made": 12,
+          "pct": 60
+        },
+        "made": 20,
+        "pct": 47.6,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 65.3,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 10,
+      "blocks": 2,
+      "defensiveRebounds": 30,
+      "fieldGoals": {
+        "attempted": 63,
+        "made": 24,
+        "pct": 38.1
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 44.4,
+        "freeThrowRate": 25.4,
+        "offensiveReboundPct": 40,
+        "turnoverRatio": 0.17
+      },
+      "freeThrows": {
+        "attempted": 16,
+        "made": 11,
+        "pct": 68.8
+      },
+      "offensiveRebounds": 12,
+      "points": 67,
+      "possessions": 65,
+      "steals": 6,
+      "threePointers": {
+        "attempted": 25,
+        "made": 8,
+        "pct": 32
+      },
+      "trueShooting": 47.8,
+      "turnovers": 11,
+      "twoPointers": {
+        "attempted": 38,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 24,
+          "made": 11,
+          "pct": 45.8
+        },
+        "layups": {
+          "attempted": 13,
+          "made": 4,
+          "pct": 30.8
+        },
+        "made": 16,
+        "pct": 42.1,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 2537.9
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 159.7,
+    "idHash": "3270-3271-3273-3274-3282",
+    "netRating": -23.5,
+    "offenseRating": 136.2,
+    "opponentStats": {
+      "assists": 19,
+      "blocks": 7,
+      "defensiveRebounds": 26,
+      "fieldGoals": {
+        "attempted": 58,
+        "made": 29,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 58.6,
+        "freeThrowRate": 67.2,
+        "offensiveReboundPct": 41.9,
+        "turnoverRatio": 0.11
+      },
+      "freeThrows": {
+        "attempted": 39,
+        "made": 31,
+        "pct": 79.5
+      },
+      "offensiveRebounds": 13,
+      "points": 99,
+      "possessions": 62,
+      "steals": 6,
+      "threePointers": {
+        "attempted": 26,
+        "made": 10,
+        "pct": 38.5
+      },
+      "trueShooting": 65.9,
+      "turnovers": 7,
+      "twoPointers": {
+        "attempted": 32,
+        "dunks": {
+          "attempted": 6,
+          "made": 5,
+          "pct": 83.3
+        },
+        "jumpers": {
+          "attempted": 9,
+          "made": 2,
+          "pct": 22.2
+        },
+        "layups": {
+          "attempted": 17,
+          "made": 12,
+          "pct": 70.6
+        },
+        "made": 19,
+        "pct": 59.4,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 57.4,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 16,
+      "blocks": 3,
+      "defensiveRebounds": 18,
+      "fieldGoals": {
+        "attempted": 64,
+        "made": 29,
+        "pct": 45.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 52.3,
+        "freeThrowRate": 31.3,
+        "offensiveReboundPct": 41.9,
+        "turnoverRatio": 0.19
+      },
+      "freeThrows": {
+        "attempted": 20,
+        "made": 12,
+        "pct": 60
+      },
+      "offensiveRebounds": 13,
+      "points": 79,
+      "possessions": 58,
+      "steals": 5,
+      "threePointers": {
+        "attempted": 24,
+        "made": 9,
+        "pct": 37.5
+      },
+      "trueShooting": 54.3,
+      "turnovers": 11,
+      "twoPointers": {
+        "attempted": 40,
+        "dunks": {
+          "attempted": 2,
+          "made": 2,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 16,
+          "made": 8,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 21,
+          "made": 9,
+          "pct": 42.9
+        },
+        "made": 20,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        }
+      }
+    },
+    "totalSeconds": 2509.2
+  },
+  {
+    "athletes": [
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3272,
+        "name": "Wesley Robinson"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 143.2,
+    "idHash": "3271-3272-3273-3276-3282",
+    "netRating": -26.5,
+    "offenseRating": 116.7,
+    "opponentStats": {
+      "assists": 15,
+      "blocks": 2,
+      "defensiveRebounds": 12,
+      "fieldGoals": {
+        "attempted": 47,
+        "made": 24,
+        "pct": 51.1
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 61.7,
+        "freeThrowRate": 12.8,
+        "offensiveReboundPct": 69.2,
+        "turnoverRatio": 0.18
+      },
+      "freeThrows": {
+        "attempted": 6,
+        "made": 5,
+        "pct": 83.3
+      },
+      "offensiveRebounds": 9,
+      "points": 63,
+      "possessions": 44,
+      "steals": 9,
+      "threePointers": {
+        "attempted": 23,
+        "made": 10,
+        "pct": 43.5
+      },
+      "trueShooting": 63.5,
+      "turnovers": 8,
+      "twoPointers": {
+        "attempted": 24,
+        "dunks": {
+          "attempted": 3,
+          "made": 3,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 8,
+          "made": 4,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 12,
+          "made": 6,
+          "pct": 50
+        },
+        "made": 14,
+        "pct": 58.3,
+        "tipIns": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        }
+      }
+    },
+    "pace": 46.8,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 12,
+      "blocks": 2,
+      "defensiveRebounds": 16,
+      "fieldGoals": {
+        "attempted": 43,
+        "made": 20,
+        "pct": 46.5
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 54.7,
+        "freeThrowRate": 32.6,
+        "offensiveReboundPct": 42.9,
+        "turnoverRatio": 0.25
+      },
+      "freeThrows": {
+        "attempted": 14,
+        "made": 9,
+        "pct": 64.3
+      },
+      "offensiveRebounds": 12,
+      "points": 56,
+      "possessions": 48,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 16,
+        "made": 7,
+        "pct": 43.8
+      },
+      "trueShooting": 57,
+      "turnovers": 12,
+      "twoPointers": {
+        "attempted": 27,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 12,
+          "made": 6,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 12,
+          "made": 4,
+          "pct": 33.3
+        },
+        "made": 13,
+        "pct": 48.1,
+        "tipIns": {
+          "attempted": 2,
+          "made": 2,
+          "pct": 100
+        }
+      }
+    },
+    "totalSeconds": 2358
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 116.7,
+    "idHash": "3270-3271-3273-3276-3282",
+    "netRating": 24.1,
+    "offenseRating": 140.8,
+    "opponentStats": {
+      "assists": 15,
+      "blocks": 5,
+      "defensiveRebounds": 24,
+      "fieldGoals": {
+        "attempted": 57,
+        "made": 27,
+        "pct": 47.4
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50.9,
+        "freeThrowRate": 14,
+        "offensiveReboundPct": 66.7,
+        "turnoverRatio": 0.06
+      },
+      "freeThrows": {
+        "attempted": 8,
+        "made": 5,
+        "pct": 62.5
+      },
+      "offensiveRebounds": 16,
+      "points": 63,
+      "possessions": 54,
+      "steals": 4,
+      "threePointers": {
+        "attempted": 14,
+        "made": 4,
+        "pct": 28.6
+      },
+      "trueShooting": 52,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 43,
+        "dunks": {
+          "attempted": 4,
+          "made": 3,
+          "pct": 75
+        },
+        "jumpers": {
+          "attempted": 19,
+          "made": 12,
+          "pct": 63.2
+        },
+        "layups": {
+          "attempted": 19,
+          "made": 8,
+          "pct": 42.1
+        },
+        "made": 23,
+        "pct": 53.5,
+        "tipIns": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 56,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 13,
+      "blocks": 3,
+      "defensiveRebounds": 18,
+      "fieldGoals": {
+        "attempted": 52,
+        "made": 22,
+        "pct": 42.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 53.8,
+        "freeThrowRate": 36.5,
+        "offensiveReboundPct": 41.9,
+        "turnoverRatio": 0.18
+      },
+      "freeThrows": {
+        "attempted": 19,
+        "made": 13,
+        "pct": 68.4
+      },
+      "offensiveRebounds": 13,
+      "points": 69,
+      "possessions": 49,
+      "steals": 3,
+      "threePointers": {
+        "attempted": 30,
+        "made": 12,
+        "pct": 40
+      },
+      "trueShooting": 57.2,
+      "turnovers": 9,
+      "twoPointers": {
+        "attempted": 22,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 8,
+          "made": 3,
+          "pct": 37.5
+        },
+        "layups": {
+          "attempted": 14,
+          "made": 7,
+          "pct": 50
+        },
+        "made": 10,
+        "pct": 45.5,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 2209.1
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 142.6,
+    "idHash": "3270-3271-3274-3276-3282",
+    "netRating": -30.3,
+    "offenseRating": 112.3,
+    "opponentStats": {
+      "assists": 16,
+      "blocks": 7,
+      "defensiveRebounds": 21,
+      "fieldGoals": {
+        "attempted": 60,
+        "made": 30,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 56.7,
+        "freeThrowRate": 25,
+        "offensiveReboundPct": 41.4,
+        "turnoverRatio": 0.06
+      },
+      "freeThrows": {
+        "attempted": 15,
+        "made": 9,
+        "pct": 60
+      },
+      "offensiveRebounds": 12,
+      "points": 77,
+      "possessions": 54,
+      "steals": 7,
+      "threePointers": {
+        "attempted": 22,
+        "made": 8,
+        "pct": 36.4
+      },
+      "trueShooting": 57.8,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 38,
+        "dunks": {
+          "attempted": 3,
+          "made": 2,
+          "pct": 66.7
+        },
+        "jumpers": {
+          "attempted": 14,
+          "made": 6,
+          "pct": 42.9
+        },
+        "layups": {
+          "attempted": 21,
+          "made": 14,
+          "pct": 66.7
+        },
+        "made": 22,
+        "pct": 57.9,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 62.9,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 14,
+      "blocks": 2,
+      "defensiveRebounds": 25,
+      "fieldGoals": {
+        "attempted": 59,
+        "made": 22,
+        "pct": 37.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 44.1,
+        "freeThrowRate": 23.7,
+        "offensiveReboundPct": 66.7,
+        "turnoverRatio": 0.18
+      },
+      "freeThrows": {
+        "attempted": 14,
+        "made": 12,
+        "pct": 85.7
+      },
+      "offensiveRebounds": 18,
+      "points": 64,
+      "possessions": 57,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 23,
+        "made": 8,
+        "pct": 34.8
+      },
+      "trueShooting": 49.1,
+      "turnovers": 10,
+      "twoPointers": {
+        "attempted": 36,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 14,
+          "made": 5,
+          "pct": 35.7
+        },
+        "layups": {
+          "attempted": 18,
+          "made": 7,
+          "pct": 38.9
+        },
+        "made": 14,
+        "pct": 38.9,
+        "tipIns": {
+          "attempted": 3,
+          "made": 1,
+          "pct": 33.3
+        }
+      }
+    },
+    "totalSeconds": 2118.7
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3272,
+        "name": "Wesley Robinson"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 127.3,
+    "idHash": "3270-3272-3273-3276-3282",
+    "netRating": -12.5,
+    "offenseRating": 114.8,
+    "opponentStats": {
+      "assists": 4,
+      "blocks": 1,
+      "defensiveRebounds": 7,
+      "fieldGoals": {
+        "attempted": 26,
+        "made": 11,
+        "pct": 42.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 48.1,
+        "freeThrowRate": 15.4,
+        "offensiveReboundPct": 60,
+        "turnoverRatio": 0.18
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 3,
+        "pct": 75
+      },
+      "offensiveRebounds": 9,
+      "points": 28,
+      "possessions": 22,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 11,
+        "made": 3,
+        "pct": 27.3
+      },
+      "trueShooting": 50.4,
+      "turnovers": 4,
+      "twoPointers": {
+        "attempted": 15,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 11,
+          "made": 5,
+          "pct": 45.5
+        },
+        "layups": {
+          "attempted": 3,
+          "made": 2,
+          "pct": 66.7
+        },
+        "made": 8,
+        "pct": 53.3,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 59.2,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 5,
+      "blocks": 2,
+      "defensiveRebounds": 8,
+      "fieldGoals": {
+        "attempted": 25,
+        "made": 14,
+        "pct": 56
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 62,
+        "freeThrowRate": 4,
+        "offensiveReboundPct": 38.5,
+        "turnoverRatio": 0.19
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 5,
+      "points": 31,
+      "possessions": 27,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 6,
+        "made": 3,
+        "pct": 50
+      },
+      "trueShooting": 60.9,
+      "turnovers": 5,
+      "twoPointers": {
+        "attempted": 19,
+        "dunks": {
+          "attempted": 2,
+          "made": 2,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 7,
+          "made": 3,
+          "pct": 42.9
+        },
+        "layups": {
+          "attempted": 10,
+          "made": 6,
+          "pct": 60
+        },
+        "made": 11,
+        "pct": 57.9,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 993.8
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3275,
+        "name": "Marko Ljubicic"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 96.6,
+    "idHash": "3270-3271-3273-3275-3282",
+    "netRating": 7.6,
+    "offenseRating": 104.2,
+    "opponentStats": {
+      "assists": 7,
+      "blocks": 2,
+      "defensiveRebounds": 12,
+      "fieldGoals": {
+        "attempted": 24,
+        "made": 11,
+        "pct": 45.8
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 52.1,
+        "freeThrowRate": 16.7,
+        "offensiveReboundPct": 38.5,
+        "turnoverRatio": 0.21
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 3,
+        "pct": 75
+      },
+      "offensiveRebounds": 5,
+      "points": 28,
+      "possessions": 29,
+      "steals": 5,
+      "threePointers": {
+        "attempted": 13,
+        "made": 3,
+        "pct": 23.1
+      },
+      "trueShooting": 54.3,
+      "turnovers": 6,
+      "twoPointers": {
+        "attempted": 11,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 4,
+          "made": 3,
+          "pct": 75
+        },
+        "layups": {
+          "attempted": 7,
+          "made": 5,
+          "pct": 71.4
+        },
+        "made": 8,
+        "pct": 72.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 67.1,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 7,
+      "blocks": 1,
+      "defensiveRebounds": 8,
+      "fieldGoals": {
+        "attempted": 23,
+        "made": 9,
+        "pct": 39.1
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 13,
+        "offensiveReboundPct": 27.3,
+        "turnoverRatio": 0.29
+      },
+      "freeThrows": {
+        "attempted": 3,
+        "made": 2,
+        "pct": 66.7
+      },
+      "offensiveRebounds": 3,
+      "points": 25,
+      "possessions": 24,
+      "steals": 5,
+      "threePointers": {
+        "attempted": 15,
+        "made": 5,
+        "pct": 33.3
+      },
+      "trueShooting": 51.4,
+      "turnovers": 7,
+      "twoPointers": {
+        "attempted": 8,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 3,
+          "made": 1,
+          "pct": 33.3
+        },
+        "layups": {
+          "attempted": 5,
+          "made": 3,
+          "pct": 60
+        },
+        "made": 4,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 947.6
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3275,
+        "name": "Marko Ljubicic"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 138.5,
+    "idHash": "3270-3273-3274-3275-3282",
+    "netRating": 79.2,
+    "offenseRating": 217.6,
+    "opponentStats": {
+      "assists": 7,
+      "blocks": 0,
+      "defensiveRebounds": 8,
+      "fieldGoals": {
+        "attempted": 19,
+        "made": 12,
+        "pct": 63.2
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 81.6,
+        "freeThrowRate": 36.8,
+        "offensiveReboundPct": 38.5,
+        "turnoverRatio": 0.23
+      },
+      "freeThrows": {
+        "attempted": 7,
+        "made": 5,
+        "pct": 71.4
+      },
+      "offensiveRebounds": 5,
+      "points": 36,
+      "possessions": 26,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 13,
+        "made": 7,
+        "pct": 53.8
+      },
+      "trueShooting": 81.5,
+      "turnovers": 6,
+      "twoPointers": {
+        "attempted": 6,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 3,
+          "made": 3,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "made": 5,
+        "pct": 83.3,
+        "tipIns": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        }
+      }
+    },
+    "pace": 55.9,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 6,
+      "blocks": 0,
+      "defensiveRebounds": 4,
+      "fieldGoals": {
+        "attempted": 23,
+        "made": 12,
+        "pct": 52.2
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 60.9,
+        "freeThrowRate": 43.5,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.06
+      },
+      "freeThrows": {
+        "attempted": 10,
+        "made": 9,
+        "pct": 90
+      },
+      "offensiveRebounds": 4,
+      "points": 37,
+      "possessions": 17,
+      "steals": 3,
+      "threePointers": {
+        "attempted": 11,
+        "made": 4,
+        "pct": 36.4
+      },
+      "trueShooting": 67.5,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 12,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 8,
+          "made": 5,
+          "pct": 62.5
+        },
+        "layups": {
+          "attempted": 3,
+          "made": 2,
+          "pct": 66.7
+        },
+        "made": 8,
+        "pct": 66.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 923
+  },
+  {
+    "athletes": [
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3272,
+        "name": "Wesley Robinson"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 121.1,
+    "idHash": "3271-3272-3274-3276-3282",
+    "netRating": -29.7,
+    "offenseRating": 91.3,
+    "opponentStats": {
+      "assists": 5,
+      "blocks": 4,
+      "defensiveRebounds": 8,
+      "fieldGoals": {
+        "attempted": 19,
+        "made": 8,
+        "pct": 42.1
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 52.6,
+        "offensiveReboundPct": 38.5,
+        "turnoverRatio": 0.16
+      },
+      "freeThrows": {
+        "attempted": 10,
+        "made": 4,
+        "pct": 40
+      },
+      "offensiveRebounds": 5,
+      "points": 23,
+      "possessions": 19,
+      "steals": 4,
+      "threePointers": {
+        "attempted": 8,
+        "made": 3,
+        "pct": 37.5
+      },
+      "trueShooting": 49.1,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 11,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 4,
+          "made": 1,
+          "pct": 25
+        },
+        "layups": {
+          "attempted": 7,
+          "made": 4,
+          "pct": 57.1
+        },
+        "made": 5,
+        "pct": 45.5,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 57.8,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 5,
+      "blocks": 0,
+      "defensiveRebounds": 11,
+      "fieldGoals": {
+        "attempted": 19,
+        "made": 6,
+        "pct": 31.6
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 34.2,
+        "freeThrowRate": 42.1,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0.26
+      },
+      "freeThrows": {
+        "attempted": 8,
+        "made": 8,
+        "pct": 100
+      },
+      "offensiveRebounds": 5,
+      "points": 21,
+      "possessions": 23,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 7,
+        "made": 1,
+        "pct": 14.3
+      },
+      "trueShooting": 46.6,
+      "turnovers": 6,
+      "twoPointers": {
+        "attempted": 12,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 3,
+          "made": 1,
+          "pct": 33.3
+        },
+        "layups": {
+          "attempted": 8,
+          "made": 3,
+          "pct": 37.5
+        },
+        "made": 5,
+        "pct": 41.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 872
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 105,
+    "idHash": "3270-3271-3273-3274-3276",
+    "netRating": 34.1,
+    "offenseRating": 139.1,
+    "opponentStats": {
+      "assists": 5,
+      "blocks": 3,
+      "defensiveRebounds": 8,
+      "fieldGoals": {
+        "attempted": 19,
+        "made": 7,
+        "pct": 36.8
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 42.1,
+        "freeThrowRate": 31.6,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0.25
+      },
+      "freeThrows": {
+        "attempted": 6,
+        "made": 5,
+        "pct": 83.3
+      },
+      "offensiveRebounds": 4,
+      "points": 21,
+      "possessions": 20,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 5,
+        "made": 2,
+        "pct": 40
+      },
+      "trueShooting": 48.5,
+      "turnovers": 5,
+      "twoPointers": {
+        "attempted": 14,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 10,
+          "made": 2,
+          "pct": 20
+        },
+        "layups": {
+          "attempted": 4,
+          "made": 3,
+          "pct": 75
+        },
+        "made": 5,
+        "pct": 35.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 62.5,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 5,
+      "blocks": 0,
+      "defensiveRebounds": 8,
+      "fieldGoals": {
+        "attempted": 23,
+        "made": 11,
+        "pct": 47.8
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 56.5,
+        "freeThrowRate": 26.1,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0.17
+      },
+      "freeThrows": {
+        "attempted": 6,
+        "made": 6,
+        "pct": 100
+      },
+      "offensiveRebounds": 4,
+      "points": 32,
+      "possessions": 23,
+      "steals": 4,
+      "threePointers": {
+        "attempted": 10,
+        "made": 4,
+        "pct": 40
+      },
+      "trueShooting": 62.4,
+      "turnovers": 4,
+      "twoPointers": {
+        "attempted": 13,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 4,
+          "made": 2,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 8,
+          "made": 4,
+          "pct": 50
+        },
+        "made": 7,
+        "pct": 53.8,
+        "tipIns": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        }
+      }
+    },
+    "totalSeconds": 825
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 121.4,
+    "idHash": "3270-3271-3273-3277-3282",
+    "netRating": -10.3,
+    "offenseRating": 111.1,
+    "opponentStats": {
+      "assists": 3,
+      "blocks": 0,
+      "defensiveRebounds": 5,
+      "fieldGoals": {
+        "attempted": 22,
+        "made": 5,
+        "pct": 22.7
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 29.5,
+        "freeThrowRate": 18.2,
+        "offensiveReboundPct": 85.7,
+        "turnoverRatio": 0.29
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 4,
+        "pct": 100
+      },
+      "offensiveRebounds": 6,
+      "points": 17,
+      "possessions": 14,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 15,
+        "made": 3,
+        "pct": 20
+      },
+      "trueShooting": 35.8,
+      "turnovers": 4,
+      "twoPointers": {
+        "attempted": 7,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 4,
+          "made": 2,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 3,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 2,
+        "pct": 28.6,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 61.2,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 9,
+      "blocks": 2,
+      "defensiveRebounds": 12,
+      "fieldGoals": {
+        "attempted": 18,
+        "made": 10,
+        "pct": 55.6
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 66.7,
+        "freeThrowRate": 44.4,
+        "offensiveReboundPct": 42.9,
+        "turnoverRatio": 0.19
+      },
+      "freeThrows": {
+        "attempted": 8,
+        "made": 6,
+        "pct": 75
+      },
+      "offensiveRebounds": 6,
+      "points": 30,
+      "possessions": 27,
+      "steals": 3,
+      "threePointers": {
+        "attempted": 12,
+        "made": 4,
+        "pct": 33.3
+      },
+      "trueShooting": 69.7,
+      "turnovers": 5,
+      "twoPointers": {
+        "attempted": 6,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 3,
+          "made": 3,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 3,
+          "made": 3,
+          "pct": 100
+        },
+        "made": 6,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 803.9
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3272,
+        "name": "Wesley Robinson"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 108.3,
+    "idHash": "3270-3272-3274-3276-3282",
+    "netRating": 13.1,
+    "offenseRating": 121.4,
+    "opponentStats": {
+      "assists": 2,
+      "blocks": 0,
+      "defensiveRebounds": 5,
+      "fieldGoals": {
+        "attempted": 10,
+        "made": 5,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 40,
+        "offensiveReboundPct": 20,
+        "turnoverRatio": 0.17
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 3,
+        "pct": 75
+      },
+      "offensiveRebounds": 1,
+      "points": 13,
+      "possessions": 12,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 55.3,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 8,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 4,
+          "made": 2,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 4,
+          "made": 3,
+          "pct": 75
+        },
+        "made": 5,
+        "pct": 62.5,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 39,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 4,
+      "blocks": 0,
+      "defensiveRebounds": 5,
+      "fieldGoals": {
+        "attempted": 16,
+        "made": 6,
+        "pct": 37.5
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 43.8,
+        "freeThrowRate": 25,
+        "offensiveReboundPct": 85.7,
+        "turnoverRatio": 0.21
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 3,
+        "pct": 75
+      },
+      "offensiveRebounds": 6,
+      "points": 17,
+      "possessions": 14,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 6,
+        "made": 2,
+        "pct": 33.3
+      },
+      "trueShooting": 47.9,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 10,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 6,
+          "made": 2,
+          "pct": 33.3
+        },
+        "layups": {
+          "attempted": 3,
+          "made": 1,
+          "pct": 33.3
+        },
+        "made": 4,
+        "pct": 40,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 799
+  },
+  {
+    "athletes": [
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 257.1,
+    "idHash": "3271-3273-3274-3276-3282",
+    "netRating": -90.5,
+    "offenseRating": 166.7,
+    "opponentStats": {
+      "assists": 3,
+      "blocks": 2,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 12,
+        "made": 4,
+        "pct": 33.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 37.5,
+        "freeThrowRate": 91.7,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.14
+      },
+      "freeThrows": {
+        "attempted": 11,
+        "made": 9,
+        "pct": 81.8
+      },
+      "offensiveRebounds": 3,
+      "points": 18,
+      "possessions": 7,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 8,
+        "made": 1,
+        "pct": 12.5
+      },
+      "trueShooting": 53.4,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 4,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 4,
+          "made": 3,
+          "pct": 75
+        },
+        "made": 3,
+        "pct": 75,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 39,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 4,
+      "blocks": 1,
+      "defensiveRebounds": 6,
+      "fieldGoals": {
+        "attempted": 13,
+        "made": 9,
+        "pct": 69.2
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 76.9,
+        "freeThrowRate": 76.9,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0.17
+      },
+      "freeThrows": {
+        "attempted": 10,
+        "made": 10,
+        "pct": 100
+      },
+      "offensiveRebounds": 2,
+      "points": 30,
+      "possessions": 18,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 3,
+        "made": 2,
+        "pct": 66.7
+      },
+      "trueShooting": 86.2,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 10,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 7,
+          "made": 5,
+          "pct": 71.4
+        },
+        "made": 7,
+        "pct": 70,
+        "tipIns": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        }
+      }
+    },
+    "totalSeconds": 769.1
+  },
+  {
+    "athletes": [
+      {
+        "id": 3272,
+        "name": "Wesley Robinson"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 104.5,
+    "idHash": "3272-3273-3274-3277-3282",
+    "netRating": -4.5,
+    "offenseRating": 100,
+    "opponentStats": {
+      "assists": 7,
+      "blocks": 1,
+      "defensiveRebounds": 7,
+      "fieldGoals": {
+        "attempted": 17,
+        "made": 9,
+        "pct": 52.9
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 64.7,
+        "freeThrowRate": 11.8,
+        "offensiveReboundPct": 28.6,
+        "turnoverRatio": 0.27
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "offensiveRebounds": 2,
+      "points": 23,
+      "possessions": 22,
+      "steals": 5,
+      "threePointers": {
+        "attempted": 6,
+        "made": 4,
+        "pct": 66.7
+      },
+      "trueShooting": 64.3,
+      "turnovers": 6,
+      "twoPointers": {
+        "attempted": 11,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 5,
+          "made": 2,
+          "pct": 40
+        },
+        "layups": {
+          "attempted": 5,
+          "made": 2,
+          "pct": 40
+        },
+        "made": 5,
+        "pct": 45.5,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 64.1,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 6,
+      "fieldGoals": {
+        "attempted": 16,
+        "made": 7,
+        "pct": 43.8
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 46.9,
+        "freeThrowRate": 25,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0.32
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 4,
+        "pct": 100
+      },
+      "offensiveRebounds": 2,
+      "points": 19,
+      "possessions": 19,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "trueShooting": 53.5,
+      "turnovers": 6,
+      "twoPointers": {
+        "attempted": 13,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 10,
+          "made": 5,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 3,
+          "made": 1,
+          "pct": 33.3
+        },
+        "made": 6,
+        "pct": 46.2,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 768
+  },
+  {
+    "athletes": [
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 116.7,
+    "idHash": "3273-3274-3276-3277-3282",
+    "netRating": -21,
+    "offenseRating": 95.7,
+    "opponentStats": {
+      "assists": 5,
+      "blocks": 0,
+      "defensiveRebounds": 8,
+      "fieldGoals": {
+        "attempted": 20,
+        "made": 7,
+        "pct": 35
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 40,
+        "freeThrowRate": 40,
+        "offensiveReboundPct": 38.5,
+        "turnoverRatio": 0.17
+      },
+      "freeThrows": {
+        "attempted": 8,
+        "made": 5,
+        "pct": 62.5
+      },
+      "offensiveRebounds": 5,
+      "points": 21,
+      "possessions": 18,
+      "steals": 5,
+      "threePointers": {
+        "attempted": 6,
+        "made": 2,
+        "pct": 33.3
+      },
+      "trueShooting": 44.6,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 14,
+        "dunks": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 6,
+          "made": 1,
+          "pct": 16.7
+        },
+        "layups": {
+          "attempted": 7,
+          "made": 4,
+          "pct": 57.1
+        },
+        "made": 5,
+        "pct": 35.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 66.8,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 6,
+      "blocks": 1,
+      "defensiveRebounds": 10,
+      "fieldGoals": {
+        "attempted": 22,
+        "made": 8,
+        "pct": 36.4
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 43.2,
+        "freeThrowRate": 13.6,
+        "offensiveReboundPct": 42.9,
+        "turnoverRatio": 0.22
+      },
+      "freeThrows": {
+        "attempted": 3,
+        "made": 3,
+        "pct": 100
+      },
+      "offensiveRebounds": 6,
+      "points": 22,
+      "possessions": 23,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 7,
+        "made": 3,
+        "pct": 42.9
+      },
+      "trueShooting": 47.2,
+      "turnovers": 5,
+      "twoPointers": {
+        "attempted": 15,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 7,
+          "made": 1,
+          "pct": 14.3
+        },
+        "layups": {
+          "attempted": 7,
+          "made": 3,
+          "pct": 42.9
+        },
+        "made": 5,
+        "pct": 33.3,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 737
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 112.5,
+    "idHash": "3270-3274-3276-3277-3282",
+    "netRating": 7.5,
+    "offenseRating": 120,
+    "opponentStats": {
+      "assists": 3,
+      "blocks": 0,
+      "defensiveRebounds": 7,
+      "fieldGoals": {
+        "attempted": 23,
+        "made": 8,
+        "pct": 34.8
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 39.1,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.06
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 7,
+      "points": 18,
+      "possessions": 16,
+      "steals": 3,
+      "threePointers": {
+        "attempted": 7,
+        "made": 2,
+        "pct": 28.6
+      },
+      "trueShooting": 39.1,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 16,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 8,
+          "made": 2,
+          "pct": 25
+        },
+        "layups": {
+          "attempted": 8,
+          "made": 4,
+          "pct": 50
+        },
+        "made": 6,
+        "pct": 37.5,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 51.5,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 2,
+      "blocks": 1,
+      "defensiveRebounds": 8,
+      "fieldGoals": {
+        "attempted": 17,
+        "made": 4,
+        "pct": 23.5
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 29.4,
+        "freeThrowRate": 64.7,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.2
+      },
+      "freeThrows": {
+        "attempted": 11,
+        "made": 8,
+        "pct": 72.7
+      },
+      "offensiveRebounds": 9,
+      "points": 18,
+      "possessions": 15,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 11,
+        "made": 2,
+        "pct": 18.2
+      },
+      "trueShooting": 41.2,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 6,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 3,
+          "made": 1,
+          "pct": 33.3
+        },
+        "layups": {
+          "attempted": 3,
+          "made": 1,
+          "pct": 33.3
+        },
+        "made": 2,
+        "pct": 33.3,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 722
+  },
+  {
+    "athletes": [
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3272,
+        "name": "Wesley Robinson"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 187.5,
+    "idHash": "3271-3272-3274-3277-3282",
+    "netRating": -69.9,
+    "offenseRating": 117.6,
+    "opponentStats": {
+      "assists": 4,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 16,
+        "made": 6,
+        "pct": 37.5
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 43.8,
+        "freeThrowRate": 37.5,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 6,
+        "made": 1,
+        "pct": 16.7
+      },
+      "offensiveRebounds": 6,
+      "points": 15,
+      "possessions": 8,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 8,
+        "made": 2,
+        "pct": 25
+      },
+      "trueShooting": 40.2,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 8,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 6,
+          "made": 2,
+          "pct": 33.3
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 2,
+          "pct": 100
+        },
+        "made": 4,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 54.1,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 2,
+      "blocks": 0,
+      "defensiveRebounds": 8,
+      "fieldGoals": {
+        "attempted": 15,
+        "made": 7,
+        "pct": 46.7
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 53.3,
+        "freeThrowRate": 26.7,
+        "offensiveReboundPct": 42.9,
+        "turnoverRatio": 0.12
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 4,
+        "pct": 100
+      },
+      "offensiveRebounds": 6,
+      "points": 20,
+      "possessions": 17,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 5,
+        "made": 2,
+        "pct": 40
+      },
+      "trueShooting": 59.7,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 10,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 6,
+          "made": 2,
+          "pct": 33.3
+        },
+        "layups": {
+          "attempted": 4,
+          "made": 3,
+          "pct": 75
+        },
+        "made": 5,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 555
+  },
+  {
+    "athletes": [
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 135.3,
+    "idHash": "3271-3273-3276-3277-3282",
+    "netRating": -35.3,
+    "offenseRating": 100,
+    "opponentStats": {
+      "assists": 4,
+      "blocks": 2,
+      "defensiveRebounds": 6,
+      "fieldGoals": {
+        "attempted": 20,
+        "made": 9,
+        "pct": 45
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 55,
+        "freeThrowRate": 5,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.12
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "offensiveRebounds": 7,
+      "points": 23,
+      "possessions": 17,
+      "steals": 3,
+      "threePointers": {
+        "attempted": 10,
+        "made": 4,
+        "pct": 40
+      },
+      "trueShooting": 56.3,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 10,
+        "dunks": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 6,
+          "made": 4,
+          "pct": 66.7
+        },
+        "layups": {
+          "attempted": 3,
+          "made": 1,
+          "pct": 33.3
+        },
+        "made": 5,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 63.7,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 1,
+      "defensiveRebounds": 5,
+      "fieldGoals": {
+        "attempted": 14,
+        "made": 3,
+        "pct": 21.4
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 28.6,
+        "freeThrowRate": 42.9,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.33
+      },
+      "freeThrows": {
+        "attempted": 6,
+        "made": 4,
+        "pct": 66.7
+      },
+      "offensiveRebounds": 7,
+      "points": 12,
+      "possessions": 12,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 7,
+        "made": 2,
+        "pct": 28.6
+      },
+      "trueShooting": 36.1,
+      "turnovers": 4,
+      "twoPointers": {
+        "attempted": 7,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 3,
+          "made": 1,
+          "pct": 33.3
+        },
+        "layups": {
+          "attempted": 4,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 14.3,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 546
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 82.4,
+    "idHash": "3270-3273-3274-3277-3282",
+    "netRating": 35.3,
+    "offenseRating": 117.6,
+    "opponentStats": {
+      "assists": 4,
+      "blocks": 0,
+      "defensiveRebounds": 5,
+      "fieldGoals": {
+        "attempted": 14,
+        "made": 6,
+        "pct": 42.9
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 46.4,
+        "freeThrowRate": 7.1,
+        "offensiveReboundPct": 28.6,
+        "turnoverRatio": 0.35
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "offensiveRebounds": 2,
+      "points": 14,
+      "possessions": 17,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 4,
+        "made": 1,
+        "pct": 25
+      },
+      "trueShooting": 48.5,
+      "turnovers": 6,
+      "twoPointers": {
+        "attempted": 10,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 8,
+          "made": 4,
+          "pct": 50
+        },
+        "made": 5,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 75.3,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 6,
+      "blocks": 0,
+      "defensiveRebounds": 6,
+      "fieldGoals": {
+        "attempted": 15,
+        "made": 9,
+        "pct": 60
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 66.7,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 14.3,
+        "turnoverRatio": 0.12
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 20,
+      "possessions": 17,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 5,
+        "made": 2,
+        "pct": 40
+      },
+      "trueShooting": 66.7,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 10,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 8,
+          "made": 6,
+          "pct": 75
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "made": 7,
+        "pct": 70,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 542
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3272,
+        "name": "Wesley Robinson"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 109.1,
+    "idHash": "3270-3272-3273-3274-3276",
+    "netRating": 4.2,
+    "offenseRating": 113.3,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 1,
+      "defensiveRebounds": 5,
+      "fieldGoals": {
+        "attempted": 7,
+        "made": 3,
+        "pct": 42.9
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 42.9,
+        "freeThrowRate": 114.3,
+        "offensiveReboundPct": 20,
+        "turnoverRatio": 0.27
+      },
+      "freeThrows": {
+        "attempted": 8,
+        "made": 6,
+        "pct": 75
+      },
+      "offensiveRebounds": 1,
+      "points": 12,
+      "possessions": 11,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 57,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 5,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 4,
+          "made": 3,
+          "pct": 75
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 3,
+        "pct": 60,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 67.4,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 2,
+      "blocks": 0,
+      "defensiveRebounds": 6,
+      "fieldGoals": {
+        "attempted": 14,
+        "made": 7,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 57.1,
+        "freeThrowRate": 21.4,
+        "offensiveReboundPct": 66.7,
+        "turnoverRatio": 0.13
+      },
+      "freeThrows": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "offensiveRebounds": 4,
+      "points": 17,
+      "possessions": 15,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 7,
+        "made": 2,
+        "pct": 28.6
+      },
+      "trueShooting": 55.5,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 7,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 4,
+          "made": 3,
+          "pct": 75
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "made": 5,
+        "pct": 71.4,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 463
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3275,
+        "name": "Marko Ljubicic"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 50,
+    "idHash": "3270-3271-3274-3275-3282",
+    "netRating": 50,
+    "offenseRating": 100,
+    "opponentStats": {
+      "assists": 2,
+      "blocks": 0,
+      "defensiveRebounds": 5,
+      "fieldGoals": {
+        "attempted": 11,
+        "made": 2,
+        "pct": 18.2
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 18.2,
+        "freeThrowRate": 9.1,
+        "offensiveReboundPct": 20,
+        "turnoverRatio": 0.13
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 4,
+      "possessions": 8,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 5,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 17.5,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 6,
+        "dunks": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 4,
+          "made": 1,
+          "pct": 25
+        },
+        "made": 2,
+        "pct": 33.3,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 55.5,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 4,
+      "blocks": 1,
+      "defensiveRebounds": 7,
+      "fieldGoals": {
+        "attempted": 11,
+        "made": 4,
+        "pct": 36.4
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 40.9,
+        "freeThrowRate": 45.5,
+        "offensiveReboundPct": 42.9,
+        "turnoverRatio": 0.08
+      },
+      "freeThrows": {
+        "attempted": 5,
+        "made": 3,
+        "pct": 60
+      },
+      "offensiveRebounds": 3,
+      "points": 12,
+      "possessions": 12,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 5,
+        "made": 1,
+        "pct": 20
+      },
+      "trueShooting": 45.5,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 6,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 4,
+          "made": 2,
+          "pct": 50
+        },
+        "made": 3,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 432.8
+  },
+  {
+    "athletes": [
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3272,
+        "name": "Wesley Robinson"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 125,
+    "idHash": "3271-3272-3273-3277-3282",
+    "netRating": -16.7,
+    "offenseRating": 108.3,
+    "opponentStats": {
+      "assists": 2,
+      "blocks": 2,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 13,
+        "made": 4,
+        "pct": 30.8
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 34.6,
+        "freeThrowRate": 7.7,
+        "offensiveReboundPct": 57.1,
+        "turnoverRatio": 0.13
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "offensiveRebounds": 4,
+      "points": 10,
+      "possessions": 8,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 6,
+        "made": 1,
+        "pct": 16.7
+      },
+      "trueShooting": 37.2,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 7,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 4,
+          "made": 1,
+          "pct": 25
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "made": 3,
+        "pct": 42.9,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 55.8,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 3,
+      "blocks": 0,
+      "defensiveRebounds": 5,
+      "fieldGoals": {
+        "attempted": 8,
+        "made": 3,
+        "pct": 37.5
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 56.3,
+        "freeThrowRate": 75,
+        "offensiveReboundPct": 80,
+        "turnoverRatio": 0.33
+      },
+      "freeThrows": {
+        "attempted": 6,
+        "made": 4,
+        "pct": 66.7
+      },
+      "offensiveRebounds": 4,
+      "points": 13,
+      "possessions": 12,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 4,
+        "made": 3,
+        "pct": 75
+      },
+      "trueShooting": 61.1,
+      "turnovers": 4,
+      "twoPointers": {
+        "attempted": 4,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 3,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 430
+  },
+  {
+    "athletes": [
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 100,
+    "idHash": "3271-3273-3274-3277-3282",
+    "netRating": -8.3,
+    "offenseRating": 91.7,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 1,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 8,
+        "made": 3,
+        "pct": 37.5
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 37.5,
+        "freeThrowRate": 25,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0.38
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 1,
+      "points": 8,
+      "possessions": 8,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 45,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 6,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 4,
+          "made": 2,
+          "pct": 50
+        },
+        "made": 3,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 59.3,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 2,
+      "blocks": 0,
+      "defensiveRebounds": 4,
+      "fieldGoals": {
+        "attempted": 10,
+        "made": 4,
+        "pct": 40
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 45,
+        "freeThrowRate": 20,
+        "offensiveReboundPct": 42.9,
+        "turnoverRatio": 0.33
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 3,
+      "points": 11,
+      "possessions": 12,
+      "steals": 3,
+      "threePointers": {
+        "attempted": 5,
+        "made": 1,
+        "pct": 20
+      },
+      "trueShooting": 50.6,
+      "turnovers": 4,
+      "twoPointers": {
+        "attempted": 5,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 4,
+          "made": 3,
+          "pct": 75
+        },
+        "made": 3,
+        "pct": 60,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 405
+  },
+  {
+    "athletes": [
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 100,
+    "idHash": "3271-3274-3276-3277-3282",
+    "netRating": 50,
+    "offenseRating": 150,
+    "opponentStats": {
+      "assists": 2,
+      "blocks": 1,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 6,
+        "made": 2,
+        "pct": 33.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 41.7,
+        "freeThrowRate": 33.3,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.5
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "offensiveRebounds": 1,
+      "points": 6,
+      "possessions": 6,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 4,
+        "made": 1,
+        "pct": 25
+      },
+      "trueShooting": 43.6,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 55.3,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 4,
+      "blocks": 0,
+      "defensiveRebounds": 4,
+      "fieldGoals": {
+        "attempted": 7,
+        "made": 5,
+        "pct": 71.4
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 92.9,
+        "freeThrowRate": 28.6,
+        "offensiveReboundPct": 20,
+        "turnoverRatio": 0.1
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 1,
+      "points": 15,
+      "possessions": 10,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 4,
+        "made": 3,
+        "pct": 75
+      },
+      "trueShooting": 95.2,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 3,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "made": 2,
+        "pct": 66.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 347
+  },
+  {
+    "athletes": [
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3275,
+        "name": "Marko Ljubicic"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 44.4,
+    "idHash": "3271-3273-3275-3276-3282",
+    "netRating": -44.4,
+    "offenseRating": 0,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 2,
+      "defensiveRebounds": 6,
+      "fieldGoals": {
+        "attempted": 6,
+        "made": 1,
+        "pct": 16.7
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 16.7,
+        "freeThrowRate": 33.3,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0.22
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 2,
+      "points": 4,
+      "possessions": 9,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 4,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 29.1,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 50.5,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 1,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 9,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.25
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 3,
+      "points": 0,
+      "possessions": 4,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 5,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 4,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 309
+  },
+  {
+    "athletes": [
+      {
+        "id": 3278,
+        "name": "Michael Lawlor"
+      },
+      {
+        "id": 3280,
+        "name": "John Berbano"
+      },
+      {
+        "id": 3284,
+        "name": "Jackson Delaney"
+      },
+      {
+        "id": 3285,
+        "name": "Daniel Hackett"
+      },
+      {
+        "id": 10083,
+        "name": "Aryan Arora"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 141.7,
+    "idHash": "3278-3280-3284-3285-10083",
+    "netRating": -16.7,
+    "offenseRating": 125,
+    "opponentStats": {
+      "assists": 4,
+      "blocks": 0,
+      "defensiveRebounds": 6,
+      "fieldGoals": {
+        "attempted": 9,
+        "made": 5,
+        "pct": 55.6
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 72.2,
+        "freeThrowRate": 66.7,
+        "offensiveReboundPct": 42.9,
+        "turnoverRatio": 0.08
+      },
+      "freeThrows": {
+        "attempted": 6,
+        "made": 4,
+        "pct": 66.7
+      },
+      "offensiveRebounds": 3,
+      "points": 17,
+      "possessions": 12,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 7,
+        "made": 3,
+        "pct": 42.9
+      },
+      "trueShooting": 73,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 2,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        }
+      }
+    },
+    "pace": 80.2,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 7,
+        "made": 3,
+        "pct": 42.9
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 85.7,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.25
+      },
+      "freeThrows": {
+        "attempted": 6,
+        "made": 3,
+        "pct": 50
+      },
+      "offensiveRebounds": 0,
+      "points": 10,
+      "possessions": 8,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "trueShooting": 51.9,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 4,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 3,
+          "made": 1,
+          "pct": 33.3
+        },
+        "made": 2,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 299.3
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3272,
+        "name": "Wesley Robinson"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 85.7,
+    "idHash": "3270-3271-3272-3276-3282",
+    "netRating": 64.3,
+    "offenseRating": 150,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 1,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 6,
+        "made": 2,
+        "pct": 33.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 33.3,
+        "freeThrowRate": 50,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.43
+      },
+      "freeThrows": {
+        "attempted": 3,
+        "made": 2,
+        "pct": 66.7
+      },
+      "offensiveRebounds": 2,
+      "points": 6,
+      "possessions": 7,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 41,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 5,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 4,
+          "made": 2,
+          "pct": 50
+        },
+        "made": 2,
+        "pct": 40,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 60.6,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 2,
+      "blocks": 1,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 7,
+        "made": 4,
+        "pct": 57.1
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 64.3,
+        "freeThrowRate": 42.9,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0.13
+      },
+      "freeThrows": {
+        "attempted": 3,
+        "made": 3,
+        "pct": 100
+      },
+      "offensiveRebounds": 1,
+      "points": 12,
+      "possessions": 8,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "trueShooting": 72.1,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 4,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 4,
+          "made": 3,
+          "pct": 75
+        },
+        "made": 3,
+        "pct": 75,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 297
+  },
+  {
+    "athletes": [
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3275,
+        "name": "Marko Ljubicic"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 80,
+    "idHash": "3271-3273-3274-3275-3282",
+    "netRating": -37.1,
+    "offenseRating": 42.9,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 1,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 6,
+        "made": 1,
+        "pct": 16.7
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 16.7,
+        "freeThrowRate": 33.3,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0.2
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 1,
+      "points": 4,
+      "possessions": 5,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 3,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 29.1,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 3,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 33.3,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 55.2,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 4,
+      "fieldGoals": {
+        "attempted": 4,
+        "made": 1,
+        "pct": 25
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 37.5,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.29
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 3,
+      "possessions": 7,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "trueShooting": 37.5,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 261
+  },
+  {
+    "athletes": [
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3275,
+        "name": "Marko Ljubicic"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 120,
+    "idHash": "3271-3274-3275-3277-3282",
+    "netRating": -70,
+    "offenseRating": 50,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 6,
+        "made": 3,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 16.7,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 6,
+      "possessions": 5,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 46.6,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 5,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 3,
+          "made": 2,
+          "pct": 66.7
+        },
+        "made": 3,
+        "pct": 60,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 67.8,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 6,
+        "made": 2,
+        "pct": 33.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 33.3,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.38
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 3,
+      "points": 4,
+      "possessions": 8,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 3,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 33.3,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 3,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 2,
+          "pct": 100
+        },
+        "made": 2,
+        "pct": 66.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 230
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 150,
+    "idHash": "3270-3271-3274-3277-3282",
+    "netRating": -10,
+    "offenseRating": 140,
+    "opponentStats": {
+      "assists": 2,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 5,
+        "made": 4,
+        "pct": 80
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 90,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 9,
+      "possessions": 6,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "trueShooting": 90,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 4,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 3,
+          "made": 2,
+          "pct": 66.7
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 3,
+        "pct": 75,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 60.8,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 5,
+        "made": 2,
+        "pct": 40
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 40,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.4
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 1,
+      "points": 7,
+      "possessions": 5,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "trueShooting": 59.5,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 3,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 3,
+          "made": 1,
+          "pct": 33.3
+        },
+        "made": 1,
+        "pct": 33.3,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 217
+  },
+  {
+    "athletes": [
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3275,
+        "name": "Marko Ljubicic"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 111.1,
+    "idHash": "3273-3274-3275-3276-3282",
+    "netRating": 38.9,
+    "offenseRating": 150,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 4,
+      "fieldGoals": {
+        "attempted": 7,
+        "made": 4,
+        "pct": 57.1
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 71.4,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 20,
+        "turnoverRatio": 0.11
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 10,
+      "possessions": 9,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 4,
+        "made": 2,
+        "pct": 50
+      },
+      "trueShooting": 71.4,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 3,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 2,
+        "pct": 66.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 74.7,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 4,
+        "made": 1,
+        "pct": 25
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 37.5,
+        "freeThrowRate": 125,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0.25
+      },
+      "freeThrows": {
+        "attempted": 5,
+        "made": 3,
+        "pct": 60
+      },
+      "offensiveRebounds": 1,
+      "points": 6,
+      "possessions": 4,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "trueShooting": 48.4,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 208.9
+  },
+  {
+    "athletes": [
+      {
+        "id": 3272,
+        "name": "Wesley Robinson"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3275,
+        "name": "Marko Ljubicic"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 80,
+    "idHash": "3272-3273-3274-3275-3282",
+    "netRating": 20,
+    "offenseRating": 100,
+    "opponentStats": {
+      "assists": 2,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 2,
+        "pct": 66.7
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 66.7,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.2
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 4,
+      "possessions": 5,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 66.7,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 3,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 2,
+        "pct": 66.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 56.8,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 33.3,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 2,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 33.3,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 148
+  },
+  {
+    "athletes": [
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3272,
+        "name": "Wesley Robinson"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3275,
+        "name": "Marko Ljubicic"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 166.7,
+    "idHash": "3271-3272-3273-3275-3282",
+    "netRating": -66.7,
+    "offenseRating": 100,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 75,
+        "freeThrowRate": 100,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.33
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 0,
+      "points": 5,
+      "possessions": 3,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "trueShooting": 86.8,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 74.4,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 100,
+        "freeThrowRate": 400,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.4
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 3,
+        "pct": 75
+      },
+      "offensiveRebounds": 0,
+      "points": 5,
+      "possessions": 5,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 90.6,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 129
+  },
+  {
+    "athletes": [
+      {
+        "id": 3272,
+        "name": "Wesley Robinson"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3278,
+        "name": "Michael Lawlor"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 200,
+    "idHash": "3272-3273-3274-3278-3282",
+    "netRating": -75,
+    "offenseRating": 125,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 5,
+        "made": 3,
+        "pct": 60
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 60,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 6,
+      "possessions": 3,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 60,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 5,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 2,
+          "pct": 100
+        },
+        "made": 3,
+        "pct": 60,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 67.2,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 125,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.25
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 5,
+      "possessions": 4,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "trueShooting": 125,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 125
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 350,
+    "idHash": "3270-3271-3273-3274-3277",
+    "netRating": -150,
+    "offenseRating": 200,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 5,
+        "made": 1,
+        "pct": 20
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 30,
+        "freeThrowRate": 80,
+        "offensiveReboundPct": 80,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 4,
+        "pct": 100
+      },
+      "offensiveRebounds": 4,
+      "points": 7,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 4,
+        "made": 1,
+        "pct": 25
+      },
+      "trueShooting": 51.8,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 39,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 2,
+        "pct": 66.7
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 66.7,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 4,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 66.7,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 2,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 123
+  },
+  {
+    "athletes": [
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      },
+      {
+        "id": 3281,
+        "name": "Allen Myers"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 133.3,
+    "idHash": "3271-3276-3277-3281-3282",
+    "netRating": -33.3,
+    "offenseRating": 100,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 2,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 100,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 0,
+      "points": 4,
+      "possessions": 3,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 69.4,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 50,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 4,
+        "made": 1,
+        "pct": 25
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 25,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 2,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 25,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 3,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 33.3,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 120
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3279,
+        "name": "Amaan Sandhu"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 0,
+    "idHash": "3270-3273-3276-3279-3282",
+    "netRating": 66.7,
+    "offenseRating": 66.7,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 1,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 4,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0.33
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 0,
+      "possessions": 3,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 61.5,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 33.3,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 3,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 33.3,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 117
+  },
+  {
+    "athletes": [
+      {
+        "id": 3272,
+        "name": "Wesley Robinson"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 200,
+    "idHash": "3272-3273-3276-3277-3282",
+    "netRating": -100,
+    "offenseRating": 100,
+    "opponentStats": {
+      "assists": 2,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 5,
+        "made": 2,
+        "pct": 40
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 40,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 2,
+      "points": 4,
+      "possessions": 2,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 40,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 5,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 4,
+          "made": 1,
+          "pct": 25
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 2,
+        "pct": 40,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 72.4,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 2,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 125,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.4
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 5,
+      "possessions": 5,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "trueShooting": 125,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 116
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3275,
+        "name": "Marko Ljubicic"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 50,
+    "idHash": "3270-3271-3273-3274-3275",
+    "netRating": 150,
+    "offenseRating": 200,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.5
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 4,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 50,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 58.9,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 100,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 1
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 2,
+      "points": 2,
+      "possessions": 1,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 34.7,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 101.8
+  },
+  {
+    "athletes": [
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 200,
+    "idHash": "3271-3273-3274-3276-3277",
+    "netRating": 33.3,
+    "offenseRating": 233.3,
+    "opponentStats": {
+      "assists": 2,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 2,
+        "pct": 66.7
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 66.7,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 4,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 66.7,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 2,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 60,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 2,
+        "pct": 66.7
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 83.3,
+        "freeThrowRate": 66.7,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 1,
+      "points": 7,
+      "possessions": 3,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "trueShooting": 90.2,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 100
+  },
+  {
+    "athletes": [
+      {
+        "id": 3272,
+        "name": "Wesley Robinson"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 300,
+    "idHash": "3272-3274-3276-3277-3282",
+    "netRating": -300,
+    "offenseRating": 0,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 75,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 3,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "trueShooting": 75,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 52.7,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.67
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 0,
+      "possessions": 3,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 91
+  },
+  {
+    "athletes": [
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3279,
+        "name": "Amaan Sandhu"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 175,
+    "idHash": "3271-3273-3274-3276-3279",
+    "netRating": -175,
+    "offenseRating": 0,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 5,
+        "made": 3,
+        "pct": 60
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 60,
+        "freeThrowRate": 20,
+        "offensiveReboundPct": 66.7,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "offensiveRebounds": 2,
+      "points": 7,
+      "possessions": 4,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 64.3,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 4,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 4,
+          "made": 3,
+          "pct": 75
+        },
+        "made": 3,
+        "pct": 75,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 75.9,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 1,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 1
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 79
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 100,
+    "idHash": "3270-3273-3276-3277-3282",
+    "netRating": null,
+    "offenseRating": null,
+    "opponentStats": {
+      "assists": 2,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 125,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.2
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 5,
+      "possessions": 5,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "trueShooting": 125,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 78.9,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 76
+  },
+  {
+    "athletes": [
+      {
+        "id": 3275,
+        "name": "Marko Ljubicic"
+      },
+      {
+        "id": 3280,
+        "name": "John Berbano"
+      },
+      {
+        "id": 3281,
+        "name": "Allen Myers"
+      },
+      {
+        "id": 3284,
+        "name": "Jackson Delaney"
+      },
+      {
+        "id": 3285,
+        "name": "Daniel Hackett"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 200,
+    "idHash": "3275-3280-3281-3284-3285",
+    "netRating": -50,
+    "offenseRating": 150,
+    "opponentStats": {
+      "assists": 2,
+      "blocks": 1,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 2,
+        "pct": 66.7
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 100,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.33
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 6,
+      "possessions": 3,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 3,
+        "made": 2,
+        "pct": 66.7
+      },
+      "trueShooting": 100,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 80,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 33.3,
+        "freeThrowRate": 33.3,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.5
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "offensiveRebounds": 2,
+      "points": 3,
+      "possessions": 2,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 43.6,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "made": 1,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 75
+  },
+  {
+    "athletes": [
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3275,
+        "name": "Marko Ljubicic"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 200,
+    "idHash": "3271-3273-3275-3277-3282",
+    "netRating": -100,
+    "offenseRating": 100,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 100,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 1
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 1,
+      "points": 2,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 34.7,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 32.9,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "offensiveRebounds": 0,
+      "points": 1,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 56.8,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 73
+  },
+  {
+    "athletes": [
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3275,
+        "name": "Marko Ljubicic"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 100,
+    "idHash": "3273-3274-3275-3277-3282",
+    "netRating": 100,
+    "offenseRating": 200,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.5
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 2,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 50,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 80,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 100,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 4,
+      "possessions": 2,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 100,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 2,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 60
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      },
+      {
+        "id": 3280,
+        "name": "John Berbano"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 50,
+    "idHash": "3270-3276-3277-3280-3282",
+    "netRating": 50,
+    "offenseRating": 100,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 33.3,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 2,
+      "possessions": 4,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 33.3,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 3,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "made": 1,
+        "pct": 33.3,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 103.4,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 100,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "offensiveRebounds": 0,
+      "points": 1,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 17.4,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 58
+  },
+  {
+    "athletes": [
+      {
+        "id": 3275,
+        "name": "Marko Ljubicic"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3278,
+        "name": "Michael Lawlor"
+      },
+      {
+        "id": 3280,
+        "name": "John Berbano"
+      },
+      {
+        "id": 3281,
+        "name": "Allen Myers"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 0,
+    "idHash": "3275-3276-3278-3280-3281",
+    "netRating": 0,
+    "offenseRating": 0,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 1,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 88.4,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 1,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 54.3
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3275,
+        "name": "Marko Ljubicic"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 200,
+    "idHash": "3270-3274-3275-3276-3282",
+    "netRating": 0,
+    "offenseRating": 200,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 50,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 45.3,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 3,
+        "made": 2,
+        "pct": 66.7
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 75.8,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 53
+  },
+  {
+    "athletes": [
+      {
+        "id": 3275,
+        "name": "Marko Ljubicic"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      },
+      {
+        "id": 3280,
+        "name": "John Berbano"
+      },
+      {
+        "id": 3281,
+        "name": "Allen Myers"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 100,
+    "idHash": "3275-3276-3277-3280-3281",
+    "netRating": null,
+    "offenseRating": null,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 100,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 100,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 52.5,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 45.7
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3285,
+        "name": "Daniel Hackett"
+      },
+      {
+        "id": 10083,
+        "name": "Aryan Arora"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 100,
+    "idHash": "3270-3271-3273-3285-10083",
+    "netRating": null,
+    "offenseRating": null,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 1,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 100,
+        "freeThrowRate": 100,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 69.4,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 57.1,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 42
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3275,
+        "name": "Marko Ljubicic"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": 300,
+    "idHash": "3270-3273-3275-3276-3277",
+    "netRating": -300,
+    "offenseRating": 0,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 150,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 3,
+      "possessions": 1,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "trueShooting": 150,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 60.6,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 1
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": null,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 39.6
+  },
+  {
+    "athletes": [
+      {
+        "id": 3270,
+        "name": "Will Sydnor"
+      },
+      {
+        "id": 3271,
+        "name": "Masiah Gilyard"
+      },
+      {
+        "id": 3273,
+        "name": "Jaden Winston"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3277,
+        "name": "Alijah Curry"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": null,
+    "idHash": "3270-3271-3273-3276-3277",
+    "netRating": null,
+    "offenseRating": null,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "offensiveRebounds": 0,
+      "points": 1,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 56.8,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 0,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": null,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 18
+  },
+  {
+    "athletes": [
+      {
+        "id": 3272,
+        "name": "Wesley Robinson"
+      },
+      {
+        "id": 3274,
+        "name": "Shaquil Bender"
+      },
+      {
+        "id": 3275,
+        "name": "Marko Ljubicic"
+      },
+      {
+        "id": 3276,
+        "name": "Fraser Roxburgh"
+      },
+      {
+        "id": 3282,
+        "name": "Devin Dinkins"
+      }
+    ],
+    "conference": "MAAC",
+    "defenseRating": null,
+    "idHash": "3272-3274-3275-3276-3282",
+    "netRating": null,
+    "offenseRating": null,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 0,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 0,
+    "team": "Manhattan",
+    "teamId": 155,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": null,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 15.3
+  }
+]

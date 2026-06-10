@@ -1,0 +1,20 @@
+{
+  "split": "test_production_train_valid",
+  "rows": 797,
+  "target_mean": 0.48923508374834385,
+  "target_std": 2.720638212047572,
+  "pred_mean": 0.04728988089597345,
+  "pred_std": 1.2364622473886722,
+  "mae": 1.6683754644017317,
+  "rmse": 2.16615681936193,
+  "weighted_rmse_diagnostic_only": 2.2525169717285336,
+  "r2": 0.3652781410091639,
+  "corr": 0.658044992356027,
+  "spearman_corr": 0.5455765417921521,
+  "diagnostic_weight_mean": 0.6998091328355129,
+  "diagnostic_weight_min": 0.40239043824701193,
+  "diagnostic_weight_max": 0.8851014936805821,
+  "poss_mean": 888.6762860727729,
+  "poss_min": 202.0,
+  "poss_max": 2311.0
+}

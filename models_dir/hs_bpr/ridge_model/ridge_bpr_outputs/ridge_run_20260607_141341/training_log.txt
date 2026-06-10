@@ -1,0 +1,276 @@
+Starting Ridge BPR training
+Run directory: ridge_bpr_outputs/ridge_run_20260607_141341
+DB path: /Users/anirudhhaharsha/Desktop/sports_analytics_projects/Basketball/College Basketball Project/uiuc_proj/data_dir/hs_to_evan_match.db
+
+Raw rows loaded: 7,189
+Raw columns: ['hs_year', 'hs_position', 'hs_height', 'hs_height_in', 'hs_weight', 'hs_stars', 'hs_rating', 'hs_national_rank', 'hs_position_rank', 'hs_state_rank', 'hs_hometown_state', 'hs_school_fin', 'college_basic_bpr', 'college_basic_poss']
+
+Filtering:
+Rows before filter: 7,189
+Rows after target/poss/min_poss filter: 7,189
+MIN_POSSESSIONS: 150
+Rows before numeric coercion drop: 7,189
+Rows after numeric coercion drop: 7,189
+
+Sample weight summary:
+count    7189.000000
+mean        0.700727
+std         0.123997
+min         0.400000
+25%         0.616858
+50%         0.732143
+75%         0.802632
+max         0.892009
+
+Split sizes:
+Train rows: 5,537
+Valid rows: 855
+Test rows:  797
+
+Missingness report:
+            column  missing_rate
+         hs_rating      0.285297
+          hs_stars      0.285297
+     hs_state_rank      0.285297
+  hs_position_rank      0.285297
+  hs_national_rank      0.285297
+     hs_school_fin      0.040618
+         hs_weight      0.023091
+      hs_height_in      0.010294
+ hs_hometown_state      0.000556
+       hs_position      0.000000
+           hs_year      0.000000
+ college_basic_bpr      0.000000
+college_basic_poss      0.000000
+
+Training Ridge alpha sweep...
+
+Training alpha=0.01
+{
+  "alpha": 0.01,
+  "train_rmse": 1.876901727037373,
+  "train_weighted_rmse": 1.8884203243774045,
+  "train_mae": 1.472915367629225,
+  "train_r2": 0.42319458880051153,
+  "train_corr": 0.653306827893211,
+  "valid_rmse": 2.089903134000149,
+  "valid_weighted_rmse": 2.0983326833462437,
+  "valid_mae": 1.6544087067153477,
+  "valid_r2": 0.2143129584942881,
+  "valid_corr": 0.5258112163812241
+}
+
+Training alpha=0.03
+{
+  "alpha": 0.03,
+  "train_rmse": 1.8768575117545898,
+  "train_weighted_rmse": 1.8884410060053276,
+  "train_mae": 1.4732326006470002,
+  "train_r2": 0.4232217647720584,
+  "train_corr": 0.6533082708882474,
+  "valid_rmse": 2.0848907850942817,
+  "valid_weighted_rmse": 2.0934880364508173,
+  "valid_mae": 1.6513713955714975,
+  "valid_r2": 0.21807716648528253,
+  "valid_corr": 0.527865331281999
+}
+
+Training alpha=0.1
+{
+  "alpha": 0.1,
+  "train_rmse": 1.8768462037152205,
+  "train_weighted_rmse": 1.8886399735488235,
+  "train_mae": 1.4742505379370998,
+  "train_r2": 0.4232287149121754,
+  "train_corr": 0.6532580399732991,
+  "valid_rmse": 2.070116499569981,
+  "valid_weighted_rmse": 2.0792918902068003,
+  "valid_mae": 1.6420740965458265,
+  "valid_r2": 0.22911987359113895,
+  "valid_corr": 0.5340393228408945
+}
+
+Training alpha=0.3
+{
+  "alpha": 0.3,
+  "train_rmse": 1.8775135439010657,
+  "train_weighted_rmse": 1.889820030319229,
+  "train_mae": 1.4765896591026069,
+  "train_r2": 0.42281848301921576,
+  "train_corr": 0.6528510246549588,
+  "valid_rmse": 2.04240841626314,
+  "valid_weighted_rmse": 2.0530134583044255,
+  "valid_mae": 1.6236214894061582,
+  "valid_r2": 0.2496179120053651,
+  "valid_corr": 0.5461732853954265
+}
+
+Training alpha=1.0
+{
+  "alpha": 1.0,
+  "train_rmse": 1.882159871113693,
+  "train_weighted_rmse": 1.8958137434867708,
+  "train_mae": 1.4827416326511025,
+  "train_r2": 0.41995821868426,
+  "train_corr": 0.650618793836908,
+  "valid_rmse": 2.003221508747196,
+  "valid_weighted_rmse": 2.0167476824470123,
+  "valid_mae": 1.5948688033607161,
+  "valid_r2": 0.2781362637188449,
+  "valid_corr": 0.5652808089215499
+}
+
+Training alpha=3.0
+{
+  "alpha": 3.0,
+  "train_rmse": 1.897225222301292,
+  "train_weighted_rmse": 1.9132793646720954,
+  "train_mae": 1.496691156572978,
+  "train_r2": 0.4106354123221164,
+  "train_corr": 0.6437323136519362,
+  "valid_rmse": 1.9809731747454722,
+  "valid_weighted_rmse": 1.9976194575354582,
+  "valid_mae": 1.577804567980769,
+  "valid_r2": 0.29408166022733817,
+  "valid_corr": 0.5798125071002694
+}
+
+Training alpha=10.0
+{
+  "alpha": 10.0,
+  "train_rmse": 1.9357925309317536,
+  "train_weighted_rmse": 1.9556321873939622,
+  "train_mae": 1.5286648774530143,
+  "train_r2": 0.38643033790804915,
+  "train_corr": 0.6251791892124096,
+  "valid_rmse": 1.9906770395301046,
+  "valid_weighted_rmse": 2.0106466142741017,
+  "valid_mae": 1.591592712243145,
+  "valid_r2": 0.2871487910511088,
+  "valid_corr": 0.5804796516339525
+}
+
+Training alpha=30.0
+{
+  "alpha": 30.0,
+  "train_rmse": 1.9842541108562193,
+  "train_weighted_rmse": 2.0075380956543114,
+  "train_mae": 1.5657011632949083,
+  "train_r2": 0.35532499014042995,
+  "train_corr": 0.5996975683934029,
+  "valid_rmse": 2.0179538953129756,
+  "valid_weighted_rmse": 2.041090216800894,
+  "valid_mae": 1.6124552470889801,
+  "valid_r2": 0.26747954754401115,
+  "valid_corr": 0.5668262090645582
+}
+
+Training alpha=100.0
+{
+  "alpha": 100.0,
+  "train_rmse": 2.0313047162879485,
+  "train_weighted_rmse": 2.057347792599724,
+  "train_mae": 1.602330812731944,
+  "train_r2": 0.32438946683800685,
+  "train_corr": 0.573114297091856,
+  "valid_rmse": 2.0408026921801548,
+  "valid_weighted_rmse": 2.0674408896632723,
+  "valid_mae": 1.628325090548192,
+  "valid_r2": 0.25079733619584454,
+  "valid_corr": 0.5511614218192934
+}
+
+Training alpha=300.0
+{
+  "alpha": 300.0,
+  "train_rmse": 2.0637792599590714,
+  "train_weighted_rmse": 2.091441270536168,
+  "train_mae": 1.6280409302896088,
+  "train_r2": 0.30261476949038657,
+  "train_corr": 0.5540070296754368,
+  "valid_rmse": 2.0550843562958736,
+  "valid_weighted_rmse": 2.0845387422261115,
+  "valid_mae": 1.636575746597865,
+  "valid_r2": 0.24027471195026295,
+  "valid_corr": 0.5414624228555855
+}
+
+Training alpha=1000.0
+{
+  "alpha": 1000.0,
+  "train_rmse": 2.0940619247587655,
+  "train_weighted_rmse": 2.1235251898181122,
+  "train_mae": 1.652960045477272,
+  "train_r2": 0.2819985872667272,
+  "train_corr": 0.5364634692317148,
+  "valid_rmse": 2.0829589365442076,
+  "valid_weighted_rmse": 2.1137141160917117,
+  "valid_mae": 1.6570668572841445,
+  "valid_r2": 0.21952554609944985,
+  "valid_corr": 0.5301522825191366
+}
+
+Best alpha selected by validation weighted RMSE:
+best_alpha = 3.0
+
+Final metrics:
+split  rows  target_mean  target_std  pred_mean  pred_std      mae     rmse  weighted_rmse       r2     corr  sample_weight_mean  sample_weight_min  sample_weight_max  poss_mean  poss_min  poss_max
+train  5537     0.004634    2.471531   0.147560  1.540756 1.496691 1.897225       1.913279 0.410635 0.643732            0.702493            0.40000           0.892009 887.757269     200.0    2478.0
+valid   855    -0.237412    2.359150   0.246007  1.348415 1.577805 1.980973       1.997619 0.294082 0.579813            0.690142            0.40000           0.881047 835.540351     200.0    2222.0
+ test   797     0.489235    2.720638   0.255778  1.337037 1.698689 2.186861       2.266071 0.353086 0.612381            0.699809            0.40239           0.885101 888.676286     202.0    2311.0
+
+Top Ridge coefficients by absolute value:
+                                     feature  coefficient  abs_coefficient
+                     cat__hs_school_fin_Duke     2.992672         2.992672
+                 cat__hs_school_fin_Kentucky     2.655748         2.655748
+                  cat__hs_school_fin_Gonzaga     1.942811         1.942811
+            cat__hs_school_fin_Chicago State    -1.918707         1.918707
+         cat__hs_school_fin_Central Arkansas    -1.729616         1.729616
+          cat__hs_school_fin_San Diego State     1.638908         1.638908
+             cat__hs_school_fin_Murray State     1.615198         1.615198
+                 cat__hs_school_fin_Michigan     1.555653         1.555653
+            cat__hs_school_fin_West Virginia     1.510963         1.510963
+                  cat__hs_school_fin_Arizona     1.498908         1.498908
+                     cat__hs_school_fin_Iona     1.448430         1.448430
+           cat__hs_school_fin_Incarnate Word    -1.438754         1.438754
+        cat__hs_school_fin_Houston Christian    -1.401087         1.401087
+                   cat__hs_school_fin_Kansas     1.345692         1.345692
+             cat__hs_school_fin_Coppin State    -1.318259         1.318259
+               cat__hs_school_fin_Louisville     1.303035         1.303035
+            cat__hs_school_fin_Southern Utah    -1.302075         1.302075
+                    cat__hs_school_fin_Texas     1.283914         1.283914
+                     cat__hs_school_fin_UMBC    -1.279821         1.279821
+                   cat__hs_school_fin_Oregon     1.265612         1.265612
+                 cat__hs_school_fin_Richmond     1.250402         1.250402
+                 cat__hs_school_fin_Davidson     1.243719         1.243719
+          cat__hs_school_fin_St. Bonaventure     1.242690         1.242690
+            cat__hs_school_fin_Florida State     1.222554         1.222554
+                 cat__hs_school_fin_Canisius     1.219298         1.219298
+                     cat__hs_school_fin_UCLA     1.211935         1.211935
+                  cat__hs_school_fin_Florida     1.192241         1.192241
+               cat__hs_school_fin_Ohio State     1.185653         1.185653
+                cat__hs_school_fin_Wisconsin     1.175088         1.175088
+                  cat__hs_school_fin_IU Indy    -1.167038         1.167038
+               cat__hs_school_fin_Binghamton    -1.163382         1.163382
+                 cat__hs_school_fin_Syracuse     1.123593         1.123593
+              cat__hs_school_fin_Boise State     1.120007         1.120007
+cat__hs_school_fin_Central Connecticut State    -1.113091         1.113091
+     cat__hs_school_fin_East Tennessee State     1.108517         1.108517
+                  cat__hs_school_fin_Houston     1.085550         1.085550
+               cat__hs_school_fin_Texas Tech     1.072021         1.072021
+            cat__hs_school_fin_Wichita State     1.071478         1.071478
+                 cat__hs_school_fin_Lipscomb    -1.067579         1.067579
+       cat__hs_school_fin_Saint Francis (PA)    -1.067316         1.067316
+                   cat__hs_school_fin_Bryant    -1.063493         1.063493
+                cat__hs_school_fin_Manhattan    -1.056399         1.056399
+         cat__hs_school_fin_Prairie View A&M    -1.054803         1.054803
+           cat__hs_school_fin_Kennesaw State    -1.052256         1.052256
+                     cat__hs_school_fin_Iowa     1.035351         1.035351
+             cat__hs_school_fin_Alcorn State    -1.034884         1.034884
+              cat__hs_school_fin_Florida A&M    -1.030520         1.030520
+                   cat__hs_school_fin_Drexel     1.028714         1.028714
+             cat__hs_school_fin_North Dakota    -1.027292         1.027292
+           cat__hs_school_fin_San Jose State    -1.016450         1.016450
+
+Done.
+Outputs saved to: ridge_bpr_outputs/ridge_run_20260607_141341

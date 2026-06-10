@@ -33,3 +33,12 @@ frontend_site/npm-debug.log*
 frontend_site/yarn-debug.log*
 frontend_site/yarn-error.log*
 frontend_site/pnpm-debug.log*
+
+# Autogluon
+*autogluon*
+
+# Large generated model explanation outputs
+models_dir/kmeans_players/kmeans_cluster_outputs/kmeans_player_assignment_explanations_*.csv
+
+# Large generated model training outputs
+models_dir/same_school_bpr/catboost_transfer_bpr_refactored_outputs/

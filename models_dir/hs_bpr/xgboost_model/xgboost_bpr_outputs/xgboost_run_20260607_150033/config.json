@@ -1,0 +1,113 @@
+{
+  "db_path": "/Users/anirudhhaharsha/Desktop/sports_analytics_projects/Basketball/College Basketball Project/uiuc_proj/data_dir/hs_to_evan_match.db",
+  "table_name": "hs_to_evan_global_matched",
+  "output_dir": "xgboost_bpr_outputs",
+  "run_dir": "xgboost_bpr_outputs/xgboost_run_20260607_150033",
+  "target_col": "college_basic_bpr",
+  "sample_weight_col": "college_basic_poss",
+  "min_possessions": 150,
+  "sample_weight_k": 300.0,
+  "features": [
+    "hs_year",
+    "hs_position",
+    "hs_weight",
+    "hs_stars",
+    "hs_rating",
+    "hs_national_rank",
+    "hs_position_rank",
+    "hs_state_rank",
+    "hs_height_in",
+    "hs_hometown_state",
+    "hs_school_fin"
+  ],
+  "numeric_features": [
+    "hs_year",
+    "hs_weight",
+    "hs_stars",
+    "hs_rating",
+    "hs_national_rank",
+    "hs_position_rank",
+    "hs_state_rank",
+    "hs_height_in"
+  ],
+  "categorical_features": [
+    "hs_position",
+    "hs_hometown_state",
+    "hs_school_fin"
+  ],
+  "n_optuna_trials": 75,
+  "optuna_timeout_seconds": null,
+  "optimize_weighted_rmse": true,
+  "random_state": 42,
+  "n_jobs": 1,
+  "best_trial": {
+    "best_trial_number": 65,
+    "best_value": 2.0104558384030677,
+    "best_params": {
+      "num_boost_round": 1222,
+      "early_stopping_rounds": 158,
+      "eta": 0.1083245733813206,
+      "max_depth": 2,
+      "min_child_weight": 7.494285552508223,
+      "subsample": 0.8258226521741833,
+      "colsample_bytree": 0.618308224503431,
+      "lambda": 1.3701904301195018,
+      "alpha": 0.04232991075128996,
+      "gamma": 6.601928270557524,
+      "max_bin": 128
+    },
+    "best_user_attrs": {
+      "best_iteration": 1010,
+      "best_score_xgb": 2.0104558361941183,
+      "valid_rmse": 1.9834364240270197,
+      "valid_weighted_rmse": 2.0104558384030677,
+      "valid_mae": 1.568764513468824,
+      "valid_r2": 0.29232501459746785,
+      "valid_corr": 0.5732968720491892,
+      "valid_spearman_corr": 0.5088689900937449
+    }
+  },
+  "final_params": {
+    "objective": "reg:squarederror",
+    "eval_metric": "rmse",
+    "tree_method": "hist",
+    "seed": 42,
+    "nthread": 1,
+    "verbosity": 1,
+    "eta": 0.1083245733813206,
+    "max_depth": 2,
+    "min_child_weight": 7.494285552508223,
+    "subsample": 0.8258226521741833,
+    "colsample_bytree": 0.618308224503431,
+    "lambda": 1.3701904301195018,
+    "alpha": 0.04232991075128996,
+    "gamma": 6.601928270557524,
+    "max_bin": 128
+  },
+  "final_num_boost_round": 1222,
+  "final_early_stopping_rounds": 158,
+  "production_params": {
+    "objective": "reg:squarederror",
+    "eval_metric": "rmse",
+    "tree_method": "hist",
+    "seed": 42,
+    "nthread": 1,
+    "verbosity": 1,
+    "eta": 0.1083245733813206,
+    "max_depth": 2,
+    "min_child_weight": 7.494285552508223,
+    "subsample": 0.8258226521741833,
+    "colsample_bytree": 0.618308224503431,
+    "lambda": 1.3701904301195018,
+    "alpha": 0.04232991075128996,
+    "gamma": 6.601928270557524,
+    "max_bin": 128
+  },
+  "production_num_boost_round": 1011,
+  "split": {
+    "train": "2009 <= hs_year < 2022",
+    "valid": "2022 <= hs_year <= 2023",
+    "test": "2024 <= hs_year <= 2025"
+  },
+  "query": "\nSELECT\n    hs_year,\n    hs_position,\n    hs_height,\n    hs_height_in,\n    hs_weight,\n    hs_stars,\n    hs_rating,\n    hs_national_rank,\n    hs_position_rank,\n    hs_state_rank,\n    hs_hometown_state,\n    hs_school_fin,\n\n    college_basic_bpr,\n    college_basic_poss\nFROM \"hs_to_evan_global_matched\"\nWHERE college_basic_bpr IS NOT NULL\n  AND college_basic_poss IS NOT NULL\n;\n"
+}

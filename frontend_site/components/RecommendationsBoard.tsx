@@ -49,10 +49,7 @@ export function RecommendationsBoard({ defaultTeam = "UConn" }: { defaultTeam?: 
               </button>
             ))}
           </div>
-          <div className="text-sm text-slate-700">
-            <span className="font-semibold text-ink">{selectedTeam.style}</span>
-            <span className="ml-2 text-slate-500">Needs: {selectedTeam.needs.join(", ")}</span>
-          </div>
+          <div className="text-sm font-semibold text-ink">{selectedTeam.team_name}</div>
         </div>
       </div>
 

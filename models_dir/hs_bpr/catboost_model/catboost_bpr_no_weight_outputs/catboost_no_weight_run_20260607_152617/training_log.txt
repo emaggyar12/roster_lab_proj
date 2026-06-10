@@ -1,0 +1,179 @@
+Starting CatBoost BPR training with Optuna
+NO SAMPLE WEIGHTS USED IN TRAINING OR OPTUNA SELECTION
+Run directory: catboost_bpr_no_weight_outputs/catboost_no_weight_run_20260607_152617
+DB path: /Users/anirudhhaharsha/Desktop/sports_analytics_projects/Basketball/College Basketball Project/uiuc_proj/data_dir/hs_to_evan_match.db
+Table name: hs_to_evan_global_matched
+
+Raw rows loaded: 7,189
+Raw columns: ['hs_year', 'hs_position', 'hs_height', 'hs_height_in', 'hs_weight', 'hs_stars', 'hs_rating', 'hs_national_rank', 'hs_position_rank', 'hs_state_rank', 'hs_hometown_state', 'college_basic_bpr', 'college_basic_poss']
+
+Height validation:
+Rows with non-null hs_height: 7189
+Missing hs_height_in before backfill: 100
+Filled hs_height_in from hs_height: 26
+Missing hs_height_in after backfill: 74
+Rows with hs_height present but hs_height_in still missing: 74
+
+Examples where hs_height could not be parsed:
+hs_height  hs_height_in
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+        -          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+
+Filtering:
+Rows before filter: 7,189
+Rows after target/poss/min_poss/hs_year filter: 7,189
+MIN_POSSESSIONS: 150
+
+Split sizes:
+Train rows: 5,537
+Valid rows: 855
+Test rows:  797
+
+Missingness report:
+            column  missing_rate
+          hs_stars      0.285297
+  hs_position_rank      0.285297
+  hs_national_rank      0.285297
+         hs_rating      0.285297
+     hs_state_rank      0.285297
+         hs_weight      0.023091
+      hs_height_in      0.010294
+       hs_position      0.000000
+           hs_year      0.000000
+ hs_hometown_state      0.000000
+ college_basic_bpr      0.000000
+college_basic_poss      0.000000
+
+Starting Optuna search...
+N_OPTUNA_TRIALS: 75
+OPTUNA_TIMEOUT_SECONDS: None
+Optimization target: valid_rmse
+Sample weights: DISABLED
+
+Optuna search complete.
+Best trial number: 69
+Best objective value: 1.9643795856512571
+Best params:
+{
+  "iterations": 911,
+  "learning_rate": 0.11989979441894422,
+  "depth": 3,
+  "l2_leaf_reg": 6.570426859177464,
+  "random_strength": 8.76378316574402,
+  "bagging_temperature": 9.52081439069469,
+  "border_count": 128,
+  "min_data_in_leaf": 6,
+  "od_wait": 115
+}
+
+Training final CatBoost model with best Optuna params...
+Sample weights: DISABLED
+{
+  "loss_function": "RMSE",
+  "eval_metric": "RMSE",
+  "random_seed": 42,
+  "allow_writing_files": false,
+  "verbose": 100,
+  "use_best_model": true,
+  "od_type": "Iter",
+  "iterations": 911,
+  "learning_rate": 0.11989979441894422,
+  "depth": 3,
+  "l2_leaf_reg": 6.570426859177464,
+  "random_strength": 8.76378316574402,
+  "bagging_temperature": 9.52081439069469,
+  "border_count": 128,
+  "min_data_in_leaf": 6,
+  "od_wait": 115
+}
+
+Final model best iteration: 46
+
+Final metrics:
+split  rows  target_mean  target_std  pred_mean  pred_std      mae     rmse  weighted_rmse_diagnostic_only       r2     corr  spearman_corr  diagnostic_weight_mean  diagnostic_weight_min  diagnostic_weight_max  poss_mean  poss_min  poss_max
+train  5537     0.004634    2.471531   0.005413  1.349518 1.585122 2.006817                       2.043695 0.340581 0.584882       0.499023                0.702493                0.40000               0.892009 887.757269     200.0    2478.0
+valid   855    -0.237412    2.359150   0.031217  1.179512 1.546527 1.964380                       1.997077 0.305858 0.568803       0.478682                0.690142                0.40000               0.881047 835.540351     200.0    2222.0
+ test   797     0.489235    2.720638   0.129666  1.215777 1.648736 2.150466                       2.232277 0.374440 0.661827       0.550685                0.699809                0.40239               0.885101 888.676286     202.0    2311.0
+
+Feature importance:
+          feature  importance
+        hs_rating   57.026385
+         hs_stars   26.677806
+ hs_national_rank   12.406688
+          hs_year    1.384408
+      hs_position    0.747276
+     hs_height_in    0.533867
+hs_hometown_state    0.479627
+        hs_weight    0.360168
+    hs_state_rank    0.245234
+ hs_position_rank    0.138540
+
+Saved CatBoost model: catboost_bpr_no_weight_outputs/catboost_no_weight_run_20260607_152617/catboost_bpr_no_weight_model.cbm
+Saved pickle model: catboost_bpr_no_weight_outputs/catboost_no_weight_run_20260607_152617/catboost_bpr_no_weight_model.pkl
+
+Training production CatBoost model on train + valid...
+Sample weights: DISABLED
+{
+  "loss_function": "RMSE",
+  "eval_metric": "RMSE",
+  "random_seed": 42,
+  "allow_writing_files": false,
+  "verbose": 100,
+  "use_best_model": false,
+  "od_type": "Iter",
+  "iterations": 46,
+  "learning_rate": 0.11989979441894422,
+  "depth": 3,
+  "l2_leaf_reg": 6.570426859177464,
+  "random_strength": 8.76378316574402,
+  "bagging_temperature": 9.52081439069469,
+  "border_count": 128,
+  "min_data_in_leaf": 6,
+  "od_wait": 115
+}
+
+Saved production CatBoost model: catboost_bpr_no_weight_outputs/catboost_no_weight_run_20260607_152617/catboost_bpr_no_weight_production_train_valid_model.cbm
+Saved production pickle model: catboost_bpr_no_weight_outputs/catboost_no_weight_run_20260607_152617/catboost_bpr_no_weight_production_train_valid_model.pkl
+
+Production model test metrics:
+{
+  "split": "test_production_train_valid",
+  "rows": 797,
+  "target_mean": 0.48923508374834385,
+  "target_std": 2.720638212047572,
+  "pred_mean": 0.04728988089597345,
+  "pred_std": 1.2364622473886722,
+  "mae": 1.6683754644017317,
+  "rmse": 2.16615681936193,
+  "weighted_rmse_diagnostic_only": 2.2525169717285336,
+  "r2": 0.3652781410091639,
+  "corr": 0.658044992356027,
+  "spearman_corr": 0.5455765417921521,
+  "diagnostic_weight_mean": 0.6998091328355129,
+  "diagnostic_weight_min": 0.40239043824701193,
+  "diagnostic_weight_max": 0.8851014936805821,
+  "poss_mean": 888.6762860727729,
+  "poss_min": 202.0,
+  "poss_max": 2311.0
+}
+
+Done.
+Outputs saved to: catboost_bpr_no_weight_outputs/catboost_no_weight_run_20260607_152617

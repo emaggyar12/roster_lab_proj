@@ -1,0 +1,24 @@
+{
+  "best_trial_number": 31,
+  "best_value": 1.5039732513460509,
+  "best_params": {
+    "iterations": 2589,
+    "learning_rate": 0.053093583250859416,
+    "depth": 5,
+    "l2_leaf_reg": 6.87218988253475,
+    "random_strength": 6.410142241482346,
+    "bagging_temperature": 2.0960319771412323,
+    "border_count": 254,
+    "min_data_in_leaf": 3,
+    "od_wait": 228
+  },
+  "best_user_attrs": {
+    "best_iteration": 241,
+    "valid_rmse": 1.5039732513460509,
+    "valid_mae": 1.203119843899177,
+    "valid_r2": 0.6296829092086105,
+    "valid_corr": 0.7936149960902138,
+    "valid_spearman_corr": 0.78701692665817,
+    "valid_weighted_rmse_diagnostic_only": 1.5050915333919945
+  }
+}

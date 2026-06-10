@@ -1,0 +1,632 @@
+player_key,full_name,first_name,last_name,year,hs_year,position,hs_position,hs_school_fin,predicted_college_basic_bpr,bpr_model_type,bpr_used_school_feature,hs_height,hs_height_in,hs_weight,hs_stars,hs_rating,hs_national_rank,hs_position_rank,hs_state_rank,hs_hometown_state
+46103857,Dink Pate,Dink,Pate,2026,2026,SG,SG,Providence,1.185934163697935,destination_adjusted_with_school,True,6-8,80,210.0,4.0,95.0,109.0,15.0,6.0,NY
+46136634,Tajh Ariza,Tajh,Ariza,2026,2026,SF,SF,Oregon,3.2816453848808256,destination_adjusted_with_school,True,6-9,81,200.0,5.0,98.85141457692532,33.0,11.0,2.0,MO
+46140678,Taylen Kinney,Taylen,Kinney,2026,2026,PG,PG,Kansas,3.850958450507526,destination_adjusted_with_school,True,6-1,73,185.0,5.0,99.26851217579349,21.0,3.0,1.0,GA
+46141110,Davion Adkins,Davion,Adkins,2026,2026,C,C,Kansas,2.3945646152210824,destination_adjusted_with_school,True,6-9,81,205.0,5.0,97.7496608507609,63.0,8.0,10.0,TX
+46142818,Austin Brown,Austin,Brown,2026,2026,PF,PF,Maryland,0.4264061310624051,destination_adjusted_with_school,True,6-8,80,210.0,4.0,89.97054886211514,226.0,33.0,14.0,TX
+46142864,Prince-Alexander Moody,Prince-Alexander,Moody,2026,2026,CG,CG,Indiana,1.3232694544036334,destination_adjusted_with_school,True,6-4,76,180.0,4.0,94.85839903650276,111.0,12.0,4.0,MD
+46143042,Brayden Fogle,Brayden,Fogle,2026,2026,SF,SF,Georgia,-0.6144611035818287,destination_adjusted_with_school,True,6-4,76,250.0,,,,,,OH
+46143225,Joe Philon,Joe,Philon,2026,2026,PF,PF,UCLA,2.2695197761580874,destination_adjusted_with_school,True,6-8,80,180.0,5.0,97.89678222365494,57.0,10.0,9.0,FL
+46143259,EJ Hazelett,EJ,Hazelett,2026,2026,SF,SF,Indiana State,-0.34377124748608695,destination_adjusted_with_school,True,6-6,78,180.0,3.0,86.66666666666667,284.0,74.0,6.0,IL
+46143338,Navon Shabazz,Navon,Shabazz,2026,2026,CG,CG,Murray State,-0.6206683147262243,destination_adjusted_with_school,True,6-3,75,170.0,3.0,86.0,292.0,32.0,7.0,IA
+46143344,Junior County,Junior,County,2026,2026,SG,SG,UConn,2.986609807259954,destination_adjusted_with_school,True,6-4,76,180.0,5.0,98.5235926985534,39.0,7.0,2.0,UT
+46143602,Luke Ertel,Luke,Ertel,2026,2026,PG,PG,Purdue,2.952333727154818,destination_adjusted_with_school,True,6-1,73,170.0,5.0,98.4344512945875,45.0,4.0,1.0,IN
+46143658,Andrew Jensen,Andrew,Jensen,2026,2026,PF,PF,DePaul,-0.8000709432337894,destination_adjusted_with_school,True,6-9,81,205.0,,,,,,WI
+46144802,Nate Earl,Nate,Earl,2026,2026,CG,CG,__MISSING__,-1.0661045311854933,neutral_no_school,False,6-0,72,165.0,3.0,80.0,365.0,43.0,43.0,FL
+46145462,Willie Piggott,Willie,Piggott,2026,2026,CG,CG,__MISSING__,-1.0535194814957578,neutral_no_school,False,6-5,77,,,,,,,FL
+46147433,Wisdom Fode,Wisdom,Fode,2026,2026,CG,CG,__MISSING__,-0.8527318017217465,neutral_no_school,False,6-2,74,190.0,,,,,,IA
+46148971,Darius Bivins,Darius,Bivins,2026,2026,PG,PG,Saint Mary's,2.0994559216651636,destination_adjusted_with_school,True,5-11,71,160.0,5.0,97.68715889197817,66.0,6.0,4.0,VA
+46149894,Noah George,Noah,George,2026,2026,CG,CG,Northern Arizona,-1.6232505417713947,destination_adjusted_with_school,True,6-4,76,170.0,,,,,,AZ
+46150065,Cameron Elwer,Cameron,Elwer,2026,2026,PG,PG,Furman,-1.1046661587556483,destination_adjusted_with_school,True,6-0,72,170.0,3.0,83.0,332.0,54.0,11.0,OH
+46151278,James Turner,James,Turner,2026,2026,PF,PF,__MISSING__,-0.9040443078509925,neutral_no_school,False,6-7,79,195.0,,,,,,KY
+46152062,Darius McGlashen,Darius,McGlashen,2026,2026,PG,PG,__MISSING__,-0.9485227373092474,neutral_no_school,False,6-3,75,,,,,,,NC
+46152229,Colin Rice,Colin,Rice,2026,2026,SF,SF,Nebraska,1.647665976408401,destination_adjusted_with_school,True,6-7,79,180.0,5.0,97.08730126750032,85.0,31.0,2.0,IA
+46155427,Josh Kori,Josh,Kori,2026,2026,SG,SG,Kansas City,-1.2433724607612417,destination_adjusted_with_school,True,6-4,76,180.0,3.0,81.0,355.0,63.0,11.0,MO
+46158066,Javonte Floyd,Javonte,Floyd,2026,2026,C,C,UCLA,0.7855413173413756,destination_adjusted_with_school,True,6-9,81,220.0,4.0,92.04819277108433,160.0,32.0,8.0,GA
+46158098,Jason Singleton,Jason,Singleton,2026,2026,CG,CG,Harvard,0.3756963942057058,destination_adjusted_with_school,True,6-4,76,175.0,4.0,91.30388219544847,173.0,21.0,8.0,OH
+46158792,Jyi Dawkins,Jyi,Dawkins,2026,2026,SG,SG,Wofford,-0.44490089393252874,destination_adjusted_with_school,True,6-3,75,175.0,3.0,85.0,304.0,54.0,15.0,NC
+46158894,Kingston Whitty,Kingston,Whitty,2026,2026,PG,PG,NC State,0.8996562877180747,destination_adjusted_with_school,True,6-2,74,165.0,4.0,90.29183400267738,210.0,27.0,9.0,NC
+46160222,Xavier Blake,Xavier,Blake,2026,2026,SG,SG,Hofstra,-0.058562456122221565,destination_adjusted_with_school,True,6-4,76,170.0,4.0,90.81793842034806,195.0,29.0,2.0,PA
+46160450,Rider Portela,Rider,Portela,2026,2026,SF,SF,Colorado,0.8404613090605798,destination_adjusted_with_school,True,6-6,78,175.0,4.0,95.2558729902889,105.0,39.0,10.0,AZ
+46160776,Josue Bwabwa,Josue,Bwabwa,2026,2026,C,C,__MISSING__,-1.0770347097952142,neutral_no_school,False,6-9,81,,,,,,,FL
+46161790,Jacob Miller,Jacob,Miller,2026,2026,SF,SF,__MISSING__,-0.8674597162488664,neutral_no_school,False,6-7,79,240.0,,,,,,MO
+46161814,Zion Ibekwe,Zion,Ibekwe,2026,2026,SF,SF,Hampton,-1.4561647619433118,destination_adjusted_with_school,True,6-5,77,185.0,,,,,,TX
+46163079,Drew Haffner,Drew,Haffner,2026,2026,SG,SG,Abilene Christian,-1.530534844476517,destination_adjusted_with_school,True,6-4,76,170.0,,,,,,IN
+46163228,Brady Macadams,Brady,Macadams,2026,2026,SG,SG,Marist,-1.1442175994922579,destination_adjusted_with_school,True,6-5,77,205.0,,,,,,PA
+46163785,Jaden Shoultz,Jaden,Shoultz,2026,2026,CG,CG,Richmond,-0.6948962391349993,destination_adjusted_with_school,True,6-4,76,175.0,,,,,,MD
+46167036,Donovan Waleskowski,Donovan,Waleskowski,2026,2026,PG,PG,South Florida,-0.855150998618852,destination_adjusted_with_school,True,6-5,77,205.0,,,,,,OH
+46134994,Latrell Allmond,Latrell,Allmond,2026,2026,PF,PF,Oklahoma State,3.217226710123789,destination_adjusted_with_school,True,6-8,80,225.0,5.0,98.80686626103073,34.0,7.0,2.0,VA
+46135648,RJ Livingston,RJ,Livingston,2026,2026,PG,PG,Texas State,0.07983760751449101,destination_adjusted_with_school,True,6-2,74,160.0,4.0,92.06425702811244,120.0,15.0,1.0,FL
+46136808,Chris Birden,Chris,Birden,2026,2026,PF,PF,Miami,0.09944194098758083,destination_adjusted_with_school,True,6-8,80,190.0,,,,,,CT
+46141065,Aidan Chronister,Aidan,Chronister,2026,2026,SF,SF,Missouri,0.684585700899111,destination_adjusted_with_school,True,6-7,79,180.0,4.0,93.89449884263922,139.0,46.0,3.0,AR
+46142156,Gabe Weis,Gabe,Weis,2026,2026,SF,SF,Western Kentucky,0.1693655079142982,destination_adjusted_with_school,True,6-6,78,170.0,4.0,89.96251673360108,228.0,65.0,7.0,IN
+46142484,Kayden Allen,Kayden,Allen,2026,2026,SF,SF,Georgia Tech,1.8426621525967446,destination_adjusted_with_school,True,6-5,77,205.0,5.0,97.47538649581604,73.0,28.0,5.0,FL
+46142863,Anthony Brown,Anthony,Brown,2026,2026,PG,PG,Vanderbilt,1.9537517538068736,destination_adjusted_with_school,True,6-1,73,160.0,5.0,97.33484663290845,79.0,9.0,1.0,DC
+46142899,LaTrevion Fenderson,LaTrevion,Fenderson,2026,2026,SF,SF,Wisconsin,0.9288091238325222,destination_adjusted_with_school,True,6-5,77,205.0,4.0,90.22289156626506,213.0,61.0,3.0,WI
+46142915,Baba Oladotun,Baba,Oladotun,2026,2026,SF,SF,Maryland,4.151590226564105,destination_adjusted_with_school,True,6-10,82,195.0,5.0,99.67217812162808,9.0,4.0,1.0,MD
+46143041,Steven Reynolds,Steven,Reynolds,2026,2026,SG,SG,California Baptist,-0.013534180156585493,destination_adjusted_with_school,True,6-5,77,170.0,4.0,91.17001338688085,177.0,26.0,10.0,TX
+46143722,Miles Sadler,Miles,Sadler,2026,2026,PG,PG,West Virginia,3.998416223910488,destination_adjusted_with_school,True,5-10,70,165.0,5.0,99.37775628713291,18.0,2.0,2.0,AZ
+46143761,Justin Curry,Justin,Curry,2026,2026,SG,SG,Valparaiso,-0.33470099304361567,destination_adjusted_with_school,True,6-3,75,170.0,3.0,83.0,332.0,58.0,12.0,IN
+46143774,MJ Madison,MJ,Madison,2026,2026,PF,PF,McNeese,-1.0041694651129403,destination_adjusted_with_school,True,6-9,81,215.0,4.0,89.7429718875502,239.0,35.0,35.0,FL
+46144104,Asher Elson,Asher,Elson,2026,2026,PF,PF,Xavier,0.7431469326912098,destination_adjusted_with_school,True,6-10,82,180.0,4.0,93.93399685699319,136.0,21.0,6.0,GA
+46148067,Bryce Dixon,Bryce,Dixon,2026,2026,SF,SF,Louisiana Tech,-0.751580412990027,destination_adjusted_with_school,True,6-5,77,175.0,3.0,85.0,304.0,76.0,25.0,TX
+46148196,Tarris Bouie,Tarris,Bouie,2026,2026,SF,SF,Alabama,2.512346067241461,destination_adjusted_with_school,True,6-6,78,170.0,5.0,98.27389826865992,48.0,17.0,2.0,OH
+46150090,Styles Clemmons,Styles,Clemmons,2026,2026,PG,PG,Utah,0.4566508599734271,destination_adjusted_with_school,True,6-2,74,175.0,4.0,89.39357429718875,251.0,33.0,15.0,GA
+46150727,Adonis Ratliff,Adonis,Ratliff,2026,2026,PF,PF,USC,3.3525379384927008,destination_adjusted_with_school,True,6-11,83,215.0,5.0,99.28409289331238,19.0,4.0,2.0,NY
+46150869,Eric Hillsman,Eric,Hillsman,2026,2026,SF,SF,__MISSING__,0.37090019829740345,neutral_no_school,False,6-6,78,180.0,4.0,90.190093708166,215.0,63.0,4.0,NJ
+46151120,Bryce Mella,Bryce,Mella,2026,2026,SG,SG,__MISSING__,-0.8305903180417735,neutral_no_school,False,6-4,76,180.0,,,,,,UT
+46152802,Archie McFadden,Archie,McFadden,2026,2026,PG,PG,__MISSING__,-0.7159420916490618,neutral_no_school,False,6-2,74,175.0,3.0,83.5,331.0,53.0,41.0,FL
+46153578,Zavier Zens,Zavier,Zens,2026,2026,PF,PF,Illinois,1.3621212210469757,destination_adjusted_with_school,True,6-7,79,215.0,4.0,95.26923748505729,104.0,16.0,1.0,WI
+46154152,Jordan Charles,Jordan,Charles,2026,2026,PG,PG,UC Santa Barbara,-0.5686605296626569,destination_adjusted_with_school,True,6-0,72,165.0,3.0,86.0,292.0,44.0,18.0,AZ
+46155762,Caden Symons,Caden,Symons,2026,2026,SG,SG,Evansville,-1.0621978227538724,destination_adjusted_with_school,True,6-5,77,190.0,3.0,83.0,332.0,58.0,1.0,ID
+46156261,Jamese Jordan,Jamese,Jordan,2026,2026,C,C,__MISSING__,-0.9249367603389783,neutral_no_school,False,6-10,82,240.0,,,,,,VA
+46156262,Anthony Granger,Anthony,Granger,2026,2026,PF,PF,Fresno State,-0.671940532038877,destination_adjusted_with_school,True,6-8,80,,,,,,,AZ
+46158070,Dreylan Creasy,Dreylan,Creasy,2026,2026,SF,SF,East Carolina,0.1955431571198254,destination_adjusted_with_school,True,6-7,79,185.0,4.0,93.97590361445783,134.0,45.0,7.0,VA
+46158361,Michael Nee,Michael,Nee,2026,2026,SG,SG,South Dakota,-0.8324666786248354,destination_adjusted_with_school,True,6-1,73,170.0,3.0,86.5,286.0,52.0,7.0,IL
+46158377,Noah Lewis,Noah,Lewis,2026,2026,PF,PF,__MISSING__,-0.883597294796674,neutral_no_school,False,6-6,78,205.0,,,,,,WV
+46158408,LJ Rush,LJ,Rush,2026,2026,PG,PG,__MISSING__,-0.8147025889758532,neutral_no_school,False,5-10,70,168.0,,,,,,NC
+46158901,Khalib Norcome,Khalib,Norcome,2026,2026,SG,SG,__MISSING__,-0.867675464076347,neutral_no_school,False,6-5,77,180.0,,,,,,MD
+46159523,Cash Chism,Cash,Chism,2026,2026,CG,CG,Vermont,-0.8985402123981918,destination_adjusted_with_school,True,6-2,74,170.0,,,,,,TX
+46160429,Ralph Scott,Ralph,Scott,2026,2026,SF,SF,Tennessee,1.9830071867244379,destination_adjusted_with_school,True,6-8,80,190.0,5.0,97.54455950893878,70.0,26.0,12.0,FL
+46160574,Devin Wright,Devin,Wright,2026,2026,CG,CG,__MISSING__,-0.8709698289441385,neutral_no_school,False,6-1,73,190.0,,,,,,CA
+46161313,Zak Smrekar,Zak,Smrekar,2026,2026,SF,SF,Boston College,-0.9686932604204993,destination_adjusted_with_school,True,6-7,79,195.0,,,,,,SLOV
+46161393,Drew Paine,Drew,Paine,2026,2026,PF,PF,Northern Colorado,-1.1583981361166975,destination_adjusted_with_school,True,6-8,80,215.0,,,,,,CO
+46162447,Will Openshaw,Will,Openshaw,2026,2026,PF,PF,BYU,-0.5147266273272746,destination_adjusted_with_school,True,6-10,82,195.0,,,,,,UT
+46163076,Jayon Alexander,Jayon,Alexander,2026,2026,SG,SG,The Citadel,-1.3711645907484746,destination_adjusted_with_school,True,6-2,74,180.0,,,,,,OH
+46163208,Michael Parlow,Michael,Parlow,2026,2026,CG,CG,__MISSING__,-0.9054549792752096,neutral_no_school,False,6-3,75,170.0,,,,,,MD
+46164818,Kyler Theophile,Kyler,Theophile,2026,2026,SF,SF,Kennesaw State,-1.6297457859815498,destination_adjusted_with_school,True,6-5,77,195.0,,,,,,FL
+46166038,Mykel Bruce-McCrommon,Mykel,Bruce-McCrommon,2026,2026,SF,SF,Kansas City,-1.4029753087716537,destination_adjusted_with_school,True,6-7,79,175.0,,,,,,PA
+46166493,Tahj Martin,Tahj,Martin,2026,2026,CG,CG,Wright State,-1.0046842582074766,destination_adjusted_with_school,True,6-2,74,,,,,,,MD
+46166751,Oliver Kanden,Oliver,Kanden,2026,2026,SF,SF,Pepperdine,-0.8507671154238878,destination_adjusted_with_school,True,6-7,79,,,,,,,FINL
+46166826,Talan Staley,Talan,Staley,2026,2026,SG,SG,Bowling Green,-1.3506214109401764,destination_adjusted_with_school,True,6-3,75,185.0,,,,,,SC
+46167196,Arturas Butajevas,Arturas,Butajevas,2026,2026,C,C,Florida,-0.09385932815845158,destination_adjusted_with_school,True,6-9,81,,,,,,,LITH
+46128489,RJ Luis Jr.,RJ,Luis Jr.,2026,2026,SF,SF,UMass,2.525011999727104,destination_adjusted_with_school,True,6-7,79,215.0,5.0,98.0,3.0,1.0,1.0,FL
+46138313,Jamison White,Jamison,White,2026,2026,PF,PF,Saint Louis,0.07578175654712697,destination_adjusted_with_school,True,6-7,79,215.0,4.0,89.62382864792504,246.0,37.0,2.0,IL
+46141120,Will Goode,Will,Goode,2026,2026,PF,PF,Kansas City,-1.2038567548635306,destination_adjusted_with_school,True,6-9,81,230.0,3.0,83.0,332.0,54.0,2.0,KS
+46142022,Emmanuel Butts,Emmanuel,Butts,2026,2026,PF,PF,__MISSING__,-0.9310209341477724,neutral_no_school,False,6-6,78,195.0,,,,,,PA
+46142602,Jonas Oware,Jonas,Oware,2026,2026,C,C,Yale,-0.5274866168208978,destination_adjusted_with_school,True,6-8,80,200.0,,,,,,CA
+46143035,Dhani Miller,Dhani,Miller,2026,2026,SG,SG,Kent State,0.3813449089015318,destination_adjusted_with_school,True,6-2,74,185.0,4.0,96.87311117379215,89.0,12.0,15.0,FL
+46143046,Chad Cook,Chad,Cook,2026,2026,C,C,Richmond,-0.7368407978801415,destination_adjusted_with_school,True,6-8,80,220.0,,,,,,SC
+46143334,Eli Herbert,Eli,Herbert,2026,2026,SG,SG,Liberty,-0.8889279569751082,destination_adjusted_with_school,True,6-1,73,150.0,3.0,84.5,319.0,57.0,9.0,MO
+46146317,Drew Corrao,Drew,Corrao,2026,2026,PF,PF,__MISSING__,-0.934228114134417,neutral_no_school,False,6-9,81,190.0,,,,,,PA
+46151647,Felipe Minzer,Felipe,Minzer,2026,2026,SF,SF,Austin Peay,-1.157255330394752,destination_adjusted_with_school,True,6-6,78,200.0,,,,,,ARGE
+46153560,David Ugonna Ike,David,Ugonna Ike,2026,2026,C,C,Georgia,-0.8162771094842916,destination_adjusted_with_school,True,6-11,83,,,,,,,SOUT
+46153633,Keriawn Berry,Keriawn,Berry,2026,2026,SF,SF,Kennesaw State,-0.46575130008635474,destination_adjusted_with_school,True,6-5,77,200.0,4.0,91.29718875502007,174.0,50.0,6.0,IN
+46154256,Luke West,Luke,West,2026,2026,SG,SG,Utah Tech,-1.4660947736497334,destination_adjusted_with_school,True,6-1,73,170.0,,,,,,UT
+46156263,Mason Lockett,Mason,Lockett,2026,2026,SG,SG,DePaul,-0.8992822498520296,destination_adjusted_with_school,True,6-4,76,,,,,,,IL
+46156658,Jared Thompson,Jared,Thompson,2026,2026,SG,SG,__MISSING__,-0.846265785755343,neutral_no_school,False,6-3,75,170.0,,,,,,FL
+46158572,Joustin Reyes,Joustin,Reyes,2026,2026,SF,SF,__MISSING__,-0.944795422222062,neutral_no_school,False,6-6,78,185.0,3.0,80.0,365.0,89.0,29.0,CA
+46158904,Devan Kirk,Devan,Kirk,2026,2026,SF,SF,Towson,-1.5309515113954515,destination_adjusted_with_school,True,6-5,77,175.0,,,,,,TX
+46160072,Nehemiah Lawrence,Nehemiah,Lawrence,2026,2026,PG,PG,Hampton,-1.4550581592343204,destination_adjusted_with_school,True,5-3,63,150.0,,,,,,TX
+46160219,Josiah Johnson,Josiah,Johnson,2026,2026,PG,PG,UC Irvine,1.2421069862673366,destination_adjusted_with_school,True,6-3,75,185.0,5.0,97.13216298863234,83.0,10.0,7.0,CA
+46160247,Ethan Harris,Ethan,Harris,2026,2026,PF,PF,Iowa,1.3146493851331524,destination_adjusted_with_school,True,6-9,81,200.0,4.0,94.56248181130319,114.0,19.0,2.0,WA
+46162830,DeMarcus Surratt,DeMarcus,Surratt,2026,2026,SG,SG,Bellarmine,-1.3614584683055035,destination_adjusted_with_school,True,6-3,75,165.0,,,,,,KY
+46163059,Dovydas Buika,Dovydas,Buika,2026,2026,SG,SG,__MISSING__,-0.9703940252707213,neutral_no_school,False,6-5,77,,,,,,,LITH
+46163253,Trent Egbiremolen,Trent,Egbiremolen,2026,2026,CG,CG,Siena,-0.8567207356923372,destination_adjusted_with_school,True,6-5,77,190.0,,,,,,FL
+46163254,Drew Harris,Drew,Harris,2026,2026,SF,SF,Brown,-1.4053246057910942,destination_adjusted_with_school,True,6-7,79,190.0,,,,,,MD
+46163256,Eric Turner,Eric,Turner,2026,2026,CG,CG,Hampton,-1.6807372471444728,destination_adjusted_with_school,True,6-3,75,,,,,,,DC
+46165539,Daniel Patton,Daniel,Patton,2026,2026,PF,PF,Ole Miss,-0.1994937585218478,destination_adjusted_with_school,True,6-7,79,205.0,3.0,87.0,278.0,43.0,16.0,TX
+46165607,DJ Jackson,DJ,Jackson,2026,2026,PG,PG,Kansas City,-1.1463259658982028,destination_adjusted_with_school,True,6-2,74,180.0,3.0,81.0,355.0,62.0,4.0,KS
+46166092,Mark Morano Mahmutovic,Mark,Morano Mahmutovic,2026,2026,SF,SF,Syracuse,0.8268061154523312,destination_adjusted_with_school,True,6-7,79,,4.0,92.0,161.0,47.0,5.0,SLOV
+46166866,Ajak Nyuon,Ajak,Nyuon,2026,2026,PF,PF,Arizona State,-0.5186673455838486,destination_adjusted_with_school,True,6-10,82,195.0,,,,,,VC
+46167050,Jordan Ghee,Jordan,Ghee,2026,2026,CG,CG,Boston College,-1.1172627886333044,destination_adjusted_with_school,True,6-5,77,,,,,,,CT
+46134738,Braylen Langley,Braylen,Langley,2026,2026,PF,PF,__MISSING__,0.7704592132892435,neutral_no_school,False,6-9,81,195.0,4.0,92.73092369477912,155.0,26.0,12.0,AZ
+46136625,Brannon Martinsen,Brannon,Martinsen,2026,2026,SF,SF,San Diego,-0.36183413419794735,destination_adjusted_with_school,True,6-6,78,205.0,4.0,90.88888888888887,190.0,54.0,20.0,CA
+46140191,Brandon McCoy Jr.,Brandon,McCoy Jr.,2026,2026,SG,SG,Michigan,4.375407537745258,destination_adjusted_with_school,True,6-5,77,190.0,5.0,99.66770090395026,10.0,2.0,3.0,CA
+46142153,Cameron Williams,Cameron,Williams,2026,2026,PF,PF,Duke,5.501552104333398,destination_adjusted_with_school,True,6-11,83,200.0,5.0,99.87065318128703,4.0,1.0,1.0,AZ
+46142606,Elias Obenyah,Elias,Obenyah,2026,2026,CG,CG,Stanford,0.721382968397732,destination_adjusted_with_school,True,6-4,76,195.0,4.0,93.83187152176151,142.0,17.0,15.0,CA
+46142901,Elton James,Elton,James,2026,2026,PF,PF,Georgia Southern,-1.5008229302156173,destination_adjusted_with_school,True,6-7,79,200.0,,,,,,NC
+46142936,Qayden Samuels,Qayden,Samuels,2026,2026,SF,SF,Alabama,3.408165848341413,destination_adjusted_with_school,True,6-5,77,210.0,5.0,99.0410247455821,28.0,10.0,2.0,MD
+46143032,Jordan Sigmon,Jordan,Sigmon,2026,2026,PG,PG,Western Michigan,0.03712795749406997,destination_adjusted_with_school,True,5-11,71,160.0,4.0,90.8433734939759,193.0,23.0,4.0,IA
+46143043,Imahri Wooten,Imahri,Wooten,2026,2026,SF,SF,Rutgers,0.4993727682783088,destination_adjusted_with_school,True,6-5,77,180.0,4.0,90.29986613119144,209.0,60.0,10.0,NY
+46146425,Jayvon Rampersant,Jayvon,Rampersant,2026,2026,PF,PF,__MISSING__,-0.9206824408312475,neutral_no_school,False,6-8,80,210.0,,,,,,NJ
+46149324,Lattimore Ford,Lattimore,Ford,2026,2026,SF,SF,Washington,0.4575692479206646,destination_adjusted_with_school,True,6-6,78,185.0,4.0,89.96586345381526,227.0,64.0,13.0,NC
+46150064,Alex Egbuonu,Alex,Egbuonu,2026,2026,SF,SF,Marquette,1.3523677747248821,destination_adjusted_with_school,True,6-6,78,220.0,4.0,96.91568951390848,88.0,33.0,4.0,MA
+46150123,Luka Ioannisci,Luka,Ioannisci,2026,2026,SF,SF,__MISSING__,-0.9190981390718072,neutral_no_school,False,6-6,78,175.0,,,,,,NY
+46150688,Hakeem Weems,Hakeem,Weems,2026,2026,C,C,Georgia,-0.37786471167666696,destination_adjusted_with_school,True,6-9,81,170.0,4.0,89.34136546184739,253.0,40.0,36.0,FL
+46150808,Jermel Thomas,Jermel,Thomas,2026,2026,PG,PG,Saint Louis,0.5916235037347378,destination_adjusted_with_school,True,6-2,74,170.0,4.0,91.11646586345381,178.0,20.0,8.0,NY
+46151055,Zamir Paschal,Zamir,Paschal,2026,2026,PG,PG,Loyola Marymount,0.13111193822785455,destination_adjusted_with_school,True,6-1,73,180.0,4.0,91.06425702811245,183.0,21.0,1.0,OR
+46152051,Jaylohn Allen,Jaylohn,Allen,2026,2026,CG,CG,Toledo,-0.9862312763757942,destination_adjusted_with_school,True,6-1,73,170.0,3.0,82.0,337.0,39.0,3.0,MI
+46152077,James Sanderson,James,Sanderson,2026,2026,PG,PG,Louisiana Tech,-0.49562023631549396,destination_adjusted_with_school,True,6-1,73,165.0,3.0,82.0,337.0,55.0,2.0,NH
+46152092,Lance Barnes,Lance,Barnes,2026,2026,CG,CG,Charlotte,-0.6632378096723215,destination_adjusted_with_school,True,6-3,75,170.0,3.0,85.0,304.0,37.0,1.0,SC
+46152554,Samuel Mbingazo,Samuel,Mbingazo,2026,2026,C,C,__MISSING__,-0.8918222218608869,neutral_no_school,False,6-9,81,230.0,,,,,,IA
+46153631,Franck Belibi,Franck,Belibi,2026,2026,SG,SG,Pacific,0.29796175926443985,destination_adjusted_with_school,True,6-2,74,180.0,4.0,89.69477911646585,243.0,41.0,1.0,CO
+46155057,Parker Spees,Parker,Spees,2026,2026,SG,SG,__MISSING__,-0.8557780118228249,neutral_no_school,False,6-9,81,190.0,,,,,,CA
+46156103,Parrish Edmond,Parrish,Edmond,2026,2026,SF,SF,__MISSING__,-0.9006140286274076,neutral_no_school,False,6-6,78,175.0,,,,,,CT
+46157742,Gage Mayfield,Gage,Mayfield,2026,2026,PF,PF,Oklahoma,2.3192019117639493,destination_adjusted_with_school,True,6-7,79,200.0,5.0,97.15423567178412,82.0,12.0,1.0,AL
+46158977,Cole Edelen,Cole,Edelen,2026,2026,PG,PG,Fairfield,-0.8500945889507571,destination_adjusted_with_school,True,6-2,74,175.0,3.0,86.0,292.0,44.0,2.0,KY
+46160371,Josh Pratt,Josh,Pratt,2026,2026,PG,PG,Columbia,-0.9809948114221246,destination_adjusted_with_school,True,6-1,73,170.0,3.0,84.0,321.0,50.0,6.0,PA
+46160428,Sayon Keita,Sayon,Keita,2026,2026,C,C,North Carolina,2.61700843927075,destination_adjusted_with_school,True,6-11,83,215.0,5.0,98.0,54.0,6.0,1.0,SPAI
+46160445,Torrey Brooks Jr.,Torrey,Brooks Jr.,2026,2026,PG,PG,Monmouth,-0.09231856819783925,destination_adjusted_with_school,True,6-1,73,165.0,4.0,92.3293172690763,159.0,16.0,13.0,AZ
+46161915,Boyuan Zhang,Boyuan,Zhang,2026,2026,SF,SF,Louisville,2.478034939413762,destination_adjusted_with_school,True,6-8,80,205.0,5.0,98.24479635375393,49.0,18.0,5.0,CA
+46163072,Ernas Valauskas,Ernas,Valauskas,2026,2026,SG,SG,Dartmouth,-1.2124685766854435,destination_adjusted_with_school,True,6-4,76,170.0,,,,,,TN
+46163226,Carter Fisk,Carter,Fisk,2026,2026,CG,CG,__MISSING__,-0.9054549792752096,neutral_no_school,False,6-2,74,175.0,,,,,,MD
+46163252,Robbie Long,Robbie,Long,2026,2026,CG,CG,Loyola Maryland,-1.724885603728979,destination_adjusted_with_school,True,6-3,75,,,,,,,OR
+46163270,Akim Iscandari,Akim,Iscandari,2026,2026,PG,PG,Navy,-0.8276809818148364,destination_adjusted_with_school,True,6-0,72,180.0,,,,,,VA
+46164440,Christian Matos,Christian,Matos,2026,2026,PG,PG,Chattanooga,-1.2759197937976556,destination_adjusted_with_school,True,6-2,74,170.0,,,,,,KS
+46164794,Keoni Sacco,Keoni,Sacco,2026,2026,PF,PF,Saint Joseph's,-0.8288705528431336,destination_adjusted_with_school,True,6-8,80,210.0,,,,,,VA
+46166443,Nathan Ramus,Nathan,Ramus,2026,2026,PG,PG,Northern Illinois,-1.2641474307837226,destination_adjusted_with_school,True,6-1,73,180.0,,,,,,WI
+46136627,Maximo Adams,Maximo,Adams,2026,2026,SF,SF,North Carolina,3.314995834703103,destination_adjusted_with_school,True,6-7,79,205.0,5.0,99.13240475838694,25.0,8.0,4.0,CA
+46137821,Quincy Wadley,Quincy,Wadley,2026,2026,SG,SG,Oklahoma,2.636087632514622,destination_adjusted_with_school,True,6-4,76,185.0,5.0,98.16017693964261,52.0,9.0,6.0,AZ
+46138105,Che Brogan,Che,Brogan,2026,2026,SF,SF,Ohio,-1.1193648411238302,destination_adjusted_with_school,True,6-5,77,170.0,,,,,,CA
+46138206,DaKari Spear,DaKari,Spear,2026,2026,SG,SG,Texas Tech,3.241333368007985,destination_adjusted_with_school,True,6-5,77,190.0,5.0,99.0231606470475,29.0,5.0,3.0,TX
+46142603,Christian Collins,Christian,Collins,2026,2026,PF,PF,USC,4.2331857260583465,destination_adjusted_with_school,True,6-8,80,200.0,5.0,99.74797741691403,7.0,2.0,2.0,CA
+46143034,Cameron Ryans,Cameron,Ryans,2026,2026,SF,SF,Austin Peay,-0.4250056299701559,destination_adjusted_with_school,True,6-5,77,175.0,3.0,88.88152610441767,265.0,71.0,1.0,MI
+46143143,Ladarius Givan,Ladarius,Givan,2026,2026,C,C,UCF,0.06159374266941943,destination_adjusted_with_school,True,6-8,80,215.0,4.0,89.76974564926373,237.0,39.0,12.0,VA
+46143342,Tristen Wilson,Tristen,Wilson,2026,2026,CG,CG,__MISSING__,-0.9054549792752096,neutral_no_school,False,6-2,74,175.0,,,,,,MD
+46143343,Anthony Felesi,Anthony,Felesi,2026,2026,SF,SF,Oklahoma State,3.003764638647074,destination_adjusted_with_school,True,6-5,77,205.0,5.0,98.68199665999562,36.0,13.0,1.0,UT
+46143738,Jahadi White Jr.,Jahadi,White Jr.,2026,2026,C,C,__MISSING__,-0.3988194209230666,neutral_no_school,False,6-8,80,220.0,3.0,87.33333333333333,277.0,42.0,4.0,IL
+46143757,Dezhon Hall,Dezhon,Hall,2026,2026,PG,PG,__MISSING__,-0.2936696667204477,neutral_no_school,False,6-3,75,185.0,3.0,88.12048192771084,270.0,39.0,10.0,IN
+46143862,Yohance Connor,Yohance,Connor,2026,2026,CG,CG,Ole Miss,0.6579212332900461,destination_adjusted_with_school,True,6-2,74,170.0,4.0,91.10843373493977,179.0,22.0,7.0,NC
+46144021,Vincent Osazee,Vincent,Osazee,2026,2026,PF,PF,Pacific,-0.9919994009105182,destination_adjusted_with_school,True,6-7,79,,,,,,,MA
+46144715,Gallagher Placide,Gallagher,Placide,2026,2026,PF,PF,Wake Forest,1.0721774628353677,destination_adjusted_with_school,True,6-8,80,205.0,4.0,96.616880006089,97.0,14.0,7.0,TX
+46147756,Ethan Brown,Ethan,Brown,2026,2026,CG,CG,Illinois,0.8973116111384096,destination_adjusted_with_school,True,6-4,76,180.0,4.0,90.51539491298529,204.0,25.0,8.0,MO
+46148008,JoJo Mitchell,JoJo,Mitchell,2026,2026,PG,PG,St. Thomas,-0.7583017731375244,destination_adjusted_with_school,True,6-1,73,170.0,,,,,,MN
+46149054,Will Stevens,Will,Stevens,2026,2026,C,C,Clemson,0.4207198791894946,destination_adjusted_with_school,True,6-10,82,200.0,4.0,93.37145236464251,147.0,26.0,3.0,NC
+46149960,Obinna Ekezie Jr.,Obinna,Ekezie Jr.,2026,2026,C,C,Louisville,4.126414099930503,destination_adjusted_with_school,True,7-0,84,220.0,5.0,99.55393480275616,14.0,1.0,3.0,FL
+46150028,Ethan Johnston,Ethan,Johnston,2026,2026,SG,SG,Marquette,0.9870364121387469,destination_adjusted_with_school,True,6-6,78,185.0,4.0,90.53815261044177,201.0,30.0,3.0,PA
+46150042,Cody Peck,Cody,Peck,2026,2026,C,C,Dayton,1.1303602288862813,destination_adjusted_with_school,True,6-10,82,205.0,4.0,96.44302964365825,99.0,15.0,2.0,NC
+46150803,Josh Powell,Josh,Powell,2026,2026,SF,SF,__MISSING__,-0.907200686818285,neutral_no_school,False,6-5,77,190.0,,,,,,CA
+46150859,Silas Rodriguez,Silas,Rodriguez,2026,2026,SG,SG,UT Tyler,-1.2166938672696126,destination_adjusted_with_school,True,6-2,74,180.0,,,,,,TX
+46151024,Keyshawn Summerville,Keyshawn,Summerville,2026,2026,PG,PG,__MISSING__,-0.9087152406673902,neutral_no_school,False,5-10,70,,,,,,,MI
+46151130,Jacob Williford,Jacob,Williford,2026,2026,SF,SF,__MISSING__,-0.5367713926566052,neutral_no_school,False,6-4,76,185.0,3.0,84.0,321.0,80.0,21.0,AZ
+46151578,Darnell Lloyd,Darnell,Lloyd,2026,2026,C,C,Boston University,-1.1029901746017152,destination_adjusted_with_school,True,6-9,81,195.0,3.0,84.0,321.0,44.0,6.0,PA
+46152180,Darren Moore,Darren,Moore,2026,2026,PG,PG,South Florida,-0.8195281025468504,destination_adjusted_with_school,True,6-1,73,170.0,3.0,80.0,508.0,67.0,12.0,MD
+46158313,Jerry Johnson,Jerry,Johnson,2026,2026,SG,SG,__MISSING__,-0.867675464076347,neutral_no_school,False,6-4,76,165.0,,,,,,PA
+46158887,Gavin Lowe,Gavin,Lowe,2026,2026,PG,PG,UC Irvine,-1.0402352124497327,destination_adjusted_with_school,True,5-11,71,160.0,,,,,,UT
+46159672,Theo Edema,Theo,Edema,2026,2026,C,C,St. John's,2.150638397978485,destination_adjusted_with_school,True,6-11,83,235.0,5.0,97.33972680017729,77.0,13.0,3.0,MA
+46160244,Jemai Lake,Jemai,Lake,2026,2026,CG,CG,Montana,-0.6460893540005237,destination_adjusted_with_school,True,6-2,74,170.0,3.0,86.0,292.0,32.0,2.0,OR
+46160575,Denton Forsythe,Denton,Forsythe,2026,2026,PG,PG,Tulsa,-0.6237065994624892,destination_adjusted_with_school,True,6-1,73,185.0,3.0,85.0,304.0,46.0,5.0,OK
+46160601,Jaden Bailes,Jaden,Bailes,2026,2026,CG,CG,Seattle,-1.4389463764240213,destination_adjusted_with_school,True,6-2,74,185.0,3.0,85.0,304.0,37.0,27.0,CA
+46161261,Lamin Foon,Lamin,Foon,2026,2026,C,C,Texas A&M Corpus Christi,-1.401669475631381,destination_adjusted_with_school,True,6-11,83,205.0,,,,,,TX
+46161388,Jack Kayil,Jack,Kayil,2026,2026,CG,CG,Gonzaga,0.8486862530567629,destination_adjusted_with_school,True,6-5,77,185.0,4.0,92.0,161.0,19.0,5.0,GERM
+46161442,Anthony Hester,Anthony,Hester,2026,2026,SG,SG,Arkansas State,-1.0743167844975245,destination_adjusted_with_school,True,6-6,78,200.0,,,,,,AR
+46162484,Simeon Suguturaga,Simeon,Suguturaga,2026,2026,SG,SG,Utah,0.049480423550000235,destination_adjusted_with_school,True,6-4,76,200.0,,,,,,UT
+46165483,Antoine Almuttar,Antoine,Almuttar,2026,2026,SF,SF,Northwestern State,-1.2671640404473201,destination_adjusted_with_school,True,6-4,76,210.0,,,,,,TX
+46166020,Narcisse Ngoy,Narcisse,Ngoy,2026,2026,C,C,Auburn,-0.5132417642646361,destination_adjusted_with_school,True,6-10,82,,,,,,,FRAN
+46166103,Roko Prkacin,Roko,Prkacin,2026,2026,PF,PF,Penn State,-0.47856752615089,destination_adjusted_with_school,True,6-9,81,225.0,,,,,,CROA
+46166104,Francois Wibaut,Francois,Wibaut,2026,2026,SF,SF,Penn State,-0.2665398256665025,destination_adjusted_with_school,True,6-6,78,205.0,,,,,,FRAN
+46140708,Deron Rippey Jr.,Deron,Rippey Jr.,2026,2026,PG,PG,Duke,4.846124851719755,destination_adjusted_with_school,True,6-2,74,175.0,5.0,99.58742439098647,12.0,1.0,1.0,NJ
+46141226,Sinan Huan,Sinan,Huan,2026,2026,C,C,Purdue,2.360294621841469,destination_adjusted_with_school,True,7-0,84,225.0,5.0,97.61592635872364,67.0,11.0,3.0,MD
+46141320,Jonathan Sanderson,Jonathan,Sanderson,2026,2026,PG,PG,Notre Dame,2.2476814401644813,destination_adjusted_with_school,True,6-2,74,170.0,5.0,97.44874705063285,75.0,7.0,3.0,IN
+46143030,Ashton Pierce,Ashton,Pierce,2026,2026,SG,SG,Sacramento State,-0.5323066870402955,destination_adjusted_with_school,True,6-3,75,170.0,4.0,89.53012048192771,248.0,43.0,14.0,NC
+46143227,Kosi Mgbejiofor,Kosi,Mgbejiofor,2026,2026,C,C,__MISSING__,-0.9249367603389783,neutral_no_school,False,6-10,82,205.0,,,,,,VA
+46143233,Isaiah Rogers,Isaiah,Rogers,2026,2026,CG,CG,Stanford,0.8037992265306053,destination_adjusted_with_school,True,6-2,74,165.0,4.0,94.54817262360478,115.0,13.0,9.0,CA
+46144346,DJ Ogoemeka,DJ,Ogoemeka,2026,2026,C,C,__MISSING__,-0.8878516143044048,neutral_no_school,False,7-0,84,220.0,,,,,,UT
+46144424,Dorion Bowen,Dorion,Bowen,2026,2026,CG,CG,__MISSING__,-0.9160917339736636,neutral_no_school,False,6-5,77,185.0,,,,,,TN
+46145034,Luca Foster,Luca,Foster,2026,2026,SF,SF,Gonzaga,2.503075988529292,destination_adjusted_with_school,True,6-5,77,185.0,5.0,98.15117773211016,53.0,20.0,5.0,MO
+46145486,Josh Manchester,Josh,Manchester,2026,2026,CG,CG,Wisconsin,0.20815982936254604,destination_adjusted_with_school,True,6-2,74,160.0,,,,,,WI
+46147991,Caeden Hutcherson,Caeden,Hutcherson,2026,2026,SG,SG,__MISSING__,-0.45620972160218815,neutral_no_school,False,6-5,77,180.0,3.0,85.0,304.0,54.0,19.0,AZ
+46149079,Trevon Carter-Givens,Trevon,Carter-Givens,2026,2026,C,C,Creighton,0.6659547180697577,destination_adjusted_with_school,True,6-11,83,190.0,4.0,93.85776774881019,141.0,23.0,14.0,CA
+46149307,Adam Tyson,Adam,Tyson,2026,2026,SF,SF,__MISSING__,0.3524609734315251,neutral_no_school,False,6-6,78,180.0,4.0,90.84203480589024,194.0,55.0,22.0,CA
+46149543,Preston Wade,Preston,Wade,2026,2026,PF,PF,__MISSING__,0.6786577666222038,neutral_no_school,False,6-9,81,205.0,4.0,93.90810958437987,138.0,23.0,25.0,FL
+46150333,Sam Hallas,Sam,Hallas,2026,2026,PF,PF,__MISSING__,-0.9283936276530971,neutral_no_school,False,6-7,79,200.0,,,,,,FL
+46150677,Favour Ibe,Favour,Ibe,2026,2026,C,C,Virginia,0.9077477777449658,destination_adjusted_with_school,True,7-1,85,235.0,4.0,93.6217556961402,143.0,24.0,5.0,MD
+46150813,Abdou Toure,Abdou,Toure,2026,2026,SF,SF,Arkansas,4.154522089776498,destination_adjusted_with_school,True,6-5,77,200.0,5.0,99.56732168361293,13.0,5.0,1.0,CT
+46150815,Jalyn Collingwood,Jalyn,Collingwood,2026,2026,SF,SF,Mississippi State,1.054684137441525,destination_adjusted_with_school,True,6-5,77,190.0,4.0,94.20494911642108,125.0,43.0,2.0,DC
+46151114,Rajan Roberts,Rajan,Roberts,2026,2026,PG,PG,Valparaiso,0.30222266591477914,destination_adjusted_with_school,True,6-1,73,170.0,3.0,88.70080321285141,266.0,37.0,16.0,AZ
+46151560,John Mattingly,John,Mattingly,2026,2026,PG,PG,Nevada,-0.43935548969453825,destination_adjusted_with_school,True,6-0,72,175.0,3.0,82.0,337.0,55.0,22.0,AZ
+46152318,Heimir Helgason,Heimir,Helgason,2026,2026,PF,PF,UMass,-0.747142022245213,destination_adjusted_with_school,True,6-9,81,190.0,,,,,,FL
+46153609,Kuol Deng,Kuol,Deng,2026,2026,C,C,__MISSING__,0.1749004418809772,neutral_no_school,False,6-10,82,210.0,4.0,89.80722891566263,235.0,38.0,11.0,VA
+46153642,Adrian Montague,Adrian,Montague,2026,2026,PG,PG,__MISSING__,-0.8023441380401056,neutral_no_school,False,5-10,70,165.0,,,,,,OR
+46154585,Marcus Vaughns,Marcus,Vaughns,2026,2026,SF,SF,LSU,0.68183988966648,destination_adjusted_with_school,True,6-8,80,221.0,4.0,91.5,169.0,48.0,7.0,AUST
+46154673,Kenneth Francis Jr.,Kenneth,Francis Jr.,2026,2026,SG,SG,Brown,-1.315906519091178,destination_adjusted_with_school,True,6-5,77,190.0,,,,,,FL
+46155431,Manu Manciel,Manu,Manciel,2026,2026,SG,SG,Stephen F. Austin,-0.2518608093029726,destination_adjusted_with_school,True,6-3,75,180.0,4.0,89.93574297188756,230.0,35.0,8.0,UT
+46156159,Jaxson Thompson,Jaxson,Thompson,2026,2026,CG,CG,Rice,-0.9633370325378726,destination_adjusted_with_school,True,6-1,73,165.0,3.0,86.0,292.0,32.0,19.0,TX
+46157543,Collin Ross,Collin,Ross,2026,2026,PF,PF,VCU,1.0688083837121771,destination_adjusted_with_school,True,6-9,81,200.0,4.0,95.19231888535188,107.0,17.0,7.0,OH
+46157919,Mikehi Williams,Mikehi,Williams,2026,2026,SF,SF,Cornell,-1.495184394796594,destination_adjusted_with_school,True,6-5,77,210.0,,,,,,GA
+46157921,Alex Davis,Alex,Davis,2026,2026,C,C,__MISSING__,-0.9326479471608279,neutral_no_school,False,6-8,80,205.0,,,,,,FL
+46158343,Jayden Slaughter,Jayden,Slaughter,2026,2026,SF,SF,__MISSING__,-0.8921215127750273,neutral_no_school,False,6-5,77,180.0,,,,,,AR
+46159085,Cahlil Jones,Cahlil,Jones,2026,2026,PG,PG,__MISSING__,-0.811094989787153,neutral_no_school,False,6-2,74,185.0,,,,,,WI
+46161211,Malachi Brown,Malachi,Brown,2026,2026,SF,SF,Michigan,1.0455494937195522,destination_adjusted_with_school,True,6-5,77,185.0,4.0,91.06827309236948,182.0,52.0,5.0,TN
+46161392,Madden Smiley,Madden,Smiley,2026,2026,CG,CG,Wyoming,-1.00064931331598,destination_adjusted_with_school,True,6-4,76,180.0,,,,,,CO
+46161748,Cam Hailey,Cam,Hailey,2026,2026,PG,PG,UMass,-0.41237505344001296,destination_adjusted_with_school,True,5-11,71,175.0,,,,,,MA
+46162417,Lyndell Buckingham Jr.,Lyndell,Buckingham Jr.,2026,2026,CG,CG,Jacksonville,-1.7717797000345976,destination_adjusted_with_school,True,6-2,74,170.0,,,,,,TX
+46162483,Shia Francis,Shia,Francis,2026,2026,SG,SG,Eastern Illinois,-1.4546872902097012,destination_adjusted_with_school,True,6-1,73,195.0,,,,,,TX
+46163656,Vuk Lazarevic,Vuk,Lazarevic,2026,2026,C,C,Ohio State,0.2030200894502305,destination_adjusted_with_school,True,7-1,85,200.0,,,,,,SERB
+46164581,Mathias Alessanco,Mathias,Alessanco,2026,2026,PF,PF,__MISSING__,-0.9283936276530971,neutral_no_school,False,6-8,80,235.0,,,,,,GA
+46165484,Armon Almuttar,Armon,Almuttar,2026,2026,SF,SF,Northwestern State,-1.2671640404473201,destination_adjusted_with_school,True,6-4,76,210.0,,,,,,TX
+46165608,Cameron Love,Cameron,Love,2026,2026,SF,SF,Kansas City,-1.0989561979070277,destination_adjusted_with_school,True,6-4,76,180.0,3.0,82.0,337.0,85.0,3.0,KS
+46166460,Lazar Stojkovic,Lazar,Stojkovic,2026,2026,PF,PF,St. John's,-0.6771896878252218,destination_adjusted_with_school,True,6-10,82,,,,,,,SERB
+46166554,Alexandros Alexakis,Alexandros,Alexakis,2026,2026,SG,SG,High Point,-1.3275812828783418,destination_adjusted_with_school,True,6-3,75,185.0,,,,,,CA
+46166889,Jeremy Nyakundi,Jeremy,Nyakundi,2026,2026,PF,PF,Arkansas-Pine Bluff,-1.45260139285809,destination_adjusted_with_school,True,6-7,79,220.0,,,,,,TX
+46167125,Endurance Aiyamenkhue,Endurance,Aiyamenkhue,2026,2026,C,C,Arizona,0.6751348975940864,destination_adjusted_with_school,True,6-11,83,200.0,,,,,,NETH
+46103341,Bryson Warren,Bryson,Warren,2026,2026,CG,CG,Texas A&M,1.038417852911895,destination_adjusted_with_school,True,6-3,75,191.0,4.0,95.0,109.0,11.0,6.0,NY
+46135190,Bo Ogden,Bo,Ogden,2026,2026,SF,SF,Texas,2.7681022454682576,destination_adjusted_with_school,True,6-5,77,195.0,5.0,98.43883896791176,44.0,16.0,5.0,TX
+46135998,Isaiah Ward,Isaiah,Ward,2026,2026,PF,PF,UTEP,-0.9253196544945206,destination_adjusted_with_school,True,6-6,78,185.0,3.0,86.44444444444444,290.0,47.0,18.0,TX
+46136811,Alex Barther,Alex,Barther,2026,2026,SG,SG,__MISSING__,-0.5126440068513474,neutral_no_school,False,6-4,76,165.0,3.0,85.44444444444444,303.0,53.0,24.0,TX
+46139365,Cole Cloer,Cole,Cloer,2026,2026,SF,SF,NC State,0.826501182076073,destination_adjusted_with_school,True,6-7,79,190.0,4.0,96.74358974358974,93.0,35.0,17.0,FL
+46140449,JJ Andrews,JJ,Andrews,2026,2026,SF,SF,Arkansas,4.01870328013492,destination_adjusted_with_school,True,6-6,78,220.0,5.0,99.48485133398701,16.0,6.0,1.0,AR
+46140831,Dylan Mingo,Dylan,Mingo,2026,2026,CG,CG,Baylor,3.995332454218894,destination_adjusted_with_school,True,6-5,77,190.0,5.0,99.65874646859454,11.0,3.0,1.0,NY
+46142151,Lincoln Cosby,Lincoln,Cosby,2026,2026,SF,SF,Michigan,2.8665462161586053,destination_adjusted_with_school,True,6-8,80,195.0,5.0,98.45889690310854,42.0,15.0,8.0,FL
+46142735,Ikenna Alozie,Ikenna,Alozie,2026,2026,CG,CG,Houston,2.6985593867751296,destination_adjusted_with_school,True,6-2,74,185.0,5.0,98.43207836921823,46.0,6.0,5.0,AZ
+46142861,Dean Rueckert,Dean,Rueckert,2026,2026,SF,SF,BYU,1.6272479333536352,destination_adjusted_with_school,True,6-8,80,179.0,5.0,97.28353771832035,80.0,30.0,4.0,UT
+46143039,Silas Devonish,Silas,Devonish,2026,2026,PG,PG,__MISSING__,-0.8532037043393872,neutral_no_school,False,5-9,69,155.0,,,,,,VA
+46143331,Moustapha Diop,Moustapha,Diop,2026,2026,C,C,Georgia Tech,0.7860189845491116,destination_adjusted_with_school,True,6-10,82,215.0,4.0,94.32147318370473,121.0,19.0,5.0,GA
+46143341,Al'Tariq Reevey,Al'Tariq,Reevey,2026,2026,C,C,__MISSING__,-0.38916458597014597,neutral_no_school,False,6-8,80,200.0,3.0,87.8888888888889,274.0,41.0,5.0,NJ
+46143352,Cedric Tomes,Cedric,Tomes,2026,2026,PG,PG,Minnesota,0.2107806083880649,destination_adjusted_with_school,True,6-0,72,160.0,3.0,88.0,272.0,41.0,6.0,MN
+46143729,Jamyn Sodrup,Jamyn,Sodrup,2026,2026,C,C,__MISSING__,-0.8878516143044048,neutral_no_school,False,6-9,81,210.0,,,,,,UT
+46143759,Brennan Miller,Brennan,Miller,2026,2026,PF,PF,SIU Edwardsville,-1.2353318057786715,destination_adjusted_with_school,True,6-7,79,210.0,3.0,81.0,355.0,57.0,13.0,IN
+46143764,Ethan Sheats,Ethan,Sheats,2026,2026,PF,PF,Omaha,-1.4702075347776968,destination_adjusted_with_school,True,6-8,80,185.0,,,,,,TX
+46143857,Symon Ghai,Symon,Ghai,2026,2026,C,C,Northwestern,0.3038584604290665,destination_adjusted_with_school,True,7-3,87,210.0,4.0,91.92976588628763,163.0,33.0,28.0,FL
+46144405,Keonte Greybear,Keonte,Greybear,2026,2026,CG,CG,West Virginia,0.8059742428733041,destination_adjusted_with_school,True,6-2,74,180.0,4.0,90.35341365461848,208.0,27.0,12.0,TX
+46148847,Anthony Spencer,Anthony,Spencer,2026,2026,C,C,__MISSING__,-0.8167967172125187,neutral_no_school,False,6-8,80,185.0,3.0,82.0,337.0,47.0,30.0,TX
+46149092,Cello Jackson,Cello,Jackson,2026,2026,SF,SF,Memphis,0.649758538807955,destination_adjusted_with_school,True,6-4,76,205.0,4.0,90.94243641231593,188.0,53.0,32.0,FL
+46149690,Aziz Olajuwon,Aziz,Olajuwon,2026,2026,SF,SF,Stanford,1.8963988747289888,destination_adjusted_with_school,True,6-7,79,210.0,5.0,97.56904988963659,69.0,25.0,11.0,FL
+46150037,Aliou Dioum,Aliou,Dioum,2026,2026,C,C,West Virginia,1.1419472585638208,destination_adjusted_with_school,True,6-10,82,200.0,4.0,93.45492561102827,145.0,25.0,11.0,AZ
+46150191,Vaughn Karvala,Vaughn,Karvala,2026,2026,SF,SF,Indiana,2.3366174681025815,destination_adjusted_with_school,True,6-6,78,180.0,5.0,97.79653731984796,61.0,23.0,7.0,AZ
+46150527,Lucas Morillo,Lucas,Morillo,2026,2026,SG,SG,Illinois,2.713502183429725,destination_adjusted_with_school,True,6-7,79,180.0,5.0,98.38081422680689,47.0,8.0,2.0,MA
+46150799,Keeper Jackson,Keeper,Jackson,2026,2026,PF,PF,Georgia State,0.08191464568219213,destination_adjusted_with_school,True,6-8,80,215.0,4.0,89.2008032128514,257.0,40.0,7.0,TN
+46150909,Jasiah Cannady,Jasiah,Cannady,2026,2026,PG,PG,UMass Lowell,-0.33629168410768356,destination_adjusted_with_school,True,6-1,73,170.0,4.0,89.62248995983936,247.0,32.0,8.0,MD
+46151235,Jayson Peterson,Jayson,Peterson,2026,2026,PF,PF,UTSA,-0.08967365724768175,destination_adjusted_with_school,True,6-8,80,205.0,4.0,89.8855421686747,232.0,34.0,7.0,MD
+46151883,Trey Pearson,Trey,Pearson,2026,2026,PG,PG,High Point,-0.11583403343431277,destination_adjusted_with_school,True,6-2,74,170.0,4.0,91.3748326639893,171.0,18.0,4.0,TN
+46152178,Desmond Bellot,Desmond,Bellot,2026,2026,SG,SG,Fordham,-0.19137695478351646,destination_adjusted_with_school,True,6-3,75,170.0,4.0,90.18072289156626,216.0,32.0,8.0,MA
+46153580,Ben Akoro,Ben,Akoro,2026,2026,PF,PF,__MISSING__,-1.0638048915855425,neutral_no_school,False,6-7,79,,,,,,,IL
+46154592,Tre Paulding,Tre,Paulding,2026,2026,SF,SF,Drexel,-0.20708950536485188,destination_adjusted_with_school,True,6-5,77,200.0,,,,,,MO
+46155086,Jonny Jordan,Jonny,Jordan,2026,2026,PG,PG,Omaha,-1.0898170243655654,destination_adjusted_with_school,True,6-3,75,175.0,3.0,82.0,337.0,55.0,10.0,MO
+46155785,Reece Davidson,Reece,Davidson,2026,2026,PF,PF,Liberty,-0.828369894915616,destination_adjusted_with_school,True,6-7,79,220.0,3.0,86.0,292.0,49.0,2.0,KY
+46157737,Adonai Tyrance,Adonai,Tyrance,2026,2026,PF,PF,__MISSING__,-0.9297566222676812,neutral_no_school,False,6-7,79,195.0,,,,,,NC
+46157778,Jordan Williams,Jordan,Williams,2026,2026,SF,SF,Illinois State,-0.7117677697775608,destination_adjusted_with_school,True,6-6,78,200.0,3.0,84.0,321.0,80.0,9.0,IL
+46157779,Rashan Porter,Rashan,Porter,2026,2026,PF,PF,__MISSING__,-0.9194181289511563,neutral_no_school,False,6-7,79,205.0,,,,,,IL
+46157938,Trevor Manhertz,Trevor,Manhertz,2026,2026,SF,SF,Indiana,2.3196885071267794,destination_adjusted_with_school,True,6-8,80,185.0,5.0,97.46204438713606,74.0,29.0,1.0,NC
+46158902,Sawyer Dotson,Sawyer,Dotson,2026,2026,PF,PF,Lipscomb,-1.3479096552699779,destination_adjusted_with_school,True,6-7,79,200.0,3.0,84.5,319.0,53.0,27.0,TX
+46159083,Lane Webster,Lane,Webster,2026,2026,PF,PF,__MISSING__,-0.8937058145344676,neutral_no_school,False,6-8,80,205.0,,,,,,AR
+46160441,Cheick Sylla,Cheick,Sylla,2026,2026,C,C,UMass,-0.8883483329815889,destination_adjusted_with_school,True,6-9,81,240.0,,,,,,ME
+46161315,Miles Flemons,Miles,Flemons,2026,2026,C,C,Drake,-0.9602888673304901,destination_adjusted_with_school,True,6-7,79,255.0,3.0,85.0,304.0,43.0,5.0,OK
+46162824,Tayshaun Williams,Tayshaun,Williams,2026,2026,SG,SG,__MISSING__,-0.8753866508981966,neutral_no_school,False,6-4,76,180.0,,,,,,TX
+46163235,Blake Ellwein,Blake,Ellwein,2026,2026,PF,PF,South Dakota State,-0.5615454836670535,destination_adjusted_with_school,True,6-9,81,230.0,,,,,,SD
+46163333,Trace Westercamp,Trace,Westercamp,2026,2026,PF,PF,Florida Gulf Coast,-1.4455191231332303,destination_adjusted_with_school,True,6-9,81,195.0,,,,,,FL
+46165533,Malik Gillespie,Malik,Gillespie,2026,2026,CG,CG,Morehead State,-0.3724076720751835,destination_adjusted_with_school,True,6-2,74,175.0,,,,,,GA
+46165939,Rylan Kelly,Rylan,Kelly,2026,2026,SG,SG,Sam Houston,-0.7541414876030718,destination_adjusted_with_school,True,6-3,75,185.0,,,,,,TX
+46166115,Cameron Brown,Cameron,Brown,2026,2026,SG,SG,__MISSING__,-0.8160370412534063,neutral_no_school,False,6-6,78,200.0,,,,,,TN
+46166202,Haiden Harper,Haiden,Harper,2026,2026,PG,PG,Georgia Tech,-0.331042130234912,destination_adjusted_with_school,True,6-1,73,155.0,,,,,,AL
+46166323,Quinn Ellis,Quinn,Ellis,2026,2026,PG,PG,St. John's,-0.1221545678293842,destination_adjusted_with_school,True,6-4,76,172.0,,,,,,ENGL
+46166344,Abdramane Siby,Abdramane,Siby,2026,2026,C,C,Syracuse,-0.1163682426714845,destination_adjusted_with_school,True,6-11,83,210.0,,,,,,SERB
+46167211,Mantas Laurencikas,Mantas,Laurencikas,2026,2026,PG,PG,Texas,0.24552128093056552,destination_adjusted_with_school,True,6-3,75,,,,,,,LITH
+46134327,Christopher Washington Jr.,Christopher,Washington Jr.,2026,2026,SF,SF,Tennessee,2.4094624535402116,destination_adjusted_with_school,True,6-9,81,195.0,5.0,98.20915770103828,51.0,19.0,1.0,TN
+46137479,Adam Oumiddoch,Adam,Oumiddoch,2026,2026,SG,SG,Villanova,2.4447523307541794,destination_adjusted_with_school,True,6-5,77,180.0,5.0,97.79882070086366,60.0,10.0,3.0,GA
+46138675,Marcus Johnson,Marcus,Johnson,2026,2026,PG,PG,South Carolina,1.8183907358778344,destination_adjusted_with_school,True,6-2,74,180.0,5.0,97.42425666993505,76.0,8.0,5.0,OH
+46141016,Toni Bryant,Toni,Bryant,2026,2026,PF,PF,Missouri,3.173069563219824,destination_adjusted_with_school,True,6-9,81,215.0,5.0,99.28185428447345,20.0,5.0,5.0,FL
+46142629,Collin Paul,Collin,Paul,2026,2026,SF,SF,Florida State,0.5684565699246269,destination_adjusted_with_school,True,6-7,79,225.0,4.0,94.06655831799885,130.0,44.0,23.0,FL
+46142655,Jonny Collins,Jonny,Collins,2026,2026,CG,CG,__MISSING__,-0.8598612624573628,neutral_no_school,False,6-1,73,165.0,,,,,,NV
+46142772,Andrew Hilman,Andrew,Hilman,2026,2026,SG,SG,San Francisco,0.049908413652199696,destination_adjusted_with_school,True,6-4,76,180.0,4.0,90.86211512717536,192.0,28.0,21.0,CA
+46142819,Christian Gibson,Christian,Gibson,2026,2026,SF,SF,__MISSING__,0.8831942035100726,neutral_no_school,False,6-5,77,190.0,4.0,94.45670306644638,118.0,41.0,8.0,TX
+46143252,Willie Burnett III,Willie,Burnett III,2026,2026,CG,CG,Mississippi State,1.1259926241659772,destination_adjusted_with_school,True,6-4,76,175.0,4.0,96.79511804184408,91.0,9.0,6.0,VA
+46143329,Justin Caldwell,Justin,Caldwell,2026,2026,PF,PF,Georgetown,0.906817568990751,destination_adjusted_with_school,True,6-9,81,235.0,4.0,93.3357689397501,148.0,24.0,4.0,NC
+46143596,Yusef Gray Jr.,Yusef,Gray Jr.,2026,2026,PG,PG,Iowa State,1.1128553620185442,destination_adjusted_with_school,True,6-3,75,170.0,4.0,90.52744310575635,202.0,25.0,2.0,WI
+46144022,Gavin Placide,Gavin,Placide,2026,2026,PF,PF,Wake Forest,1.9235646927567005,destination_adjusted_with_school,True,6-9,81,220.0,5.0,97.2212148482447,81.0,11.0,6.0,TX
+46144324,Chace Holley,Chace,Holley,2026,2026,PG,PG,Pepperdine,-0.5849981608874503,destination_adjusted_with_school,True,6-0,72,160.0,3.0,85.0,304.0,46.0,27.0,CA
+46146160,Nas Rankin,Nas,Rankin,2026,2026,PG,PG,Illinois,0.31119966589982534,destination_adjusted_with_school,True,6-0,72,170.0,,,,,,IL
+46147378,Lincoln Williams,Lincoln,Williams,2026,2026,SF,SF,__MISSING__,0.5743740687366352,neutral_no_school,False,6-5,77,180.0,4.0,90.81392235609103,196.0,56.0,1.0,IL
+46147382,Tobias Brinkley,Tobias,Brinkley,2026,2026,CG,CG,Tulane,-1.4895707654926873,destination_adjusted_with_school,True,6-5,77,170.0,,,,,,GA
+46150038,Landyn Colyer,Landyn,Colyer,2026,2026,SG,SG,Middle Tennessee,-0.10678628943911898,destination_adjusted_with_school,True,6-6,78,180.0,4.0,92.74358526637207,154.0,21.0,27.0,FL
+46150667,Jackson Sheffield,Jackson,Sheffield,2026,2026,C,C,Vanderbilt,0.9680075088468619,destination_adjusted_with_school,True,6-9,81,240.0,4.0,96.12371447887425,102.0,16.0,2.0,AL
+46151686,Sam Simmons Jr.,Sam,Simmons Jr.,2026,2026,PG,PG,Richmond,-0.16108876618805792,destination_adjusted_with_school,True,5-9,69,160.0,3.0,86.5,286.0,43.0,1.0,KS
+46153561,Fred Smith Jr.,Fred,Smith Jr.,2026,2026,PF,PF,Memphis,1.434195239181197,destination_adjusted_with_school,True,6-6,78,210.0,4.0,96.53432011210953,98.0,15.0,2.0,TN
+46158304,Eli Sancomb,Eli,Sancomb,2026,2026,CG,CG,Liberty,0.2113904654437808,destination_adjusted_with_school,True,6-5,77,190.0,4.0,93.98263734984532,133.0,16.0,1.0,WV
+46158903,Brayden Jones,Brayden,Jones,2026,2026,CG,CG,__MISSING__,-0.8905784680195102,neutral_no_school,False,6-1,73,170.0,,,,,,TX
+46159934,Kensington Candler,Kensington,Candler,2026,2026,CG,CG,Stephen F. Austin,-1.3876572641042655,destination_adjusted_with_school,True,6-1,73,165.0,,,,,,TX
+46162227,Brayde Kuykendall,Brayde,Kuykendall,2026,2026,PG,PG,Santa Clara,-1.062046042192592,destination_adjusted_with_school,True,6-5,77,180.0,,,,,,CA
+46163074,Jackson Williams,Jackson,Williams,2026,2026,SG,SG,Duquesne,-0.7246852787272438,destination_adjusted_with_school,True,6-4,76,170.0,,,,,,OH
+46164783,Jhett Carter,Jhett,Carter,2026,2026,SF,SF,Wofford,-0.6924070840544223,destination_adjusted_with_school,True,6-5,77,190.0,,,,,,VA
+46166306,Amadou Seini,Amadou,Seini,2026,2026,C,C,West Virginia,2.6169806470837305,destination_adjusted_with_school,True,7-1,85,230.0,5.0,97.74961607858414,64.0,9.0,8.0,AZ
+46166409,Djordije Jovanovic,Djordije,Jovanovic,2026,2026,SF,SF,St. John's,-0.31998013362252226,destination_adjusted_with_school,True,6-7,79,190.0,,,,,,MONN
+46166999,Andy Gemao,Andy,Gemao,2026,2026,PG,PG,Penn State,-0.24238178718566636,destination_adjusted_with_school,True,6-1,73,170.0,,,,,,OH
+46167127,Dominykas Daubaris,Dominykas,Daubaris,2026,2026,PF,PF,California,-0.7702854062742354,destination_adjusted_with_school,True,6-9,81,215.0,,,,,,LITH
+46167197,Ousmane N'Diaye,Ousmane,N'Diaye,2026,2026,C,C,Kentucky,0.5670205399858851,destination_adjusted_with_school,True,6-11,83,,,,,,,SENE
+46136894,Tyran Stokes,Tyran,Stokes,2026,2026,SF,SF,Kansas,5.481084244575317,destination_adjusted_with_school,True,6-7,79,230.0,5.0,100.0,1.0,1.0,1.0,WA
+46138174,Keiner Asprilla,Keiner,Asprilla,2026,2026,C,C,__MISSING__,-0.9115116352732747,neutral_no_school,False,7-0,84,270.0,,,,,,NJ
+46138459,TJ Crumble,TJ,Crumble,2026,2026,PF,PF,North Texas,-0.1457892547204627,destination_adjusted_with_school,True,6-7,79,210.0,4.0,90.90227576974564,189.0,30.0,9.0,NY
+46139510,Boden Williams,Boden,Williams,2026,2026,CG,CG,Oral Roberts,-0.09013766141415197,destination_adjusted_with_school,True,6-2,74,170.0,3.0,87.5,275.0,30.0,3.0,OK
+46141624,Raheem Bradley,Raheem,Bradley,2026,2026,PG,PG,__MISSING__,-0.8997397419654494,neutral_no_school,False,5-10,70,150.0,,,,,,WI
+46142656,Mason Magee,Mason,Magee,2026,2026,PG,PG,San Francisco,0.24680663603786923,destination_adjusted_with_school,True,6-0,72,165.0,4.0,90.50066934404283,205.0,26.0,15.0,AZ
+46143040,Mavrick Hawkins,Mavrick,Hawkins,2026,2026,CG,CG,Vanderbilt,-0.17087577001289941,destination_adjusted_with_school,True,6-2,74,180.0,,,,,,MO
+46143224,Martechio Hayes,Martechio,Hayes,2026,2026,SG,SG,__MISSING__,0.24697885455880192,neutral_no_school,False,6-4,76,170.0,4.0,89.01874163319947,261.0,45.0,8.0,TN
+46143859,Jordan Skyers,Jordan,Skyers,2026,2026,CG,CG,Norfolk State,-0.16424037944082032,destination_adjusted_with_school,True,6-2,74,175.0,4.0,90.55153949129853,200.0,24.0,3.0,CT
+46144540,JRob Croy,JRob,Croy,2026,2026,CG,CG,Arizona State,0.5868207959730906,destination_adjusted_with_school,True,6-5,77,190.0,4.0,94.13291963841989,128.0,15.0,12.0,CA
+46144619,Eddie Smajic,Eddie,Smajic,2026,2026,SG,SG,__MISSING__,-0.8160370412534063,neutral_no_school,False,6-6,78,205.0,,,,,,MO
+46144958,Rassell Young,Rassell,Young,2026,2026,PG,PG,Alcorn State,-1.3397246600324617,destination_adjusted_with_school,True,6-2,74,160.0,3.0,82.0,337.0,55.0,17.0,NC
+46148954,Anthony Thompson,Anthony,Thompson,2026,2026,SF,SF,Ohio State,4.224117866659071,destination_adjusted_with_school,True,6-8,80,205.0,5.0,99.71900981853837,8.0,3.0,1.0,OH
+46148959,Ryan Kreager,Ryan,Kreager,2026,2026,C,C,Loyola,-0.19592826983590192,destination_adjusted_with_school,True,6-10,82,210.0,4.0,90.11780455153949,220.0,36.0,3.0,MN
+46149464,Ashton Meeks,Ashton,Meeks,2026,2026,CG,CG,James Madison,0.20197461784272233,destination_adjusted_with_school,True,5-10,70,165.0,4.0,90.47389558232932,206.0,26.0,6.0,MD
+46150356,Bruce Branch III,Bruce,Branch III,2026,2026,SF,SF,BYU,3.7990162959846465,destination_adjusted_with_school,True,6-7,79,190.0,5.0,99.8438794195735,5.0,2.0,2.0,FL
+46152172,Sammy Jackson,Sammy,Jackson,2026,2026,SF,SF,VCU,2.2625683530158853,destination_adjusted_with_school,True,6-7,79,205.0,5.0,97.85908405080745,58.0,21.0,1.0,PA
+46154156,Ryan Moesch,Ryan,Moesch,2026,2026,PG,PG,Syracuse,1.0965774599633067,destination_adjusted_with_school,True,6-0,72,170.0,4.0,91.25435073627845,175.0,19.0,6.0,MA
+46154589,Gan-Erdene Solongo,Gan-Erdene,Solongo,2026,2026,C,C,Notre Dame,0.9624359878839236,destination_adjusted_with_school,True,7-0,84,230.0,4.0,93.02931234413684,150.0,27.0,5.0,IN
+46155250,Jaden Ghoreishi,Jaden,Ghoreishi,2026,2026,C,C,Colorado State,0.16722948946285138,destination_adjusted_with_school,True,6-9,81,215.0,4.0,90.08232931726909,221.0,37.0,4.0,WA
+46158675,Nolen Anderson,Nolen,Anderson,2026,2026,SF,SF,Minnesota,0.8929805064118491,destination_adjusted_with_school,True,6-6,78,180.0,4.0,95.22578608749379,106.0,40.0,1.0,MN
+46160456,Isaiah Wilks,Isaiah,Wilks,2026,2026,PG,PG,Louisiana,0.10855825437600145,destination_adjusted_with_school,True,5-9,69,160.0,4.0,90.12048192771084,219.0,30.0,2.0,OK
+46160600,Caden Deffebaugh,Caden,Deffebaugh,2026,2026,SF,SF,New Mexico State,-0.601389363531516,destination_adjusted_with_school,True,6-4,76,185.0,,,,,,TX
+46161869,Amare Hereford,Amare,Hereford,2026,2026,CG,CG,Milwaukee,-1.3535266400246504,destination_adjusted_with_school,True,6-2,74,175.0,,,,,,WI
+46162176,Dorian Rinaldo-Komlan,Dorian,Rinaldo-Komlan,2026,2026,C,C,Iowa State,1.3359025836283858,destination_adjusted_with_school,True,6-10,82,215.0,4.0,96.63758713784907,96.0,14.0,6.0,OH
+46166807,Jose Martins,Jose,Martins,2026,2026,PG,PG,Western Carolina,-1.6342423459822464,destination_adjusted_with_school,True,6-2,74,165.0,,,,,,TX
+46167195,Domen Petrovic,Domen,Petrovic,2026,2026,PF,PF,Florida,-0.07252523436742664,destination_adjusted_with_school,True,6-9,81,,,,,,,SLOV
+46129271,Kota Suttle,Kota,Suttle,2026,2026,CG,CG,UNLV,0.23339035041213202,destination_adjusted_with_school,True,6-3,75,192.0,4.0,89.44042838018743,249.0,29.0,23.0,CA
+46134378,AJ Williams,AJ,Williams,2026,2026,SF,SF,__MISSING__,-0.9190981390718072,neutral_no_school,False,6-7,79,180.0,,,,,,NJ
+46135532,Jayden Johnson,Jayden,Johnson,2026,2026,SG,SG,South Florida,0.10969720878666966,destination_adjusted_with_school,True,6-6,78,180.0,4.0,89.71619812583668,241.0,40.0,1.0,KY
+46136410,Trevaun Clark,Trevaun,Clark,2026,2026,PF,PF,__MISSING__,-0.9615479400316382,neutral_no_school,False,6-7,79,180.0,,,,,,TX
+46136810,Talon Todd,Talon,Todd,2026,2026,PG,PG,Austin Peay,-1.0503880143999877,destination_adjusted_with_school,True,6-0,72,160.0,3.0,82.0,337.0,55.0,30.0,TX
+46136953,Nasir Price,Nasir,Price,2026,2026,SG,SG,UTSA,-0.2207975332260751,destination_adjusted_with_school,True,6-3,75,155.0,4.0,89.90093708165996,231.0,36.0,15.0,TX
+46136996,Aiden Derkack,Aiden,Derkack,2026,2026,SG,SG,Dayton,2.072762012180387,destination_adjusted_with_school,True,6-6,78,180.0,5.0,97.531172628082,71.0,11.0,4.0,OH
+46137841,Kalek House,Kalek,House,2026,2026,SG,SG,Xavier,1.3735810308013332,destination_adjusted_with_school,True,6-3,75,180.0,4.0,96.68354577731215,94.0,14.0,9.0,AZ
+46141694,Ashton McCullough,Ashton,McCullough,2026,2026,PG,PG,East Carolina,-1.0545170548474305,destination_adjusted_with_school,True,6-3,75,170.0,,,,,,CA
+46142154,Jaron Saulsberry,Jaron,Saulsberry,2026,2026,SF,SF,Ole Miss,0.4391897653708342,destination_adjusted_with_school,True,6-6,78,170.0,4.0,90.76840696117806,197.0,57.0,12.0,GA
+46142605,Zach White,Zach,White,2026,2026,SF,SF,San Diego State,0.4055586787984112,destination_adjusted_with_school,True,6-5,77,165.0,4.0,89.40160642570281,250.0,69.0,24.0,CA
+46142619,Parker Robinson,Parker,Robinson,2026,2026,SG,SG,Oklahoma State,0.8601428926025855,destination_adjusted_with_school,True,6-4,76,200.0,4.0,91.02275769745648,186.0,27.0,11.0,GA
+46143028,Dionte Neal,Dionte,Neal,2026,2026,PG,PG,UNC Greensboro,0.21372891611350275,destination_adjusted_with_school,True,5-9,69,150.0,4.0,92.80209354698616,153.0,15.0,6.0,NC
+46143132,Dothan Ijadimbola,Dothan,Ijadimbola,2026,2026,SF,SF,Drake,-0.05723098588554558,destination_adjusted_with_school,True,6-6,78,180.0,4.0,89.82864792503347,234.0,67.0,4.0,MN
+46143432,Ethan Mgbako,Ethan,Mgbako,2026,2026,SF,SF,Vanderbilt,1.8626048853374384,destination_adjusted_with_school,True,6-6,78,215.0,5.0,97.50220502970633,72.0,27.0,5.0,VA
+46143540,Felipe Quinones,Felipe,Quinones,2026,2026,CG,CG,Florida Atlantic,0.2848512496586338,destination_adjusted_with_school,True,6-4,76,180.0,4.0,96.25968757975045,101.0,10.0,19.0,FL
+46143772,Korie Corbett,Korie,Corbett,2026,2026,SF,SF,UAB,-0.038109180887781334,destination_adjusted_with_school,True,6-4,76,170.0,4.0,89.8433734939759,233.0,66.0,10.0,VA
+46145734,Ethan Long,Ethan,Long,2026,2026,PF,PF,__MISSING__,-0.9072514878376371,neutral_no_school,False,6-8,80,190.0,,,,,,AR
+46146669,Andre Tyler,Andre,Tyler,2026,2026,SF,SF,__MISSING__,-0.526427050208648,neutral_no_school,False,6-5,77,180.0,3.0,85.0,304.0,76.0,19.0,AZ
+46147197,Derrick Morton-Rivera,Derrick,Morton-Rivera,2026,2026,SG,SG,Temple,0.33628260648321334,destination_adjusted_with_school,True,6-3,75,160.0,4.0,89.72489959839358,240.0,39.0,4.0,PA
+46147250,Xavier Muhammad,Xavier,Muhammad,2026,2026,PF,PF,__MISSING__,-0.9149685025873935,neutral_no_school,False,6-4,76,275.0,,,,,,TX
+46147751,Shane Pendergrass,Shane,Pendergrass,2026,2026,PF,PF,George Mason,0.381740463702705,destination_adjusted_with_school,True,6-8,80,210.0,4.0,93.96762076175382,135.0,20.0,8.0,VA
+46149289,Martay Barnes,Martay,Barnes,2026,2026,CG,CG,Florida State,1.7523039027890417,destination_adjusted_with_school,True,6-2,74,170.0,5.0,97.12513375687813,84.0,8.0,13.0,FL
+46149308,Tim Winkler,Tim,Winkler,2026,2026,C,C,__MISSING__,-0.9326479471608279,neutral_no_school,False,6-10,82,210.0,,,,,,FL
+46149991,Herly Brutus,Herly,Brutus,2026,2026,SF,SF,Butler,0.4849837685957281,destination_adjusted_with_school,True,6-5,77,180.0,4.0,94.22478319073396,124.0,42.0,22.0,FL
+46150057,Jeremiah Jackson,Jeremiah,Jackson,2026,2026,SF,SF,Southern Illinois,-0.7627980805696785,destination_adjusted_with_school,True,6-4,76,190.0,3.0,81.0,355.0,87.0,5.0,KY
+46151687,Carter Basquez,Carter,Basquez,2026,2026,SF,SF,__MISSING__,-0.4188497338833442,neutral_no_school,False,6-5,77,175.0,3.0,84.0,321.0,80.0,1.0,NM
+46152176,Xavier Roberson,Xavier,Roberson,2026,2026,PF,PF,Sam Houston,-1.1310812745458467,destination_adjusted_with_school,True,6-7,79,190.0,3.0,81.0,355.0,57.0,34.0,TX
+46153422,Bryson Howard,Bryson,Howard,2026,2026,SG,SG,Duke,4.18571344174909,destination_adjusted_with_school,True,6-4,76,188.0,5.0,99.26403495811563,22.0,4.0,1.0,TX
+46154133,Nash Walker,Nash,Walker,2026,2026,SG,SG,Marquette,0.3443641531327352,destination_adjusted_with_school,True,6-6,78,175.0,,,,,,AUST
+46157726,Isaiah Brown,Isaiah,Brown,2026,2026,C,C,North Florida,-1.3368697570446275,destination_adjusted_with_school,True,6-9,81,190.0,,,,,,FL
+46157780,Rashaun Porter,Rashaun,Porter,2026,2026,PF,PF,Toledo,-1.0368216094453504,destination_adjusted_with_school,True,6-7,79,210.0,3.0,85.0,304.0,52.0,8.0,IL
+46158205,Gavin Murphy,Gavin,Murphy,2026,2026,PG,PG,Western Kentucky,-0.5422084630265633,destination_adjusted_with_school,True,5-11,71,160.0,,,,,,KY
+46158341,Jeremiah Hammond,Jeremiah,Hammond,2026,2026,PG,PG,Northern Colorado,-1.2193743560103643,destination_adjusted_with_school,True,6-3,75,170.0,3.0,82.0,337.0,55.0,42.0,FL
+46159920,Henry Beckett,Henry,Beckett,2026,2026,PF,PF,Cal State Fullerton,-1.5613406372290661,destination_adjusted_with_school,True,6-7,79,215.0,,,,,,TX
+46160340,Aaron McGee,Aaron,McGee,2026,2026,SG,SG,Arkansas State,-0.6857860352432127,destination_adjusted_with_school,True,6-4,76,175.0,3.0,87.0,278.0,49.0,13.0,FL
+46160707,Amir Jones,Amir,Jones,2026,2026,CG,CG,Colorado,-0.07649250765317911,destination_adjusted_with_school,True,6-3,75,180.0,,,,,,CA
+46163002,Takeo McCrae,Takeo,McCrae,2026,2026,CG,CG,__MISSING__,-0.8877987692236832,neutral_no_school,False,6-4,76,205.0,,,,,,OR
+46163257,Colt Busse,Colt,Busse,2026,2026,CG,CG,East Tennessee State,-0.6184626648234312,destination_adjusted_with_school,True,6-4,76,160.0,,,,,,MD
+46165671,Elliot Moskowitz,Elliot,Moskowitz,2026,2026,CG,CG,Kansas City,-1.2749860073934716,destination_adjusted_with_school,True,6-3,75,170.0,3.0,81.0,355.0,42.0,3.0,CO
+46166178,Diego Roman,Diego,Roman,2026,2026,PG,PG,South Alabama,-1.2412677679370883,destination_adjusted_with_school,True,6-6,78,200.0,,,,,,SWIT
+46166838,Wini Braga,Wini,Braga,2026,2026,PF,PF,Washington,-0.2760916459461217,destination_adjusted_with_school,True,6-9,81,200.0,,,,,,BRAZ
+46166954,Maxim Klitschko,Maxim,Klitschko,2026,2026,C,C,East Carolina,-1.0346067034602948,destination_adjusted_with_school,True,7-1,85,240.0,,,,,,UKRA
+46167129,Clemens Sokolov,Clemens,Sokolov,2026,2026,C,C,Indiana,-0.04683686822310949,destination_adjusted_with_school,True,6-11,83,,,,,,,GERM
+46132621,Caleb Holt,Caleb,Holt,2026,2026,SG,SG,Arizona,5.237873855743289,destination_adjusted_with_school,True,6-5,77,200.0,5.0,99.93978142223297,2.0,1.0,1.0,FL
+46136658,Jason Crowe Jr.,Jason,Crowe Jr.,2026,2026,CG,CG,Missouri,3.7700442792238635,destination_adjusted_with_school,True,6-3,75,170.0,5.0,99.75693185226972,6.0,2.0,1.0,CA
+46136778,Caleb Gaskins,Caleb,Gaskins,2026,2026,PF,PF,Miami,3.9009187490398785,destination_adjusted_with_school,True,6-8,80,219.0,5.0,99.54054792189942,15.0,3.0,4.0,FL
+46137613,Jayden Hodge,Jayden,Hodge,2026,2026,SF,SF,Northwestern,1.8619585648620274,destination_adjusted_with_school,True,6-6,78,190.0,5.0,97.06052750578681,86.0,32.0,14.0,FL
+46138185,Kendre Harrison,Kendre,Harrison,2026,2026,C,C,Oregon,1.0163209564753202,destination_adjusted_with_school,True,6-7,79,243.0,4.0,92.94170214861676,151.0,28.0,5.0,NC
+46138220,Jacob Lanier,Jacob,Lanier,2026,2026,SG,SG,Nebraska,0.8405856558053539,destination_adjusted_with_school,True,6-5,77,180.0,4.0,94.42115395808429,120.0,18.0,2.0,AR
+46139344,Hassan Koureissi,Hassan,Koureissi,2026,2026,SG,SG,Fordham,-0.34103367624220793,destination_adjusted_with_school,True,6-3,75,170.0,4.0,89.95180722891565,229.0,34.0,11.0,NY
+46141117,Joe Sterling,Joe,Sterling,2026,2026,CG,CG,Texas,1.1745451766793782,destination_adjusted_with_school,True,6-4,76,180.0,4.0,94.30743262906698,122.0,14.0,10.0,CA
+46141706,Yeshua Kesse-Beda,Yeshua,Kesse-Beda,2026,2026,PF,PF,Fresno State,-0.539104155258937,destination_adjusted_with_school,True,6-7,79,205.0,,,,,,CA
+46142933,Chris Powell,Chris,Powell,2026,2026,SG,SG,__MISSING__,-0.5698086395320039,neutral_no_school,False,6-3,75,170.0,3.0,88.59170013386881,268.0,47.0,38.0,FL
+46142935,Austin Goosby,Austin,Goosby,2026,2026,CG,CG,Texas,3.3979556738448133,destination_adjusted_with_school,True,6-5,77,186.0,5.0,99.20386115252536,23.0,4.0,2.0,TX
+46143164,Cam Lomax,Cam,Lomax,2026,2026,CG,CG,SMU,0.5094093946883514,destination_adjusted_with_school,True,6-0,72,165.0,4.0,93.61820973973933,144.0,18.0,9.0,TX
+46143175,Jaelon Germany,Jaelon,Germany,2026,2026,PG,PG,Holy Cross,-1.2906762303839696,destination_adjusted_with_school,True,6-2,74,165.0,3.0,84.0,321.0,50.0,28.0,TX
+46143226,Tre Raymon,Tre,Raymon,2026,2026,PF,PF,__MISSING__,-0.8937058145344676,neutral_no_school,False,6-8,80,200.0,,,,,,SC
+46143333,Colben Landrew,Colben,Landrew,2026,2026,SF,SF,UConn,3.319074069199203,destination_adjusted_with_school,True,6-6,78,235.0,5.0,99.1213012585459,26.0,9.0,2.0,GA
+46145218,William Gerdes,William,Gerdes,2026,2026,SF,SF,Northern Iowa,-0.5847936479993735,destination_adjusted_with_school,True,6-8,80,,,,,,,IA
+46145958,Donovan Williams,Donovan,Williams,2026,2026,CG,CG,Georgia,-0.020198009030812904,destination_adjusted_with_school,True,6-3,75,180.0,4.0,90.01472556894244,223.0,28.0,33.0,FL
+46146445,Isaac Ellis,Isaac,Ellis,2026,2026,PG,PG,Louisville,0.7370219574297752,destination_adjusted_with_school,True,6-1,73,165.0,4.0,90.00602409638554,224.0,31.0,12.0,NC
+46147326,Christian Wiggins,Christian,Wiggins,2026,2026,SG,SG,Iowa State,1.4003524684350142,destination_adjusted_with_school,True,6-4,76,180.0,4.0,94.19085483517124,126.0,20.0,2.0,MN
+46149819,Jaden Shipley,Jaden,Shipley,2026,2026,PG,PG,__MISSING__,-0.9789079143321923,neutral_no_school,False,6-4,76,,,,,,,PA
+46150030,Josiah Sanders,Josiah,Sanders,2026,2026,PF,PF,__MISSING__,0.20433744765838158,neutral_no_school,False,6-7,79,200.0,4.0,89.33333333333333,254.0,39.0,6.0,TN
+46150872,Yabi Aklog,Yabi,Aklog,2026,2026,C,C,Oregon State,0.7268528570056983,destination_adjusted_with_school,True,6-10,82,230.0,4.0,94.04267683890525,131.0,22.0,3.0,WA
+46150911,Marquis Clark,Marquis,Clark,2026,2026,PG,PG,Tennessee,0.6414508652579171,destination_adjusted_with_school,True,6-1,73,175.0,4.0,89.21954484605088,256.0,35.0,3.0,IL
+46151082,Delano Tarpley,Delano,Tarpley,2026,2026,C,C,UTEP,-1.1816461105518765,destination_adjusted_with_school,True,6-11,83,245.0,,,,,,CA
+46151094,Brady Hennig,Brady,Hennig,2026,2026,SG,SG,Boise State,0.3330003752435131,destination_adjusted_with_school,True,6-6,78,180.0,4.0,90.00200803212851,225.0,33.0,5.0,WA
+46151492,Tyler Jones,Tyler,Jones,2026,2026,SG,SG,Albany,-0.8626488797261748,destination_adjusted_with_school,True,6-3,75,185.0,3.0,85.0,304.0,54.0,15.0,NC
+46151689,DJ Biggins,DJ,Biggins,2026,2026,CG,CG,__MISSING__,-0.8643831707532611,neutral_no_school,False,6-1,73,170.0,,,,,,CT
+46152179,Dywane Chess,Dywane,Chess,2026,2026,SG,SG,Marist,-0.9568242628611066,destination_adjusted_with_school,True,6-3,75,180.0,3.0,82.0,337.0,60.0,1.0,RI
+46153582,Eli Jolin,Eli,Jolin,2026,2026,SG,SG,__MISSING__,-0.9418227682976187,neutral_no_school,False,6-6,78,,,,,,,ON
+46154440,Jaen Chatman,Jaen,Chatman,2026,2026,PG,PG,Rhode Island,1.1856261455512929,destination_adjusted_with_school,True,6-1,73,190.0,4.0,94.45581657734617,119.0,11.0,3.0,NJ
+46157906,Pops Dunson,Pops,Dunson,2026,2026,PG,PG,Colorado State,0.48532065621024467,destination_adjusted_with_school,True,6-0,72,185.0,4.0,90.14457831325302,218.0,29.0,13.0,GA
+46158380,Nathan Kirk,Nathan,Kirk,2026,2026,PG,PG,Iona,-0.9562018113576907,destination_adjusted_with_school,True,6-0,72,175.0,,,,,,FL
+46158743,Landon Davis,Landon,Davis,2026,2026,PF,PF,Illinois,0.6698936121665335,destination_adjusted_with_school,True,6-8,80,210.0,4.0,89.13788487282461,259.0,41.0,5.0,IA
+46160349,Marcus Moller,Marcus,Moller,2026,2026,C,C,Michigan,0.2593870062969004,destination_adjusted_with_school,True,7-3,87,230.0,,,,,,DENM
+46160714,Jackson Kiss,Jackson,Kiss,2026,2026,C,C,UNLV,0.953190286275779,destination_adjusted_with_school,True,6-8,80,230.0,4.0,94.18773869166745,127.0,20.0,5.0,UT
+46161399,Sidy Diakhate,Sidy,Diakhate,2026,2026,PF,PF,North Dakota,-1.5327792230040413,destination_adjusted_with_school,True,6-9,81,210.0,,,,,,UT
+46162034,Joaquim Boumtje Boumtje,Joaquim,Boumtje Boumtje,2026,2026,C,C,Duke,3.2426787148225875,destination_adjusted_with_school,True,7-0,84,230.0,5.0,98.0,54.0,6.0,1.0,SPAI
+46163251,Stephon Ashley-Wright,Stephon,Ashley-Wright,2026,2026,PG,PG,Towson,-1.3951014705570843,destination_adjusted_with_school,True,5-11,71,150.0,,,,,,PA
+46163260,Ralfs Rudusans,Ralfs,Rudusans,2026,2026,SF,SF,Lehigh,-1.3696953420422637,destination_adjusted_with_school,True,6-8,80,,,,,,,MD
+46165902,Alex Dickeson,Alex,Dickeson,2026,2026,PG,PG,Colorado,-0.23788075224699481,destination_adjusted_with_school,True,6-3,75,,,,,,,AUST
+46166438,Kenan Gilao,Kenan,Gilao,2026,2026,PF,PF,Marshall,-1.00591076303845,destination_adjusted_with_school,True,6-9,81,190.0,,,,,,CANA
+46166703,Marko Maric,Marko,Maric,2026,2026,C,C,Butler,-0.8548726107846516,destination_adjusted_with_school,True,7-0,84,,,,,,,CROA
+46166994,Roman Stathis,Roman,Stathis,2026,2026,SF,SF,Washington State,-0.7169256286202542,destination_adjusted_with_school,True,6-7,79,225.0,,,,,,AUST
+46167069,Luke Mirhashemi,Luke,Mirhashemi,2026,2026,PG,PG,Colorado,-0.40872569879796183,destination_adjusted_with_school,True,6-5,77,,,,,,,CA
+46167193,Tegra Makabu,Tegra,Makabu,2026,2026,PF,PF,Baylor,-0.27672703912236063,destination_adjusted_with_school,True,6-9,81,,,,,,,FL
+46167276,Iker Martinez,Iker,Martinez,2026,2026,C,C,Syracuse,0.1026949300133829,destination_adjusted_with_school,True,7-0,84,230.0,,,,,,FL
+46167313,Siebe Ledegen,Siebe,Ledegen,2026,2026,SF,SF,Ohio,-1.1635133633944774,destination_adjusted_with_school,True,6-6,78,,,,,,,BELG
+46117503,Cameron Holmes,Cameron,Holmes,2026,2026,SF,SF,Arizona,3.1137971938304,destination_adjusted_with_school,True,6-6,78,205.0,5.0,98.46794088281779,41.0,14.0,3.0,AZ
+46135746,Chidi Nwigwe,Chidi,Nwigwe,2026,2026,SF,SF,Sacramento State,-0.4312210411351194,destination_adjusted_with_school,True,6-7,79,195.0,4.0,91.07630522088353,181.0,51.0,6.0,UT
+46136615,Rashod Cotton,Rashod,Cotton,2026,2026,PG,PG,__MISSING__,-0.823678087677794,neutral_no_school,False,5-11,71,155.0,,,,,,CA
+46136619,Kaiden Bailey,Kaiden,Bailey,2026,2026,CG,CG,Georgia Tech,0.38660209840116594,destination_adjusted_with_school,True,6-2,74,180.0,4.0,91.04953145917001,185.0,23.0,19.0,CA
+46137368,Trae Nunn,Trae,Nunn,2026,2026,SF,SF,Columbia,-1.3389353215735196,destination_adjusted_with_school,True,6-4,76,205.0,3.0,82.0,337.0,85.0,30.0,TX
+46137840,Kaden House,Kaden,House,2026,2026,CG,CG,Maryland,2.906103096009379,destination_adjusted_with_school,True,6-3,75,173.0,5.0,98.44331618558964,43.0,5.0,4.0,AZ
+46139276,Jaylen Alexander,Jaylen,Alexander,2026,2026,PG,PG,Kansas State,0.9234581181458578,destination_adjusted_with_school,True,6-2,74,175.0,4.0,90.88353413654619,191.0,22.0,3.0,AL
+46142504,Jayden Joseph,Jayden,Joseph,2026,2026,SG,SG,Florida A&M,-1.434942910230299,destination_adjusted_with_school,True,6-2,74,180.0,,,,,,VA
+46142904,Ethan Taylor,Ethan,Taylor,2026,2026,C,C,Michigan State,3.0741933447483514,destination_adjusted_with_school,True,7-0,84,244.0,5.0,98.62616575555286,38.0,4.0,3.0,MO
+46143229,Seven Spurlock,Seven,Spurlock,2026,2026,SF,SF,Oregon,0.7964423980612778,destination_adjusted_with_school,True,6-5,77,210.0,4.0,90.36680053547524,207.0,59.0,11.0,TX
+46143345,Sam Fleming,Sam,Fleming,2026,2026,PF,PF,__MISSING__,0.39550980489238186,neutral_no_school,False,6-7,79,205.0,4.0,90.23025435073627,212.0,31.0,7.0,MA
+46143758,Julien Smith,Julien,Smith,2026,2026,PG,PG,__MISSING__,-0.8159669008559445,neutral_no_school,False,5-10,70,160.0,,,,,,IN
+46144232,Brayden Kyman,Brayden,Kyman,2026,2026,PF,PF,Washington State,-0.07347686836126889,destination_adjusted_with_school,True,6-7,79,215.0,4.0,89.35341365461848,252.0,38.0,25.0,CA
+46144457,Jalan Wingfield,Jalan,Wingfield,2026,2026,PF,PF,FIU,-0.15865975736980187,destination_adjusted_with_school,True,6-8,80,225.0,4.0,91.0896921017403,180.0,28.0,10.0,GA
+46146667,RJ Smith,RJ,Smith,2026,2026,PG,PG,La Salle,-0.7427666632210433,destination_adjusted_with_school,True,5-9,69,150.0,,,,,,PA
+46147878,Caleb Williams,Caleb,Williams,2026,2026,SG,SG,Auburn,0.1578421594633196,destination_adjusted_with_school,True,6-5,77,195.0,4.0,89.76706827309238,238.0,38.0,34.0,FL
+46149022,Jacob Webber,Jacob,Webber,2026,2026,SF,SF,Purdue,2.456107674135607,destination_adjusted_with_school,True,6-6,78,175.0,5.0,97.75418284061551,62.0,24.0,2.0,NE
+46149076,Adam Boyd,Adam,Boyd,2026,2026,CG,CG,Louisiana Tech,-0.8572118339024742,destination_adjusted_with_school,True,6-3,75,160.0,3.0,85.5,301.0,36.0,23.0,TX
+46150034,Arafan Diane,Arafan,Diane,2026,2026,C,C,Houston,3.631523851794941,destination_adjusted_with_school,True,7-1,85,290.0,5.0,99.11239159536699,27.0,2.0,1.0,IA
+46150518,Sifeng Huan,Sifeng,Huan,2026,2026,C,C,UMBC,-1.508009250937091,destination_adjusted_with_school,True,6-10,82,210.0,3.0,83.0,332.0,46.0,10.0,MD
+46150994,Jamyn Sondrup,Jamyn,Sondrup,2026,2026,C,C,Purdue,0.7066870143373182,destination_adjusted_with_school,True,6-9,81,225.0,4.0,90.73895582329317,198.0,35.0,7.0,UT
+46151117,Max VanLaningham,Max,VanLaningham,2026,2026,PF,PF,Long Beach State,-1.034564910085647,destination_adjusted_with_school,True,6-7,79,220.0,3.0,86.1111111111111,291.0,48.0,26.0,CA
+46151553,Adama Tambedou,Adama,Tambedou,2026,2026,PF,PF,Maryland,1.0735425934593517,destination_adjusted_with_school,True,6-7,79,230.0,4.0,93.92083383702033,137.0,22.0,2.0,CT
+46151952,Curtis Coleman,Curtis,Coleman,2026,2026,SG,SG,__MISSING__,-0.8446694453360492,neutral_no_school,False,6-5,77,180.0,,,,,,NV
+46152091,Oesoemana Sacko,Oesoemana,Sacko,2026,2026,C,C,__MISSING__,-0.9249367603389783,neutral_no_school,False,6-8,80,200.0,,,,,,NY
+46152165,Ja'Cori Jones,Ja'Cori,Jones,2026,2026,CG,CG,Texas A&M Corpus Christi,-1.5045752445066323,destination_adjusted_with_school,True,5-11,71,155.0,3.0,80.0,365.0,43.0,36.0,TX
+46152175,Quinn Costello,Quinn,Costello,2026,2026,PF,PF,Michigan,3.526472049931056,destination_adjusted_with_school,True,6-10,82,195.0,5.0,98.85356364141069,32.0,6.0,1.0,MA
+46153300,Austin Senters,Austin,Senters,2026,2026,SF,SF,__MISSING__,-0.9268093258936567,neutral_no_school,False,6-4,76,185.0,,,,,,TX
+46153620,Connor Lyons,Connor,Lyons,2026,2026,C,C,__MISSING__,-0.9249367603389783,neutral_no_school,False,6-8,80,215.0,,,,,,VA
+46153628,Finley Billy,Finley,Billy,2026,2026,PF,PF,Pennsylvania,-1.0926658686203734,destination_adjusted_with_school,True,6-7,79,200.0,,,,,,DC
+46155531,Julian Washington,Julian,Washington,2026,2026,SG,SG,Dayton,0.537236233589141,destination_adjusted_with_school,True,6-4,76,170.0,4.0,89.04149933065595,260.0,44.0,9.0,OH
+46156951,Ethan Lin,Ethan,Lin,2026,2026,PG,PG,Pennsylvania,-0.9125025576274702,destination_adjusted_with_school,True,6-5,77,165.0,3.0,82.0,337.0,55.0,7.0,NJ
+46158316,Race Kowalczyk,Race,Kowalczyk,2026,2026,SF,SF,Bradley,-1.2419767898675114,destination_adjusted_with_school,True,6-6,78,180.0,,,,,,OH
+46158931,Kamai Samuels,Kamai,Samuels,2026,2026,PG,PG,__MISSING__,0.49635188590817136,neutral_no_school,False,6-2,74,180.0,4.0,90.16064257028113,217.0,28.0,4.0,CT
+46159677,Nicolas Mitrovic,Nicolas,Mitrovic,2026,2026,C,C,California,0.5694977342856512,destination_adjusted_with_school,True,6-10,82,200.0,4.0,92.72742474916387,156.0,30.0,5.0,MA
+46162314,Gabriel Landeira,Gabriel,Landeira,2026,2026,PG,PG,Georgetown,0.17185155581336364,destination_adjusted_with_school,True,6-6,78,185.0,,,,,,BRAZ
+46162442,Nick Shrewsberry,Nick,Shrewsberry,2026,2026,SG,SG,Notre Dame,0.17406018373571727,destination_adjusted_with_school,True,6-5,77,170.0,,,,,,IN
+46163077,Greg Howard Jr.,Greg,Howard Jr.,2026,2026,SG,SG,Cal State Fullerton,-1.3314230387453583,destination_adjusted_with_school,True,6-2,74,180.0,,,,,,OH
+46163258,Bol Wieu Thet,Bol Wieu,Thet,2026,2026,C,C,Siena,-0.8924440732899377,destination_adjusted_with_school,True,6-10,82,195.0,,,,,,MD
+46163637,Cooper Knowles,Cooper,Knowles,2026,2026,C,C,__MISSING__,-1.0680592110932734,neutral_no_school,False,6-10,82,,,,,,,IL
+46165476,Alex Ensor,Alex,Ensor,2026,2026,C,C,Santa Clara,-0.947903000235576,destination_adjusted_with_school,True,7-1,85,225.0,,,,,,AZ
+46165811,Goc Malual,Goc,Malual,2026,2026,PF,PF,Colorado,-0.4987245510831075,destination_adjusted_with_school,True,6-9,81,,,,,,,AUST
+46166886,Marcio Santos,Marcio,Santos,2026,2026,PF,PF,LSU,-0.4568719737073053,destination_adjusted_with_school,True,6-8,80,,,,,,,BRAZ
+46167189,Mantas Rubstavicius,Mantas,Rubstavicius,2026,2026,SF,SF,Auburn,-0.6176291870224218,destination_adjusted_with_school,True,6-6,78,,,,,,,LITH
+46167284,Tristan Devers,Tristan,Devers,2026,2026,CG,CG,Washington,0.15360245872013742,destination_adjusted_with_school,True,6-3,75,180.0,,,,,,AUST
+46135970,Jalen Montonati,Jalen,Montonati,2026,2026,SF,SF,Oklahoma State,1.4089863187630818,destination_adjusted_with_school,True,6-7,79,175.0,4.0,96.79064082416623,92.0,34.0,1.0,OK
+46136525,Kobe Edwards,Kobe,Edwards,2026,2026,PG,PG,College of Charleston,0.45063290195953304,destination_adjusted_with_school,True,6-1,73,160.0,4.0,90.6760374832664,199.0,24.0,8.0,NC
+46136900,Sam Funches,Sam,Funches,2026,2026,C,C,Gonzaga,1.3585153612365335,destination_adjusted_with_school,True,6-10,82,215.0,4.0,94.83008511190808,112.0,17.0,1.0,MS
+46138195,Xavier Green,Xavier,Green,2026,2026,PG,PG,__MISSING__,-0.823678087677794,neutral_no_school,False,5-10,70,165.0,,,,,,TX
+46142435,Marcis Ponder,Marcis,Ponder,2026,2026,C,C,Florida State,3.1047360025256423,destination_adjusted_with_school,True,6-11,83,328.0,5.0,98.48795404583775,40.0,5.0,3.0,VA
+46142577,Chase Foster,Chase,Foster,2026,2026,PF,PF,Pittsburgh,2.7249953774471125,destination_adjusted_with_school,True,6-8,80,210.0,5.0,98.64850707176532,37.0,8.0,7.0,FL
+46142934,Julius Avent,Julius,Avent,2026,2026,PF,PF,Michigan State,1.3009795629971,destination_adjusted_with_school,True,6-7,79,220.0,4.0,96.96243166646519,87.0,13.0,2.0,NJ
+46143287,Noah Smith,Noah,Smith,2026,2026,PF,PF,DePaul,0.49575334564858264,destination_adjusted_with_school,True,6-8,80,200.0,4.0,93.05982010539371,149.0,25.0,4.0,IN
+46144024,Elhadji Diallo,Elhadji,Diallo,2026,2026,PF,PF,UMass Lowell,-0.5510524476950781,destination_adjusted_with_school,True,6-7,79,200.0,4.0,90.06157965194109,222.0,32.0,11.0,NC
+46144400,Luke Susko,Luke,Susko,2026,2026,SF,SF,Southern Illinois,-1.0061910458117518,destination_adjusted_with_school,True,6-6,78,175.0,3.0,81.0,355.0,87.0,34.0,TX
+46144609,Miikka Muurinen,Miikka,Muurinen,2026,2026,PF,PF,Arkansas,2.2996779640182323,destination_adjusted_with_school,True,6-10,82,205.0,5.0,98.0,54.0,9.0,1.0,SERB
+46145959,Rylan Parsley,Rylan,Parsley,2026,2026,SF,SF,Fresno State,-0.3535776029857024,destination_adjusted_with_school,True,6-5,77,180.0,,,,,,AZ
+46146310,Ian Williams,Ian,Williams,2026,2026,PG,PG,__MISSING__,-0.8159669008559445,neutral_no_school,False,5-10,70,160.0,,,,,,PA
+46146315,Nasir Ralls,Nasir,Ralls,2026,2026,SG,SG,__MISSING__,-0.8159669008559445,neutral_no_school,False,6-0,72,160.0,,,,,,PA
+46146430,Jasiah Jervis,Jasiah,Jervis,2026,2026,SG,SG,Michigan State,3.3741728859347315,destination_adjusted_with_school,True,6-4,76,190.0,5.0,98.93392969872802,31.0,6.0,4.0,NY
+46146666,Quentin Coleman,Quentin,Coleman,2026,2026,SG,SG,Illinois,4.05856481778236,destination_adjusted_with_school,True,6-4,76,180.0,5.0,99.43801963707672,17.0,3.0,1.0,MO
+46148844,Beau Billingsley,Beau,Billingsley,2026,2026,PG,PG,Texas A&M Corpus Christi,-1.108616253946068,destination_adjusted_with_school,True,5-11,71,170.0,,,,,,OK
+46149087,Emilis Zibuda,Emilis,Zibuda,2026,2026,SF,SF,__MISSING__,-0.8820129930372337,neutral_no_school,False,6-6,78,180.0,,,,,,UT
+46150812,Luke Barnett,Luke,Barnett,2026,2026,SG,SG,Kansas,1.3310175058479559,destination_adjusted_with_school,True,6-4,76,180.0,4.0,94.25164649680103,123.0,19.0,11.0,CA
+46150814,Darius Ratliff,Darius,Ratliff,2026,2026,C,C,USC,3.326447555496723,destination_adjusted_with_school,True,6-11,83,210.0,5.0,99.00310271185076,30.0,3.0,3.0,NY
+46151490,Gage Howard,Gage,Howard,2026,2026,C,C,Loyola Maryland,-1.4410370275359474,destination_adjusted_with_school,True,6-6,78,225.0,3.0,81.0,355.0,48.0,11.0,MD
+46152081,Jahda Swann,Jahda,Swann,2026,2026,SG,SG,__MISSING__,-0.867675464076347,neutral_no_school,False,6-4,76,180.0,,,,,,VA
+46153428,Drew Anderson,Drew,Anderson,2026,2026,PF,PF,Stanford,1.0930058335469501,destination_adjusted_with_school,True,6-9,81,215.0,4.0,95.10866207304133,108.0,18.0,8.0,CA
+46158363,Trey Williams,Trey,Williams,2026,2026,PG,PG,Cornell,-1.3720656818823374,destination_adjusted_with_school,True,6-2,74,175.0,,,,,,IL
+46158836,Dionycius Bakare,Dionycius,Bakare,2026,2026,SF,SF,California,0.4529111215052217,destination_adjusted_with_school,True,6-5,77,190.0,4.0,90.52610441767068,203.0,58.0,14.0,AZ
+46160178,Jones Lay,Jones,Lay,2026,2026,C,C,Florida,0.24824114387315044,destination_adjusted_with_school,True,7-0,84,230.0,,,,,,NC
+46160862,Peyton Miller,Peyton,Miller,2026,2026,CG,CG,George Mason,-0.664282002165063,destination_adjusted_with_school,True,6-3,75,180.0,3.0,86.5,286.0,31.0,18.0,GA
+46161474,Hudson Lucas,Hudson,Lucas,2026,2026,PF,PF,Nevada,-0.5952714075085493,destination_adjusted_with_school,True,6-8,80,200.0,3.0,86.0,292.0,49.0,19.0,TX
+46163237,BJ Brown,BJ,Brown,2026,2026,SG,SG,Drexel,-0.09578215844069278,destination_adjusted_with_school,True,6-5,77,210.0,,,,,,SC
+46163255,TJ Moultrie,TJ,Moultrie,2026,2026,CG,CG,Army,-0.9293577719821273,destination_adjusted_with_school,True,6-3,75,195.0,,,,,,MD
+46166558,Grant Mordini,Grant,Mordini,2026,2026,C,C,Kansas,0.6543476429398123,destination_adjusted_with_school,True,6-10,82,210.0,,,,,,CT
+46166597,Tyre Acuff,Tyre,Acuff,2026,2026,PG,PG,Central Michigan,-0.9388727898231081,destination_adjusted_with_school,True,6-2,74,191.0,,,,,,MI
+46059049,Akoldah Gak,Akoldah,Gak,2026,2026,PF,PF,Oklahoma,0.15128745616700043,destination_adjusted_with_school,True,6-11,83,225.0,3.0,86.96296296296295,256.0,48.0,6.0,AUST
+46134907,Alex Constanza,Alex,Constanza,2026,2026,SF,SF,__MISSING__,2.5277881501938095,neutral_no_school,False,6-8,80,205.0,5.0,97.83432503704898,59.0,22.0,3.0,OH
+46135675,Joseph Hartman,Joseph,Hartman,2026,2026,SG,SG,Michigan,1.1937331588306312,destination_adjusted_with_school,True,6-6,78,193.0,4.0,96.86648489162894,90.0,13.0,16.0,FL
+46136659,Jachai Cantave,Jachai,Cantave,2026,2026,PG,PG,New Mexico State,-0.6245865681694429,destination_adjusted_with_school,True,6-1,73,160.0,3.0,85.0,304.0,46.0,25.0,TX
+46137004,Tyus Thomas,Tyus,Thomas,2026,2026,PG,PG,Houston,0.8273586437380807,destination_adjusted_with_school,True,5-10,70,180.0,4.0,89.33333333333333,254.0,34.0,1.0,NV
+46138357,Elijah Garrett,Elijah,Garrett,2026,2026,PG,PG,Illinois-Chicago,-1.20974402700886,destination_adjusted_with_school,True,6-0,72,155.0,3.0,84.0,321.0,50.0,28.0,TX
+46142545,Brandon Bass Jr.,Brandon,Bass Jr.,2026,2026,SG,SG,Florida State,0.9706080178733364,destination_adjusted_with_school,True,6-4,76,185.0,4.0,94.66646071465347,113.0,16.0,20.0,FL
+46142548,SJ Madison,SJ,Madison,2026,2026,SF,SF,Nevada,0.26684472433321293,destination_adjusted_with_school,True,6-5,77,185.0,4.0,91.38821954484605,170.0,49.0,18.0,CA
+46143020,Stephen Brown,Stephen,Brown,2026,2026,SF,SF,__MISSING__,-0.8846795148131747,neutral_no_school,False,6-7,79,205.0,,,,,,IL
+46143044,Darien Moore,Darien,Moore,2026,2026,CG,CG,Seton Hall,0.9939064594717213,destination_adjusted_with_school,True,6-2,74,170.0,4.0,91.31726907630521,172.0,20.0,1.0,NH
+46143731,Brayden Barrett,Brayden,Barrett,2026,2026,SG,SG,__MISSING__,-0.8402158549300066,neutral_no_school,False,6-5,77,170.0,,,,,,AZ
+46143742,Q Williams,Q,Williams,2026,2026,PG,PG,Coastal Carolina,-1.0179680677143397,destination_adjusted_with_school,True,5-9,69,170.0,3.0,81.0,355.0,62.0,18.0,NC
+46143853,Rivers Knight,Rivers,Knight,2026,2026,PF,PF,Purdue,0.5137917406258121,destination_adjusted_with_school,True,6-8,80,205.0,4.0,89.67737617135208,244.0,36.0,8.0,IN
+46144385,Rokiem Green,Rokiem,Green,2026,2026,SG,SG,San Jose State,-0.5565536797454784,destination_adjusted_with_school,True,6-2,74,170.0,3.0,88.16666666666666,269.0,48.0,17.0,AZ
+46147091,Kole Grandison,Kole,Grandison,2026,2026,SF,SF,Texas State,-0.830997904660494,destination_adjusted_with_school,True,6-6,78,205.0,3.0,87.44444444444444,276.0,73.0,17.0,GA
+46148957,Donovan Carney,Donovan,Carney,2026,2026,SG,SG,__MISSING__,-0.8385545989334934,neutral_no_school,False,6-2,74,170.0,,,,,,PA
+46148960,Jaidyn Coon,Jaidyn,Coon,2026,2026,SF,SF,Iowa,1.2500881515738627,destination_adjusted_with_school,True,6-6,78,180.0,4.0,95.80113094518543,103.0,38.0,3.0,IA
+46149168,Evan Roberts,Evan,Roberts,2026,2026,PG,PG,Jacksonville,-1.1661673008947842,destination_adjusted_with_school,True,6-1,73,170.0,3.0,86.66666666666666,285.0,42.0,39.0,FL
+46150029,Aiden Able,Aiden,Able,2026,2026,SG,SG,UMBC,-1.601053861756479,destination_adjusted_with_school,True,6-4,76,,,,,,,MD
+46150088,Keon Mitchell,Keon,Mitchell,2026,2026,PG,PG,__MISSING__,-0.8385545989334934,neutral_no_school,False,6-2,74,170.0,,,,,,VA
+46150807,Trey Beamer,Trey,Beamer,2026,2026,PG,PG,FIU,9.891967130271073e-05,destination_adjusted_with_school,True,6-1,73,160.0,4.0,94.00464287473193,132.0,12.0,24.0,FL
+46151480,Tyshawn Duncan,Tyshawn,Duncan,2026,2026,C,C,Louisiana,0.03943455090558773,destination_adjusted_with_school,True,6-8,80,215.0,4.0,91.25033467202142,176.0,34.0,1.0,LA
+46151531,Harris Reynolds,Harris,Reynolds,2026,2026,SG,SG,Clemson,0.7438430366371095,destination_adjusted_with_school,True,6-4,76,170.0,4.0,94.46280103692362,117.0,17.0,4.0,GA
+46153629,Kai McGrew,Kai,McGrew,2026,2026,PF,PF,Ball State,-1.0378968128747985,destination_adjusted_with_school,True,6-8,80,210.0,3.0,87.0,278.0,43.0,11.0,IN
+46153634,Christopher Kirkpatrick,Christopher,Kirkpatrick,2026,2026,SG,SG,Princeton,-0.20525215346704623,destination_adjusted_with_school,True,6-3,75,175.0,3.0,86.83333333333334,283.0,51.0,5.0,IL
+46156694,Jackson Ball,Jackson,Ball,2026,2026,SG,SG,Wisconsin,0.031602037484925155,destination_adjusted_with_school,True,6-4,76,,,,,,,NEW 
+46158575,Jonathan Moss,Jonathan,Moss,2026,2026,PG,PG,Appalachian State,-0.888240627738892,destination_adjusted_with_school,True,6-0,72,160.0,3.0,85.0,304.0,46.0,4.0,KY
+46159018,Jaroslavs Pihtovs,Jaroslavs,Pihtovs,2026,2026,C,C,San Francisco,0.15606392660157872,destination_adjusted_with_school,True,6-9,81,215.0,4.0,94.09793018226753,129.0,21.0,13.0,CA
+46160370,Louis O'Keefe,Louis,O'Keefe,2026,2026,SG,SG,Princeton,-0.6254019667757026,destination_adjusted_with_school,True,6-3,75,180.0,3.0,82.0,337.0,60.0,10.0,MA
+46160472,Chadrack Mpoyi,Chadrack,Mpoyi,2026,2026,C,C,Minnesota,0.375167755354421,destination_adjusted_with_school,True,6-10,82,240.0,4.0,92.89255125294936,152.0,29.0,16.0,CA
+46160566,Marvin Christie,Marvin,Christie,2026,2026,SG,SG,Jacksonville State,-1.310389433611566,destination_adjusted_with_school,True,6-3,75,180.0,,,,,,FL
+46160568,Baron Walker,Baron,Walker,2026,2026,CG,CG,Butler,-0.434243219809976,destination_adjusted_with_school,True,6-1,73,180.0,,,,,,IN
+46163279,Diing Maiwen,Diing,Maiwen,2026,2026,SF,SF,__MISSING__,-1.0303305893276524,neutral_no_school,False,6-6,78,,,,,,,NY
+46163375,RJ Jones,RJ,Jones,2026,2026,SG,SG,Akron,-1.0373434587745467,destination_adjusted_with_school,True,6-4,76,175.0,,,,,,OH
+46166080,Owen Foxwell,Owen,Foxwell,2026,2026,PG,PG,Wisconsin,0.5506177166744467,destination_adjusted_with_school,True,6-2,74,180.0,,,,,,AUST
+46166351,Jake Feldhaus,Jake,Feldhaus,2026,2026,PF,PF,South Florida,-1.0309902448448227,destination_adjusted_with_school,True,6-8,80,220.0,,,,,,KY
+46167214,Colton Crowdis,Colton,Crowdis,2026,2026,PG,PG,Marquette,-0.011112682089277185,destination_adjusted_with_school,True,6-4,76,180.0,,,,,,ME
+46167332,Amari Barrett,Amari,Barrett,2026,2026,SG,SG,__MISSING__,-0.2326804777673058,neutral_no_school,False,6-4,76,180.0,3.0,87.0,278.0,49.0,4.0,OK
+46134963,Maper Maker,Maper,Maker,2026,2026,C,C,__MISSING__,0.8599799282552868,neutral_no_school,False,7-0,84,215.0,4.0,92.65060240963855,157.0,31.0,4.0,AUST
+46136806,Trent Perry,Trent,Perry,2026,2026,SF,SF,Kansas,1.4492174968468905,destination_adjusted_with_school,True,6-5,77,190.0,4.0,96.3849153581998,100.0,37.0,7.0,MO
+46136952,Jordan Smith Jr.,Jordan,Smith Jr.,2026,2026,CG,CG,Arkansas,4.828145238302273,destination_adjusted_with_school,True,6-2,74,200.0,5.0,99.93087175905406,3.0,1.0,1.0,VA
+46140739,Jaxon Richardson,Jaxon,Richardson,2026,2026,SF,SF,Alabama,3.2795444031986065,destination_adjusted_with_school,True,6-5,77,205.0,5.0,99.13912058490371,24.0,7.0,6.0,FL
+46140872,Jasen Lopez,Jasen,Lopez,2026,2026,PG,PG,Florida State,0.8937608486542645,destination_adjusted_with_school,True,5-11,71,180.0,4.0,93.4136546184739,146.0,14.0,26.0,FL
+46142628,Kevin Thomas,Kevin,Thomas,2026,2026,SF,SF,North Carolina,0.9536968668635356,destination_adjusted_with_school,True,6-6,78,195.0,4.0,96.67929242051821,95.0,36.0,18.0,FL
+46142930,Jaxson Terry,Jaxson,Terry,2026,2026,SF,SF,Loyola,-0.029868746854766967,destination_adjusted_with_school,True,6-5,77,180.0,4.0,89.70281124497993,242.0,68.0,9.0,MA
+46143033,KJ Torbert,KJ,Torbert,2026,2026,SF,SF,Bowling Green,-1.2446809405347503,destination_adjusted_with_school,True,6-4,76,190.0,3.0,84.0,321.0,80.0,2.0,MI
+46143222,Manny Green,Manny,Green,2026,2026,PF,PF,Tennessee,0.6933927697500203,destination_adjusted_with_school,True,6-6,78,205.0,4.0,91.63855421686746,166.0,27.0,9.0,GA
+46143223,Phoenix Woodson,Phoenix,Woodson,2026,2026,PF,PF,New Mexico State,-0.5307680972130857,destination_adjusted_with_school,True,6-7,79,205.0,3.0,86.5,286.0,46.0,17.0,TX
+46143712,Donovan Criss,Donovan,Criss,2026,2026,SF,SF,UTEP,-0.1847007037372067,destination_adjusted_with_school,True,6-5,77,175.0,4.0,90.20348058902276,214.0,62.0,13.0,TX
+46147888,Mason Fuentes,Mason,Fuentes,2026,2026,PG,PG,Stetson,-0.4410014892012941,destination_adjusted_with_school,True,6-2,74,160.0,4.0,91.91967871485943,164.0,17.0,29.0,FL
+46148662,Antonio Brown Jr,Antonio,Brown Jr,2026,2026,SF,SF,__MISSING__,-0.9268093258936567,neutral_no_school,False,6-4,76,185.0,,,,,,FL
+46148846,Kamden McGilveary,Kamden,McGilveary,2026,2026,CG,CG,Ball State,-1.1518202068687737,destination_adjusted_with_school,True,6-0,72,165.0,3.0,86.0,292.0,32.0,19.0,TX
+46150035,Tre Clark,Tre,Clark,2026,2026,SF,SF,UT-Arlington,-1.2101294338083415,destination_adjusted_with_school,True,6-7,79,185.0,,,,,,TX
+46150043,Tyrease Hunter,Tyrease,Hunter,2026,2026,PG,PG,McNeese,-1.5133778744880049,destination_adjusted_with_school,True,6-2,74,170.0,,,,,,NJ
+46150810,Bradley Floyd,Bradley,Floyd,2026,2026,SG,SG,Austin Peay,-0.1005644706788631,destination_adjusted_with_school,True,6-5,77,185.0,4.0,90.24497991967871,211.0,31.0,10.0,NC
+46151436,Marcus Gillespie,Marcus,Gillespie,2026,2026,SG,SG,Omaha,-0.08780291926405967,destination_adjusted_with_school,True,6-4,76,180.0,4.0,92.40963855421687,158.0,22.0,7.0,GA
+46151445,Phenix Card,Phenix,Card,2026,2026,PG,PG,__MISSING__,-0.46113013058264823,neutral_no_school,False,5-11,71,160.0,3.0,81.0,355.0,62.0,14.0,VA
+46152099,Amare James,Amare,James,2026,2026,SG,SG,Clemson,-0.15411793411186664,destination_adjusted_with_school,True,6-6,78,190.0,3.0,89.0,262.0,46.0,16.0,GA
+46152208,Milak Myatt,Milak,Myatt,2026,2026,CG,CG,__MISSING__,-0.5947084276725051,neutral_no_school,False,6-3,75,170.0,3.0,82.0,337.0,39.0,7.0,NJ
+46152215,Josh Goodwin,Josh,Goodwin,2026,2026,SG,SG,Northeastern,-1.139175014014298,destination_adjusted_with_school,True,6-5,77,175.0,3.0,82.0,337.0,60.0,30.0,TX
+46153066,Jaxon Clark,Jaxon,Clark,2026,2026,C,C,Colorado State,-0.6384803042593702,destination_adjusted_with_school,True,6-10,82,,,,,,,IA
+46153382,Malakhi Phillips,Malakhi,Phillips,2026,2026,CG,CG,__MISSING__,-0.9041906673951183,neutral_no_school,False,6-3,75,175.0,,,,,,NC
+46155046,Coleman Elkins,Coleman,Elkins,2026,2026,C,C,Texas,0.4309204824723681,destination_adjusted_with_school,True,6-10,82,240.0,,,,,,NJ
+46156217,Luigi Suigo,Luigi,Suigo,2026,2026,C,C,__MISSING__,-0.8296586118004775,neutral_no_school,False,7-3,87,240.0,,,,,,ITAL
+46157922,Tobiaz Tolbert,Tobiaz,Tolbert,2026,2026,PF,PF,Kennesaw State,-1.6781127378557898,destination_adjusted_with_school,True,6-7,79,195.0,,,,,,GA
+46158294,Marcus Zelee,Marcus,Zelee,2026,2026,PG,PG,__MISSING__,-0.9459807238136027,neutral_no_school,False,6-2,74,185.0,3.0,80.0,365.0,65.0,36.0,TX
+46158577,Isaiah Carroll,Isaiah,Carroll,2026,2026,SF,SF,Pennsylvania,-0.8890520422520655,destination_adjusted_with_school,True,6-6,78,190.0,3.0,85.0,304.0,76.0,6.0,NJ
+46158885,Eric Fiedler,Eric,Fiedler,2026,2026,PF,PF,Colorado State,-0.059270850659035056,destination_adjusted_with_school,True,6-6,78,200.0,3.0,87.0,278.0,43.0,2.0,CO
+46159988,BJ Ranson,BJ,Ranson,2026,2026,PG,PG,Saint Joseph's,-0.06537115393726549,destination_adjusted_with_school,True,6-3,75,,3.0,88.6425702811245,267.0,38.0,9.0,MD
+46160438,Chris Pohl,Chris,Pohl,2026,2026,PF,PF,Wyoming,-1.0071580618500953,destination_adjusted_with_school,True,6-7,79,215.0,3.0,82.0,337.0,55.0,4.0,WI
+46160567,Mason Williams,Mason,Williams,2026,2026,PG,PG,Kentucky,1.6602032384744336,destination_adjusted_with_school,True,6-2,74,185.0,4.0,93.882258129508,140.0,13.0,3.0,TN
+46161650,Drake Sandi,Drake,Sandi,2026,2026,PG,PG,American,-1.2441265527675083,destination_adjusted_with_school,True,5-11,71,170.0,,,,,,FL
+46164578,Devan Christion,Devan,Christion,2026,2026,PF,PF,Akron,-1.3854569968645747,destination_adjusted_with_school,True,6-9,81,,,,,,,NV
+46165021,Klark-Luca Riethauser,Klark-Luca,Riethauser,2026,2026,SF,SF,__MISSING__,-0.8864054363337359,neutral_no_school,False,6-8,80,200.0,,,,,,SWIT
+46166037,Mykel Bruce-McCrommon,Mykel,Bruce-McCrommon,2026,2026,SF,SF,Kansas City,-1.4029753087716537,destination_adjusted_with_school,True,6-7,79,175.0,,,,,,PA
+46166180,Lincoln Goodwin,Lincoln,Goodwin,2026,2026,SF,SF,Kansas City,-1.3245148101333373,destination_adjusted_with_school,True,6-5,77,180.0,,,,,,MO
+46166509,JD Jones,JD,Jones,2026,2026,SG,SG,Florida State,0.19686524107158662,destination_adjusted_with_school,True,6-5,77,205.0,,,,,,AZ
+46166869,Atticus Richmond,Atticus,Richmond,2026,2026,SF,SF,Kansas,0.5838362659172943,destination_adjusted_with_school,True,6-8,80,230.0,,,,,,MA
+46167194,Babacar Sane,Babacar,Sane,2026,2026,SF,SF,St. John's,-0.48622222731390063,destination_adjusted_with_school,True,6-8,80,,,,,,,SENE
+46128017,Kevin Roberts,Kevin,Roberts,2026,2026,PG,PG,__MISSING__,-0.7818608138235482,neutral_no_school,False,6-3,75,190.0,,,,,,MS
+46136621,Breylon Webb,Breylon,Webb,2026,2026,SF,SF,La Salle,-0.7169226970932592,destination_adjusted_with_school,True,6-6,78,185.0,3.0,84.0,321.0,80.0,10.0,OH
+46136895,Elijah Williams,Elijah,Williams,2026,2026,SF,SF,Baylor,2.7537319559817623,destination_adjusted_with_school,True,6-6,78,200.0,5.0,98.71987392155019,35.0,12.0,4.0,TX
+46140063,Julius Price,Julius,Price,2026,2026,SG,SG,Stanford,0.718071153863799,destination_adjusted_with_school,True,6-2,74,190.0,4.0,91.65194109772422,165.0,23.0,17.0,CA
+46142903,Tristan Reed,Tristan,Reed,2026,2026,C,C,Mississippi State,2.2983858141530247,destination_adjusted_with_school,True,6-9,81,230.0,5.0,97.73636351425769,65.0,10.0,6.0,MO
+46143045,Jalen Grant,Jalen,Grant,2026,2026,PG,PG,__MISSING__,-0.8159669008559445,neutral_no_school,False,6-0,72,160.0,,,,,,NJ
+46143149,Katrelle Harmon,Katrelle,Harmon,2026,2026,CG,CG,Creighton,2.0268102870236846,destination_adjusted_with_school,True,6-3,75,188.0,5.0,97.33730910263125,78.0,7.0,3.0,UT
+46143211,Gabriel Sularski,Gabriel,Sularski,2026,2026,SF,SF,__MISSING__,-0.3451664241331653,neutral_no_school,False,6-5,77,180.0,3.0,89.0,262.0,70.0,9.0,UT
+46143414,Devin Hutcherson,Devin,Hutcherson,2026,2026,SG,SG,Kansas State,0.4158001614526119,destination_adjusted_with_school,True,6-4,76,180.0,4.0,89.80321285140562,236.0,37.0,14.0,GA
+46143737,Tyseandre Edwards,Tyseandre,Edwards,2026,2026,SF,SF,__MISSING__,-0.9006140286274076,neutral_no_school,False,6-5,77,170.0,,,,,,MO
+46144714,Traymaine Belanger,Traymaine,Belanger,2026,2026,SF,SF,Austin Peay,-1.1436294310174548,destination_adjusted_with_school,True,6-7,79,190.0,3.0,85.5,301.0,75.0,40.0,FL
+46147876,Alex Smith,Alex,Smith,2026,2026,PF,PF,Ohio State,0.7333836128822041,destination_adjusted_with_school,True,6-9,81,195.0,4.0,91.06291834002677,184.0,29.0,31.0,FL
+46149085,Josh Irving,Josh,Irving,2026,2026,C,C,Texas A&M,2.0405365557203696,destination_adjusted_with_school,True,6-10,82,200.0,5.0,97.58476492368582,68.0,12.0,6.0,CA
+46150122,Deuce Burkes,Deuce,Burkes,2026,2026,PG,PG,__MISSING__,-0.811094989787153,neutral_no_school,False,6-3,75,175.0,,,,,,WI
+46150664,Jermal Jones,Jermal,Jones,2026,2026,SG,SG,Pittsburgh,0.7439082428014604,destination_adjusted_with_school,True,6-3,75,180.0,4.0,91.57028112449798,168.0,25.0,30.0,FL
+46151240,Tucker Wadsworth,Tucker,Wadsworth,2026,2026,SG,SG,Troy,-0.8252689903615205,destination_adjusted_with_school,True,6-5,77,190.0,,,,,,AL
+46151262,Mani Sajid,Mani,Sajid,2026,2026,SG,SG,Towson,-0.5507202144545293,destination_adjusted_with_school,True,6-4,76,160.0,4.0,89.65461847389558,245.0,42.0,5.0,PA
+46151584,Angelo Dickerson,Angelo,Dickerson,2026,2026,CG,CG,__MISSING__,-0.9345758444180632,neutral_no_school,False,6-4,76,176.0,,,,,,MD
+46153383,Mo Ndao,Mo,Ndao,2026,2026,SF,SF,__MISSING__,-0.9268093258936567,neutral_no_school,False,6-5,77,185.0,,,,,,TX
+46153575,Maxime Meyer,Maxime,Meyer,2026,2026,C,C,Duke,1.6297643811248412,destination_adjusted_with_school,True,7-1,85,215.0,4.0,94.51942888611302,116.0,18.0,21.0,FL
+46155786,Xavier McKinney,Xavier,McKinney,2026,2026,SG,SG,Ohio,-0.9096600262047102,destination_adjusted_with_school,True,6-3,75,170.0,,,,,,OH
+46157856,Kade Speckman,Kade,Speckman,2026,2026,PF,PF,Indiana State,-0.7057088194999278,destination_adjusted_with_school,True,6-8,80,210.0,3.0,82.0,337.0,55.0,7.0,OK
+46157917,Aeneas Alexander,Aeneas,Alexander,2026,2026,PF,PF,North Texas,-1.0248019212952562,destination_adjusted_with_school,True,6-7,79,195.0,3.0,86.0,292.0,49.0,19.0,TX
+46158315,Dikembe Shaw,Dikembe,Shaw,2026,2026,PF,PF,Illinois-Chicago,-0.6944982115529013,destination_adjusted_with_school,True,6-7,79,210.0,3.0,89.0,262.0,42.0,9.0,IN
+46158340,Daniel Johnson,Daniel,Johnson,2026,2026,CG,CG,__MISSING__,-0.5969812271408829,neutral_no_school,False,6-3,75,170.0,3.0,82.0,337.0,39.0,6.0,WA
+46158375,Carlos Medlock Jr.,Carlos,Medlock Jr.,2026,2026,PG,PG,Michigan State,2.584176651747344,destination_adjusted_with_school,True,5-11,71,165.0,5.0,98.23369285391284,50.0,5.0,4.0,MO
+46158652,Aron Jelani Towa,Aron,Jelani Towa,2026,2026,CG,CG,__MISSING__,-1.0321855318580695,neutral_no_school,False,6-4,76,,,,,,,FINL
+46160719,Ty Laur,Ty,Laur,2026,2026,C,C,Southern Illinois,-0.7914690793358506,destination_adjusted_with_school,True,6-8,80,225.0,3.0,84.0,321.0,44.0,9.0,IL
+46161513,Mading Kuany,Mading,Kuany,2026,2026,SF,SF,Georgia,-0.17913973936646976,destination_adjusted_with_school,True,6-8,80,190.0,3.0,88.0,272.0,72.0,6.0,IA
+46161700,Rho Omed,Rho,Omed,2026,2026,PF,PF,Arkansas State,-1.2850617085718823,destination_adjusted_with_school,True,6-10,82,200.0,,,,,,OH
+46163261,Frank Siaca Bey,Frank Siaca,Bey,2026,2026,PF,PF,Fordham,-1.3632414155862895,destination_adjusted_with_school,True,6-9,81,215.0,,,,,,VA
+46163269,Ryan Brzezanski,Ryan,Brzezanski,2026,2026,SF,SF,__MISSING__,-0.9190981390718072,neutral_no_school,False,6-8,80,180.0,,,,,,VA
+46163271,Derrick Hudson,Derrick,Hudson,2026,2026,SF,SF,__MISSING__,-0.869305693713011,neutral_no_school,False,6-7,79,195.0,,,,,,AR
+46165155,Malloy Smith,Malloy,Smith,2026,2026,CG,CG,North Carolina,0.3454656214380849,destination_adjusted_with_school,True,6-5,77,190.0,,,,,,CA
+46165156,Gedeon Basson,Gedeon,Basson,2026,2026,CG,CG,Xavier,0.09121982504561071,destination_adjusted_with_school,True,6-1,73,200.0,,,,,,FL
+46165471,Imoh Erims,Imoh,Erims,2026,2026,C,C,Grambling State,-1.73525065373668,destination_adjusted_with_school,True,6-9,81,210.0,,,,,,TX
+46166537,Isaac Riddle,Isaac,Riddle,2026,2026,SF,SF,Wisconsin,0.2985518678560659,destination_adjusted_with_school,True,6-8,80,200.0,,,,,,AUST
+46166607,Elisee Assui,Elisee,Assui,2026,2026,SG,SG,Florida State,0.28472621665908193,destination_adjusted_with_school,True,6-5,77,219.0,,,,,,ITAL
+46166769,Lenni Kunzewitsch,Lenni,Kunzewitsch,2026,2026,SF,SF,South Alabama,-1.3645886928934128,destination_adjusted_with_school,True,6-9,81,205.0,,,,,,GERM
+46167154,Filip Malesevic,Filip,Malesevic,2026,2026,C,C,Arizona State,-0.7625340444592245,destination_adjusted_with_school,True,7-1,85,,,,,,,SERB
+46167285,Saliou Niang,Saliou,Niang,2026,2026,SF,SF,LSU,-0.1918718216132501,destination_adjusted_with_school,True,6-6,78,,,,,,,ITAL
+46167323,Chase Hill,Chase,Hill,2026,2026,PF,PF,Colorado,-0.5711911312335816,destination_adjusted_with_school,True,6-7,79,,,,,,,TX

@@ -1,0 +1,27 @@
+{
+  "best_trial_number": 65,
+  "best_value": 2.0104558384030677,
+  "best_params": {
+    "num_boost_round": 1222,
+    "early_stopping_rounds": 158,
+    "eta": 0.1083245733813206,
+    "max_depth": 2,
+    "min_child_weight": 7.494285552508223,
+    "subsample": 0.8258226521741833,
+    "colsample_bytree": 0.618308224503431,
+    "lambda": 1.3701904301195018,
+    "alpha": 0.04232991075128996,
+    "gamma": 6.601928270557524,
+    "max_bin": 128
+  },
+  "best_user_attrs": {
+    "best_iteration": 1010,
+    "best_score_xgb": 2.0104558361941183,
+    "valid_rmse": 1.9834364240270197,
+    "valid_weighted_rmse": 2.0104558384030677,
+    "valid_mae": 1.568764513468824,
+    "valid_r2": 0.29232501459746785,
+    "valid_corr": 0.5732968720491892,
+    "valid_spearman_corr": 0.5088689900937449
+  }
+}

@@ -1,0 +1,63 @@
+Starting CatBoost BPR training with Optuna
+NO SAMPLE WEIGHTS USED IN TRAINING OR OPTUNA SELECTION
+Run directory: catboost_bpr_no_weight_outputs/catboost_no_weight_run_20260607_152602
+DB path: /Users/anirudhhaharsha/Desktop/sports_analytics_projects/Basketball/College Basketball Project/uiuc_proj/data_dir/hs_to_evan_match.db
+Table name: hs_to_evan_global_matched
+
+Raw rows loaded: 7,189
+Raw columns: ['hs_year', 'hs_position', 'hs_height', 'hs_height_in', 'hs_weight', 'hs_stars', 'hs_rating', 'hs_national_rank', 'hs_position_rank', 'hs_state_rank', 'hs_hometown_state', 'hs_school_fin', 'college_basic_bpr', 'college_basic_poss']
+
+Height validation:
+Rows with non-null hs_height: 7189
+Missing hs_height_in before backfill: 100
+Filled hs_height_in from hs_height: 26
+Missing hs_height_in after backfill: 74
+Rows with hs_height present but hs_height_in still missing: 74
+
+Examples where hs_height could not be parsed:
+hs_height  hs_height_in
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+        -          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+       '-          <NA>
+
+Filtering:
+Rows before filter: 7,189
+Rows after target/poss/min_poss/hs_year filter: 7,189
+MIN_POSSESSIONS: 150
+
+Split sizes:
+Train rows: 5,537
+Valid rows: 855
+Test rows:  797
+
+Missingness report:
+            column  missing_rate
+          hs_stars      0.285297
+  hs_position_rank      0.285297
+  hs_national_rank      0.285297
+         hs_rating      0.285297
+     hs_state_rank      0.285297
+         hs_weight      0.023091
+      hs_height_in      0.010294
+       hs_position      0.000000
+           hs_year      0.000000
+ hs_hometown_state      0.000000
+ college_basic_bpr      0.000000
+college_basic_poss      0.000000

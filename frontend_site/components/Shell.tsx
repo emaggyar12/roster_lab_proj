@@ -4,15 +4,14 @@ import type React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
-import { BarChart3, ListFilter, Menu, Repeat2, Target, Users } from "lucide-react";
+import { BarChart3, ClipboardList, FlaskConical, Menu, Users } from "lucide-react";
 import { useState } from "react";
 import { ThemeToggle } from "@/components/ThemeToggle";
 
 const navItems = [
   { href: "/", label: "Players", icon: BarChart3 },
-  { href: "/portal", label: "Portal", icon: ListFilter },
-  { href: "/simulator", label: "Simulator", icon: Repeat2 },
-  { href: "/recommendations", label: "Recommendations", icon: Target },
+  { href: "/simulator", label: "Roster Management", icon: ClipboardList },
+  { href: "/optimizer", label: "Optimizer", icon: FlaskConical },
   { href: "/teams/uconn", label: "Teams", icon: Users },
 ];
 

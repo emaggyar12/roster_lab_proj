@@ -1,17 +1,18 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { ArrowUpDown, ChevronDown, Search, SlidersHorizontal } from "lucide-react";
+import { ArrowUpDown, ChevronDown, ChevronLeft, ChevronRight, Search } from "lucide-react";
 import clsx from "clsx";
 import type { Player, PlayerSource } from "@/data/players";
 import { getTopPlaytypes } from "@/lib/data";
+import { displayOptimizerTeam, isUncommittedHsRecruit } from "@/lib/optimizer";
 import { PlayerDetailPanel } from "@/components/PlayerDetailPanel";
 import { PlayerAvatar } from "@/components/PlayerAvatar";
 import { SourceBadge, StatusBadge } from "@/components/StatusBadge";
 
-type SortKey = "projected_bpr" | "fit_score" | "player_name" | "hs_rating" | "hs_stars" | "transfer_247_stars" | "transfer_247_rating";
+type SortKey = "projected_bpr" | "fit_score" | "player_name" | "hs_bpr" | "hs_rating" | "hs_stars" | "transfer_247_rating" | "transfer_bpr";
 type SortDirection = "asc" | "desc";
-export type PlayerMode = "all" | "hs" | "transfer";
+export type PlayerMode = "all" | "hs" | "transfer" | "draft";
 
 const portalStatusSet = new Set(["not_in_portal", "entered", "committed", "enrolled", "withdrawn"]);
 
@@ -39,17 +40,21 @@ export function PlayerTable({
   const [playtype, setPlaytype] = useState("all");
   const [stars, setStars] = useState("all");
   const [minRating, setMinRating] = useState(0);
-  const [minBpr, setMinBpr] = useState(0);
+  const [uncommittedOnly, setUncommittedOnly] = useState(false);
   const [portalOnly, setPortalOnly] = useState(portalDefault);
   const [sortKey, setSortKey] = useState<SortKey>("projected_bpr");
   const [sortDirection, setSortDirection] = useState<SortDirection>("desc");
   const [displayCount, setDisplayCount] = useState("20");
+  const [currentPage, setCurrentPage] = useState(1);
   const [expandedIds, setExpandedIds] = useState<Set<string>>(() => new Set());
   const isHsMode = playerMode === "hs";
   const isTransferMode = playerMode === "transfer";
+  const isDraftMode = playerMode === "draft";
+  const isReturningMode = playerMode === "all";
 
   function resetDisplayCount() {
     setDisplayCount("20");
+    setCurrentPage(1);
   }
 
   function updateQuery(value: string) {
@@ -97,8 +102,8 @@ export function PlayerTable({
     resetDisplayCount();
   }
 
-  function updateMinBpr(value: number) {
-    setMinBpr(value);
+  function updateUncommittedOnly(nextValue: boolean) {
+    setUncommittedOnly(nextValue);
     resetDisplayCount();
   }
 
@@ -108,7 +113,11 @@ export function PlayerTable({
   }
 
   const modePlayers = useMemo(
-    () => players.filter((player) => playerMode === "all" || player.player_source === playerMode),
+    () =>
+      players.filter((player) => {
+        if (playerMode === "draft") return Boolean(player.draft_status);
+        return playerMode === "all" || player.player_source === playerMode;
+      }),
     [playerMode, players],
   );
 
@@ -121,17 +130,18 @@ export function PlayerTable({
     setPlaytype("all");
     setStars("all");
     setMinRating(0);
-    setMinBpr(0);
+    setUncommittedOnly(false);
     setPortalOnly(portalDefault);
-      setSortKey(
-        playerMode === "hs"
-          ? "hs_rating"
-          : playerMode === "transfer"
-            ? "transfer_247_rating"
-            : "projected_bpr",
-      );
+    setSortKey(
+      playerMode === "hs"
+        ? "hs_rating"
+        : playerMode === "transfer"
+          ? "transfer_247_rating"
+          : "projected_bpr",
+    );
     setSortDirection("desc");
     setDisplayCount("20");
+    setCurrentPage(1);
     setExpandedIds(new Set());
   }, [playerMode, portalDefault]);
 
@@ -172,29 +182,44 @@ export function PlayerTable({
           (playtype === "all" || topPlaytype === playtype) &&
           (!isHsMode || stars === "all" || `${player.hs_stars}` === stars) &&
           (!isHsMode || !minRating || (player.hs_rating ?? 0) >= minRating) &&
-          (isHsMode || player.projected_bpr >= minBpr) &&
+          (!isHsMode || !uncommittedOnly || isUncommittedHsRecruit(player)) &&
           (isHsMode || !portalOnly || player.is_in_portal)
         );
       })
       .sort((a, b) => {
         const multiplier = sortDirection === "asc" ? 1 : -1;
         if (sortKey === "player_name") return multiplier * a.player_name.localeCompare(b.player_name);
+        if (isDraftMode && sortKey === "projected_bpr") {
+          return multiplier * (draftBprValue(a) - draftBprValue(b));
+        }
         if (
+          sortKey === "hs_bpr" ||
           sortKey === "hs_rating" ||
           sortKey === "hs_stars" ||
-          sortKey === "transfer_247_stars" ||
-          sortKey === "transfer_247_rating"
+          sortKey === "transfer_247_rating" ||
+          sortKey === "transfer_bpr"
         ) {
           return multiplier * ((a[sortKey] ?? 0) - (b[sortKey] ?? 0));
         }
         return multiplier * (a[sortKey] - b[sortKey]);
       });
-  }, [classYear, conference, isHsMode, minBpr, minRating, modePlayers, playtype, portalOnly, position, query, sortDirection, sortKey, stars, status, teamQuery]);
+  }, [classYear, conference, isDraftMode, isHsMode, minRating, modePlayers, playtype, portalOnly, position, query, sortDirection, sortKey, stars, status, teamQuery, uncommittedOnly]);
 
   const visiblePlayers = useMemo(() => {
     if (displayCount === "all") return filteredPlayers;
-    return filteredPlayers.slice(0, Number(displayCount));
-  }, [displayCount, filteredPlayers]);
+    const pageSize = Number(displayCount);
+    const start = (currentPage - 1) * pageSize;
+    return filteredPlayers.slice(start, start + pageSize);
+  }, [currentPage, displayCount, filteredPlayers]);
+
+  const pageSize = displayCount === "all" ? filteredPlayers.length || 1 : Number(displayCount);
+  const totalPages = displayCount === "all" ? 1 : Math.max(1, Math.ceil(filteredPlayers.length / pageSize));
+  const currentStart = filteredPlayers.length === 0 ? 0 : (currentPage - 1) * pageSize + 1;
+  const currentEnd = displayCount === "all" ? filteredPlayers.length : Math.min(filteredPlayers.length, currentPage * pageSize);
+
+  useEffect(() => {
+    if (currentPage > totalPages) setCurrentPage(totalPages);
+  }, [currentPage, totalPages]);
 
   function updateSort(nextKey: SortKey) {
     if (nextKey === sortKey) {
@@ -208,11 +233,11 @@ export function PlayerTable({
   return (
     <section className="space-y-4">
       <div className="rounded border border-line bg-white p-4 shadow-soft">
-        <div className={isHsMode ? "grid gap-3 xl:grid-cols-[1.4fr_repeat(5,minmax(128px,1fr))]" : "grid gap-3 xl:grid-cols-[1.3fr_repeat(7,minmax(112px,1fr))]"}>
+        <div className={isHsMode ? "grid gap-3 xl:grid-cols-[1.4fr_repeat(5,minmax(128px,1fr))]" : isDraftMode ? "grid gap-3 xl:grid-cols-[1.3fr_repeat(5,minmax(112px,1fr))]" : "grid gap-3 xl:grid-cols-[1.3fr_repeat(7,minmax(112px,1fr))]"}>
           <AutocompleteInput label="Search player" value={query} onChange={updateQuery} suggestions={playerSuggestions} icon />
           <FilterSelect label="Position" value={position} onChange={updatePosition} options={["all", "PG", "SG", "CG", "SF", "PF", "C"]} />
-          {!isHsMode ? <FilterSelect label="Class" value={classYear} onChange={updateClassYear} options={["all", "Fr", "So", "Jr", "Sr", "Gr"]} /> : null}
-          {!isHsMode ? (
+          {!isHsMode && !isDraftMode ? <FilterSelect label="Class" value={classYear} onChange={updateClassYear} options={["all", "Fr", "So", "Jr", "Sr", "Gr"]} /> : null}
+          {!isHsMode && !isReturningMode && !isDraftMode ? (
             <FilterSelect
               label="Status"
               value={status}
@@ -221,92 +246,84 @@ export function PlayerTable({
             />
           ) : null}
           <AutocompleteInput label="Team" value={teamQuery} onChange={updateTeamQuery} suggestions={options.teams} />
-          {!isHsMode ? <FilterSelect label="Conference" value={conference} onChange={updateConference} options={["all", ...options.conferences]} /> : null}
-          <FilterSelect label="Playtype" value={playtype} onChange={updatePlaytype} options={["all", ...options.playtypes]} />
+          {!isHsMode && !isDraftMode ? <FilterSelect label="Conference" value={conference} onChange={updateConference} options={["all", ...options.conferences]} /> : null}
+          {!isDraftMode ? <FilterSelect label="Playtype" value={playtype} onChange={updatePlaytype} options={["all", ...options.playtypes]} /> : null}
           {isHsMode ? <FilterSelect label="Stars" value={stars} onChange={updateStars} options={["all", ...options.stars]} /> : null}
           {isHsMode ? (
-          <label className="grid h-10 grid-cols-[1fr_56px] items-center rounded border border-line bg-panel px-2 text-xs font-semibold text-slate-500">
-            Rating
-            <input
-              type="number"
-              min={0}
-              max={100}
-              step={0.5}
-              value={minRating}
-              onChange={(event) => updateMinRating(Number(event.target.value))}
-              className="h-7 rounded border border-line bg-white px-2 text-sm text-ink outline-none"
-            />
-          </label>
-          ) : (
-          <label className="grid h-10 grid-cols-[1fr_56px] items-center rounded border border-line bg-panel px-2 text-xs font-semibold text-slate-500">
-            BPR
-            <input
-              type="number"
-              min={0}
-              max={10}
-              step={0.5}
-              value={minBpr}
-              onChange={(event) => updateMinBpr(Number(event.target.value))}
-              className="h-7 rounded border border-line bg-white px-2 text-sm text-ink outline-none"
-            />
-          </label>
-          )}
+            <label className="inline-flex h-10 items-center gap-2 rounded border border-line bg-panel px-3 text-xs font-semibold text-slate-600">
+              <input
+                type="checkbox"
+                checked={uncommittedOnly}
+                onChange={(event) => updateUncommittedOnly(event.target.checked)}
+                className="h-4 w-4 rounded border-line text-emerald-600"
+              />
+              Uncommitted
+            </label>
+          ) : null}
+          {isHsMode ? (
+            <label className="grid h-10 grid-cols-[1fr_56px] items-center rounded border border-line bg-panel px-2 text-xs font-semibold text-slate-500">
+              Rating
+              <input
+                type="number"
+                min={0}
+                max={100}
+                step={0.5}
+                value={minRating}
+                onChange={(event) => updateMinRating(Number(event.target.value))}
+                className="h-7 rounded border border-line bg-white px-2 text-sm text-ink outline-none"
+              />
+            </label>
+          ) : null}
         </div>
 
         <div className="mt-3 flex flex-wrap items-center justify-between gap-3">
-          {!isHsMode ? (
-          <button
-            type="button"
-            onClick={() => updatePortalOnly(!portalOnly)}
-            className={clsx(
-              "inline-flex h-9 items-center gap-2 rounded border px-3 text-sm font-semibold",
-              portalOnly
-                ? "border-emerald-600 bg-emerald-600 text-white dark:border-emerald-400 dark:bg-emerald-500 dark:text-slate-950"
-                : "border-line bg-panel text-slate-700 dark:text-slate-200",
-            )}
-          >
-            <SlidersHorizontal className="h-4 w-4" />
-            In Portal
-          </button>
-          ) : <div />}
+          <div />
           <div className="text-sm text-slate-600">
-            Showing {visiblePlayers.length} of {filteredPlayers.length} players
+            Showing {currentStart}-{currentEnd} of {filteredPlayers.length} players
           </div>
         </div>
       </div>
 
       <div className="overflow-hidden rounded border border-line bg-white shadow-soft">
         {isHsMode ? (
-        <div className="hidden gap-3 grid-cols-[2.2fr_.7fr_1.2fr_.7fr_.8fr_.9fr_44px] border-b border-line bg-panel px-4 py-3 text-xs font-semibold uppercase tracking-wide text-slate-500 md:grid md:items-center">
+        <div className="hidden gap-3 grid-cols-[2.2fr_.7fr_1.2fr_.7fr_.8fr_.8fr_.8fr_44px] border-b border-line bg-panel px-4 py-3 text-xs font-semibold uppercase tracking-wide text-slate-500 md:grid md:items-center">
           <SortButton label="Player" active={sortKey === "player_name"} direction={sortDirection} onClick={() => updateSort("player_name")} className="justify-self-start" />
           <div className="w-full text-center">Pos</div>
           <div className="w-full text-center">Committed School</div>
           <SortButton label="Stars" active={sortKey === "hs_stars"} direction={sortDirection} onClick={() => updateSort("hs_stars")} align="center" className="w-full" />
           <SortButton label="Rating" active={sortKey === "hs_rating"} direction={sortDirection} onClick={() => updateSort("hs_rating")} align="center" className="w-full" />
+          <SortButton label="BPR" active={sortKey === "hs_bpr"} direction={sortDirection} onClick={() => updateSort("hs_bpr")} align="center" className="w-full" />
           <div className="w-full text-center">Type</div>
           <div />
         </div>
         ) : isTransferMode ? (
-        <div className="hidden gap-3 grid-cols-[2.2fr_.7fr_1.2fr_1.2fr_.8fr_.7fr_.8fr_.8fr_44px] border-b border-line bg-panel px-4 py-3 text-xs font-semibold uppercase tracking-wide text-slate-500 md:grid md:items-center">
+        <div className="hidden gap-3 grid-cols-[2fr_.55fr_1fr_1fr_.75fr_.75fr_.75fr_.7fr_44px] border-b border-line bg-panel px-4 py-3 text-xs font-semibold uppercase tracking-wide text-slate-500 md:grid md:items-center">
           <SortButton label="Player" active={sortKey === "player_name"} direction={sortDirection} onClick={() => updateSort("player_name")} className="justify-self-start" />
           <div className="w-full text-center">Pos</div>
           <div className="w-full text-center">Origin</div>
           <div className="w-full text-center">Destination</div>
           <div className="w-full text-center">Status</div>
-          <SortButton label="Stars" active={sortKey === "transfer_247_stars"} direction={sortDirection} onClick={() => updateSort("transfer_247_stars")} align="center" className="w-full" />
           <SortButton label="Rating" active={sortKey === "transfer_247_rating"} direction={sortDirection} onClick={() => updateSort("transfer_247_rating")} align="center" className="w-full" />
+          <SortButton label="BPR" active={sortKey === "transfer_bpr"} direction={sortDirection} onClick={() => updateSort("transfer_bpr")} align="center" className="w-full" />
           <div className="w-full text-center">Type</div>
           <div />
         </div>
-        ) : (
-        <div className="hidden gap-3 grid-cols-[2.2fr_.7fr_1fr_.8fr_.9fr_.7fr_.7fr_44px] border-b border-line bg-panel px-4 py-3 text-xs font-semibold uppercase tracking-wide text-slate-500 md:grid md:items-center">
+        ) : isDraftMode ? (
+        <div className="hidden gap-3 grid-cols-[2.2fr_.7fr_1fr_.8fr_.7fr_44px] border-b border-line bg-panel px-4 py-3 text-xs font-semibold uppercase tracking-wide text-slate-500 md:grid md:items-center">
           <SortButton label="Player" active={sortKey === "player_name"} direction={sortDirection} onClick={() => updateSort("player_name")} className="justify-self-start" />
           <div className="w-full text-center">Pos</div>
           <div className="w-full text-center">Team</div>
           <div className="w-full text-center">Status</div>
-          <div className="w-full text-center">Type</div>
           <SortButton label="BPR" active={sortKey === "projected_bpr"} direction={sortDirection} onClick={() => updateSort("projected_bpr")} align="center" className="w-full" />
-          <SortButton label="Fit" active={sortKey === "fit_score"} direction={sortDirection} onClick={() => updateSort("fit_score")} align="center" className="w-full" />
+          <div />
+        </div>
+        ) : (
+        <div className="hidden gap-3 grid-cols-[2.2fr_.7fr_1fr_.8fr_.7fr_44px] border-b border-line bg-panel px-4 py-3 text-xs font-semibold uppercase tracking-wide text-slate-500 md:grid md:items-center">
+          <SortButton label="Player" active={sortKey === "player_name"} direction={sortDirection} onClick={() => updateSort("player_name")} className="justify-self-start" />
+          <div className="w-full text-center">Pos</div>
+          <div className="w-full text-center">Team</div>
+          <div className="w-full text-center">Status</div>
+          <SortButton label="BPR" active={sortKey === "projected_bpr"} direction={sortDirection} onClick={() => updateSort("projected_bpr")} align="center" className="w-full" />
           <div />
         </div>
         )}
@@ -332,10 +349,10 @@ export function PlayerTable({
                 className={clsx(
                   "grid w-full gap-3 px-4 py-4 text-left hover:bg-panel md:items-center",
                   isHsMode
-                    ? "md:grid-cols-[2.2fr_.7fr_1.2fr_.7fr_.8fr_.9fr_44px]"
+                    ? "md:grid-cols-[2.2fr_.7fr_1.2fr_.7fr_.8fr_.8fr_.8fr_44px]"
                     : isTransferMode
-                      ? "md:grid-cols-[2.2fr_.7fr_1.2fr_1.2fr_.8fr_.7fr_.8fr_.8fr_44px]"
-                      : "md:grid-cols-[2.2fr_.7fr_1fr_.8fr_.9fr_.7fr_.7fr_44px]",
+                      ? "md:grid-cols-[2fr_.55fr_1fr_1fr_.75fr_.75fr_.75fr_.7fr_44px]"
+                      : "md:grid-cols-[2.2fr_.7fr_1fr_.8fr_.7fr_44px]",
                 )}
               >
                 <div className="flex min-w-0 items-center gap-3 justify-self-start">
@@ -343,16 +360,19 @@ export function PlayerTable({
                   <div className="min-w-0">
                     <div className="truncate font-semibold text-ink">{player.player_name}</div>
                     <div className="mt-1 truncate text-xs text-slate-500">
-                      {player.height} | {player.weight || "N/A"} | {player.class_year} | {topPlaytype?.label}
+                      {player.player_source === "roster"
+                        ? [player.height, player.class_year, player.returning_role].filter(Boolean).join(" | ")
+                        : `${player.height} | ${player.weight || "N/A"} | ${player.class_year} | ${topPlaytype?.label}`}
                     </div>
                   </div>
                 </div>
                 <div className="w-full text-center text-sm font-semibold text-slate-700">{player.position === "N/A" ? "" : player.position}</div>
                 {isHsMode ? (
                   <>
-                    <div className="w-full text-center text-sm text-slate-700">{player.current_team}</div>
+                    <div className="w-full text-center text-sm text-slate-700">{displayOptimizerTeam(player)}</div>
                     <TableNumber value={formatOptional(player.hs_stars, 0)} label="Stars" />
                     <TableNumber value={formatOptional(player.hs_rating, 2)} label="Rating" />
+                    <TableNumber value={formatOptional(player.hs_bpr, 1)} label="BPR" />
                     <div className="w-full text-center">
                       <SourceBadge source={player.player_source} />
                     </div>
@@ -366,22 +386,27 @@ export function PlayerTable({
                         status={toPortalStatus(player.transfer_247_status) ?? toPortalStatus(player.portal_status) ?? "entered"}
                       />
                     </div>
-                    <TableNumber value={formatOptional(player.transfer_247_stars, 0)} label="Stars" />
                     <TableNumber value={formatOptional(player.transfer_247_rating, 2)} label="Rating" />
+                    <TableNumber value={formatOptional(player.transfer_bpr, 1)} label="BPR" />
                     <div className="w-full text-center">
                       <SourceBadge source={player.player_source} />
                     </div>
                   </>
+                ) : isDraftMode ? (
+                  <>
+                    <div className="w-full text-center text-sm text-slate-700">{player.current_team}</div>
+                    <div className="w-full text-center">
+                      <DraftBadge />
+                    </div>
+                    <TableNumber value={formatDraftBpr(player)} label="BPR" />
+                  </>
                 ) : (
                   <>
-                <div className="w-full text-center">
-                  <StatusBadge status={player.portal_status} />
-                </div>
-                <div className="w-full text-center">
-                  <SourceBadge source={player.player_source} />
-                </div>
-                  <TableNumber value={player.projected_bpr.toFixed(1)} label="BPR" />
-                  <TableNumber value={`${player.fit_score}`} label="Fit" />
+                    <div className="w-full text-center text-sm text-slate-700">{player.current_team}</div>
+                    <div className="w-full text-center">
+                      <ReturningBadge />
+                    </div>
+                    <TableNumber value={player.projected_bpr.toFixed(1)} label="BPR" />
                   </>
                 )}
                 <ChevronDown className={clsx("h-5 w-5 justify-self-end text-slate-500 transition", expanded && "rotate-180")} />
@@ -395,7 +420,10 @@ export function PlayerTable({
         <span>Rows</span>
         <select
           value={displayCount}
-          onChange={(event) => setDisplayCount(event.target.value)}
+          onChange={(event) => {
+            setDisplayCount(event.target.value);
+            setCurrentPage(1);
+          }}
           className="h-9 rounded border border-line bg-panel px-3 text-sm text-ink outline-none focus:border-ink"
         >
           {["10", "20", "50", "100", "all"].map((option) => (
@@ -404,6 +432,27 @@ export function PlayerTable({
             </option>
           ))}
         </select>
+        <button
+          type="button"
+          onClick={() => setCurrentPage((page) => Math.max(1, page - 1))}
+          disabled={currentPage <= 1}
+          className="inline-flex h-9 items-center gap-1 rounded border border-line bg-panel px-3 text-sm font-semibold text-slate-700 disabled:cursor-not-allowed disabled:opacity-40"
+        >
+          <ChevronLeft className="h-4 w-4" />
+          Prev
+        </button>
+        <span className="min-w-16 text-center text-sm font-semibold text-slate-600">
+          {currentPage}/{totalPages}
+        </span>
+        <button
+          type="button"
+          onClick={() => setCurrentPage((page) => Math.min(totalPages, page + 1))}
+          disabled={currentPage >= totalPages}
+          className="inline-flex h-9 items-center gap-1 rounded border border-line bg-panel px-3 text-sm font-semibold text-slate-700 disabled:cursor-not-allowed disabled:opacity-40"
+        >
+          Next
+          <ChevronRight className="h-4 w-4" />
+        </button>
       </div>
     </section>
   );
@@ -412,6 +461,30 @@ export function PlayerTable({
 function formatOptional(value: number | null | undefined, decimals: number) {
   if (value === null || value === undefined || Number.isNaN(value)) return "N/A";
   return value.toFixed(decimals);
+}
+
+function draftBprValue(player: Player) {
+  return player.player_source === "transfer" ? (player.transfer_bpr ?? player.projected_bpr) : player.projected_bpr;
+}
+
+function formatDraftBpr(player: Player) {
+  return formatOptional(draftBprValue(player), 1);
+}
+
+function ReturningBadge() {
+  return (
+    <span className="inline-flex h-7 items-center whitespace-nowrap rounded border border-emerald-300 bg-emerald-100 px-2 text-xs font-semibold text-emerald-800 dark:border-emerald-500 dark:bg-emerald-950 dark:text-emerald-200">
+      Returning
+    </span>
+  );
+}
+
+function DraftBadge() {
+  return (
+    <span className="inline-flex h-7 items-center whitespace-nowrap rounded border border-orange-300 bg-orange-100 px-2 text-xs font-semibold text-orange-800 dark:border-orange-500 dark:bg-orange-950 dark:text-orange-200">
+      Draft
+    </span>
+  );
 }
 
 function FilterSelect({

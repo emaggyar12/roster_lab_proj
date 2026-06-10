@@ -1,0 +1,7058 @@
+[
+  {
+    "athletes": [
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 113.7,
+    "idHash": "4403-4412-5514-5858-16729",
+    "netRating": 1.5,
+    "offenseRating": 115.2,
+    "opponentStats": {
+      "assists": 104,
+      "blocks": 19,
+      "defensiveRebounds": 176,
+      "fieldGoals": {
+        "attempted": 432,
+        "made": 181,
+        "pct": 41.9
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 49.5,
+        "freeThrowRate": 31.9,
+        "offensiveReboundPct": 36.8,
+        "turnoverRatio": 0.22
+      },
+      "freeThrows": {
+        "attempted": 138,
+        "made": 94,
+        "pct": 68.1
+      },
+      "offensiveRebounds": 93,
+      "points": 522,
+      "possessions": 459,
+      "steals": 53,
+      "threePointers": {
+        "attempted": 183,
+        "made": 66,
+        "pct": 36.1
+      },
+      "trueShooting": 53,
+      "turnovers": 101,
+      "twoPointers": {
+        "attempted": 249,
+        "dunks": {
+          "attempted": 17,
+          "made": 14,
+          "pct": 82.4
+        },
+        "jumpers": {
+          "attempted": 93,
+          "made": 28,
+          "pct": 30.1
+        },
+        "layups": {
+          "attempted": 139,
+          "made": 73,
+          "pct": 52.5
+        },
+        "made": 115,
+        "pct": 46.2,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 63.2,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 105,
+      "blocks": 26,
+      "defensiveRebounds": 189,
+      "fieldGoals": {
+        "attempted": 415,
+        "made": 196,
+        "pct": 47.2
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 54.3,
+        "freeThrowRate": 36.6,
+        "offensiveReboundPct": 26.3,
+        "turnoverRatio": 0.21
+      },
+      "freeThrows": {
+        "attempted": 152,
+        "made": 109,
+        "pct": 71.7
+      },
+      "offensiveRebounds": 67,
+      "points": 560,
+      "possessions": 486,
+      "steals": 68,
+      "threePointers": {
+        "attempted": 175,
+        "made": 59,
+        "pct": 33.7
+      },
+      "trueShooting": 58.1,
+      "turnovers": 100,
+      "twoPointers": {
+        "attempted": 240,
+        "dunks": {
+          "attempted": 22,
+          "made": 19,
+          "pct": 86.4
+        },
+        "jumpers": {
+          "attempted": 77,
+          "made": 37,
+          "pct": 48.1
+        },
+        "layups": {
+          "attempted": 141,
+          "made": 81,
+          "pct": 57.4
+        },
+        "made": 137,
+        "pct": 57.1,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 17943
+  },
+  {
+    "athletes": [
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 119.3,
+    "idHash": "4400-4403-5514-5858-16729",
+    "netRating": -10,
+    "offenseRating": 109.3,
+    "opponentStats": {
+      "assists": 41,
+      "blocks": 3,
+      "defensiveRebounds": 86,
+      "fieldGoals": {
+        "attempted": 186,
+        "made": 86,
+        "pct": 46.2
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 53,
+        "freeThrowRate": 34.9,
+        "offensiveReboundPct": 30.5,
+        "turnoverRatio": 0.16
+      },
+      "freeThrows": {
+        "attempted": 65,
+        "made": 50,
+        "pct": 76.9
+      },
+      "offensiveRebounds": 29,
+      "points": 247,
+      "possessions": 207,
+      "steals": 21,
+      "threePointers": {
+        "attempted": 77,
+        "made": 25,
+        "pct": 32.5
+      },
+      "trueShooting": 57.5,
+      "turnovers": 34,
+      "twoPointers": {
+        "attempted": 109,
+        "dunks": {
+          "attempted": 3,
+          "made": 3,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 28,
+          "made": 13,
+          "pct": 46.4
+        },
+        "layups": {
+          "attempted": 78,
+          "made": 45,
+          "pct": 57.7
+        },
+        "made": 61,
+        "pct": 56,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 64.5,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 55,
+      "blocks": 3,
+      "defensiveRebounds": 85,
+      "fieldGoals": {
+        "attempted": 195,
+        "made": 90,
+        "pct": 46.2
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 53.6,
+        "freeThrowRate": 22.1,
+        "offensiveReboundPct": 32.6,
+        "turnoverRatio": 0.18
+      },
+      "freeThrows": {
+        "attempted": 43,
+        "made": 25,
+        "pct": 58.1
+      },
+      "offensiveRebounds": 31,
+      "points": 234,
+      "possessions": 214,
+      "steals": 17,
+      "threePointers": {
+        "attempted": 81,
+        "made": 29,
+        "pct": 35.8
+      },
+      "trueShooting": 54.7,
+      "turnovers": 39,
+      "twoPointers": {
+        "attempted": 114,
+        "dunks": {
+          "attempted": 3,
+          "made": 3,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 42,
+          "made": 16,
+          "pct": 38.1
+        },
+        "layups": {
+          "attempted": 69,
+          "made": 42,
+          "pct": 60.9
+        },
+        "made": 61,
+        "pct": 53.5,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 7834.7
+  },
+  {
+    "athletes": [
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 105.3,
+    "idHash": "4400-4403-4412-5514-16729",
+    "netRating": -3.6,
+    "offenseRating": 101.7,
+    "opponentStats": {
+      "assists": 24,
+      "blocks": 7,
+      "defensiveRebounds": 47,
+      "fieldGoals": {
+        "attempted": 106,
+        "made": 41,
+        "pct": 38.7
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 45.8,
+        "freeThrowRate": 31.1,
+        "offensiveReboundPct": 38.1,
+        "turnoverRatio": 0.22
+      },
+      "freeThrows": {
+        "attempted": 33,
+        "made": 23,
+        "pct": 69.7
+      },
+      "offensiveRebounds": 24,
+      "points": 120,
+      "possessions": 114,
+      "steals": 16,
+      "threePointers": {
+        "attempted": 38,
+        "made": 15,
+        "pct": 39.5
+      },
+      "trueShooting": 49.8,
+      "turnovers": 25,
+      "twoPointers": {
+        "attempted": 68,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 29,
+          "made": 10,
+          "pct": 34.5
+        },
+        "layups": {
+          "attempted": 39,
+          "made": 16,
+          "pct": 41
+        },
+        "made": 26,
+        "pct": 38.2,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 66.5,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 26,
+      "blocks": 4,
+      "defensiveRebounds": 46,
+      "fieldGoals": {
+        "attempted": 113,
+        "made": 43,
+        "pct": 38.1
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 43.4,
+        "freeThrowRate": 29.2,
+        "offensiveReboundPct": 70.2,
+        "turnoverRatio": 0.23
+      },
+      "freeThrows": {
+        "attempted": 33,
+        "made": 21,
+        "pct": 63.6
+      },
+      "offensiveRebounds": 33,
+      "points": 119,
+      "possessions": 117,
+      "steals": 19,
+      "threePointers": {
+        "attempted": 45,
+        "made": 12,
+        "pct": 26.7
+      },
+      "trueShooting": 46.7,
+      "turnovers": 27,
+      "twoPointers": {
+        "attempted": 68,
+        "dunks": {
+          "attempted": 4,
+          "made": 4,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 20,
+          "made": 6,
+          "pct": 30
+        },
+        "layups": {
+          "attempted": 44,
+          "made": 21,
+          "pct": 47.7
+        },
+        "made": 31,
+        "pct": 45.6,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 4168
+  },
+  {
+    "athletes": [
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 80.4,
+    "idHash": "4400-4401-4403-5514-5858",
+    "netRating": 62.9,
+    "offenseRating": 143.3,
+    "opponentStats": {
+      "assists": 9,
+      "blocks": 3,
+      "defensiveRebounds": 18,
+      "fieldGoals": {
+        "attempted": 32,
+        "made": 16,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 56.3,
+        "freeThrowRate": 9.4,
+        "offensiveReboundPct": 27.3,
+        "turnoverRatio": 0.26
+      },
+      "freeThrows": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "offensiveRebounds": 6,
+      "points": 37,
+      "possessions": 46,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 12,
+        "made": 4,
+        "pct": 33.3
+      },
+      "trueShooting": 55.5,
+      "turnovers": 12,
+      "twoPointers": {
+        "attempted": 20,
+        "dunks": {
+          "attempted": 2,
+          "made": 2,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 4,
+          "made": 1,
+          "pct": 25
+        },
+        "layups": {
+          "attempted": 14,
+          "made": 9,
+          "pct": 64.3
+        },
+        "made": 12,
+        "pct": 60,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 72.3,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 2,
+      "blocks": 0,
+      "defensiveRebounds": 12,
+      "fieldGoals": {
+        "attempted": 31,
+        "made": 14,
+        "pct": 45.2
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 53.2,
+        "freeThrowRate": 45.2,
+        "offensiveReboundPct": 14.3,
+        "turnoverRatio": 0.13
+      },
+      "freeThrows": {
+        "attempted": 14,
+        "made": 10,
+        "pct": 71.4
+      },
+      "offensiveRebounds": 2,
+      "points": 43,
+      "possessions": 30,
+      "steals": 9,
+      "threePointers": {
+        "attempted": 10,
+        "made": 5,
+        "pct": 50
+      },
+      "trueShooting": 57.9,
+      "turnovers": 4,
+      "twoPointers": {
+        "attempted": 21,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 8,
+          "made": 2,
+          "pct": 25
+        },
+        "layups": {
+          "attempted": 12,
+          "made": 6,
+          "pct": 50
+        },
+        "made": 9,
+        "pct": 42.9,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 1261
+  },
+  {
+    "athletes": [
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 111.8,
+    "idHash": "4401-4403-4412-5514-5858",
+    "netRating": 38.2,
+    "offenseRating": 150,
+    "opponentStats": {
+      "assists": 8,
+      "blocks": 1,
+      "defensiveRebounds": 14,
+      "fieldGoals": {
+        "attempted": 29,
+        "made": 15,
+        "pct": 51.7
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 58.6,
+        "freeThrowRate": 24.1,
+        "offensiveReboundPct": 28.6,
+        "turnoverRatio": 0.15
+      },
+      "freeThrows": {
+        "attempted": 7,
+        "made": 4,
+        "pct": 57.1
+      },
+      "offensiveRebounds": 4,
+      "points": 38,
+      "possessions": 34,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 10,
+        "made": 4,
+        "pct": 40
+      },
+      "trueShooting": 59.2,
+      "turnovers": 5,
+      "twoPointers": {
+        "attempted": 19,
+        "dunks": {
+          "attempted": 2,
+          "made": 2,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 5,
+          "made": 3,
+          "pct": 60
+        },
+        "layups": {
+          "attempted": 12,
+          "made": 6,
+          "pct": 50
+        },
+        "made": 11,
+        "pct": 57.9,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 72.3,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 3,
+      "blocks": 3,
+      "defensiveRebounds": 12,
+      "fieldGoals": {
+        "attempted": 20,
+        "made": 9,
+        "pct": 45
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 47.5,
+        "freeThrowRate": 105,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.13
+      },
+      "freeThrows": {
+        "attempted": 21,
+        "made": 17,
+        "pct": 81
+      },
+      "offensiveRebounds": 0,
+      "points": 36,
+      "possessions": 24,
+      "steals": 4,
+      "threePointers": {
+        "attempted": 6,
+        "made": 1,
+        "pct": 16.7
+      },
+      "trueShooting": 61.6,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 14,
+        "dunks": {
+          "attempted": 2,
+          "made": 2,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 3,
+          "made": 1,
+          "pct": 33.3
+        },
+        "layups": {
+          "attempted": 9,
+          "made": 5,
+          "pct": 55.6
+        },
+        "made": 8,
+        "pct": 57.1,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 963.3
+  },
+  {
+    "athletes": [
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 96.6,
+    "idHash": "4401-4412-5514-5858-16729",
+    "netRating": 78.4,
+    "offenseRating": 175,
+    "opponentStats": {
+      "assists": 5,
+      "blocks": 0,
+      "defensiveRebounds": 11,
+      "fieldGoals": {
+        "attempted": 22,
+        "made": 11,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 56.8,
+        "freeThrowRate": 18.2,
+        "offensiveReboundPct": 26.7,
+        "turnoverRatio": 0.24
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 3,
+        "pct": 75
+      },
+      "offensiveRebounds": 4,
+      "points": 28,
+      "possessions": 29,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 6,
+        "made": 3,
+        "pct": 50
+      },
+      "trueShooting": 58.9,
+      "turnovers": 7,
+      "twoPointers": {
+        "attempted": 16,
+        "dunks": {
+          "attempted": 3,
+          "made": 2,
+          "pct": 66.7
+        },
+        "jumpers": {
+          "attempted": 5,
+          "made": 1,
+          "pct": 20
+        },
+        "layups": {
+          "attempted": 8,
+          "made": 5,
+          "pct": 62.5
+        },
+        "made": 8,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 56.3,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 6,
+      "fieldGoals": {
+        "attempted": 17,
+        "made": 6,
+        "pct": 35.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 38.2,
+        "freeThrowRate": 129.4,
+        "offensiveReboundPct": 66.7,
+        "turnoverRatio": 0.25
+      },
+      "freeThrows": {
+        "attempted": 22,
+        "made": 15,
+        "pct": 68.2
+      },
+      "offensiveRebounds": 4,
+      "points": 28,
+      "possessions": 16,
+      "steals": 3,
+      "threePointers": {
+        "attempted": 8,
+        "made": 1,
+        "pct": 12.5
+      },
+      "trueShooting": 52.5,
+      "turnovers": 4,
+      "twoPointers": {
+        "attempted": 9,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 5,
+          "made": 2,
+          "pct": 40
+        },
+        "layups": {
+          "attempted": 4,
+          "made": 3,
+          "pct": 75
+        },
+        "made": 5,
+        "pct": 55.6,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 959.8
+  },
+  {
+    "athletes": [
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 116.7,
+    "idHash": "4401-4403-4412-5858-16729",
+    "netRating": 11.9,
+    "offenseRating": 128.6,
+    "opponentStats": {
+      "assists": 4,
+      "blocks": 1,
+      "defensiveRebounds": 9,
+      "fieldGoals": {
+        "attempted": 20,
+        "made": 8,
+        "pct": 40
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 47.5,
+        "freeThrowRate": 60,
+        "offensiveReboundPct": 46.7,
+        "turnoverRatio": 0.29
+      },
+      "freeThrows": {
+        "attempted": 12,
+        "made": 9,
+        "pct": 75
+      },
+      "offensiveRebounds": 7,
+      "points": 28,
+      "possessions": 24,
+      "steals": 3,
+      "threePointers": {
+        "attempted": 10,
+        "made": 3,
+        "pct": 30
+      },
+      "trueShooting": 55.4,
+      "turnovers": 7,
+      "twoPointers": {
+        "attempted": 10,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 7,
+          "made": 3,
+          "pct": 42.9
+        },
+        "made": 5,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 60.1,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 6,
+      "blocks": 1,
+      "defensiveRebounds": 8,
+      "fieldGoals": {
+        "attempted": 21,
+        "made": 9,
+        "pct": 42.9
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 28.6,
+        "offensiveReboundPct": 27.3,
+        "turnoverRatio": 0.19
+      },
+      "freeThrows": {
+        "attempted": 6,
+        "made": 6,
+        "pct": 100
+      },
+      "offensiveRebounds": 3,
+      "points": 27,
+      "possessions": 21,
+      "steals": 4,
+      "threePointers": {
+        "attempted": 8,
+        "made": 3,
+        "pct": 37.5
+      },
+      "trueShooting": 57.1,
+      "turnovers": 4,
+      "twoPointers": {
+        "attempted": 13,
+        "dunks": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 3,
+          "made": 1,
+          "pct": 33.3
+        },
+        "layups": {
+          "attempted": 9,
+          "made": 5,
+          "pct": 55.6
+        },
+        "made": 6,
+        "pct": 46.2,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 898
+  },
+  {
+    "athletes": [
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 125.9,
+    "idHash": "4401-4403-4412-5514-16729",
+    "netRating": 85.8,
+    "offenseRating": 211.8,
+    "opponentStats": {
+      "assists": 6,
+      "blocks": 0,
+      "defensiveRebounds": 10,
+      "fieldGoals": {
+        "attempted": 22,
+        "made": 13,
+        "pct": 59.1
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 65.9,
+        "freeThrowRate": 27.3,
+        "offensiveReboundPct": 27.3,
+        "turnoverRatio": 0.15
+      },
+      "freeThrows": {
+        "attempted": 6,
+        "made": 5,
+        "pct": 83.3
+      },
+      "offensiveRebounds": 3,
+      "points": 34,
+      "possessions": 27,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 7,
+        "made": 3,
+        "pct": 42.9
+      },
+      "trueShooting": 69,
+      "turnovers": 4,
+      "twoPointers": {
+        "attempted": 15,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 5,
+          "made": 1,
+          "pct": 20
+        },
+        "layups": {
+          "attempted": 9,
+          "made": 8,
+          "pct": 88.9
+        },
+        "made": 10,
+        "pct": 66.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 59.1,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 8,
+      "blocks": 1,
+      "defensiveRebounds": 6,
+      "fieldGoals": {
+        "attempted": 22,
+        "made": 10,
+        "pct": 45.5
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 63.6,
+        "freeThrowRate": 50,
+        "offensiveReboundPct": 42.9,
+        "turnoverRatio": 0.06
+      },
+      "freeThrows": {
+        "attempted": 11,
+        "made": 8,
+        "pct": 72.7
+      },
+      "offensiveRebounds": 3,
+      "points": 36,
+      "possessions": 17,
+      "steals": 3,
+      "threePointers": {
+        "attempted": 16,
+        "made": 8,
+        "pct": 50
+      },
+      "trueShooting": 67.1,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 6,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 4,
+          "made": 1,
+          "pct": 25
+        },
+        "made": 2,
+        "pct": 33.3,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 893
+  },
+  {
+    "athletes": [
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 105.3,
+    "idHash": "4400-4412-5514-5858-16729",
+    "netRating": 23.3,
+    "offenseRating": 128.6,
+    "opponentStats": {
+      "assists": 5,
+      "blocks": 3,
+      "defensiveRebounds": 6,
+      "fieldGoals": {
+        "attempted": 20,
+        "made": 8,
+        "pct": 40
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 47.5,
+        "freeThrowRate": 15,
+        "offensiveReboundPct": 66.7,
+        "turnoverRatio": 0.26
+      },
+      "freeThrows": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "offensiveRebounds": 4,
+      "points": 20,
+      "possessions": 19,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 8,
+        "made": 3,
+        "pct": 37.5
+      },
+      "trueShooting": 46.9,
+      "turnovers": 5,
+      "twoPointers": {
+        "attempted": 12,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 3,
+          "made": 2,
+          "pct": 66.7
+        },
+        "layups": {
+          "attempted": 9,
+          "made": 3,
+          "pct": 33.3
+        },
+        "made": 5,
+        "pct": 41.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 64.5,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 11,
+      "blocks": 0,
+      "defensiveRebounds": 10,
+      "fieldGoals": {
+        "attempted": 24,
+        "made": 14,
+        "pct": 58.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 66.7,
+        "freeThrowRate": 25,
+        "offensiveReboundPct": 46.7,
+        "turnoverRatio": 0.14
+      },
+      "freeThrows": {
+        "attempted": 6,
+        "made": 4,
+        "pct": 66.7
+      },
+      "offensiveRebounds": 7,
+      "points": 36,
+      "possessions": 28,
+      "steals": 4,
+      "threePointers": {
+        "attempted": 8,
+        "made": 4,
+        "pct": 50
+      },
+      "trueShooting": 67.6,
+      "turnovers": 4,
+      "twoPointers": {
+        "attempted": 16,
+        "dunks": {
+          "attempted": 3,
+          "made": 3,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 3,
+          "made": 2,
+          "pct": 66.7
+        },
+        "layups": {
+          "attempted": 10,
+          "made": 5,
+          "pct": 50
+        },
+        "made": 10,
+        "pct": 62.5,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 874.1
+  },
+  {
+    "athletes": [
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 133.3,
+    "idHash": "4400-4401-4403-4412-5514",
+    "netRating": 59.5,
+    "offenseRating": 192.9,
+    "opponentStats": {
+      "assists": 7,
+      "blocks": 0,
+      "defensiveRebounds": 7,
+      "fieldGoals": {
+        "attempted": 21,
+        "made": 11,
+        "pct": 52.4
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 52.4,
+        "freeThrowRate": 38.1,
+        "offensiveReboundPct": 85.7,
+        "turnoverRatio": 0.14
+      },
+      "freeThrows": {
+        "attempted": 8,
+        "made": 6,
+        "pct": 75
+      },
+      "offensiveRebounds": 6,
+      "points": 28,
+      "possessions": 21,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 4,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 57.1,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 17,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 8,
+          "made": 5,
+          "pct": 62.5
+        },
+        "layups": {
+          "attempted": 8,
+          "made": 5,
+          "pct": 62.5
+        },
+        "made": 11,
+        "pct": 64.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 53.7,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 4,
+      "blocks": 1,
+      "defensiveRebounds": 4,
+      "fieldGoals": {
+        "attempted": 15,
+        "made": 6,
+        "pct": 40
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 93.3,
+        "offensiveReboundPct": 42.9,
+        "turnoverRatio": 0.29
+      },
+      "freeThrows": {
+        "attempted": 14,
+        "made": 12,
+        "pct": 85.7
+      },
+      "offensiveRebounds": 3,
+      "points": 27,
+      "possessions": 14,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 7,
+        "made": 3,
+        "pct": 42.9
+      },
+      "trueShooting": 63.8,
+      "turnovers": 4,
+      "twoPointers": {
+        "attempted": 8,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 5,
+          "made": 2,
+          "pct": 40
+        },
+        "made": 3,
+        "pct": 37.5,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 782.6
+  },
+  {
+    "athletes": [
+      {
+        "id": 1134,
+        "name": "Mohamed Keita"
+      },
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 140.9,
+    "idHash": "1134-4401-4403-5514-5858",
+    "netRating": -19.9,
+    "offenseRating": 121.1,
+    "opponentStats": {
+      "assists": 8,
+      "blocks": 0,
+      "defensiveRebounds": 8,
+      "fieldGoals": {
+        "attempted": 19,
+        "made": 10,
+        "pct": 52.6
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 71.1,
+        "freeThrowRate": 21.1,
+        "offensiveReboundPct": 27.3,
+        "turnoverRatio": 0.18
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 4,
+        "pct": 100
+      },
+      "offensiveRebounds": 3,
+      "points": 31,
+      "possessions": 22,
+      "steals": 3,
+      "threePointers": {
+        "attempted": 12,
+        "made": 7,
+        "pct": 58.3
+      },
+      "trueShooting": 74.7,
+      "turnovers": 4,
+      "twoPointers": {
+        "attempted": 7,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 5,
+          "made": 2,
+          "pct": 40
+        },
+        "made": 3,
+        "pct": 42.9,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 65.9,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 5,
+      "blocks": 3,
+      "defensiveRebounds": 7,
+      "fieldGoals": {
+        "attempted": 17,
+        "made": 9,
+        "pct": 52.9
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 55.9,
+        "freeThrowRate": 23.5,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.16
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 4,
+        "pct": 100
+      },
+      "offensiveRebounds": 0,
+      "points": 23,
+      "possessions": 19,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "trueShooting": 61.3,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 14,
+        "dunks": {
+          "attempted": 2,
+          "made": 2,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 6,
+          "made": 1,
+          "pct": 16.7
+        },
+        "layups": {
+          "attempted": 6,
+          "made": 5,
+          "pct": 83.3
+        },
+        "made": 8,
+        "pct": 57.1,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 747
+  },
+  {
+    "athletes": [
+      {
+        "id": 1134,
+        "name": "Mohamed Keita"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 105.9,
+    "idHash": "1134-4403-4412-5514-16729",
+    "netRating": -5.9,
+    "offenseRating": 100,
+    "opponentStats": {
+      "assists": 4,
+      "blocks": 0,
+      "defensiveRebounds": 7,
+      "fieldGoals": {
+        "attempted": 17,
+        "made": 7,
+        "pct": 41.2
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 52.9,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 71.4,
+        "turnoverRatio": 0.18
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 5,
+      "points": 18,
+      "possessions": 17,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 7,
+        "made": 4,
+        "pct": 57.1
+      },
+      "trueShooting": 52.9,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 10,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 4,
+          "made": 1,
+          "pct": 25
+        },
+        "layups": {
+          "attempted": 6,
+          "made": 2,
+          "pct": 33.3
+        },
+        "made": 3,
+        "pct": 30,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 58.1,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 2,
+      "blocks": 1,
+      "defensiveRebounds": 7,
+      "fieldGoals": {
+        "attempted": 14,
+        "made": 4,
+        "pct": 28.6
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 39.3,
+        "freeThrowRate": 28.6,
+        "offensiveReboundPct": 42.9,
+        "turnoverRatio": 0.21
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 3,
+        "pct": 75
+      },
+      "offensiveRebounds": 3,
+      "points": 14,
+      "possessions": 14,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 9,
+        "made": 3,
+        "pct": 33.3
+      },
+      "trueShooting": 44.4,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 5,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 3,
+          "made": 1,
+          "pct": 33.3
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 20,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 640
+  },
+  {
+    "athletes": [
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 136.4,
+    "idHash": "4400-4403-4412-5514-5858",
+    "netRating": 27.3,
+    "offenseRating": 163.6,
+    "opponentStats": {
+      "assists": 3,
+      "blocks": 1,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 10,
+        "made": 5,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 65,
+        "freeThrowRate": 20,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.27
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 3,
+      "points": 15,
+      "possessions": 11,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 4,
+        "made": 3,
+        "pct": 75
+      },
+      "trueShooting": 68.9,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 6,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 5,
+          "made": 1,
+          "pct": 20
+        },
+        "made": 2,
+        "pct": 33.3,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 52.9,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 6,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 14,
+        "made": 8,
+        "pct": 57.1
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 64.3,
+        "freeThrowRate": 7.1,
+        "offensiveReboundPct": 66.7,
+        "turnoverRatio": 0.09
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 4,
+      "points": 18,
+      "possessions": 11,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 4,
+        "made": 2,
+        "pct": 50
+      },
+      "trueShooting": 62.3,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 10,
+        "dunks": {
+          "attempted": 2,
+          "made": 2,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 3,
+          "made": 2,
+          "pct": 66.7
+        },
+        "layups": {
+          "attempted": 5,
+          "made": 2,
+          "pct": 40
+        },
+        "made": 6,
+        "pct": 60,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 499
+  },
+  {
+    "athletes": [
+      {
+        "id": 1134,
+        "name": "Mohamed Keita"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 118.2,
+    "idHash": "1134-4403-5514-5858-16729",
+    "netRating": 31.8,
+    "offenseRating": 150,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 16,
+        "made": 5,
+        "pct": 31.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 31.3,
+        "freeThrowRate": 18.8,
+        "offensiveReboundPct": 57.1,
+        "turnoverRatio": 0.27
+      },
+      "freeThrows": {
+        "attempted": 3,
+        "made": 3,
+        "pct": 100
+      },
+      "offensiveRebounds": 4,
+      "points": 13,
+      "possessions": 11,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 6,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 37.5,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 10,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 4,
+          "made": 1,
+          "pct": 25
+        },
+        "layups": {
+          "attempted": 6,
+          "made": 4,
+          "pct": 66.7
+        },
+        "made": 5,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 57.1,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 4,
+      "blocks": 1,
+      "defensiveRebounds": 4,
+      "fieldGoals": {
+        "attempted": 11,
+        "made": 7,
+        "pct": 63.6
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 72.7,
+        "freeThrowRate": 18.2,
+        "offensiveReboundPct": 20,
+        "turnoverRatio": 0.08
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 1,
+      "points": 18,
+      "possessions": 12,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 4,
+        "made": 2,
+        "pct": 50
+      },
+      "trueShooting": 75.8,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 7,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 6,
+          "made": 4,
+          "pct": 66.7
+        },
+        "made": 5,
+        "pct": 71.4,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 483
+  },
+  {
+    "athletes": [
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 118.2,
+    "idHash": "4400-4403-4412-5858-16729",
+    "netRating": 41.8,
+    "offenseRating": 160,
+    "opponentStats": {
+      "assists": 3,
+      "blocks": 1,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 10,
+        "made": 5,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 65,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.27
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 3,
+      "points": 13,
+      "possessions": 11,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 4,
+        "made": 3,
+        "pct": 75
+      },
+      "trueShooting": 65,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 6,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 5,
+          "made": 1,
+          "pct": 20
+        },
+        "made": 2,
+        "pct": 33.3,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 54.5,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 6,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 13,
+        "made": 7,
+        "pct": 53.8
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 61.5,
+        "freeThrowRate": 7.7,
+        "offensiveReboundPct": 66.7,
+        "turnoverRatio": 0.1
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 4,
+      "points": 16,
+      "possessions": 10,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 4,
+        "made": 2,
+        "pct": 50
+      },
+      "trueShooting": 59.5,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 9,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 3,
+          "made": 2,
+          "pct": 66.7
+        },
+        "layups": {
+          "attempted": 5,
+          "made": 2,
+          "pct": 40
+        },
+        "made": 5,
+        "pct": 55.6,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 462
+  },
+  {
+    "athletes": [
+      {
+        "id": 1134,
+        "name": "Mohamed Keita"
+      },
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 120,
+    "idHash": "1134-4401-4403-5514-16729",
+    "netRating": 0,
+    "offenseRating": 120,
+    "opponentStats": {
+      "assists": 3,
+      "blocks": 0,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 12,
+        "made": 6,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.1
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 12,
+      "possessions": 10,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 50,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 10,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 8,
+          "made": 5,
+          "pct": 62.5
+        },
+        "made": 6,
+        "pct": 60,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 68,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 3,
+      "blocks": 2,
+      "defensiveRebounds": 6,
+      "fieldGoals": {
+        "attempted": 10,
+        "made": 7,
+        "pct": 70
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 75,
+        "freeThrowRate": 40,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.13
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 3,
+        "pct": 75
+      },
+      "offensiveRebounds": 0,
+      "points": 18,
+      "possessions": 15,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "trueShooting": 76.5,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 7,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 5,
+          "made": 5,
+          "pct": 100
+        },
+        "made": 6,
+        "pct": 85.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 441
+  },
+  {
+    "athletes": [
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4404,
+        "name": "Keaston Willis"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 146.2,
+    "idHash": "4403-4404-4412-5514-16729",
+    "netRating": -74.7,
+    "offenseRating": 71.4,
+    "opponentStats": {
+      "assists": 3,
+      "blocks": 1,
+      "defensiveRebounds": 4,
+      "fieldGoals": {
+        "attempted": 10,
+        "made": 5,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 65,
+        "freeThrowRate": 100,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.31
+      },
+      "freeThrows": {
+        "attempted": 10,
+        "made": 6,
+        "pct": 60
+      },
+      "offensiveRebounds": 4,
+      "points": 19,
+      "possessions": 13,
+      "steals": 5,
+      "threePointers": {
+        "attempted": 6,
+        "made": 3,
+        "pct": 50
+      },
+      "trueShooting": 66,
+      "turnovers": 4,
+      "twoPointers": {
+        "attempted": 4,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 3,
+          "made": 1,
+          "pct": 33.3
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 2,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 80.3,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 1,
+      "defensiveRebounds": 5,
+      "fieldGoals": {
+        "attempted": 7,
+        "made": 2,
+        "pct": 28.6
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 35.7,
+        "freeThrowRate": 114.3,
+        "offensiveReboundPct": 20,
+        "turnoverRatio": 0.5
+      },
+      "freeThrows": {
+        "attempted": 8,
+        "made": 5,
+        "pct": 62.5
+      },
+      "offensiveRebounds": 1,
+      "points": 10,
+      "possessions": 14,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "trueShooting": 47.5,
+      "turnovers": 7,
+      "twoPointers": {
+        "attempted": 4,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "made": 1,
+        "pct": 25,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 403.4
+  },
+  {
+    "athletes": [
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4404,
+        "name": "Keaston Willis"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 155.6,
+    "idHash": "4400-4403-4404-5858-16729",
+    "netRating": -55.6,
+    "offenseRating": 100,
+    "opponentStats": {
+      "assists": 4,
+      "blocks": 0,
+      "defensiveRebounds": 4,
+      "fieldGoals": {
+        "attempted": 7,
+        "made": 4,
+        "pct": 57.1
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 78.6,
+        "freeThrowRate": 57.1,
+        "offensiveReboundPct": 20,
+        "turnoverRatio": 0.11
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 3,
+        "pct": 75
+      },
+      "offensiveRebounds": 1,
+      "points": 14,
+      "possessions": 9,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 5,
+        "made": 3,
+        "pct": 60
+      },
+      "trueShooting": 79.9,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 55.6,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 2,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 6,
+        "made": 2,
+        "pct": 33.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 41.7,
+        "freeThrowRate": 33.3,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.43
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 0,
+      "points": 7,
+      "possessions": 7,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "trueShooting": 50.9,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 3,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 33.3,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 345.4
+  },
+  {
+    "athletes": [
+      {
+        "id": 1134,
+        "name": "Mohamed Keita"
+      },
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 110,
+    "idHash": "1134-4400-4403-4412-16729",
+    "netRating": -24.3,
+    "offenseRating": 85.7,
+    "opponentStats": {
+      "assists": 3,
+      "blocks": 0,
+      "defensiveRebounds": 4,
+      "fieldGoals": {
+        "attempted": 12,
+        "made": 5,
+        "pct": 41.7
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 45.8,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.1
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 4,
+      "points": 11,
+      "possessions": 10,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 5,
+        "made": 1,
+        "pct": 20
+      },
+      "trueShooting": 45.8,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 7,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 6,
+          "made": 4,
+          "pct": 66.7
+        },
+        "made": 4,
+        "pct": 57.1,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 69.2,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 1,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 7,
+        "made": 2,
+        "pct": 28.6
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 28.6,
+        "freeThrowRate": 28.6,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0.29
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 1,
+      "points": 6,
+      "possessions": 7,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 3,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 38.1,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 4,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 2,
+          "pct": 100
+        },
+        "made": 2,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 295
+  },
+  {
+    "athletes": [
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 108.3,
+    "idHash": "4400-4401-4403-5858-16729",
+    "netRating": 11.7,
+    "offenseRating": 120,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 5,
+      "fieldGoals": {
+        "attempted": 9,
+        "made": 4,
+        "pct": 44.4
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 44.4,
+        "freeThrowRate": 66.7,
+        "offensiveReboundPct": 80,
+        "turnoverRatio": 0.25
+      },
+      "freeThrows": {
+        "attempted": 6,
+        "made": 5,
+        "pct": 83.3
+      },
+      "offensiveRebounds": 4,
+      "points": 13,
+      "possessions": 12,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 3,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 55.8,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 6,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 2,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 3,
+          "made": 1,
+          "pct": 33.3
+        },
+        "made": 4,
+        "pct": 66.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 70.5,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 2,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 7,
+        "made": 2,
+        "pct": 28.6
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 28.6,
+        "freeThrowRate": 28.6,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.4
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 0,
+      "points": 6,
+      "possessions": 5,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 4,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 38.1,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 3,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 3,
+          "made": 2,
+          "pct": 66.7
+        },
+        "made": 2,
+        "pct": 66.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 289.4
+  },
+  {
+    "athletes": [
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 50,
+    "idHash": "4400-4401-5514-5858-16729",
+    "netRating": 7.1,
+    "offenseRating": 57.1,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 4,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 33.3,
+        "freeThrowRate": 100,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.38
+      },
+      "freeThrows": {
+        "attempted": 3,
+        "made": 2,
+        "pct": 66.7
+      },
+      "offensiveRebounds": 0,
+      "points": 4,
+      "possessions": 8,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 46.3,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 65.5,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 7,
+        "made": 2,
+        "pct": 28.6
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 28.6,
+        "freeThrowRate": 28.6,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.29
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 3,
+      "points": 4,
+      "possessions": 7,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 25.4,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 6,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 5,
+          "made": 2,
+          "pct": 40
+        },
+        "made": 2,
+        "pct": 33.3,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 275
+  },
+  {
+    "athletes": [
+      {
+        "id": 4404,
+        "name": "Keaston Willis"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 44.4,
+    "idHash": "4404-4412-5514-5858-16729",
+    "netRating": 55.6,
+    "offenseRating": 100,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 5,
+      "fieldGoals": {
+        "attempted": 4,
+        "made": 1,
+        "pct": 25
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 37.5,
+        "freeThrowRate": 100,
+        "offensiveReboundPct": 20,
+        "turnoverRatio": 0.33
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 1,
+        "pct": 25
+      },
+      "offensiveRebounds": 1,
+      "points": 4,
+      "possessions": 9,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 4,
+        "made": 1,
+        "pct": 25
+      },
+      "trueShooting": 34.7,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 67.2,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 5,
+        "made": 1,
+        "pct": 20
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 20,
+        "freeThrowRate": 80,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.2
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 3,
+        "pct": 75
+      },
+      "offensiveRebounds": 0,
+      "points": 5,
+      "possessions": 5,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 37,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 5,
+        "dunks": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "made": 1,
+        "pct": 20,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 250
+  },
+  {
+    "athletes": [
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4404,
+        "name": "Keaston Willis"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 140,
+    "idHash": "4403-4404-4412-5858-16729",
+    "netRating": -2.5,
+    "offenseRating": 137.5,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 133.3,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.4
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 4,
+        "pct": 100
+      },
+      "offensiveRebounds": 0,
+      "points": 7,
+      "possessions": 5,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "trueShooting": 73.5,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 63.5,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 3,
+      "blocks": 0,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 8,
+        "made": 4,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 68.8,
+        "freeThrowRate": 12.5,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.13
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 3,
+      "points": 11,
+      "possessions": 8,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 5,
+        "made": 3,
+        "pct": 60
+      },
+      "trueShooting": 65.2,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 3,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 33.3,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 245.6
+  },
+  {
+    "athletes": [
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 4404,
+        "name": "Keaston Willis"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 140,
+    "idHash": "4401-4404-4412-5858-16729",
+    "netRating": 85,
+    "offenseRating": 225,
+    "opponentStats": {
+      "assists": 2,
+      "blocks": 1,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 5,
+        "made": 3,
+        "pct": 60
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 70,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 7,
+      "possessions": 5,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "trueShooting": 70,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 3,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "made": 2,
+        "pct": 66.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 49.8,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 4,
+        "made": 2,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 62.5,
+        "freeThrowRate": 125,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 5,
+        "made": 4,
+        "pct": 80
+      },
+      "offensiveRebounds": 0,
+      "points": 9,
+      "possessions": 4,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "trueShooting": 72.6,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 217
+  },
+  {
+    "athletes": [
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 100,
+    "idHash": "4400-4401-4412-5514-5858",
+    "netRating": 14.3,
+    "offenseRating": 114.3,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 4,
+        "made": 1,
+        "pct": 25
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 25,
+        "freeThrowRate": 50,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.33
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "offensiveRebounds": 1,
+      "points": 3,
+      "possessions": 3,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 30.7,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 4,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 3,
+          "made": 1,
+          "pct": 33.3
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 25,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 74.1,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 2,
+      "blocks": 0,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 5,
+        "made": 3,
+        "pct": 60
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 80,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0.14
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 8,
+      "possessions": 7,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 4,
+        "made": 2,
+        "pct": 50
+      },
+      "trueShooting": 80,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 161.9
+  },
+  {
+    "athletes": [
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4404,
+        "name": "Keaston Willis"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 71.4,
+    "idHash": "4401-4403-4404-4412-5858",
+    "netRating": -11.4,
+    "offenseRating": 60,
+    "opponentStats": {
+      "assists": 2,
+      "blocks": 0,
+      "defensiveRebounds": 4,
+      "fieldGoals": {
+        "attempted": 5,
+        "made": 2,
+        "pct": 40
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.14
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 5,
+      "possessions": 7,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 4,
+        "made": 1,
+        "pct": 25
+      },
+      "trueShooting": 50,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 93.5,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 4,
+        "made": 1,
+        "pct": 25
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 25,
+        "freeThrowRate": 50,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.2
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "offensiveRebounds": 0,
+      "points": 3,
+      "possessions": 5,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 30.7,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "made": 1,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 154
+  },
+  {
+    "athletes": [
+      {
+        "id": 1134,
+        "name": "Mohamed Keita"
+      },
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 225,
+    "idHash": "1134-4401-4403-5858-16729",
+    "netRating": -91.7,
+    "offenseRating": 133.3,
+    "opponentStats": {
+      "assists": 2,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 3,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 133.3,
+        "freeThrowRate": 66.7,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "offensiveRebounds": 0,
+      "points": 9,
+      "possessions": 4,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "trueShooting": 116,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 62.2,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 2,
+        "pct": 66.7
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 66.7,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.33
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 4,
+      "possessions": 3,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 66.7,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 2,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 135
+  },
+  {
+    "athletes": [
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 142.9,
+    "idHash": "4400-4401-4403-5514-16729",
+    "netRating": 57.1,
+    "offenseRating": 200,
+    "opponentStats": {
+      "assists": 4,
+      "blocks": 1,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 4,
+        "made": 4,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 125,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.14
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 10,
+      "possessions": 7,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "trueShooting": 125,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 2,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 81.2,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 4,
+        "made": 1,
+        "pct": 25
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 25,
+        "freeThrowRate": 50,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.5
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 1,
+      "points": 4,
+      "possessions": 2,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 41,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "made": 1,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 133
+  },
+  {
+    "athletes": [
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 100,
+    "idHash": "4400-4401-4412-5858-16729",
+    "netRating": 100,
+    "offenseRating": 200,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 2,
+        "pct": 66.7
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 83.3,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.4
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 5,
+      "possessions": 5,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "trueShooting": 83.3,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "made": 1,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 64.9,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 1,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 50,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "made": 1,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 111
+  },
+  {
+    "athletes": [
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4409,
+        "name": "Ari Seals"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 100,
+    "idHash": "4400-4403-4409-4412-16729",
+    "netRating": -100,
+    "offenseRating": 0,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 33.3,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.5
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 2,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 33.3,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 67.3,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.75
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 4,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": null,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 107
+  },
+  {
+    "athletes": [
+      {
+        "id": 1134,
+        "name": "Mohamed Keita"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4404,
+        "name": "Keaston Willis"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 200,
+    "idHash": "1134-4403-4404-5514-5858",
+    "netRating": -150,
+    "offenseRating": 50,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 33.3,
+        "freeThrowRate": 66.7,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.5
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 1,
+      "points": 4,
+      "possessions": 2,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 51.5,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "made": 1,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 67.3,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.5
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 2,
+      "possessions": 4,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 50,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 107
+  },
+  {
+    "athletes": [
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 180,
+    "idHash": "4401-4403-5514-5858-16729",
+    "netRating": -80,
+    "offenseRating": 100,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 100,
+        "freeThrowRate": 800,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.2
+      },
+      "freeThrows": {
+        "attempted": 8,
+        "made": 7,
+        "pct": 87.5
+      },
+      "offensiveRebounds": 0,
+      "points": 9,
+      "possessions": 5,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 99.6,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 81.9,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.5
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 2,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 50,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 102.6
+  },
+  {
+    "athletes": [
+      {
+        "id": 1134,
+        "name": "Mohamed Keita"
+      },
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 300,
+    "idHash": "1134-4400-4403-4412-5514",
+    "netRating": -160,
+    "offenseRating": 140,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 200,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 1
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 3,
+        "pct": 75
+      },
+      "offensiveRebounds": 2,
+      "points": 3,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 39.9,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 76.1,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 3,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 100,
+        "freeThrowRate": 33.3,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.2
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "offensiveRebounds": 0,
+      "points": 7,
+      "possessions": 5,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 101.7,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 3,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 2,
+          "pct": 100
+        },
+        "made": 3,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 94.6
+  },
+  {
+    "athletes": [
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 200,
+    "idHash": "4400-4401-4403-4412-16729",
+    "netRating": 0,
+    "offenseRating": 200,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 1,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 50,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "made": 1,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 63.8,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 2,
+      "blocks": 1,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 4,
+        "made": 3,
+        "pct": 75
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 100,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 8,
+      "possessions": 4,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "trueShooting": 100,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 94
+  },
+  {
+    "athletes": [
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4404,
+        "name": "Keaston Willis"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 66.7,
+    "idHash": "4400-4403-4404-5514-16729",
+    "netRating": -16.7,
+    "offenseRating": 50,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 100,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0.33
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 1,
+      "points": 2,
+      "possessions": 3,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 34.7,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 70.6,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 100,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.5
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "offensiveRebounds": 1,
+      "points": 1,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 17.4,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 85
+  },
+  {
+    "athletes": [
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 66.7,
+    "idHash": "4400-4401-4412-5514-16729",
+    "netRating": 58.3,
+    "offenseRating": 125,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 50,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.33
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 3,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 41,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 101.2,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 2,
+        "pct": 66.7
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 83.3,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 5,
+      "possessions": 4,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "trueShooting": 83.3,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 83
+  },
+  {
+    "athletes": [
+      {
+        "id": 1134,
+        "name": "Mohamed Keita"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 200,
+    "idHash": "1134-4412-5514-5858-16729",
+    "netRating": -200,
+    "offenseRating": 0,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 4,
+        "made": 1,
+        "pct": 25
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 25,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 3,
+      "points": 2,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 25,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 3,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "made": 1,
+        "pct": 33.3,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 63,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 2,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.67
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 3,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": null,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 76.2
+  },
+  {
+    "athletes": [
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4404,
+        "name": "Keaston Willis"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 100,
+    "idHash": "4403-4404-4412-5514-5858",
+    "netRating": 100,
+    "offenseRating": 200,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 100,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 100,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 58.1,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 100,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 1
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 1,
+      "points": 2,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 34.7,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 62
+  },
+  {
+    "athletes": [
+      {
+        "id": 1134,
+        "name": "Mohamed Keita"
+      },
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": null,
+    "idHash": "1134-4401-4403-4412-5514",
+    "netRating": null,
+    "offenseRating": 100,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 200,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 3,
+        "pct": 75
+      },
+      "offensiveRebounds": 2,
+      "points": 3,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 39.9,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 61.4,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 100,
+        "freeThrowRate": 100,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.33
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "offensiveRebounds": 0,
+      "points": 3,
+      "possessions": 3,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 104.2,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 58.6
+  },
+  {
+    "athletes": [
+      {
+        "id": 1134,
+        "name": "Mohamed Keita"
+      },
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 0,
+    "idHash": "1134-4400-4401-5514-5858",
+    "netRating": 100,
+    "offenseRating": 100,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 60,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 200,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "offensiveRebounds": 1,
+      "points": 1,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 26.6,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 40
+  },
+  {
+    "athletes": [
+      {
+        "id": 1134,
+        "name": "Mohamed Keita"
+      },
+      {
+        "id": 4404,
+        "name": "Keaston Willis"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 100,
+    "idHash": "1134-4404-5514-5858-16729",
+    "netRating": null,
+    "offenseRating": null,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 200,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "offensiveRebounds": 1,
+      "points": 1,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 26.6,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 32.4,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 37
+  },
+  {
+    "athletes": [
+      {
+        "id": 1134,
+        "name": "Mohamed Keita"
+      },
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": 0,
+    "idHash": "1134-4401-5514-5858-16729",
+    "netRating": null,
+    "offenseRating": null,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": null,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 33.1,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 0,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 36.3
+  },
+  {
+    "athletes": [
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4404,
+        "name": "Keaston Willis"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": null,
+    "idHash": "4400-4403-4404-5514-5858",
+    "netRating": null,
+    "offenseRating": null,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 113.6,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 0,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": null,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 24
+  },
+  {
+    "athletes": [
+      {
+        "id": 1134,
+        "name": "Mohamed Keita"
+      },
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": null,
+    "idHash": "1134-4400-4401-5514-16729",
+    "netRating": null,
+    "offenseRating": 0,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 100,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 0,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 70.6,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": null,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 17
+  },
+  {
+    "athletes": [
+      {
+        "id": 1134,
+        "name": "Mohamed Keita"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5858,
+        "name": "Carlous Williams"
+      },
+      {
+        "id": 16729,
+        "name": "Cobe Williams"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": null,
+    "idHash": "1134-4403-4412-5858-16729",
+    "netRating": null,
+    "offenseRating": null,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 0,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": null,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 3
+  },
+  {
+    "athletes": [
+      {
+        "id": 1134,
+        "name": "Mohamed Keita"
+      },
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": null,
+    "idHash": "1134-4400-4401-4403-5514",
+    "netRating": null,
+    "offenseRating": 0,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 400,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 3,
+        "pct": 75
+      },
+      "offensiveRebounds": 2,
+      "points": 3,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 54.3,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 461.5,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 1
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": null,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 2.6
+  },
+  {
+    "athletes": [
+      {
+        "id": 1134,
+        "name": "Mohamed Keita"
+      },
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      },
+      {
+        "id": 5514,
+        "name": "P.J. Haggerty"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": null,
+    "idHash": "1134-4400-4401-4412-5514",
+    "netRating": null,
+    "offenseRating": 0,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 400,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 3,
+        "pct": 75
+      },
+      "offensiveRebounds": 2,
+      "points": 3,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 54.3,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 461.5,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 1
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": null,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 2.6
+  },
+  {
+    "athletes": [
+      {
+        "id": 1134,
+        "name": "Mohamed Keita"
+      },
+      {
+        "id": 4400,
+        "name": "Matt Reed"
+      },
+      {
+        "id": 4401,
+        "name": "Tyshawn Archie"
+      },
+      {
+        "id": 4403,
+        "name": "Isaiah Barnes"
+      },
+      {
+        "id": 4412,
+        "name": "Jared Garcia"
+      }
+    ],
+    "conference": "American",
+    "defenseRating": null,
+    "idHash": "1134-4400-4401-4403-4412",
+    "netRating": null,
+    "offenseRating": 0,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 400,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 3,
+        "pct": 75
+      },
+      "offensiveRebounds": 2,
+      "points": 3,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 54.3,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 461.5,
+    "team": "Tulsa",
+    "teamId": 304,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 1
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": null,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 2.6
+  }
+]

@@ -1,0 +1,543 @@
+team_or_institution,references,fields_seen,files_seen,canonical_replacement,identical_school
+Abilene Christian,26,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Air Force,12,current_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Akron,30,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Alabama,28,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Alabama A&M,21,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Alabama St.,20,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Alabama State
+Alabama State,12,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Alabama St.
+Alaska Anchorage,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Albany,29,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Alcorn St.,16,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Alcorn State
+Alcorn State,8,current_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Alcorn St.
+American,13,current_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+American Int'l,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Angelina College,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Angelo St.,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Appalachian St.,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,Appalachian State
+Appalachian State,17,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Appalachian St.
+Arizona,24,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Arizona St.,2,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Arizona State
+Arizona State,36,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Arizona St.
+Arkansas,24,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Arkansas Pine Bluff,14,current_team;previous_team,frontend_site/data/transferPlayers.ts,,
+Arkansas St.,4,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Arkansas State
+Arkansas State,23,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Arkansas St.
+Arkansas-Little Rock,4,current_team,frontend_site/data/returningPlayers.ts,,
+Arkansas-Pine Bluff,11,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Army,16,current_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Auburn,31,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Auburn Montgomery,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Augustana,4,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Austin Peay,29,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Ball St.,12,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Ball State
+Ball State,27,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Ball St.
+Barry,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Barry University,4,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Baylor,26,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Bellarmine,19,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Belmont,25,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Benedictine Mesa,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Bethune Cookman,22,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Bethune-Cookman
+Bethune-Cookman,15,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Bethune Cookman
+Binghamton,21,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Boise State,20,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Boston College,43,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Boston University,19,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Bowling Green,26,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Bradley,25,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Brown,14,current_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Bryant,30,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Bucknell,24,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Buffalo,30,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Butler,32,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+BYU,33,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Cal Baptist,4,current_team;previous_team,frontend_site/data/transferPlayers.ts,,
+Cal Poly,15,current_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Cal Poly Humboldt,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Cal St. Bakersfield,18,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Cal State Bakersfield
+Cal St. East Bay,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Cal St. Fullerton,8,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Cal State Fullerton
+Cal St. Northridge,18,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Cal State Northridge
+Cal State Bakersfield,9,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Cal St. Bakersfield
+Cal State Fullerton,10,current_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Cal St. Fullerton
+Cal State Los Angeles,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Cal State Monterey Bay,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Cal State Northridge,12,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Cal St. Northridge
+California,28,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+California Baptist,17,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Campbell,17,current_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Canisius,39,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Casper College,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Catawba,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Central Arkansas,19,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Central Connecticut,17,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Central Michigan,20,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Central Missouri,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Central Washington,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Charleston,14,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,College of Charleston
+Charleston Southern,25,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Charlotte,39,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Chattanooga,25,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Chicago St.,22,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Chicago State
+Chicago State,7,current_team,frontend_site/data/returningPlayers.ts,,Chicago St.
+Cincinnati,42,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Clark Atlanta,8,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Clemson,23,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Cleveland St.,16,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Cleveland State
+Cleveland State,20,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Cleveland St.
+Coastal Carolina,28,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Coastal Georgia,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Colgate,13,current_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+College of Charleston,24,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Charleston
+College of the Sequoias,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Colorado,32,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Colorado Mesa,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Colorado St.,2,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Colorado State
+Colorado State,22,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Colorado St.
+Columbia,20,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Concordia Irvine,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Connecticut,17,current_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,UConn
+Coppin St.,8,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,
+Coppin State,11,current_team,frontend_site/data/returningPlayers.ts,,
+Cornell,19,current_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Creighton,31,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Dartmouth,14,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Davidson,27,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Dayton,25,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Delaware,28,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Delaware St.,2,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Delaware State
+Delaware State,15,current_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Delaware St.
+Denver,25,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+DePaul,33,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Detroit,8,current_team,frontend_site/data/returningPlayers.ts,,Detroit Mercy
+Detroit Mercy,12,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Detroit
+Drake,24,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Drexel,17,current_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Duke,23,committed_team;current_team;new_team;previous_team;team_name,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/teams.ts;frontend_site/data/transferPlayers.ts,,
+Duquesne,30,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+East Carolina,33,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+East Tennessee St.,14,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,East Tennessee State
+East Tennessee State,16,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,East Tennessee St.
+East Texas A&M,24,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Eastern Florida State College,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Eastern Illinois,17,current_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Eastern Kentucky,24,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Eastern Michigan,23,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Eastern Washington,10,current_team,frontend_site/data/returningPlayers.ts,,
+Elon,22,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Evansville,25,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Fairfield,20,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Fairleigh Dickinson,15,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Fairmont State,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Ferris State,6,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+FIU,26,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/transferPlayers.ts,,Florida International
+Flagler,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Florida,17,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Florida A&M,21,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Florida Atlantic,34,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Florida Gulf Coast,17,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Florida International,2,current_team,frontend_site/data/returningPlayers.ts,,FIU
+Florida Southern,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Florida St.,4,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Florida State
+Florida State,31,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Florida St.
+Fordham,23,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Fort Wayne,5,current_team,frontend_site/data/returningPlayers.ts,,
+Fresno St.,10,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Fresno State
+Fresno State,30,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Fresno St.
+Furman,24,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Gannon,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Gardner Webb,12,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Gardner-Webb
+Gardner-Webb,14,current_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Gardner Webb
+George Mason,32,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+George Washington,34,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Georgetown,34,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Georgia,32,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Georgia Southern,24,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Georgia St.,6,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Georgia State
+Georgia State,33,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Georgia St.
+Georgia Tech,37,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Gonzaga,27,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Grambling,3,current_team,frontend_site/data/returningPlayers.ts,,
+Grambling St.,16,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Grambling State
+Grambling State,7,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/transferPlayers.ts,,Grambling St.
+Grand Canyon,32,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Grand Valley State,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Green Bay,23,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Hampton,35,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Harding,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Harvard,11,current_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Hawaii,30,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Hawaii Pacific,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Henderson St.,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+High Point,31,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Hofstra,27,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Holy Cross,18,current_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Houston,26,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Houston Christian,29,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Howard,19,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Idaho,22,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Idaho St.,8,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,
+Idaho State,13,current_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Illinois,20,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Illinois Chicago,4,current_team;previous_team,frontend_site/data/transferPlayers.ts,,
+Illinois St.,8,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Illinois State
+Illinois State,19,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Illinois St.
+Illinois-Chicago,18,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Incarnate Word,26,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Independence C.C.,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Indiana,35,committed_team;current_team;new_team;previous_team;team_name,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/teams.ts;frontend_site/data/transferPlayers.ts,,
+Indiana (PA),2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Indiana St.,22,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Indiana State
+Indiana State,19,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Indiana St.
+Iona,29,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Iowa,18,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Iowa St.,2,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Iowa State
+Iowa State,24,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Iowa St.
+IU Indy,24,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Jackson St.,10,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Jackson State
+Jackson State,14,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Jackson St.
+Jacksonville,42,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Jacksonville St.,20,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,
+Jacksonville State,20,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+James Madison,35,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Jamestown,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Jefferson,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Kansas,32,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Kansas City,14,committed_team;current_team;new_team,frontend_site/data/hsRecruits.ts;frontend_site/data/transferPlayers.ts,,UMKC
+Kansas St.,6,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Kansas State
+Kansas State,34,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Kansas St.
+Kennesaw St.,8,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Kennesaw State
+Kennesaw State,23,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Kennesaw St.
+Kent St.,8,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Kent State
+Kent State,22,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Kent St.
+Kentucky,32,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Ky. Wesleyan,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+La Salle,29,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Lafayette,15,current_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Lamar,29,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Lander,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Le Moyne,32,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,
+Lehigh,14,current_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Liberty,16,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Lincoln Memorial,4,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Lincoln PA,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Lindenwood,21,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Lipscomb,18,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Little Rock,26,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,
+LIU,28,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Long Island
+Long Beach St.,14,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,
+Long Beach State,15,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Long Island,1,current_team,frontend_site/data/returningPlayers.ts,,LIU
+Longwood,31,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Louisiana,22,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/transferPlayers.ts,,
+Louisiana Monroe,14,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Louisiana-Monroe
+Louisiana Tech,22,current_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Louisiana-Lafayette,5,current_team,frontend_site/data/returningPlayers.ts,,
+Louisiana-Monroe,20,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Louisiana Monroe
+Louisville,32,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Loyola,28,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/transferPlayers.ts,,
+Loyola Chicago,14,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Loyola Maryland,20,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Loyola MD
+Loyola Marymount,33,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Loyola MD,10,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Loyola Maryland
+LSU,33,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Maine,26,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Manhattan,26,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Marist,24,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Marquette,23,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Mars Hill,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Marshall,31,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Maryland,32,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Maryland Eastern Shore,14,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Maryland-Eastern Shore
+Maryland-Eastern Shore,8,current_team,frontend_site/data/returningPlayers.ts,,Maryland Eastern Shore
+Massachusetts,15,current_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,UMass
+McNeese,14,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/transferPlayers.ts,,McNeese St.
+McNeese St.,10,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,McNeese
+McNeese State,5,current_team,frontend_site/data/returningPlayers.ts,,McNeese
+Memphis,41,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Mercer,24,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Mercyhurst,16,current_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Merrimack,23,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Miami,22,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/transferPlayers.ts,,Miami (Fla.)
+Miami (Fla.),5,current_team,frontend_site/data/returningPlayers.ts,,Miami
+Miami (OH),17,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Miami OH
+Miami FL,6,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Miami
+Miami OH,2,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Miami (OH)
+Michigan,25,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Michigan State,18,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Middle Tennessee,23,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Millersville,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Milwaukee,24,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Minnesota,30,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Mississippi,20,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Ole Miss
+Mississippi St.,6,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Mississippi State
+Mississippi State,26,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Mississippi St.
+Mississippi Valley St.,16,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Mississippi Valley State
+Mississippi Valley State,5,current_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Mississippi Valley St.
+Missouri,33,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Missouri St.,6,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Missouri State
+Missouri State,12,current_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Missouri St.
+Missouri-Kansas City,2,current_team,frontend_site/data/returningPlayers.ts,,UMKC
+Monmouth,24,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Montana,18,current_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Montana St.,2,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Montana State
+Montana St. Billings,4,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Montana State,14,committed_team;current_team;new_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Montana St.
+Morehead St.,6,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Morehead State
+Morehead State,11,current_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Morehead St.
+Morgan St.,12,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Morgan State
+Morgan State,7,committed_team;current_team;new_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Morgan St.
+Mount St. Mary's,23,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+MSU Moorhead,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Murray St.,2,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Murray State
+Murray State,24,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Murray St.
+N.C. State,8,current_team;previous_team,frontend_site/data/transferPlayers.ts,,NC State
+Navarro College,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Navy,8,current_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts,,
+NC State,31,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,N.C. State
+Nebraska,30,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Nebraska Kearney,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Nebraska Omaha,16,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Omaha
+Nevada,31,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+New Hampshire,26,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+New Haven,14,current_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+New Mexico,22,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+New Mexico St.,8,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,New Mexico State
+New Mexico State,21,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,New Mexico St.
+New Orleans,23,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Niagara,29,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Nicholls,8,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Nicholls St.,18,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Nicholls State
+Nicholls State,4,current_team,frontend_site/data/returningPlayers.ts,,Nicholls St.
+NJIT,26,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Norfolk St.,18,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Norfolk State
+Norfolk State,7,current_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Norfolk St.
+North Alabama,28,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+North Carolina,30,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+North Carolina A&T,26,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+North Carolina Central,23,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+North Dakota,28,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+North Dakota St.,8,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,North Dakota State
+North Dakota State,17,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,North Dakota St.
+North Florida,20,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+North Texas,26,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Northeastern,27,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Northern Arizona,20,current_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Northern Colorado,25,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Northern Illinois,38,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Northern Iowa,28,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Northern Kentucky,22,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Northern St.,4,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Northwest Mo. St.,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Northwest Nazarene,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Northwestern,39,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Northwestern St.,16,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Northwestern State
+Northwestern State,10,current_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Northwestern St.
+Notre Dame,31,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Nova Southeastern,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Oakland,27,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Odessa College,4,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Ohio,25,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Ohio St.,2,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Ohio State
+Ohio State,26,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Ohio St.
+Oklahoma,26,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Oklahoma State,36,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Old Dominion,21,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Ole Miss,20,committed_team;current_team;new_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Mississippi
+Omaha,12,committed_team;current_team;new_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Nebraska Omaha
+Oral Roberts,19,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Oregon,42,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Oregon St.,2,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Oregon State
+Oregon State,42,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Oregon St.
+Pace,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Pacific,32,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Penn,18,current_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Penn St.,4,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Penn State
+Penn State,28,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Penn St.
+Pennsylvania,5,committed_team;current_team;new_team,frontend_site/data/hsRecruits.ts;frontend_site/data/transferPlayers.ts,,
+Pepperdine,41,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Pittsburg State,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Pittsburgh,38,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Portland,26,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Portland St.,14,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Portland State
+Portland State,9,current_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Portland St.
+Prairie View,8,current_team,frontend_site/data/returningPlayers.ts,,
+Prairie View A&M,24,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,
+Presbyterian,10,current_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Princeton,12,current_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts,,
+Providence,39,committed_team;current_team;new_team;previous_team;team_name,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/teams.ts;frontend_site/data/transferPlayers.ts,,
+Purdue,16,current_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Purdue Fort Wayne,14,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,
+Purdue Northwest,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Queens,17,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Quinnipiac,23,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Radford,25,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Rhode Island,18,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Rice,25,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Richmond,35,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Rider,33,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Robert Morris,25,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Rutgers,28,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Sacramento St.,4,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Sacramento State
+Sacramento State,29,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Sacramento St.
+Sacred Heart,23,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Saint Anselm,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Saint Bonaventure,2,current_team,frontend_site/data/returningPlayers.ts,,
+Saint Francis,18,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Saint Francis (PA)
+Saint Francis (PA),4,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Saint Francis
+Saint Joseph's,26,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Saint Louis,16,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Saint Martin's,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Saint Mary's,29,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Saint Michael's,4,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Saint Peter's,20,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Sam Houston,14,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/transferPlayers.ts,,Sam Houston State
+Sam Houston St.,8,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Sam Houston State
+Sam Houston State,3,current_team,frontend_site/data/returningPlayers.ts,,Sam Houston State
+Samford,19,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+San Diego,40,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+San Diego State,26,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+San Francisco,31,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+San Jose St.,10,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,
+San Jose State,27,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Santa Clara,22,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Seattle,24,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Seminole State College,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Seton Hall,43,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Siena,23,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Simon Fraser,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+SIU Edwardsville,22,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+SMU,30,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+South Alabama,16,current_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+South Carolina,31,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+South Carolina St.,16,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,South Carolina State
+South Carolina State,8,current_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,South Carolina St.
+South Carolina Upstate,6,committed_team;current_team;new_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+South Dakota,34,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+South Dakota St.,8,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,South Dakota State
+South Dakota State,14,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,South Dakota St.
+South Florida,47,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Southeast Missouri St.,12,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Southeast Missouri State
+Southeast Missouri State,9,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Southeast Missouri St.
+Southeastern Louisiana,30,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Southern,28,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Southern Ark.,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Southern Illinois,20,current_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Southern Indiana,35,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Southern Miss,22,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Southern Mississippi
+Southern Mississippi,6,current_team,frontend_site/data/returningPlayers.ts,,Southern Miss
+Southern Utah,24,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+St. Bonaventure,24,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,
+St. John's,28,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+St. Thomas,17,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/transferPlayers.ts,,St. Thomas (MN)
+St. Thomas (MN),4,current_team,frontend_site/data/returningPlayers.ts,,St. Thomas
+Stanford,28,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Stephen F. Austin,34,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Stetson,27,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Stonehill,33,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Stony Brook,29,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Syracuse,34,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Tarleton St.,14,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Tarleton State
+Tarleton State,16,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Tarleton St.
+TCU,30,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Temple,31,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Tennessee,40,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Tennessee Martin,12,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,
+Tennessee St.,8,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Tennessee State
+Tennessee State,19,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Tennessee St.
+Tennessee Tech,33,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Tennessee-Martin,2,current_team,frontend_site/data/returningPlayers.ts,,
+Texas,31,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Texas A&M,32,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Texas A&M Corpus Chris,10,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Texas A&M Corpus Christi
+Texas A&M Corpus Christi,3,current_team,frontend_site/data/hsRecruits.ts,,Texas A&M-Corpus Christi
+Texas A&M-Corpus Christi,10,current_team,frontend_site/data/returningPlayers.ts,,Texas A&M Corpus Chris
+Texas Southern,20,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Texas St.,12,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Texas State
+Texas State,18,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Texas St.
+Texas Tech,24,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Texas-Rio Grande Valley,4,current_team,frontend_site/data/returningPlayers.ts,,UTRGV
+The Citadel,31,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Toledo,22,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Towson,26,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Trevecca Nazarene,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Troy,22,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Tulane,29,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Tulsa,28,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+UAB,33,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+UC Davis,23,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+UC Irvine,20,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+UC Riverside,27,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+UC San Diego,24,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+UC Santa Barbara,27,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+UCF,37,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+UCLA,25,committed_team;current_team;new_team;previous_team;team_name,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/teams.ts;frontend_site/data/transferPlayers.ts,,
+UConn,17,committed_team;current_team;new_team;team_name,frontend_site/data/hsRecruits.ts;frontend_site/data/teams.ts;frontend_site/data/transferPlayers.ts,,Connecticut
+UMass,9,committed_team;current_team;new_team,frontend_site/data/hsRecruits.ts;frontend_site/data/transferPlayers.ts,,Massachusetts
+UMass Lowell,28,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+UMBC,25,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+UMKC,20,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Kansas City
+UNC Asheville,20,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+UNC Greensboro,35,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/transferPlayers.ts,,
+UNC Wilmington,25,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Uncommitted,121,current_team,frontend_site/data/hsRecruits.ts,,
+UNLV,36,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+USC,39,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+USC Aiken,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+USC Upstate,16,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,
+UT Arlington,24,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+UT Martin,14,current_team;previous_team,frontend_site/data/transferPlayers.ts,,
+UT Rio Grande Valley,20,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,UTRGV
+UT Tyler,7,committed_team;current_team;new_team,frontend_site/data/hsRecruits.ts;frontend_site/data/transferPlayers.ts,,
+UT-Arlington,1,current_team,frontend_site/data/hsRecruits.ts,,
+Utah,32,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Utah St.,10,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Utah State
+Utah State,19,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Utah St.
+Utah Tech,22,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Utah Valley,22,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+UTEP,43,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+UTRGV,6,committed_team;new_team,frontend_site/data/transferPlayers.ts,,Texas-Rio Grande Valley
+UTSA,41,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+UVA Wise,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Valparaiso,21,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Vanderbilt,33,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+VCU,27,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Vermont,33,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Villanova,33,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Virginia,16,committed_team;current_team;new_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Virginia St.,4,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Virginia Tech,30,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+VMI,18,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Wagner,32,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,
+Wake Forest,35,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Washington,29,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Washington St.,4,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Washington State
+Washington State,34,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Washington St.
+Wayne St. (MI),2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Weber St.,16,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Weber State
+Weber State,12,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Weber St.
+West Chester,4,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+West Florida,4,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+West Georgia,22,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+West Virginia,36,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Western Carolina,36,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Western Illinois,24,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Western Kentucky,30,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Western Michigan,44,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Westminster,4,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Wichita St.,2,current_team;previous_team,frontend_site/data/transferPlayers.ts,,Wichita State
+Wichita State,21,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Wichita St.
+William & Mary,31,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+William Carey University,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Winona St.,2,committed_team;new_team,frontend_site/data/transferPlayers.ts,,
+Winthrop,28,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Wisconsin,27,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Wofford,23,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Wright St.,10,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Wright State
+Wright State,14,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Wright St.
+Wyoming,28,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Xavier,34,committed_team;current_team;new_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Yale,12,current_team;previous_team,frontend_site/data/hsRecruits.ts;frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,
+Youngstown St.,10,committed_team;current_team;new_team;previous_team,frontend_site/data/transferPlayers.ts,,Youngstown State
+Youngstown State,19,committed_team;current_team;new_team;previous_team,frontend_site/data/returningPlayers.ts;frontend_site/data/transferPlayers.ts,,Youngstown St.

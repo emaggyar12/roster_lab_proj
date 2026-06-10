@@ -3288,3 +3288,2053 @@ Backups:
   - `frontend_site/data/players.ts`
 - Validation:
   - `python3 -m py_compile frontend_site/scripts/build_transfer_players.py`
+
+### 2026-06-07 11:05:45 CDT Evan Miya less-poss DB compatibility audit
+
+- Compared `data_dir/evanmiya_player_ratings_all_year_less_poss.db` against `data_dir/evanmiya_player_ratings_all_years.db`.
+- Both DBs have the same table name, column order, column count, and column types:
+  - table: `evanmiya_player_ratings`
+  - columns: 39
+- Row counts:
+  - default/all-years DB: 48,680
+  - less-poss DB: 60,059
+  - net added rows: 11,379
+- The less-poss DB is not an exact row-level superset of the default DB:
+  - exact distinct rows from default missing in less-poss: 45,845
+  - exact distinct rows in less-poss not in default: 57,224
+  - shared natural keys by `season/year/name/team`: 48,622
+  - default natural keys missing from less-poss: 58
+  - less-poss natural keys not in default: 11,437
+- Among shared natural keys, only `rank` changed; player/team metrics were unchanged for the matched player-season rows.
+- Possession ranges:
+  - default DB min `basic_poss` / `advanced_poss`: 400
+  - less-poss DB min `basic_poss` / `advanced_poss`: 200
+- Conclusion: downstream code can treat the less-poss DB as schema-compatible, but not as an exact append-only superset because rank is recomputed and 58 old natural keys are absent.
+
+### 2026-06-07 11:13:16 CDT HS-to-Evan unmatched-only matching script
+
+- Located the original full-run HS-to-Evan global matcher at `data_dir/data_cleaning/transfer_cleaning/match_247_others.py`.
+- Added a safer unmatched-only script at `data_dir/data_cleaning/transfer_cleaning/match_hs_to_evan_unmatched_only.py`.
+- The new script:
+  - reads current match status from `data_dir/hs_to_evan_global_matched.db`
+  - processes only rows where `match_flag` is not true
+  - excludes Evan Miya player-season rows already attached to confirmed HS matches
+  - uses the less-possession Evan Miya DB as the candidate source
+  - enforces `hs_year + 1 = evan year`
+  - scores HS full name vs Evan name and HS signed/enrolled/committed school vs Evan team
+  - uses global assignment per HS year to avoid duplicate Evan candidate assignments
+  - writes only `data_dir/data_cleaning/hs_to_evan_unmatched_global_review.csv`
+- No DB files were edited.
+- Validation:
+  - `python3 -m py_compile data_dir/data_cleaning/transfer_cleaning/match_hs_to_evan_unmatched_only.py`
+
+### 2026-06-07 11:16:56 CDT HS-to-Evan unmatched-only 2026 exclusion
+
+- Updated `data_dir/data_cleaning/transfer_cleaning/match_hs_to_evan_unmatched_only.py` so unmatched HS rows with `hs_year = 2026` are excluded before assignment.
+- Reason: 2026 recruits have not played the target college season yet and should not be included in the Evan Miya matching pass.
+- No DB files were edited.
+- Validation:
+  - `python3 -m py_compile data_dir/data_cleaning/transfer_cleaning/match_hs_to_evan_unmatched_only.py`
+
+### 2026-06-07 11:42:18 CDT New less-possession Evan Miya to unmatched BartTorvik matching
+
+- Added and ran `data_dir/data_cleaning/evan_bv_matching/match_new_less_poss_evan_to_unmatched_bvt.py`.
+- Purpose:
+  - Match Evan Miya rows newly available in `data_dir/evanmiya_player_ratings_all_year_less_poss.db` against unmatched BartTorvik all-years rows.
+  - Append only exact `100/100/100` matches to `data_dir/evan_miya_barttorvik_matched.db`.
+  - Send all non-exact matches to manual review.
+- Matching logic:
+  - New Evan rows are identified by natural key `season/year/name/team` not already present in the matched DB.
+  - Already matched BartTorvik rows are excluded by `bvt_year` + `bvt_barttorvik_trid`.
+  - Hard constraint: Evan `year = BartTorvik year`.
+  - Score uses Evan `name` vs BartTorvik `player_name` and Evan `team` vs BartTorvik `team`.
+  - Global assignment is solved independently within each year.
+  - Row ids are only bookkeeping after assignment; they are not semantic match keys.
+- Inputs:
+  - Existing matched rows: 48,662.
+  - Less-possession Evan rows: 60,059.
+  - New less-possession Evan rows processed: 11,414.
+  - Unmatched BartTorvik rows available: 32,900.
+- Outputs:
+  - Auto-exact CSV: `data_dir/evan_bv_less_poss_auto_exact_appended.csv`
+  - Review CSV: `data_dir/evan_bv_less_poss_lower_confidence_review.csv`
+  - Backup before append: `data_dir/backups/evan_miya_barttorvik_matched.before_less_poss_append_20260607_114113.db`
+- Results:
+  - Assignments generated: 11,414.
+  - Auto-exact rows appended to `evan_miya_barttorvik_matched`: 8,326.
+  - Review rows written: 3,088.
+  - New DB row count: 56,988.
+- Validation:
+  - New appended rows with exact `match_score/name_score/team_score = 100/100/100`: 8,326.
+  - New rows with year mismatch: 0.
+  - Duplicate `bvt_year/bvt_barttorvik_trid` groups after append: 0.
+  - Backup rows missing from current DB: 0.
+  - Current rows not in backup: 8,326, matching the append count.
+
+### 2026-06-07 12:05:22 CDT Evan/BVT less-poss manual review confirmations
+
+- Processed `data_dir/evan_bv_less_poss_lower_confidence_review.csv` after manual review.
+- Treated only `match_flag = TRUE` rows as confirmed matches.
+- Appended confirmed full rows to `data_dir/evan_miya_barttorvik_matched.db` / `evan_miya_barttorvik_matched`.
+- Did not insert the helper CSV-only `match_flag` column because the DB schema does not contain it.
+- Rewrote the review CSV with unmatched/unconfirmed rows only.
+- Backups:
+  - `data_dir/backups/evan_bv_less_poss_lower_confidence_review.before_confirmed_append_20260607_120434.csv`
+  - `data_dir/backups/evan_miya_barttorvik_matched.before_manual_review_confirmed_append_20260607_120434.db`
+- Results:
+  - Confirmed rows appended: 3,035.
+  - Review CSV rows remaining: 53.
+  - DB rows before: 56,988.
+  - DB rows after: 60,023.
+- Validation:
+  - Existing backup rows missing from current DB: 0.
+  - Current rows not in backup: 3,035.
+  - Duplicate `bvt_year/bvt_barttorvik_trid` groups after append: 0.
+  - Remaining review CSV `match_flag = TRUE` rows: 0.
+
+### 2026-06-07 12:18:38 CDT HS/Evan unmatched review confirmations
+
+- Processed `data_dir/hs_to_evan_unmatched_global_review.csv` after manual review.
+- Confirmed rows were synced into existing rows in `data_dir/hs_to_evan_global_matched.db`; no rows were appended.
+- For synced rows, the script updated match fields and full `college_*` Evan Miya columns from `data_dir/evanmiya_player_ratings_all_year_less_poss.db`.
+- Backups:
+  - `data_dir/backups/hs_to_evan_unmatched_global_review.before_confirmed_sync_20260607_121756.csv`
+  - `data_dir/backups/hs_to_evan_global_matched.before_unmatched_review_confirmed_sync_20260607_121756.db`
+- Results:
+  - `match_flag = TRUE` rows requested in review CSV: 1,813.
+  - Synced into DB: 1,812.
+  - One row was left in the review CSV because the DB already had `match_flag = TRUE` for that `hs_row_id` but pointed to a different Evan row:
+    - `hs_row_id = 9019`, `James Johnson`, existing DB match to `James Johnson / Quinnipiac`, review CSV candidate `James Johnson / Louisiana Tech`.
+  - Review CSV rows remaining: 5,945.
+- Final DB counts:
+  - total rows: 13,740.
+  - 2026 rows: 631.
+  - non-2026 rows: 13,109.
+  - matched total: 7,164.
+  - matched 2026: 0.
+  - matched non-2026: 7,164.
+  - unmatched total: 6,576.
+  - unmatched 2026: 631.
+  - unmatched non-2026: 5,945.
+- Validation:
+  - DB row count before/after stayed 13,740.
+  - Matched year constraint violations: 0.
+  - Remaining review CSV `match_flag = TRUE` rows: 1, the James Johnson conflict noted above.
+
+### 2026-06-07 12:31:05 CDT HS/Evan additional review confirmations
+
+- Processed another set of manually confirmed rows in `data_dir/hs_to_evan_unmatched_global_review.csv`.
+- Ignored the James Johnson conflict row as requested; it remains in the review CSV with `match_flag = False` and was not written over the existing DB match.
+- Synced confirmed rows into existing rows in `data_dir/hs_to_evan_global_matched.db`; no rows were appended.
+- Updated match fields and full `college_*` Evan Miya columns from `data_dir/evanmiya_player_ratings_all_year_less_poss.db`.
+- Backups:
+  - `data_dir/backups/hs_to_evan_unmatched_global_review.before_confirmed_sync_20260607_123105.csv`
+  - `data_dir/backups/hs_to_evan_global_matched.before_unmatched_review_confirmed_sync_20260607_123105.db`
+- Results:
+  - Confirmed distinct HS recruits synced: 25.
+  - Review CSV rows remaining: 5,920.
+  - Remaining review CSV `match_flag = TRUE` rows: 0.
+- Final DB counts:
+  - total rows: 13,740.
+  - matched total: 7,189.
+  - matched non-2026: 7,189.
+  - 2026 rows: 631.
+  - matched 2026: 0.
+  - unmatched total: 6,551.
+- Validation:
+  - DB row count stayed 13,740.
+  - Matched year constraint violations: 0.
+  - Distinct newly matched HS recruits vs backup: 25.
+
+### 2026-06-07 12:40:47 CDT HS/Evan remove non-2026 unmatched from matched DB
+
+- Moved the storage responsibility for non-2026 unmatched HS/Evan rows out of `data_dir/hs_to_evan_global_matched.db`.
+- Verified before deleting that every non-2026 unmatched `hs_row_id` in the DB was already represented in `data_dir/hs_to_evan_unmatched_global_review.csv`.
+- Did not append duplicate rows to the manual review CSV because it already contained the exact 5,920 non-2026 unmatched HS rows.
+- Deleted only rows from `hs_to_evan_global_matched.db` where `match_flag IS DISTINCT FROM TRUE` and `hs_year <> 2026`.
+- Backups:
+  - `data_dir/backups/hs_to_evan_global_matched.before_remove_unmatched_non2026_20260607_124047.db`
+  - `data_dir/backups/hs_to_evan_unmatched_global_review.before_remove_unmatched_non2026_20260607_124047.csv`
+- Results:
+  - DB rows before: 13,740.
+  - Deleted non-2026 unmatched rows: 5,920.
+  - DB rows after: 7,820.
+  - Matched rows remaining: 7,189.
+  - Unmatched non-2026 rows remaining in DB: 0.
+  - Unmatched 2026 rows remaining in DB: 631.
+- Validation:
+  - Manual review CSV rows: 5,920.
+  - Deleted row ids were fully covered by the manual review CSV.
+  - Matched year constraint violations: 0.
+
+### 2026-06-07 12:53:51 CDT HS/BV/Evan combined match DB
+
+- Created `data_dir/hs_bv_evan_match.db`.
+- Superseded by the corrected full-outer rebuild below.
+- Source DBs were not edited:
+  - `data_dir/hs_to_evan_match.db` / `hs_to_evan_global_matched`
+  - `data_dir/hs_bv_matched.db` / `hs_bv_matched`
+- Join strategy:
+  - Left join from HS/Evan rows to active HS/BV matched rows using `hs_player_key`.
+  - No row-order or row-id matching was used.
+  - HS/Evan columns keep their existing names.
+  - All HS/BV source columns are included with `bvsrc_` prefixes to avoid overwriting HS/Evan columns.
+  - Added helper booleans `has_bv_match` and `has_evan_match`.
+- Output tables:
+  - `hs_bv_evan_match`
+  - `non_2026_evan_without_bv_match`
+  - `db_metadata`
+- Results:
+  - Output rows: 7,820.
+  - Rows with Evan match: 7,189.
+  - Rows with active BV match: 6,893.
+  - Rows without active BV match: 927.
+  - 2026 rows: 631.
+  - 2026 rows without BV match: 631.
+  - Non-2026 rows without active BV match: 296.
+- Validation:
+  - Duplicate `hs_player_key` rows in output: 0.
+  - Evan year constraint violations: 0.
+  - 2026 rows with Evan match: 0.
+  - 2026 rows with active BV match: 0.
+
+### 2026-06-07 12:57:31 CDT HS/BV/Evan corrected full-outer rebuild
+
+- Rebuilt `data_dir/hs_bv_evan_match.db` after confirming the first build incorrectly used HS/Evan as the base table.
+- Source DBs were not edited:
+  - `data_dir/hs_bv_matched.db`
+  - `data_dir/hs_to_evan_match.db`
+- Key overlap before rebuild:
+  - HS/BV active rows: 8,999.
+  - HS/Evan rows: 7,820.
+  - Shared `hs_player_key` rows: 6,893.
+  - HS/BV rows without HS/Evan row: 2,106.
+  - HS/Evan rows without active HS/BV row: 927.
+  - HS/BV 2026 rows: 0.
+  - HS/Evan 2026 rows: 631.
+- Corrected output:
+  - Join type: full outer join on `hs_player_key`.
+  - Leading `hs_*` identifier columns are coalesced from BV/Evan sources.
+  - Complete HS/BV source columns are prefixed `bvsrc_`.
+  - Complete HS/Evan source columns are prefixed `evsrc_`.
+  - Added helper columns: `has_bv_match`, `has_evan_row`, `has_evan_match`, `source_presence`.
+- Output tables:
+  - `hs_bv_evan_match`
+  - `evan_without_bv_match`
+  - `bv_without_evan_row`
+  - `db_metadata`
+- Results:
+  - Output rows: 9,926.
+  - Rows in both sources: 6,893.
+  - BV-only rows: 2,106.
+  - Evan-only rows: 927.
+  - 2026 rows included from HS/Evan side: 631.
+  - Non-2026 Evan-only rows: 296.
+- Validation:
+  - Duplicate `hs_player_key` rows in output: 0.
+  - Evan year constraint violations: 0.
+
+### 2026-06-07 12:59:39 CDT HS/BV/Evan remove 2026 inference rows
+
+- Removed the 631 `hs_year = 2026` rows from `data_dir/hs_bv_evan_match.db` only.
+- Source DBs were not edited.
+- Backup:
+  - `data_dir/backups/hs_bv_evan_match.before_remove_2026_20260607_125939.db`
+- Results:
+  - Rows before: 9,926.
+  - Rows after: 9,295.
+  - 2026 rows remaining: 0.
+  - Rows in both HS/BV and HS/Evan: 6,893.
+  - BV-only rows: 2,106.
+  - non-2026 Evan-only rows: 296.
+- Validation:
+  - Duplicate `hs_player_key` rows in output: 0.
+
+### 2026-06-07 13:04:39 CDT HS/Evan remove 2026 rows from match DB
+
+- Removed the 631 `hs_year = 2026` rows from `data_dir/hs_to_evan_match.db` / `hs_to_evan_global_matched`.
+- No other DB files were edited.
+- Backup:
+  - `data_dir/backups/hs_to_evan_match.before_remove_2026_20260607_130439.db`
+- Results:
+  - Rows before: 7,820.
+  - 2026 rows removed: 631.
+  - Rows after: 7,189.
+  - Matched rows after: 7,189.
+  - 2026 rows remaining: 0.
+- Validation:
+  - Evan year constraint violations: 0.
+
+### 2026-06-07 13:22:00 CDT CollegeBasketballData lineup API puller
+
+- Added rate-limit-aware CollegeBasketballData lineup pull tooling in `data_pulls/cbb_data_api`.
+- Files added:
+  - `data_pulls/cbb_data_api/pull_cbb_lineups.py`
+  - `data_pulls/cbb_data_api/README.md`
+- API key handling:
+  - The script reads `CBBD_API_KEY` from the shell environment.
+  - The API key is not hard-coded into the script or README.
+- Request controls:
+  - Uses Bearer auth.
+  - Caches raw `/teams` and `/lineups/team` responses.
+  - Maintains resumable state in `state/lineup_pull_state.json`.
+  - Logs request status in `logs/request_log.jsonl`.
+  - Enforces `--max-requests`.
+  - Uses `--min-delay` between calls.
+  - Retries transient `429` and `5xx` responses with backoff.
+- Availability controls:
+  - Defaults to skipping lineup calls before season `2024`, because public CollegeBasketballData notes indicate lineup/substitution data starts with the 2023-24 season.
+  - Supports `--allow-pre-availability` if an older season probe is intentionally needed.
+  - Supports `--empty-season-probe-limit` to stop a season after several empty lineup responses.
+- Outputs when run:
+  - `raw/teams_{season}.json`
+  - `raw/lineups_{season}_{team_slug}.json`
+  - `outputs/cbb_lineups_all.csv`
+  - `outputs/cbb_lineups_all.duckdb`
+- Dry-run validation:
+  - Command run: `python3 data_pulls/cbb_data_api/pull_cbb_lineups.py --start-season 2010 --end-season 2026 --dry-run`
+  - API calls made: 0.
+  - Seasons requested: 2010-2026.
+  - Seasons skipped with no API calls: 2010-2023.
+  - Lineup seasons planned: 2024-2026.
+  - Estimated lineup calls: 900.
+  - Estimated uncached calls including team-list calls: 903.
+
+### 2026-06-07 14:10:00 CDT CollegeBasketballData lineup API pull run
+
+- Ran the CollegeBasketballData lineup pull using the provided API key with request-budget controls.
+- API key was passed via `CBBD_API_KEY` environment variable and was not written into project files.
+- Initial run:
+  - Started with `--start-season 2010 --end-season 2026 --max-requests 950 --min-delay 1.25`.
+  - Skipped known-empty seasons 2010-2023 without API calls.
+  - Cached `/teams` responses for 2024, 2025, and 2026.
+  - Stopped the run after a local DuckDB CSV parsing issue appeared on names containing commas, such as `Kevin Cross, Jr.`.
+  - The API calls themselves were succeeding; the issue was local CSV-to-DuckDB conversion.
+- Code fix:
+  - Patched `write_duckdb()` in `data_pulls/cbb_data_api/pull_cbb_lineups.py` to explicitly set CSV delimiter, quote, escape, `strict_mode=false`, and `null_padding=true`.
+  - Rebuilt outputs from cached raw JSON so no successful API responses were lost.
+- Resume run:
+  - Resumed with `--max-requests 500 --min-delay 1.25` to stay below the 1,000 request/month free-tier cap.
+  - Stopped at the script request cap.
+  - The final budget-exhausted pseudo-failure was cleaned from state because no request was made for that team.
+- Final outputs:
+  - Raw cached lineup files: 983.
+  - Request log lines: 986, including team-list calls.
+  - CSV: `data_pulls/cbb_data_api/outputs/cbb_lineups_all.csv`.
+  - DuckDB: `data_pulls/cbb_data_api/outputs/cbb_lineups_all.duckdb`.
+  - State: `data_pulls/cbb_data_api/state/lineup_pull_state.json`.
+- Final coverage:
+  - 2024: 362 teams, 63,181 lineup rows.
+  - 2025: 364 teams, 62,980 lineup rows.
+  - 2026: 257 teams, 56,689 lineup rows.
+  - Total completed team-season pulls: 983.
+  - Total lineup rows: 182,850.
+  - Empty responses: 0.
+  - Failed responses: 0.
+- Validation:
+  - CSV row count: 182,850.
+  - DuckDB row count: 182,850.
+  - Request usage remained below the 1,000 request free-tier limit.
+
+### 2026-06-07 15:30:00 CDT Frontend HS BPR column
+
+- User requested a narrow frontend update on the Players page HS table only:
+  - add high school BPR next to the existing HS Rating column,
+  - keep the existing visual theme and centering intact,
+  - remove the inert `In Portal` button from the transfer-mode table controls,
+  - keep RJ Luis Jr. out of the HS data.
+- Updated the frontend data generator:
+  - `frontend_site/scripts/build_hs_recruits.py`
+  - It now merges `models_dir/hs_bpr/catboost_model/catboost_dual_bpr_inference_outputs/dual_bpr_inference_THISONE/dual_bpr_predictions.csv` into the existing HS playtype mock data by `player_key`.
+  - It stores the new value as `hs_bpr` without changing the transfer dataset or the existing HS playtype fields.
+  - RJ Luis Jr. (`player_key = 46128489`) remains excluded from the generated HS mock data per request.
+- Updated frontend types and rendering:
+  - `frontend_site/data/players.ts`
+  - `frontend_site/components/PlayerTable.tsx`
+  - The HS table now shows a sortable `BPR` column immediately after `Rating`.
+  - The new sort key supports ascending/descending toggling like the other headers.
+  - The `In Portal` button is no longer rendered on the transfer-mode table controls.
+- Regenerated the mock HS dataset:
+  - `frontend_site/data/hsRecruits.ts`
+  - Final generated HS recruit count: 630.
+  - Image coverage stayed at 552 players with images.
+- Validation:
+  - The BPR merge uses `player_key` and preserves the existing HS playtype payload.
+  - The HS table generation still uses the prior destination cleanup rule, but the only excluded HS recruit in this pass remains RJ Luis Jr., as requested.
+
+### 2026-06-07 18:06:45 CDT Evan backfill for `table1_with_next_year_bpr`
+
+- User requested a targeted backfill for blank `evan_` fields in `data_dir/table1_with_next_year_bpr.db` using the name/year/team signals already present in the `247_` and `allyears_` columns.
+- Implemented a dedicated matcher:
+  - `data_dir/data_cleaning/evan_bv_matching/backfill_evan_columns_from_247_allyears.py`
+  - It reads the target table and `data_dir/evanmiya_player_ratings_all_year_less_poss.db`, blocks matches by year, and uses one-to-one global assignment within each year.
+  - It scores source rows against Evan rows using the `247_` / `allyears_` name variants, the `247_` / `allyears_` / transfer-old team fields, and a stricter confidence gate.
+  - It preserves duplicate avoidance by assigning each matched Evan source row to at most one target row.
+- Type handling:
+  - `evan_advanced_class` was coerced to string during the overwrite path because the source values are text grades (`FR`, `SO`, `JR`, `SR`) while the target table had that column typed as integer.
+- Output artifacts:
+  - Backup DB: `data_dir/backups/table1_with_next_year_bpr.before_evan_backfill_20260607_180645.db`
+  - Match CSV: `data_dir/data_cleaning/evan_bv_matching/evan_backfill_matches.csv`
+- Validation:
+  - 52 rows were matched and filled successfully.
+  - All matches were in 2026 in this pass.
+  - The rewritten table now has 2,825 blank `evan_name` rows remaining.
+  - The backup file was created before the overwrite, so the original table state is recoverable.
+
+### 2026-06-07 18:15:08 CDT Evan backfill normalization correction
+
+- Revisited the Evan backfill after the initial pass only filled 52 rows.
+- Root cause:
+  - The matcher normalized the Evan names/teams but was scoring raw `247_` and `allyears_` source strings against those normalized Evan fields.
+  - This caused obvious exact rows such as `A'lahn Sumler` and initials-heavy names to score too low.
+- Script updates:
+  - `data_dir/data_cleaning/evan_bv_matching/backfill_evan_columns_from_247_allyears.py`
+  - Normalizes all source-side name and team variants before scoring.
+  - Adds team aliases for common cases such as `LIU` to `Long Island`, `BYU`, `UMass`, and `* St.` to `* State`.
+  - Changes duplicate prevention to use the real Evan key `(evan_year, evan_name, evan_team)` instead of the mixed-convention `evan_evan_row_id`.
+- Backfill runs:
+  - First corrected run filled 985 more rows.
+  - A weak duplicate fill for `Zack Davidson` -> `Nick Davidson` was cleared after validation.
+  - Second corrected run filled 242 more rows after removing the false numeric row-id exclusion.
+- Output artifacts:
+  - Backup before broad corrected run: `data_dir/backups/table1_with_next_year_bpr.before_evan_backfill_20260607_181223.db`
+  - Backup before duplicate repair: `data_dir/backups/table1_with_next_year_bpr.before_clear_duplicate_zack_davidson_20260607_181434.db`
+  - Backup before final corrected run: `data_dir/backups/table1_with_next_year_bpr.before_evan_backfill_20260607_181508.db`
+  - Latest run CSV: `data_dir/data_cleaning/evan_bv_matching/evan_backfill_matches.csv`
+  - Cumulative backfill CSV: `data_dir/data_cleaning/evan_bv_matching/evan_backfill_matches_cumulative.csv`
+  - Remaining 2026 review CSV: `data_dir/data_cleaning/evan_bv_matching/evan_backfill_unmatched_2026_review.csv`
+- Final validation:
+  - Cumulative rows filled by this backfill method: 1,278.
+  - 2026 rows filled by this backfill method: 1,255.
+  - Remaining blank `evan_name` rows in `table1_with_next_year_bpr`: 1,599.
+  - Remaining blank 2026 rows: 257.
+  - Duplicate check by `(evan_year, evan_name, evan_team)` returns 0 duplicates.
+
+### 2026-06-07 19:05:21 CDT Append missing 2026 transfer rows into `table1_with_next_year_bpr`
+
+- User noted that `data_dir/bv_trans_compl_MAX.db` table `all_years_transfer_matched` had 2,377 2026 transfer rows, while `data_dir/table1_with_next_year_bpr.db` only had 1,512 rows when querying 2026.
+- Implemented a dedicated append script:
+  - `data_dir/data_cleaning/transfer_cleaning/append_missing_2026_transfers_to_table1.py`
+  - It compares 2026 source rows against target 2026 rows using `allyears_pid`, `allyears_barttorvik_trid`, and `transfer_barttorvik_trid`.
+  - It identified 865 source rows missing from the target by all three identifiers.
+  - It appends those rows into the target table, preserving the shared `allyears_`, `transfer_`, `future_role`, and `dup_del` source columns.
+  - Target-only columns such as `247_`, `evan_`, and `next_year_` are inserted as null.
+- Output artifacts:
+  - Backup DB: `data_dir/backups/table1_with_next_year_bpr.before_missing_2026_transfer_append_20260607_190521.db`
+  - Appended-row CSV: `data_dir/data_cleaning/transfer_cleaning/missing_2026_transfers_appended_to_table1.csv`
+- Validation:
+  - Source 2026 rows: 2,377.
+  - Target 2026 rows before append: 1,512.
+  - Rows appended: 865.
+  - Target 2026 rows after append: 2,377.
+  - Remaining missing source rows by PID/TRID comparison: 0.
+
+### 2026-06-07 19:18:00 CDT Frontend transfer BPR column
+
+- User requested a narrow frontend update to add transfer BPR predictions to the transfer-mode Players table without changing the existing look or other data.
+- Updated transfer data generation:
+  - `frontend_site/scripts/build_transfer_players.py`
+  - It now reads `models_dir/transfer_bpr/catboost_transfer_bpr_dual_inference_outputs/dual_transfer_bpr_inference_2026_20260607_190712/dual_transfer_bpr_predictions_2026.csv`.
+  - It merges `pred_next_year_basic_bpr` into the transfer frontend rows as `transfer_bpr`.
+  - The merge key is `transfer_row_number + allyears_barttorvik_trid`; this keeps BartTorvik TRID in the identifier while avoiding a one-to-many merge on the duplicated `MJ Yeager` TRID.
+  - It also stores `transfer_barttorvik_trid` on each generated frontend transfer row for traceability.
+- Updated frontend types and rendering:
+  - `frontend_site/data/players.ts`
+  - `frontend_site/components/PlayerTable.tsx`
+  - Transfer-mode table now has a sortable `BPR` column after `Rating` and before `Type`.
+  - Sorting uses the same up/down arrow `SortButton` pattern as the existing HS and rating columns.
+- Regenerated transfer frontend data:
+  - `frontend_site/data/transferPlayers.ts`
+  - Displayed transfer player count: 2,376.
+  - Transfer rows with `transfer_bpr`: 2,376.
+  - Count remains 2,376 because the existing builder exclusion for `Cole Alexander` remains in place.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-07 21:50:00 CDT Simulator UX refactor
+
+- User requested a simulator UX pass inspired by a roster-management workflow while keeping the existing site theme.
+- Rebuilt `frontend_site/components/PortalSimulator.tsx`:
+  - Replaced the fixed team `<select>` with a searchable typeahead/dropdown.
+  - Team options are built from all institutions appearing in site player data plus existing `teams.ts` entries.
+  - Removed the style/needs summary card to save vertical space.
+  - Kept the top metric cards but changed roster capacity presentation to 15 roster spots.
+  - Added a two-mode workbench toggle:
+    - `Current Roster`
+    - `Browse Portal`
+  - `Current Roster` now uses a defined scrollable roster box with Stay/Leave selectors.
+  - `Browse Portal` is a compact portal/HS target browser with `Transfers`, `High School`, and `Both` toggles.
+  - Added an `Incoming Players` card that shows selected additions and allows quick removal.
+  - Added a projected depth chart grouped by natural `position`:
+    - Guards: `PG`, `SG`, `CG`
+    - Wings: `SF`, `PF`
+    - Bigs: `C`
+  - Incoming players in the projected depth chart are highlighted green with a `+` prefix.
+  - Added a team skill radar card that aggregates available player skill percentiles across the projected roster and falls back to 50 when no values are available.
+- Updated roster limit metadata:
+  - `frontend_site/data/teams.ts`
+  - Changed mock team roster limits from 13 to 15.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-07 21:35:00 CDT Transfer skill radar and PID-matched season stats
+
+- User requested extending the Returning radar experience to as many transfer players as possible without disturbing existing transfer dropdown content.
+- Updated transfer data generation:
+  - `frontend_site/scripts/build_transfer_players.py`
+  - Uses transfer BPR inference `allyears_pid` as the BartTorvik PID/TRID.
+  - Joins skill percentiles from `data_dir/player_percentile/cluster_percentile_outputs/players_group_percentiles_from_db.csv` by `allyears_pid = bvt_pid`.
+  - Emits the same optional `skill_*_percentile` fields already used by Returning players.
+- Added PID-matched transfer season stats:
+  - Source DB: `data_dir/evan_miya_barttorvik_matched.db`.
+  - Source table: `evan_miya_barttorvik_matched`.
+  - Match rule: `year = 2026` and `allyears_pid = bvt_pid`.
+  - Added `season_basic_bpr`, `season_gp`, `season_mp`, `season_oreb`, `season_dreb`, `season_treb`, `season_ast`, `season_stl`, `season_blk`, `season_pts`, and `season_ft_pct` when matched.
+- Regenerated transfer frontend data:
+  - `frontend_site/data/transferPlayers.ts`.
+  - Transfer rows with BPR predictions: 2,376.
+  - Transfer rows with all five non-null skill percentiles: 1,841.
+  - Transfer rows with PID-matched 2026 season stats: 1,845.
+- Updated transfer dropdown rendering:
+  - `frontend_site/components/PlayerDetailPanel.tsx`.
+  - Existing transfer profile, playtype probability, and `247 Rank`/`247 Stars` cards remain in place.
+  - Transfer season stats strip and animated skill radar are appended below existing transfer dropdown content when data exists.
+  - Returning and HS behavior was not changed by this update.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-07 21:25:00 CDT Returning skill percentile radar
+
+- User requested a visually stronger Returning dropdown with a pentagon radar plot for skill percentiles.
+- Data source:
+  - `data_dir/player_percentile/cluster_percentile_outputs/players_group_percentiles_from_db.csv`.
+  - Joined to Returning players by `bvt_pid`.
+  - Percentile fields used:
+    - `spacing_percentile`
+    - `facilitating_percentile`
+    - `rim_protection_percentile`
+    - `defense_percentile`
+    - `finishing_percentile`
+- Updated Returning generation:
+  - `frontend_site/scripts/build_returning_players.py`
+  - Emits `skill_spacing_percentile`, `skill_facilitating_percentile`, `skill_rim_protection_percentile`, `skill_defense_percentile`, and `skill_finishing_percentile`.
+  - Regenerated `frontend_site/data/returningPlayers.ts`.
+  - Returning rows: 1,898.
+  - Returning rows with all five non-null skill percentiles: 1,894.
+  - Verified Cameron Boozer's spacing percentile was merged from the percentile source.
+- Updated frontend type:
+  - `frontend_site/data/players.ts`
+  - Added optional `skill_*_percentile` fields.
+- Updated Returning dropdown UI:
+  - `frontend_site/components/PlayerDetailPanel.tsx`
+  - Returning dropdown now displays the compact `2025-26 Season Stats` strip beside an animated pentagon `Skill Percentiles` radar.
+  - Radar vertices: Spacing, Facilitating, Rim Protection, Defense, Finishing.
+  - Radar grid and polygon scale open from the center when the dropdown mounts.
+  - Percentile values are rounded to one decimal and displayed in color-coded badges.
+  - Transfer and HS dropdowns were not changed by this radar update.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-07 21:12:00 CDT Transfer detail card trim
+
+- User requested simplifying transfer dropdown stat/profile cards.
+- Updated `frontend_site/components/PlayerDetailPanel.tsx`:
+  - Transfer dropdown right-side metric cards now show only `247 Rank` and `247 Stars`.
+  - Removed the visible cards for `247 Rating`, `247 Status`, `Weight`, and `Height`.
+  - HS and Returning detail panels were not changed.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-07 21:05:00 CDT Returning stats strip cleanup and transfer stat revert
+
+- User requested a cleaner Returning dropdown layout inspired by a compact season-stat strip and asked to remove the `2025-2026 Stats` section from transfer dropdowns.
+- Updated Returning stat data:
+  - `frontend_site/scripts/build_returning_players.py`
+  - Added `season_ft_pct` from `bvt_FT_per`.
+  - Regenerated `frontend_site/data/returningPlayers.ts`.
+  - Returning rows with `season_ft_pct`: 1,898.
+  - Verified Cameron Boozer has FT% populated from the source data.
+- Updated Returning dropdown UI:
+  - `frontend_site/components/PlayerDetailPanel.tsx`
+  - Returning dropdowns now render a compact `2025-26 Season Stats` strip instead of the boxed card grid.
+  - Displayed fields: PPG, RPG, APG, SPG, BPG, GP, MP, FT, and BPR.
+- Reverted transfer stat additions:
+  - `frontend_site/scripts/build_transfer_players.py`
+  - Removed the previously added `season_*` transfer fields from generation.
+  - Regenerated `frontend_site/data/transferPlayers.ts`.
+  - Confirmed generated transfer data no longer contains `season_basic_bpr` or `season_ft_pct`.
+  - Transfer dropdown rendering is back to its previous profile/247/playtype content.
+- Updated shared `Player` type:
+  - `frontend_site/data/players.ts`
+  - Keeps optional `season_*` fields for Returning data, including `season_ft_pct`.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-07 20:55:00 CDT Returning dropdown 2025-2026 stats panel
+
+- User requested simplifying Returning player dropdowns so they no longer show the profile copy/empty filler and instead show only a `2025-2026 Stats` section.
+- Updated Returning data generation:
+  - `frontend_site/scripts/build_returning_players.py`
+  - Added season stat fields from the same-school prediction source:
+    - `season_basic_bpr` from `basic_bpr`.
+    - `season_gp` from `bvt_GP`.
+    - `season_mp` from `bvt_mp`.
+    - `season_oreb`, `season_dreb`, `season_treb`, `season_ast`, `season_stl`, `season_blk`, `season_pts` from the matching `bvt_` columns.
+  - Regenerated `frontend_site/data/returningPlayers.ts`.
+  - Returning rows with `season_basic_bpr`: 1,898.
+- Updated transfer data generation opportunistically without deleting any existing transfer dropdown content:
+  - `frontend_site/scripts/build_transfer_players.py`
+  - Added the same season stat fields from transfer BPR inference where available:
+    - `season_basic_bpr` from `evan_basic_bpr`.
+    - Box/counting stats from `allyears_gp`, `allyears_mp`, `allyears_oreb`, `allyears_dreb`, `allyears_treb`, `allyears_ast`, `allyears_stl`, `allyears_blk`, `allyears_pts`.
+  - Regenerated `frontend_site/data/transferPlayers.ts`.
+  - Transfer rows with `season_basic_bpr`: 1,255.
+- Updated detail rendering:
+  - `frontend_site/components/PlayerDetailPanel.tsx`
+  - Returning dropdowns now render only the `2025-2026 Stats` grid.
+  - Transfer dropdowns keep their existing 247/profile/playtype sections and append the `2025-2026 Stats` cards when data exists.
+  - HS rendering was not changed.
+- Updated shared `Player` type:
+  - `frontend_site/data/players.ts`
+  - Added optional `season_*` fields used by Returning and transfer stat cards.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-07 20:40:00 CDT Returning player image backfill and playtype cleanup
+
+- User clarified this update is only for Returning players; HS and transfer frontend data/rendering should remain unchanged.
+- Updated Returning data generation:
+  - `frontend_site/scripts/build_returning_players.py`
+  - Returning players now emit `playtype_probabilities: {}` instead of a fake one-role probability.
+  - The role is still kept as `returning_role` and displayed on the Returning mini-card.
+- Added cached image lookup for Returning players:
+  - Looks up Returning `bvt_pid` in `data_dir/hs_bv_matched.db` table `hs_bv_matched`.
+  - Uses `hs_player_key` and `hs_year` to read cached profile HTML under `scrapers_web/cache/hs/{hs_year}/profiles/{hs_player_key}.html`.
+  - Also honors `hs_dob_247_source_profile_file` when present.
+  - Extracts `og:image` or `twitter:image` from cached 247 profile HTML.
+- Regenerated Returning data:
+  - Output: `frontend_site/data/returningPlayers.ts`.
+  - Returning rows: 1,898.
+  - Cached profile images filled: 742.
+  - All 1,898 Returning rows now have empty `playtype_probabilities`.
+- Updated Returning frontend display:
+  - `frontend_site/components/PlayerTable.tsx` uses `returning_role` directly on the mini-card so role remains visible even without playtype probabilities.
+  - `frontend_site/components/PlayerDetailPanel.tsx` hides the Playtype Probabilities section for Returning players.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-07 19:37:16 CDT Same-school next-year Evan/BartTorvik table
+
+- User requested a new table inside `data_dir/evan_miya_barttorvik_matched.db` where each row pairs a player's old-year stats with that same player's next-year stats only when the player stayed at the same institution.
+- Added reproducible builder script:
+  - `data_dir/data_cleaning/evan_bv_matching/create_same_school_next_year_table.py`
+  - Source table: `evan_miya_barttorvik_matched`.
+  - Output table: `evan_miya_barttorvik_same_school_next_year`.
+  - The output table contains all original source columns twice, prefixed as `old_` and `next_`, for 256 total columns.
+  - Match rule: `next_year.year = old_year.year + 1`, `old_year.year <> 2026`, exact same `team`, and same `bvt_barttorvik_trid` or same `bvt_pid`.
+- Backup created before writing:
+  - `data_dir/backups/evan_miya_barttorvik_matched.before_same_school_next_year_20260607_193716.db`
+- Final output:
+  - Rows in `evan_miya_barttorvik_same_school_next_year`: 27,705.
+  - Old years covered: 2010-2025.
+  - Next years covered: 2011-2026.
+- Validation:
+  - Output columns: 256.
+  - Rows with `old_year = 2026`: 0.
+  - Rows where `next_year != old_year + 1`: 0.
+  - Rows where `old_team != next_team`: 0.
+  - Duplicate old player-year groups by `(old_year, old_team, old_bvt_barttorvik_trid, old_bvt_pid)`: 0.
+
+### 2026-06-07 20:25:00 CDT Frontend Returning players table
+
+- User requested adding same-school returning players to the Players page only, by relabeling the existing `All` toggle as `Returning`.
+- Added generated Returning dataset:
+  - Builder: `frontend_site/scripts/build_returning_players.py`.
+  - Output: `frontend_site/data/returningPlayers.ts`.
+  - Source CSV: `models_dir/same_school_bpr/catboost_same_school_bpr_inference_outputs/catboost_same_school__2026_20260607_201623/catboost_same_school_predictions_2026.csv`.
+  - Transfer exclusion source: `models_dir/transfer_bpr/catboost_transfer_bpr_dual_inference_outputs/dual_transfer_bpr_inference_2026_20260607_190712/dual_transfer_bpr_predictions_2026.csv`.
+  - Exclusion rule: remove same-school rows whose `bvt_pid` appears in transfer predictions as `allyears_pid`.
+- Filtering result:
+  - Same-school source rows: 3,743.
+  - Transfer PID rows excluded from Returning dataset: 1,845.
+  - Returning frontend rows generated: 1,898.
+  - Verified `Flory Bidunga` is excluded from `returningPlayers.ts`.
+  - Transfer frontend data was not edited or filtered; transfer pages remain unaffected.
+- Frontend rendering changes:
+  - `frontend_site/app/page.tsx` now uses `returningPlayers` only for the `Returning` toggle while keeping HS and transfer toggles pointed at their existing generated datasets.
+  - `frontend_site/components/PlayerTable.tsx` renders the default/Returning mode with columns: Player, POS, Team, Status, BPR, dropdown.
+  - Returning player mini-card omits weight.
+  - Status displays a dedicated `Returning` badge.
+  - No projected OBPR/DBPR fields are generated or displayed because the same-school output only includes predicted BPR.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-07 21:15:00 CDT Transfer frontend bad match exclusion
+
+- User identified a bad transfer match: `Najimi George` was paired to the 247 profile for `George Kimble III`, which made the generated frontend data show an incorrect Auburn transfer entry.
+- Traced the bad source row in `models_dir/transfer_playtype_prediction/outputs/catboost_transfer_role_future_top3_predictions_with_247_cols.csv`:
+  - `transfer_player_name`: `Najimi George`
+  - `transfer_old_team`: `New Haven`
+  - `allyears_pid` / `allyears_barttorvik_trid`: `134675`
+  - incorrect `247_full_name`: `George Kimble III`
+  - incorrect `247_destination_school`: `Auburn`
+  - incorrect `247_player_key`: `46156626`
+- Added a targeted frontend generator exclusion in `frontend_site/scripts/build_transfer_players.py`:
+  - `("najimi george", "new haven")`
+  - This removes only that generated transfer row and does not alter the underlying CSVs or any unrelated transfer records.
+- Regenerated `frontend_site/data/transferPlayers.ts`.
+- Final generated transfer count: `2,375`.
+- Verification:
+  - `frontend_site/data/transferPlayers.ts` no longer contains `Najimi George`, `George Kimble III`, `transfer-1241`, or `46156626`.
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-07 21:35:00 CDT Simulator search, filters, and compact layout pass
+
+- Updated `frontend_site/components/PortalSimulator.tsx` to make the simulator denser and easier to operate.
+- Added Current Roster search:
+  - Search matches player name, team, position, class year, and role/playtype text.
+  - Header now shows filtered count vs total roster count.
+- Added Browse Targets search and filters:
+  - Search matches the same player/team/position/role fields.
+  - Filters added for `Class` and `POS`.
+  - Sort added for `BPR ↓`, `BPR ↑`, and `Name A-Z`.
+  - Target count now updates based on active filters.
+- Compact layout changes:
+  - Reduced summary-card height/padding and clamped detail text to one line.
+  - Reduced team/reset control height.
+  - Reduced workbench tab height.
+  - Reduced roster/target row padding and list height to keep the roster square, depth chart, and team skill radar visible together more often.
+  - On very wide screens, the projected depth chart and team radar can sit side-by-side.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-07 21:50:00 CDT Simulator compact top-area revision
+
+- User wanted the simulator page compressed further while keeping the newly added search/filter behavior unchanged.
+- Updated `frontend_site/app/simulator/page.tsx`:
+  - Removed the explanatory paragraph under `Transfer Portal Simulator`.
+  - Reduced the header bottom margin.
+- Updated `frontend_site/components/PortalSimulator.tsx`:
+  - Moved the four quick roster facts directly under the team search control.
+  - Made the quick roster facts much smaller.
+  - Added red styling to the roster-spots text/card border when the projected roster exceeds the 15-player limit.
+  - Removed the separate full-width summary-card row so the roster/workbench area moves up.
+  - Put `Team Skills Radar` above `Projected Depth Chart`.
+  - Tightened roster/target rows, search/filter controls, incoming-player card padding, depth-chart padding, and radar size to make the roster square, pentagon, and depth chart fit together better.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-07 22:05:00 CDT Simulator metric placement cleanup
+
+- User wanted the simulator mini metrics moved under the roster/search area and simplified further.
+- Updated `frontend_site/components/PortalSimulator.tsx`:
+  - Removed the mini metrics from directly under the team combobox.
+  - Rendered the same metrics strip inside the active workbench panel directly under roster search or target filters.
+  - Changed roster detail text to concise `x/15 spots`.
+  - Changed `Projected BPR` metric label to `Proj Avg BPR` and removed the `Avg...` detail line.
+  - Removed player-name detail text from departures/arrivals; those cards now only show counts.
+  - Renamed the fourth metric to `Arrivals`.
+  - Kept existing roster and target search/filter behavior unchanged.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-07 22:15:00 CDT Simulator metric strip final placement
+
+- User clarified the four mini metric cards should sit below the entire roster/browser workbench, not inside the roster search panel.
+- Updated `frontend_site/components/PortalSimulator.tsx`:
+  - Moved the metric strip to render immediately after the active `RosterDecisionList` or `TargetBrowser` component in the left column.
+  - Removed metric-strip props from `RosterDecisionList` and `TargetBrowser`.
+  - Kept the metric text concise: `x/15 spots`, `Proj Avg BPR`, count-only `Departures`, and count-only `Arrivals`.
+  - Kept existing roster search and target search/filter behavior unchanged.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-07 22:25:00 CDT Simulator workbench height expansion
+
+- User wanted the roster/browser workbench area expanded so the four metric cards sit lower and the left-column empty space is filled.
+- Updated `frontend_site/components/PortalSimulator.tsx`:
+  - Changed both roster and target player scroll areas from `max-h-[340px]` to fixed `h-[520px]`.
+  - This keeps the metric strip below a taller roster/portal workbench and pushes it toward the bottom of the visible layout.
+  - Search/filter behavior remains unchanged.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-07 22:30:00 CDT Simulator workbench height trim
+
+- User noted the previous `520px` roster/browser workbench height pushed the metric strip too far down.
+- Updated `frontend_site/components/PortalSimulator.tsx`:
+  - Reduced both roster and target player scroll areas from `h-[520px]` to `h-[455px]`.
+  - This keeps the workbench expanded while bringing the four metric cards back into view.
+  - Search/filter behavior remains unchanged.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-07 22:40:00 CDT Simulator final viewport fit pass
+
+- User wanted the metric strip scooted up slightly so it is not cut off, and wanted the depth chart condensed to reduce page-level scrolling.
+- Updated `frontend_site/components/PortalSimulator.tsx`:
+  - Reduced roster and target scroll panes from `h-[455px]` to `h-[430px]`.
+  - Added internal depth-chart scrolling with `max-h-[315px]`.
+  - Narrowed depth-chart player rows with `max-w-sm` and a compact name/BPR grid so the large empty gap between player name and BPR is removed.
+  - Reduced depth-chart row font size and vertical spacing.
+  - Roster and target search/filter behavior remains unchanged.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-07 22:50:00 CDT Simulator depth-chart column layout
+
+- User wanted the simulator right column widened slightly and the depth chart to use horizontal space instead of pushing down the page.
+- Updated `frontend_site/components/PortalSimulator.tsx`:
+  - Rebalanced the main simulator grid to `xl:grid-cols-[minmax(520px,1.03fr)_minmax(520px,.97fr)]`, keeping the left workbench slightly larger while giving the right analysis column more room.
+  - Converted projected depth chart groups into a 3-column layout for Guards, Wings, and Bigs on the same row at large viewport sizes.
+  - Kept internal depth-chart scrolling for longer scenarios.
+  - Tightened depth-chart player rows further with compact name/BPR columns.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-07 23:00:00 CDT Simulator browse-pane height alignment
+
+- User noted the Browse Portal pane was taller than the Current Roster pane, causing the four metric cards to drop off frame when switching tabs.
+- Updated `frontend_site/components/PortalSimulator.tsx`:
+  - Tightened Browse Portal tab/header/filter vertical padding.
+  - Reduced Browse Portal target rows slightly.
+  - Set the target list scroll area to `h-[412px]` so the overall browse panel height aligns more closely with the roster panel.
+  - Current roster pane remains `h-[430px]` because it has fewer header/filter rows.
+  - Existing search/filter behavior remains unchanged.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-07 23:10:00 CDT Simulator collapsible target filters and status filter
+
+- User noted the default Browse Portal pane still pushed the four metric cards slightly below frame and requested hidden filters behind a toggle.
+- Updated `frontend_site/components/PortalSimulator.tsx`:
+  - Added a `Filters` toggle next to target search.
+  - Class, POS, Status, and BPR/name sort controls are hidden until `Filters` is opened.
+  - Added a transfer status filter using the same canonical portal statuses as the Players page (`entered`, `committed`, `enrolled`, `withdrawn`).
+  - Status filtering only applies to transfer players; HS targets remain visible when status is not relevant.
+  - Tightened Browse Portal default height to `h-[395px]`; when filters are open the target list becomes `h-[360px]` so the overall pane height stays controlled.
+  - Existing search behavior remains unchanged.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-08 00:05:00 CDT Transfer frontend source correction and simulator BPR alignment
+
+- User found a bad transfer institution/BPR mismatch for Jaylen Wharton and asked for transfer data to come only from the approved transfer model outputs.
+- Root cause:
+  - `frontend_site/scripts/build_transfer_players.py` had previously allowed transfer display teams to fall back to unsafe 247 matched columns from a `_with_247_cols` role file.
+  - The Jaylen Wharton row was incorrectly carrying a bad 247 match (`Jalen Langsy`), which polluted the UI with `Northwestern College` and `South Alabama` even though the transfer/BartTorvik fields identified Jaylen as Northern Illinois to Prairie View A&M.
+  - The simulator target cards displayed `projected_bpr`, while the Players transfer table displayed `transfer_bpr`, so the same transfer could show different BPR values.
+- Updated transfer frontend generation:
+  - `frontend_site/scripts/build_transfer_players.py` now reads role/playtype data from `models_dir/transfer_playtype_prediction/outputs/catboost_transfer_role_future_top3_predictions.csv`.
+  - It now reads BPR and destination-adjusted transfer fields from `models_dir/transfer_bpr/catboost_transfer_bpr_dual_inference_outputs/dual_transfer_bpr_inference_2026_20260607_190712/destination_adjusted_transfer_predictions_2026.csv`.
+  - Transfer display institutions now use transfer/BartTorvik fields only: origin/current/previous = `transfer_old_team` fallback `allyears_team`; destination/new/committed = `transfer_new_team`.
+  - 247 source/destination school fields are no longer used for transfer display teams.
+  - Transfer position now uses `transfer_player_role` fallback `allyears_role`, not an unsafe 247 position fallback.
+  - Hidden transfer joins to percentile/season-stat side sources were removed from the transfer generator so transfer rows are generated from the two approved transfer CSVs only.
+  - `projected_bpr` is set to rounded `transfer_bpr` when a transfer BPR exists, keeping simulator averages/cards aligned with transfer-table BPR values.
+- Updated simulator BPR display/sort:
+  - `frontend_site/components/PortalSimulator.tsx` target cards now display transfer BPR from `transfer_bpr`, matching the Players transfer table.
+  - Transfer target BPR sorting also uses `transfer_bpr`; missing transfer BPR sorts last and displays as `N/A`.
+- Regenerated `frontend_site/data/transferPlayers.ts`.
+- Verification:
+  - Generated transfer rows: 2,375.
+  - Rows with transfer BPR: 1,416.
+  - Jaylen Wharton now generates as position `C`, current/previous team `Northern Illinois`, destination/committed team `Prairie View A&M`, transfer BPR `-2.450132590395242`, projected BPR `-2.5`.
+  - Jaylen row no longer contains `Northwestern College`, `South Alabama`, or `Jalen Langsy`.
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-08 00:25:00 CDT Transfer metadata and radar restoration without team/BPR drift
+
+- User noted the previous source cleanup removed transfer profile images, 247 stars/ratings, and transfer radar pentagons.
+- Updated `frontend_site/scripts/build_transfer_players.py` again to restore auxiliary display data while keeping transfer teams and BPR locked to the correct sources:
+  - Transfer origin/current/previous still comes only from `transfer_old_team` fallback `allyears_team` in `catboost_transfer_role_future_top3_predictions.csv`.
+  - Transfer destination/new/committed still comes only from `transfer_new_team` in `catboost_transfer_role_future_top3_predictions.csv` / `destination_adjusted_transfer_predictions_2026.csv`.
+  - Transfer BPR still comes from `pred_next_year_basic_bpr` in `destination_adjusted_transfer_predictions_2026.csv`.
+  - `projected_bpr` still equals rounded `transfer_bpr` when transfer BPR is available, so Players table and simulator target cards stay consistent.
+- Restored safe 247 metadata:
+  - Joined `data_dir/247_bv_transf_matched.db`, table `transfer_247_bv_matched`, on `allyears_pid = db1_allyears_pid` for `db1_allyears_year = 2026`.
+  - Used 247 metadata only when the matched 247 full name exactly normalizes to the transfer player name and the match has `name_score >= 95` and `overall_match_score >= 90`.
+  - Restored profile image, 247 player key, stars, transfer rating/rating, transfer rank, transfer status, weight, and safe 247 position fallback.
+  - 247 source/destination schools remain unused for transfer display teams.
+- Restored transfer radar pentagons:
+  - Rejoined `data_dir/player_percentile/cluster_percentile_outputs/players_group_percentiles_from_db.csv` on `allyears_pid = bvt_pid`, filtered to `year = 2026`.
+  - Restored spacing, facilitating, rim protection, defense, and finishing percentiles for transfer detail panels.
+- Regenerated `frontend_site/data/transferPlayers.ts`.
+- Verification:
+  - Generated transfer rows: 2,375.
+  - Rows with transfer BPR: 1,416.
+  - Rows with safe 247 metadata/profile key: 1,213.
+  - Rows with profile image: 1,213.
+  - Rows with 247 stars/rating: 753.
+  - Rows with radar percentiles: 1,840.
+  - Transfer rows with rounded `transfer_bpr` not matching `projected_bpr`: 0.
+  - Flory Bidunga verified with image, 5 stars, 0.98 rating, rank 1, Kansas to Louisville, BPR 6.7, radar percentiles present.
+  - John Blackwell verified with image, 5 stars, 0.98 rating, rank 3, Wisconsin to Duke, BPR 6.5, radar percentiles present.
+  - Jaylen Wharton remains protected from the bad 247 metadata match; his teams/BPR remain Northern Illinois to Prairie View A&M and -2.5, and his row does not contain `Northwestern College`, `South Alabama`, or `Jalen Langsy`.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-08 00:40:00 CDT Transfer row universe changed to BPR prediction file
+
+- User clarified that every displayed transfer must have a predicted BPR from `destination_adjusted_transfer_predictions_2026.csv`, column `pred_next_year_basic_bpr`.
+- Root cause:
+  - `frontend_site/scripts/build_transfer_players.py` was still using `catboost_transfer_role_future_top3_predictions.csv` as the transfer row universe.
+  - That role file has 2,377 candidate transfer rows, while `destination_adjusted_transfer_predictions_2026.csv` has 1,417 rows and all 1,417 have `pred_next_year_basic_bpr` populated.
+  - Therefore the frontend showed many extra transfer candidates that had role predictions but no BPR prediction.
+- Fix:
+  - Changed `frontend_site/scripts/build_transfer_players.py` so `destination_adjusted_transfer_predictions_2026.csv` is now the canonical/base transfer row universe.
+  - The script now raises if any row in that BPR source has missing `pred_next_year_basic_bpr`.
+  - The script now joins role/playtype columns from `catboost_transfer_role_future_top3_predictions.csv` as auxiliary display data only.
+  - The script now raises if any generated transfer player is missing `transfer_bpr`.
+  - Existing safe 247 metadata join and 2026 radar percentile join remain auxiliary only and do not change transfer origin, destination, or BPR.
+- Regenerated `frontend_site/data/transferPlayers.ts`.
+- Verification:
+  - Source BPR rows: 1,417.
+  - Source non-null `pred_next_year_basic_bpr`: 1,417.
+  - Displayed transfer rows after existing exclusions: 1,416. The one-row difference is the existing hard exclusion for Najimi George / New Haven requested earlier.
+  - Displayed transfer rows with `transfer_bpr`: 1,416.
+  - Displayed transfer rows missing `transfer_bpr`: 0.
+  - Displayed transfer rows where rounded `transfer_bpr` does not equal `projected_bpr`: 0.
+  - Safe 247 metadata rows retained: 993.
+  - 247 stars/ratings rows retained: 656.
+  - Radar percentile rows retained: 1,185.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-08 00:50:00 CDT Transfer BPR source corrected to complete dual prediction CSV
+
+- User clarified the complete transfer BPR source is `models_dir/transfer_bpr/catboost_transfer_bpr_dual_inference_outputs/dual_transfer_bpr_inference_2026_20260607_190712/dual_transfer_bpr_predictions_2026.csv`, not the destination-adjusted subset.
+- Source audit:
+  - `dual_transfer_bpr_predictions_2026.csv` has 2,377 rows.
+  - All 2,377 rows have non-null `pred_next_year_basic_bpr`.
+  - It includes the required transfer keys and team columns: `transfer_row_number`, `allyears_barttorvik_trid`, `allyears_pid`, `transfer_player_name`, `transfer_old_team`, `transfer_new_team`, and `allyears_team`.
+  - It matches all 2,377 rows in `catboost_transfer_role_future_top3_predictions.csv` on `transfer_row_number + allyears_barttorvik_trid`.
+- Updated `frontend_site/scripts/build_transfer_players.py`:
+  - `BPR_PREDICTIONS` now points to `dual_transfer_bpr_predictions_2026.csv`.
+  - This complete BPR CSV remains the canonical/base transfer row universe.
+  - Role/playtype CSV remains auxiliary for role probabilities only.
+  - Safe 247 metadata and 2026 radar percentile joins remain auxiliary and do not alter transfer teams or BPR.
+- Regenerated `frontend_site/data/transferPlayers.ts`.
+- Verification:
+  - Generated displayed transfer rows: 2,375.
+  - The two-row difference from the 2,377 source rows is from existing hard exclusions: Cole Alexander / Fairleigh Dickinson and Najimi George / New Haven.
+  - Displayed transfers with `transfer_bpr`: 2,375.
+  - Displayed transfers missing `transfer_bpr`: 0.
+  - Displayed transfer rows where rounded `transfer_bpr` does not equal `projected_bpr`: 0.
+  - Safe 247 metadata rows: 1,213.
+  - 247 stars/ratings rows: 753.
+  - Radar percentile rows: 1,840.
+  - Flory Bidunga, Jaylen Wharton, and John Blackwell spot checks retained correct teams/BPR behavior; Flory and John retained image/stars/rating/radar where safe.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-08 01:05:00 CDT Transfer dropdown layout cleanup
+
+- User wanted the transfer dropdown to look cleaner like the returning-player dropdown, without changing transfer data sourcing.
+- Updated `frontend_site/components/PlayerDetailPanel.tsx`:
+  - Added a transfer-specific detail layout instead of using the generic three-column profile/playtype/metric layout.
+  - Transfer dropdown now renders as two cleaner cards: a transfer profile card and the existing skill percentile radar card.
+  - Transfer profile card groups source badge, origin-to-destination, projected role, 247 rank/stars/rating, BPR, scouting text, and playtype probability bars.
+  - Data sourcing was not changed in this pass.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-08 01:15:00 CDT Transfer stars removed and transfer rating source tightened
+
+- User requested removing 247 stars from transfers only, while leaving HS recruit stars unchanged.
+- User also requested transfer rating to use `247_transfer_rating` only, not generic `247_rating`.
+- Updated `frontend_site/scripts/build_transfer_players.py`:
+  - `transfer_247_stars` is no longer emitted for transfer players.
+  - `transfer_247_rating` now comes only from `metadata_247_transfer_rating` / `247_transfer_rating`.
+  - No fallback to generic `247_rating` remains for transfer rows.
+- Updated `frontend_site/components/PlayerTable.tsx`:
+  - Removed transfer Stars column and transfer stars sorting from transfer mode.
+  - HS recruit stars column/filter/sorting remain unchanged.
+- Updated `frontend_site/components/PlayerDetailPanel.tsx`:
+  - Removed the transfer 247 Stars metric from transfer dropdown cards.
+  - Renamed the transfer rating card to `Transfer Rating`.
+- Regenerated `frontend_site/data/transferPlayers.ts`.
+- Verification:
+  - Displayed transfer rows: 2,375.
+  - Transfer rows with `transfer_bpr`: 2,375.
+  - Transfer rows with `transfer_247_stars`: 0.
+  - Transfer rows with `transfer_247_rating`: 439.
+  - Flory Bidunga, Milan Momcilovic, and John Blackwell retain `transfer_247_rating = 0.98` and have no transfer stars field.
+- Validation:
+  - `npx tsc --noEmit` passed in `frontend_site`.
+  - `npm run build` passed in `frontend_site`.
+
+### 2026-06-08 01:23:30 CDT Portal sidebar nav removal
+
+- User clarified they only wanted the sidebar `Portal` tab gone because the `Players` page already covers all three player pools.
+- Updated `frontend_site/components/Shell.tsx`:
+  - Removed the `Portal` nav item from the shared `navItems` array.
+  - Removed the unused `ListFilter` icon import.
+  - This removes `Portal` from both desktop sidebar and mobile nav because both are driven by the same array.
+- Did not delete `frontend_site/app/portal/page.tsx`; the route still exists if manually visited, but it is no longer linked in navigation.
+- Validation:
+  - Ran `npm run build` from `frontend_site`.
+  - Next.js production build completed successfully.
+
+### 2026-06-08 01:33:21 CDT Dummy seed and recommendations UI cleanup
+
+- User identified leftover dummy roster data visible in the simulator, specifically `Sam Okoro`.
+- Verified `Sam Okoro` was only present in the old static seed list in `frontend_site/data/players.ts`; generated frontend datasets did not contain that player.
+- Updated `frontend_site/data/players.ts`:
+  - Cleared the old `basePlayers` mock/seed array.
+  - Real generated transfer, returning, and high-school data remain untouched via `transferPlayers` and `hsRecruitPlayers` imports.
+- Updated `frontend_site/components/Shell.tsx`:
+  - Removed the `Recommendations` nav item from the sidebar/mobile nav.
+  - Removed the now-unused `Target` icon import from that file.
+- Updated `frontend_site/app/teams/[teamId]/page.tsx`:
+  - Removed the bottom `Recommended Portal Fits` section and its `RecommendationsBoard` import.
+  - Kept the team roster/commitments table and top metrics intact.
+- Validation:
+  - Confirmed `Sam Okoro` and other old visible mock seed names no longer appear in frontend app/data code, except unrelated real generated rows such as `Andre Mills` in `returningPlayers.ts`.
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-08 02:13:14 CDT Frontend institution alias canonicalization
+
+- User requested a frontend-side institution alias system to reduce redundant school names across site display/filtering, with Braylon Mullins/Connecticut vs UConn as the explicit validation example.
+- Copied the current dedupe CSV into the frontend data directory:
+  - `frontend_site/data/current_site_teams_for_dedupe.csv`
+- Important note: the source CSV currently has zero filled `canonical_replacement` values, so this pass seeded exact safe aliases in code instead of applying unavailable manual CSV replacements.
+- Added `frontend_site/data/teamAliases.ts`:
+  - Defines `institutionAliases` and `canonicalizeInstitution()`.
+  - Includes `Connecticut -> UConn`.
+  - Includes exact `St.` abbreviation aliases only where the full `State` version also exists in the current site team list, such as `Iowa St. -> Iowa State` and `Long Beach St. -> Long Beach State`.
+  - Does not use broad string replacement, so names like `St. Bonaventure` are not changed accidentally.
+- Updated `frontend_site/data/players.ts`:
+  - Applies canonical institution names when the combined `players` export is assembled.
+  - Normalizes only institution fields: `current_team`, `previous_team`, `new_team`, and `committed_team`.
+  - Generated transfer, returning, and HS source files remain untouched.
+- Updated `frontend_site/lib/data.ts`:
+  - Canonicalizes incoming team filter/team-page lookups as well, so team matching remains robust if an alias is passed in.
+- Validation:
+  - Braylon Mullins raw generated `current_team` is `Connecticut`, and canonical frontend value is now `UConn`.
+  - This makes Braylon match the UConn team page/simulator roster lookup.
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-08 02:24:56 CDT Institution alias equivalence correction and Players metric-card removal
+
+- User clarified that matched institutions are stored in `frontend_site/data/current_site_teams_for_dedupe.csv` under `identical_school`, not `canonical_replacement`.
+- Regenerated `frontend_site/data/teamAliases.ts` from both `identical_school` and `canonical_replacement` as equivalence groups:
+  - Every alias in a matched group maps to one canonical display name.
+  - If a group includes a configured `teams.ts` site team, that team name is preferred as the canonical display value.
+  - Otherwise the most common current spelling in the site data is used as the canonical display value.
+  - Example: both `Connecticut` and `UConn` now canonicalize to `UConn`.
+  - Example: `Miami`, `Miami (Fla.)`, and `Miami FL` canonicalize to `Miami`; `Miami (OH)` and `Miami OH` canonicalize separately to `Miami (OH)`.
+- Revalidated Braylon Mullins:
+  - Raw generated `current_team` remains `Connecticut`.
+  - Frontend canonicalized value is `UConn`.
+  - This should make him match the UConn team page/simulator roster lookup alongside the other UConn players.
+- Updated `frontend_site/app/page.tsx`:
+  - Removed the four top metric cards from the Players tab for Returning, HS Recruits, and Transfers.
+  - Removed now-unused metric helper functions/imports.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 GitHub large-file push cleanup
+
+- User hit GitHub push rejection for files over the 100 MB hard limit and warnings for files over 50 MB.
+- Updated:
+  - `.gitignore`
+- Added ignore coverage for:
+  - `models_dir/kmeans_players/kmeans_cluster_outputs/kmeans_player_assignment_explanations_*.csv`
+  - `models_dir/same_school_bpr/catboost_transfer_bpr_refactored_outputs/`
+  - Existing `*autogluon*` rule covers the Autogluon output model files.
+- Removed generated large files from Git tracking with `git rm -r --cached`; local copies remain on disk.
+- Amended the unpushed local commit so the rejected large blobs are not included in the push range.
+- Verification:
+  - `git ls-tree -r --long HEAD | awk '$4 >= 50000000 {print $4, $5}'` returned no files.
+  - `git rev-list --objects origin/main..HEAD | git cat-file ...` returned no blobs over 50 MB.
+
+### 2026-06-10 05:20:00 CDT Optimizer metric explanation: Flory Bidunga, Sam Orme, and recommendation labels
+
+- User asked why Flory Bidunga can show a negative Total Rating impact despite being 90th percentile in Rim Protection.
+- Explanation:
+  - Candidate card value is the selected ranking metric.
+  - If metric says Total Rating, it is sum of all five category changes, not just Rim Protection.
+  - `Affects: Rim Protection` indicates the category with the best improvement.
+  - A player can improve Rim Protection but lower total if Spacing/Facilitating/Defense declines outweigh rim/finishing gains.
+- User asked about Best Overall Fit vs Total Gain.
+- Current implementation:
+  - Best Overall Fit and Total Gain are effectively equivalent for a fixed current roster.
+  - Best Overall sorts by final total rating.
+  - Total Gain sorts by final total minus current total.
+  - Current total is constant across candidates/sets, so primary ranking is the same. Tie-breakers are also effectively equivalent.
+- User asked why Sam Orme can show a stronger individual Auburn score than Flory Bidunga but not be in the optimized roster.
+- Explanation:
+  - Individual cards are one-player marginal scores: current roster plus that one candidate.
+  - Full roster optimization ranks multi-player combinations under position/roster constraints.
+  - A player with a better solo delta can be excluded if the selected combination fills limited slots better or if another player pairing produces a better total set score.
+- No code changed.
+
+
+### 2026-06-10 05:20:00 CDT Optimizer metric explanation: Flory Bidunga and Best Overall vs Total Gain
+
+- User asked why Flory Bidunga can show a negative `Total Rating` impact despite being 90th percentile in Rim Protection.
+- Explanation:
+  - The green candidate card value is the selected ranking metric.
+  - If the metric says `Total Rating`, it is the sum of all five category changes, not just Rim Protection.
+  - `Affects: Rim Protection` indicates the category with the best improvement for that player.
+  - Therefore a player can improve Rim Protection but still have negative total impact if he lowers Spacing / Facilitating / Defense enough.
+- User also asked about `Best Overall Fit` vs `Total Gain`.
+- Current implementation detail:
+  - For a fixed current roster, `Best Overall Fit` and `Total Gain` are effectively equivalent right now.
+  - `Best Overall Fit` sorts by final total rating.
+  - `Total Gain` sorts by final total rating minus current total rating.
+  - Since current total rating is constant across candidates/sets, both produce the same primary ranking.
+  - Tie-breakers are also effectively equivalent in the current implementation.
+- No code was changed in this explanatory pass.
+
+### 2026-06-10 05:12:00 CDT Full roster tab placement and mode selector revert
+
+- User requested:
+  - move Recommended Sets / Individual Fits / Hidden Fits under the pentagon panel.
+  - move Back / Reset to the upper-right page area.
+  - revert hamburger mode selector back to three separate toggles.
+- Updated:
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Full Roster Optimization:
+  - Results tabs and their content now live in the right column under `Roster Rating Overlay`.
+  - Court/bench remains alone in the left column.
+- Page actions:
+  - Back / Reset row was pulled upward toward the top-right page area.
+- Mode selector:
+  - Reverted from hamburger dropdown back to the three-button segmented toggle:
+    - Full Roster Optimization.
+    - Manual Optimizer.
+    - Single Player Optimization.
+- Data-source note:
+  - No generated player data or recruit/transfer sourcing was changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 05:08:00 CDT Individual Fits position filter
+
+- User requested the Full Roster Optimization `Individual Fits` tab stop stacking Guards, Forwards, and Centers on top of each other.
+- Updated:
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Individual Fits:
+  - Added a position filter segmented control:
+    - Guards.
+    - Forwards.
+    - Centers.
+  - The panel now shows only the selected position group at a time.
+  - Defaults to Guards.
+  - Keeps the top 10 display within the selected group.
+- Data-source note:
+  - No generated player data or recruit/transfer sourcing was changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 04:58:00 CDT Manual candidate pagination and optimizer mode hamburger
+
+- User requested removing the top-10 cap so GMs can inspect how any eligible player changes the roster dynamic.
+- Updated:
+  - `frontend_site/lib/optimizer.ts`
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Fit calculation:
+  - Removed the top-10-per-position cap from `buildIndividualFits`.
+  - All eligible candidates now receive individual fit calculations.
+- Manual Candidate Pool:
+  - Added pagination with `20` candidates per page.
+  - Added bottom navigator:
+    - visible range.
+    - current page / total pages.
+    - Prev / Next buttons.
+  - Filter/search/sort changes reset the manual candidate page back to page 1.
+- Optimizer header:
+  - Added a page-level top-right Back / Reset action row.
+  - Replaced the wide three-tab mode selector with a compact hamburger-style dropdown.
+  - Full Roster Optimization still shows the target controls and Run Optimizer in a compact right-side panel.
+  - Manual Optimizer and Single Player Optimization no longer show target controls.
+- Data-source note:
+  - No generated player data or recruit/transfer sourcing was changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 04:48:00 CDT Manual optimizer HS filter diagnosis
+
+- User asked why High School shows no players in the Manual Optimizer candidate pool.
+- Diagnosis:
+  - HS candidate data exists.
+  - Local check found:
+    - `630` total HS recruits.
+    - `121` uncommitted HS recruits.
+    - `121` uncommitted HS recruits with BPR plus all five optimizer skill percentiles.
+  - The empty UI is caused by ranking/filter order:
+    - `buildIndividualFits` currently returns only the top 10 fits per position across all candidate sources.
+    - Manual Candidate Pool then applies the source filter afterward.
+    - Since those top fits are dominated by transfers, filtering that already-capped list to `High School` can produce zero rows.
+- No code was changed in this diagnostic pass.
+
+### 2026-06-10 04:40:00 CDT Optimizer header structured two-panel control card
+
+- User requested the first optimizer page use a cleaner two-panel header/control structure, similar to a provided reference but without decorative graphics.
+- Updated:
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Loaded roster header:
+  - Converted the header into a two-panel card.
+  - Left panel:
+    - loaded roster label.
+    - team name.
+    - roster count.
+    - optimizer-field warning.
+    - mode toggle underneath the roster text.
+  - Right panel:
+    - Back and Reset buttons pinned at the top.
+    - In Full Roster Optimization only:
+      - target rows.
+      - Run Optimizer button.
+    - In Manual Optimizer and Single Player Optimization:
+      - only Back and Reset show.
+- Target rows:
+  - Changed target controls from cramped two-by-two tiles into clearer stacked rows inside the right-side control panel.
+  - Kept labels readable and buttons large enough to use.
+- Data-source note:
+  - No generated player data or recruit/transfer sourcing was changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 04:32:00 CDT Optimizer header/control cleanup and court bubble sizing
+
+- User requested the optimizer shell be cleaned up after the control bar layout degraded.
+- Updated:
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Loaded roster header:
+  - Moved the optimizer mode toggle underneath the loaded roster/team text.
+  - Kept the roster text, warning, and toggle together in the left side of the header.
+- Right-side controls:
+  - Moved Back, Reset, and full-roster-only controls into a compact right-side card aligned with the loaded roster header.
+  - Full Roster Optimization shows:
+    - Back.
+    - Reset.
+    - target counts.
+    - Run Optimizer.
+  - Manual Optimizer and Single Player Optimization show only:
+    - Back.
+    - Reset.
+  - Target controls now render as a compact two-by-two square in that right-side card instead of a wide strip.
+- Court:
+  - Reduced player bubble width and internal avatar/text sizing.
+  - Moved court spots slightly farther apart to reduce overlap between bubbles.
+- Data-source note:
+  - No generated player data or recruit/transfer sourcing was changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 04:22:00 CDT Optimizer target row and court width correction
+
+- User reported the target controls were still stacking and the full-roster radar panel was pushed off page.
+- Updated:
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Target controls:
+  - Forced target cards into four columns instead of responsive two-column stacking.
+  - Used compact readable labels for position cards:
+    - Guard.
+    - Forward.
+    - Center.
+  - Kept Roster Size visible in the same row.
+  - Tightened target card widths and text sizing so all four cards stay beside each other.
+- Full Roster Optimization layout:
+  - Reduced the court visual max width and height.
+  - Adjusted court arc dimensions to fit the smaller court.
+  - Changed full-roster grid column minimums so the radar panel stays within the viewport instead of being pushed off page.
+- Data-source note:
+  - No generated player data or recruit/transfer sourcing was changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 04:15:00 CDT Optimizer control readability and full-roster column correction
+
+- User rejected the compressed target controls and requested cleaner layout across all optimizer modes.
+- Updated:
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Header / mode controls:
+  - Restored the loaded-roster header to only roster identity plus mode toggle.
+  - Reordered mode toggle to:
+    - Full Roster Optimization.
+    - Manual Optimizer.
+    - Single Player Optimization.
+- Global optimizer controls:
+  - Moved Back, Reset, Run Optimizer, and Targets into their own full-width control card below the header.
+  - Restored readable labels and larger hit targets in the target controls.
+  - Targets now use horizontal responsive cards with full labels instead of tiny/truncated boxes.
+- Full Roster Optimization:
+  - Forced the page back to dual columns at normal desktop width.
+  - Left column:
+    - Optimized Roster Court.
+    - recommendation tabs and set/fit cards under the court.
+  - Right column:
+    - Roster Rating Overlay.
+- Single Player Optimization:
+  - Removed the radar/court panel again.
+  - Page now contains only Recommendation View plus the single-player fit panel, per user request.
+- Data-source note:
+  - No generated player data or recruit/transfer sourcing was changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 04:05:00 CDT Optimizer alignment correction: header controls, single-player controls, and court-first full view
+
+- User requested follow-up layout fixes after reviewing the latest optimizer state.
+- Updated:
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Header controls:
+  - Moved Back, Reset, Run Optimizer, and Targets into the loaded-roster header card.
+  - Targets are now a compact horizontal strip instead of a tall side panel.
+  - This aligns the control area with the team/header rectangle.
+- Full Roster Optimization:
+  - Recommended sets, individual fits, and hidden fits were moved back under the court.
+  - The right side is now reserved for the Roster Rating Overlay.
+  - The full-view grid gives the radar side a wider minimum width to avoid cramped/overflowed metric rows.
+- Radar overlay:
+  - Metric rows now use `minmax(0, 1fr)` so they shrink inside the card instead of pushing beyond the border.
+- Single Player Optimization:
+  - Removed the global Recommendation View block above the page.
+  - Recommendation View now sits in the same left column as the Single Player Optimization list, matching the Manual Optimizer layout.
+- Manual Optimizer:
+  - Keeps the same left-column Recommendation View plus Manual Candidate Pool arrangement from the prior pass.
+- Data-source note:
+  - No generated player data or recruit/transfer sourcing was changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 03:45:00 CDT Optimizer rating math explanation requested
+
+- User requested the exact math for how the Optimizer determines the category rating a player adds on the page.
+- Current implementation reference:
+  - `frontend_site/lib/optimizer.ts`
+  - `calculateTeamRatings`
+  - `ratingChanges`
+  - `buildIndividualFits`
+- Formula:
+  - Current roster category rating:
+    - `sum(player_bpr * player_category_percentile) / sum(abs(player_bpr))`
+  - Final roster category rating after adding candidate:
+    - `sum(player_bpr * player_category_percentile, including candidate) / sum(abs(player_bpr), including candidate)`
+  - Candidate category gain displayed on page:
+    - `final_category_rating - current_category_rating`
+  - Candidate total gain:
+    - `sum(final_category_rating across five categories) - sum(current_category_rating across five categories)`
+  - Candidate weakest-category gain:
+    - `min(final_category_ratings) - min(current_category_ratings)`
+
+### 2026-06-10 03:55:00 CDT Optimizer layout follow-up: manual pool, dual panels, and top-fit behavior
+
+- User requested additional optimizer layout fixes and asked to restore the top-fit emphasis.
+- Updated:
+  - `frontend_site/components/RosterOptimizer.tsx`
+  - `frontend_site/lib/optimizer.ts`
+- Manual Candidate Pool:
+  - Moved Recommendation View into the same left column as Manual Candidate Pool.
+  - Made the Manual Candidate Pool column self-sized instead of stretching to match the right column.
+  - This prevents the large blank area at the bottom of the candidate pool.
+  - Candidate pool now renders ranked fit rows from the fit map instead of all raw candidates.
+  - Empty state now says no ranked fits match the filters.
+- Top-fit behavior:
+  - Restored `buildIndividualFits` to return top 10 ranked fits per position.
+  - This keeps the UI focused on best fits instead of showing every eligible player.
+- Full Roster Optimization:
+  - Reworked dual-panel layout:
+    - left panel prioritizes Optimized Roster Court.
+    - right panel contains Roster Rating Overlay and recommendation tabs/cards below it.
+  - Recommendation cards use a compact mode in the right panel.
+  - Bench grid now uses fewer/wider columns so bench player names have more room.
+- Single Player Optimization:
+  - Restored dual-panel layout.
+  - Left panel shows ranked one-player fits.
+  - Right panel shows the rating overlay and court for the top visible one-player fit.
+- Top controls:
+  - Made the top-right target/settings column narrower.
+- Data-source note:
+  - No generated player data or recruit/transfer sourcing was changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 03:40:00 CDT Optimizer dual-panel restoration and manual metric coverage fix
+
+- User requested another optimizer layout pass and noted missing metric boxes for some manual candidates.
+- Updated:
+  - `frontend_site/components/RosterOptimizer.tsx`
+  - `frontend_site/lib/optimizer.ts`
+- Full Roster Optimization:
+  - Restored a dual-panel results layout.
+  - Left panel contains result tabs and recommendation lists.
+  - Right panel contains the roster rating overlay and optimized court.
+- Top controls:
+  - Moved `Back` and `Reset` into a compact top-right action stack.
+  - Moved roster target controls into that top-right stack.
+  - Made target controls much smaller.
+  - Moved `Run Optimizer` under the compact target controls.
+- Manual Candidate Pool:
+  - Fixed missing candidate impact boxes for players like John Blackwell.
+  - Root cause:
+    - `buildIndividualFits` only returned the top 10 fits per position.
+    - Manual rows outside that top 10 had no fit object, so no green metric box rendered.
+  - Fix:
+    - `buildIndividualFits` now returns all ranked fits.
+    - Display components still slice where a top-N view is intended.
+  - Shrunk compact metric boxes so they take less room in candidate rows.
+- Rating overlay:
+  - Replaced typed `->` text with a lucide arrow icon in the before/after rating rows.
+- Data-source note:
+  - No generated player data or recruit/transfer sourcing was changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 03:25:00 CDT Optimizer controls, manual candidate ranking, and court label cleanup
+
+- User requested a final optimizer polish pass while leaving the Teams page structure otherwise unchanged.
+- Updated:
+  - `frontend_site/components/RosterOptimizer.tsx`
+  - `frontend_site/components/ReadOnlyTeamsView.tsx`
+  - `frontend_site/components/RecommendationsBoard.tsx`
+- Optimizer load/reset behavior:
+  - Removed the previous `Reload Roster` button.
+  - Added two top actions:
+    - `Back to Roster Management`
+    - `Reset`
+  - Reset now reloads the current saved Roster Management scenario, clears optimizer results/manual picks, and restores default target counts.
+  - Opening `/optimizer` directly now derives the payload from the saved Roster Management state when available.
+  - This makes the Optimizer nav link and `Load to Optimizer` produce the same loaded roster state.
+- Run Optimizer button:
+  - Now only appears in Full Roster Optimization mode.
+  - It is hidden in Single Player Optimization and Manual Optimizer modes.
+- Target allotments:
+  - Position target +/- controls now keep the total target at 15 by redistributing across the other positions.
+  - Increasing one position takes a slot from the currently largest other target group.
+  - Decreasing one position gives a slot to the currently largest other target group.
+- Removed optimizer current-ratings card:
+  - Removed the `Current Team Ratings` panel from the Optimizer page because the radar/overlay already carries that information.
+- Radar labels:
+  - Added vertex labels to the optimizer comparison radar so users can identify each category.
+- Manual Candidate Pool:
+  - Recommendation View now ranks/sorts the manual candidate pool instead of controlling the Manual Roster Impact summary.
+  - Each candidate row now shows a small impact callout next to the `Add` button.
+  - Removed the top-right impact callout from Manual Roster Impact because candidate-level impact is now shown in the pool.
+  - Reworked candidate rows from full-width buttons to normal row containers to avoid scroll/cropping weirdness.
+- Court labels:
+  - Court slots now use only:
+    - `Guard` for #1 and #2.
+    - `Forward` for #3 and #4.
+    - `Center` for #5.
+  - Removed more specific labels like Point Guard, Shooting Guard, Small Forward, and Power Forward.
+- Team description cleanup:
+  - Removed generated style/needs copy from the read-only Teams header.
+  - Removed the same generated style/needs line from the Recommendations header.
+- Data-source note:
+  - No player data generation or recruit/transfer sourcing was changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 02:45:00 CDT Optimizer spacing pass, weighted roster radar, and read-only Teams page
+
+- User requested more usable space for Manual Optimizer, weighted roster radar validation, and a non-editable Teams page that mirrors Roster Management.
+- Updated:
+  - `frontend_site/components/RosterOptimizer.tsx`
+  - `frontend_site/components/PortalSimulator.tsx`
+  - `frontend_site/components/ReadOnlyTeamsView.tsx`
+  - `frontend_site/app/teams/[teamId]/page.tsx`
+- Optimizer layout:
+  - Moved the prior side controls above the main optimizer panels.
+  - Manual Optimizer now gives the candidate pool and results area more horizontal room.
+  - Manual Optimizer result column now places the court above the rating overlay for easier drag/drop interaction.
+- Manual candidate pool:
+  - Added source filter:
+    - All Sources.
+    - Transfers.
+    - HS Recruits.
+  - Added position filter:
+    - All Positions.
+    - Guards.
+    - Forwards.
+    - Centers.
+  - Tightened/widened candidate rows so the pool no longer has a large blank area blocking candidate visibility.
+- Roster Management radar:
+  - Changed the Team Skills Radar in Roster Management to use the shared optimizer weighted formula:
+    - player skill percentile weighted by projected BPR.
+    - denominator is total absolute projected BPR.
+  - This keeps roster-management radar math aligned with Optimizer.
+- Teams page:
+  - Rebuilt `/teams/[teamId]` as a read-only Roster Management style page.
+  - Added a team dropdown.
+  - Added summary rating cards, non-editable current roster list, weighted Team Skills Radar, and a depth chart.
+  - No add/remove/stay/leave controls are exposed on Teams.
+- UConn weighted radar validation:
+  - Default UConn roster count after draft exclusions:
+    - `19`
+  - Players with complete usable BPR plus all five skill percentiles:
+    - `15`
+  - Total absolute BPR denominator:
+    - `59.23`
+  - Weighted radar values:
+    - Spacing: `56.3`
+    - Facilitating: `53.4`
+    - Rim Protection: `56.1`
+    - Defense: `50.9`
+    - Finishing: `48.1`
+  - Players included in the weighted calculation:
+    - Silas Demary Jr. (`8.32`)
+    - Braylon Mullins (`6.25`)
+    - Solo Ball (`5.45`)
+    - Jayden Ross (`5.42`)
+    - Malachi Smith (`5.24`)
+    - Eric Reibe (`3.95`)
+    - Isaiah Shaw (`-0.27`)
+    - Jaye Nash (`0.81`)
+    - Jaylin Stewart (`2.77`)
+    - Najai Hines (`5.19`)
+    - Nikolas Khamenia (`4.18`)
+    - Nils Machowski (`2.24`)
+    - Oskar Giltay (`2.84`)
+    - Junior County (`2.99`)
+    - Colben Landrew (`3.32`)
+- Data-source note:
+  - No generated player data or recruit/transfer sourcing files were changed in this pass.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-08 02:31:07 CDT Canonical institution display path fix
+
+- User clarified aliases should be display-normalized across player types while raw generated data can remain separate.
+- Root cause of previous no-op:
+  - `frontend_site/app/page.tsx` was importing raw `returningPlayers`, `transferPlayers`, and `hsRecruitPlayers` directly.
+  - `frontend_site/data/players.ts` also did not include `returningPlayers` in its canonicalized combined export.
+  - Therefore Braylon Mullins and other returners bypassed `canonicalizeInstitution()` entirely on the Players page.
+- Updated `frontend_site/data/players.ts`:
+  - Added `returningPlayers` to the canonicalized combined `players` export.
+  - Raw generated files remain unchanged.
+- Updated `frontend_site/app/page.tsx`:
+  - Removed direct raw data imports.
+  - The page now imports only the canonicalized `players` export from `@/data/players`.
+  - Returning mode uses `players.filter((player) => player.player_source === "roster")`, so returners use canonicalized institution names.
+- Alias behavior:
+  - Does not assume returners/transfers are always opposite aliases.
+  - Uses the CSV-derived equivalence groups for all player types and all normalized institution fields.
+  - Supports multi-alias groups such as Miami aliases.
+- Validation:
+  - Braylon Mullins raw generated team is still `Connecticut`.
+  - The Players page display path now canonicalizes him to `UConn`.
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-09 23:18:25 CDT Transfer frontend 247 display fallback and height cleanup
+
+- User asked to inspect the frontend site data path because Eric Reibe displayed with missing profile image, missing 247 rating, and corrupted height text (`1-Jul`) despite having correct 247 data.
+- Data-source tracing:
+  - `frontend_site/scripts/build_transfer_players.py` generates `frontend_site/data/transferPlayers.ts`.
+  - It already reads the user-specified dual BPR file:
+    - `models_dir/transfer_bpr/catboost_transfer_bpr_dual_inference_outputs/dual_transfer_bpr_inference_2026_20260607_190712/dual_transfer_bpr_predictions_2026.csv`
+  - It also reads `data_dir/247_bv_transf_matched.db` for 247 metadata, but only applied those 247 display fields when `safe_247_metadata_match()` passed.
+- Eric Reibe root cause:
+  - Eric's dual BPR row contains correct 247 values:
+    - `247_player_key = 46139349`
+    - `247_avatar_url = https://s3media.247sports.com/Uploads/Assets/883/343/13343883.jpg`
+    - `247_transfer_rating = 0.93`
+    - `247_rating = 0.93`
+    - `247_transfer_rank = 66`
+    - `247_height = 7-1`
+  - The frontend dropped those fields because the DB metadata gate required `overall_match_score >= 90`; Eric's score was `87.5` due to `team_score = 50`, even though `name_score = 100`, `match_flag = True`, and the row was marked `matched_247_to_db1`.
+  - His bad height came from `allyears_ht = 1-Jul`, an Excel-style date corruption of `7-1`, and the builder preferred `allyears_ht` before cleaner transfer/247 height fields.
+- Updated `frontend_site/scripts/build_transfer_players.py`:
+  - Kept origin/destination logic gated by the stricter existing `safe_247_metadata_match()` rule.
+  - Added a display-only 247 fallback from the dual BPR CSV when:
+    - `247_player_key` exists,
+    - `match_flag` is truthy,
+    - and `247_full_name` exactly normalizes to the transfer player name.
+  - Uses that display-only fallback for profile image, position, height, weight, stars, rating, rank, player key, and 247 status.
+  - Added `247_height` to the metadata query.
+  - Changed height selection to prefer trusted 247/transfer height fields before `allyears_ht`.
+  - Added a month-name height normalizer for corrupted values such as `1-Jul -> 7-1`, `10-Jun -> 6-10`, and `11-May -> 5-11`.
+  - Changed generated `transferPlayers.ts` output to `JSON.parse(...) as Player[]` to avoid TypeScript's "union type too complex to represent" error after more optional fields became populated.
+- Updated `frontend_site/scripts/build_returning_players.py`:
+  - Added the same month-name height normalizer for returning-player heights.
+- Regenerated:
+  - `frontend_site/data/transferPlayers.ts`
+  - `frontend_site/data/returningPlayers.ts`
+- Validation:
+  - Before cleanup, generated frontend data had 98 transfer rows and 69 returning-player rows with month-name height corruption; HS recruit data had 0.
+  - After regeneration:
+    - transfer rows with bad month-style heights: 0.
+    - returning rows with bad month-style heights: 0.
+    - HS recruit rows with bad month-style heights: 0.
+  - Eric Reibe generated transfer row now has:
+    - profile image populated from 247.
+    - `height = 7-1`.
+    - `weight = 260`.
+    - `transfer_247_rating = 0.93`.
+    - `transfer_247_rank = 66`.
+    - `transfer_247_player_key = 46139349`.
+    - `current_team = Connecticut`.
+    - `new_team = USC`.
+  - `python frontend_site/scripts/build_transfer_players.py` completed successfully:
+    - players: 2,375.
+    - with BPR: 2,375.
+    - with 247 metadata/display fields: 1,510.
+    - with skill percentiles: 1,840.
+  - `python frontend_site/scripts/build_returning_players.py` completed successfully:
+    - players: 1,898.
+    - source rows: 3,743.
+    - excluded transfer rows: 1,845.
+    - with projected BPR: 1,898.
+    - with images: 742.
+    - with skill percentiles: 1,894.
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-09 23:41:55 CDT NBA draft prospect CSV frontend-player matching
+
+- User asked to annotate `frontend_site/data/2026_nba_draft_prospects.csv` by matching as many draft prospects as possible to frontend site players, without changing frontend site behavior yet.
+- Initial instruction emphasized matching to Returning players, but user clarified Keyshawn Hall is an exception because he appears on the Transfer page.
+- No frontend site code or generated player data was edited for this step.
+- Edited only:
+  - `frontend_site/data/2026_nba_draft_prospects.csv`
+- Added frontend match/audit columns:
+  - `frontend_match_status`
+  - `frontend_match_source`
+  - `frontend_match_generated_file`
+  - `frontend_match_player_name`
+  - `frontend_match_current_team`
+  - `frontend_match_new_team`
+  - `frontend_match_player_id`
+  - `frontend_match_personal_identifier`
+  - `frontend_match_returning_bvt_pid`
+  - `frontend_match_transfer_barttorvik_trid`
+  - `frontend_match_name_score`
+  - `frontend_match_team_score`
+  - `frontend_match_notes`
+- Matching sources:
+  - `frontend_site/data/returningPlayers.ts`
+  - `frontend_site/data/transferPlayers.ts`
+- Matching logic:
+  - Conservative normalized name + team matching.
+  - Handles suffix differences such as `Darius Acuff` vs `Darius Acuff Jr.`.
+  - Handles curly apostrophes such as `Ja’Kobi Gillespie`.
+  - Handles common team aliases such as `UConn -> Connecticut`, `Southern Methodist -> SMU`, `Miami (FL) -> Miami FL`, `Miami (Ohio) -> Miami OH`, and `N.C. State -> N.C. State`/North Carolina State.
+  - Handles accidental adjacent duplicate name tokens such as `Tyler Nickel Nickel -> Tyler Nickel`.
+- Validation:
+  - CSV row count stayed 88.
+  - Column count increased from 8 to 21.
+  - Matched rows: 74.
+  - Unmatched rows: 14.
+  - Matched frontend source counts:
+    - 65 `roster` / Returning rows.
+    - 9 `transfer` rows.
+  - Confirmed examples:
+    - Cameron Boozer / Duke -> `returning-134971`, `frontend_match_personal_identifier = 134971`.
+    - Nate Ament / Tennessee -> `returning-134712`, `frontend_match_personal_identifier = 134712`.
+    - Keyshawn Hall / Auburn -> `transfer-1372`, `frontend_match_personal_identifier = 76060`, `frontend_match_transfer_barttorvik_trid = 76060`.
+    - Peter Suder / Miami (Ohio) -> `transfer-3276`, `frontend_match_personal_identifier = 77037`.
+    - Ernest Udeh Jr. / Miami (FL) -> `transfer-3448`, `frontend_match_personal_identifier = 76673`.
+    - Tyler Nickel Nickel / Vanderbilt -> `transfer-2493`, `frontend_match_personal_identifier = 76761`.
+  - Remaining unmatched rows are mostly international/G League/non-site prospects or players absent from generated frontend player data:
+    - Mohammad Amini.
+    - Bassala Bagayoko.
+    - Pavle Bačko.
+    - Sergio De Larrea.
+    - Francesco Ferrari.
+    - Marc-Owen Fodzo Dada.
+    - Vsevolod Ishchenko.
+    - Jack Kayil.
+    - Malique Lewis.
+    - Karim Lopez.
+    - Jayden Quaintance.
+    - Luigi Suigo.
+    - Noam Yaacov.
+    - Reynan dos Santos.
+
+### 2026-06-10 00:01:11 CDT Draft tab migration for matched prospects
+
+- User asked to move every matched NBA draft prospect from the frontend Returning/Transfer tabs into a new `Draft` tab, without changing the existing data sourcing or player detail panels.
+- Implemented Draft as a display/status flag over the existing player records:
+  - Returning players remain `player_source = "roster"` internally.
+  - Transfer players remain `player_source = "transfer"` internally.
+  - This preserves each player's existing expanded detail panel behavior and data fields.
+- Added:
+  - `frontend_site/data/draftPlayers.ts`
+    - Contains the 73 unique frontend player IDs matched from `frontend_site/data/2026_nba_draft_prospects.csv`.
+    - The CSV had 74 matched rows because `Tyler Nickel` / `Tyler Nickel Nickel` both map to `transfer-2493`.
+- Updated:
+  - `frontend_site/data/players.ts`
+    - Imports `draftPlayerIds`.
+    - Adds optional `draft_status?: boolean` to `Player`.
+    - Sets `draft_status` during canonical player mapping when a player's frontend ID is in `draftPlayerIds`.
+  - `frontend_site/app/page.tsx`
+    - Adds the `Draft` toggle next to `Returning`, `HS Recruits`, and `Transfers`.
+    - Removes draft-flagged players from the Returning/HS/Transfer tab inputs.
+    - Feeds only draft-flagged players into the Draft tab.
+  - `frontend_site/components/PlayerTable.tsx`
+    - Adds `draft` to `PlayerMode`.
+    - Adds Draft table mode with only:
+      - player mini card.
+      - position.
+      - team.
+      - status badge showing `Draft`.
+      - BPR.
+    - Uses projected BPR for returning draft players and transfer BPR for transfer draft players.
+    - Keeps the original expanded dropdown panel unchanged by preserving the original player source.
+  - `frontend_site/lib/data.ts`
+    - Excludes `draft_status` players from transfer portal players, HS player helpers, and team roster/player lookups.
+    - This removes draft entrants from the team portal simulator rosters/targets, including examples like Duke's Cameron Boozer and Isaiah Evans.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+  - Verified draft ID coverage against the annotated CSV:
+    - matched CSV rows: 74.
+    - unique matched frontend player IDs: 73.
+    - IDs in `draftPlayers.ts`: 73.
+    - missing IDs: none.
+    - extra IDs: none.
+    - duplicate frontend match in CSV: `transfer-2493`.
+  - Confirmed `returning-134971` (Cameron Boozer) and `returning-76818` (Isaiah Evans) are in `draftPlayers.ts`.
+
+### 2026-06-10 00:31:12 CDT HS recruit skill percentile pentagons
+
+- User asked to add pentagon/radar skill percentiles to HS recruit dropdowns using:
+  - `data_dir/player_percentile/hs_freshman_prior_percentile_outputs/hs_2026_projected_skill_percentiles.csv`
+- User warned that `player_key` is the 247 player key, not necessarily the frontend ID.
+- Verified the frontend HS recruit records already store:
+  - `hs_player_key`
+  - frontend `player_id` values like `hs-<player_key>`
+- Implemented the join through the HS generator on `player_key`, not by display name:
+  - `frontend_site/scripts/build_hs_recruits.py`
+    - Added `HS_SKILL_PERCENTILES` source.
+    - Reads the five percentile columns:
+      - `spacing_percentile`
+      - `facilitating_percentile`
+      - `rim_protection_percentile`
+      - `defense_percentile`
+      - `finishing_percentile`
+    - Merges by `player_key`.
+    - Adds a duplicate-key guard.
+    - Adds a row-count guard so the merge cannot silently duplicate or drop HS rows.
+    - Emits the existing frontend skill fields for HS recruits:
+      - `skill_spacing_percentile`
+      - `skill_facilitating_percentile`
+      - `skill_rim_protection_percentile`
+      - `skill_defense_percentile`
+      - `skill_finishing_percentile`
+  - `frontend_site/components/PlayerDetailPanel.tsx`
+    - Added an HS-specific dropdown branch.
+    - Keeps the existing HS dropdown profile, playtype probability, and rank content.
+    - Adds the existing `SkillRadar` pentagon panel beside that content when skill fields exist.
+    - Uses HS subtitle `Projected freshman skill percentiles`.
+    - Returning and transfer radar subtitle/behavior remains unchanged.
+- Regenerated:
+  - `frontend_site/data/hsRecruits.ts`
+- Validation:
+  - Percentile source rows: 367.
+  - Unique `player_key` values in percentile source: 367.
+  - Duplicate keys: 0.
+  - Frontend HS recruits after regeneration: 630.
+  - HS recruits with at least one skill percentile: 366.
+  - The one source-row difference is consistent with the generator's existing excluded HS player key list.
+  - Example matched record:
+    - `Dink Pate`, `hs_player_key = 46103857`, now has all five skill percentile fields.
+  - Example unmatched/no-radar record:
+    - `Brayden Fogle`.
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 00:36:06 CDT HS dropdown visual restoration after pentagon add
+
+- User showed that adding the HS pentagon made the HS recruit dropdown lose the more polished animated/card treatment compared with transfer dropdowns.
+- Updated:
+  - `frontend_site/components/PlayerDetailPanel.tsx`
+- Replaced the ad hoc HS dropdown layout with a dedicated `HsProfileCard` patterned after `TransferProfileCard`:
+  - Header and HS recruit badge.
+  - Committed/current school chip.
+  - Projected role callout.
+  - Metric cards for:
+    - national rank.
+    - position rank.
+    - stars.
+    - HS BPR.
+  - Scouting/fit copy.
+  - Animated playtype probability bars using the same loading/width transition style as transfer dropdowns.
+- Kept the HS skill percentile pentagon beside the profile card.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 00:40:21 CDT Skill radar vertex labels
+
+- User asked to add small text labels to the pentagon/radar vertices across the website, without changing any data.
+- Updated only:
+  - `frontend_site/components/PlayerDetailPanel.tsx`
+- Added labels in the shared `SkillRadar` SVG so they apply anywhere the pentagon appears:
+  - returning players.
+  - transfer players.
+  - HS recruits.
+- Labels are placed just outside the radar's outer vertices.
+- Added small helper functions:
+  - `radarAxisLabel`
+    - Shortens `Rim Protection` to `Rim Prot.` to reduce SVG label crowding.
+  - `radarLabelAnchor`
+    - Aligns labels based on their side of the chart.
+- No data generation or source files were changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 00:44:46 CDT Returning stats compaction and radar label tightening
+
+- User suggested two layout improvements:
+  - Returning player season stats should be consolidated into two rows so the stats card uses space better.
+  - Radar vertex labels were bleeding into adjacent sections and should be moved closer to the vertices and made smaller.
+- Updated only:
+  - `frontend_site/components/PlayerDetailPanel.tsx`
+- Returning season stats changes:
+  - Split stats into:
+    - primary row: `PPG`, `RPG`, `APG`, `SPG`, `BPG`.
+    - secondary row: `GP`, `MP`, `FT`, `BPR`.
+  - Added a horizontal divider between the two rows.
+  - Centered stat items within each row.
+  - Preserved BPR emphasis styling.
+- Radar label changes:
+  - Moved labels closer to the polygon by reducing label radius offset.
+  - Reduced label text size.
+  - Shortened crowded labels:
+    - `Facilitating` -> `Facil.`
+    - `Rim Protection` -> `Rim`
+    - `Finishing` -> `Finish`
+  - No radar data or percentile values were changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 00:48:32 CDT Returning BPR blue emphasis
+
+- User asked to add the same blue highlighted BPR box used in HS and transfer dropdowns to returning players and draft players.
+- Updated only:
+  - `frontend_site/components/PlayerDetailPanel.tsx`
+- Changed the emphasized `ReturningStat` style from the default border to:
+  - `border-sky-300`
+  - `dark:border-sky-600`
+- This applies to returning player dropdowns.
+- Draft players retain their original detail source:
+  - returning draft players use the returning dropdown and inherit this blue BPR styling.
+  - transfer draft players already used the transfer dropdown blue BPR styling.
+- No data changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 02:07:10 CDT Roster Gap Optimizer frontend implementation
+
+- User said they edited `frontend_site/codex_instructions/roster_gap_optimizer_questions.md` and asked to start implementing the optimizer on the frontend.
+- User emphasized:
+  - Do not edit recruit data sourcing.
+  - Only one small Players-page HS view fix should be made for uncommitted recruits.
+  - Most edits should add the Optimizer page and functionality.
+- Read:
+  - `frontend_site/codex_instructions/roster_gap_optimizer_questions.md`
+  - `frontend_site/codex_instructions/roster_gap_optimizer_codex_spec.md`
+- Installed required frontend solver dependency:
+  - `glpk.js`
+  - Initial sandboxed install failed due DNS/network restriction.
+  - Re-ran `npm install glpk.js` with approved network access.
+  - Updated `frontend_site/package.json` and `frontend_site/package-lock.json`.
+- Added optimizer normalization and calculation helpers:
+  - `frontend_site/lib/optimizer.ts`
+    - Uses existing generated `Player` objects only; no generated recruit sourcing changed.
+    - Normalizes optimizer IDs in memory:
+      - transfer: `optimizer_player_id = "transfer:" + transfer_barttorvik_trid`
+      - HS recruit: `optimizer_player_id = "hs:" + hs_player_key`
+      - returning/current roster: `returning:<returning_bvt_pid>` or fallback roster ID.
+    - Normalizes position groups to `G`, `F`, `C`.
+    - Uses five active percentile categories:
+      - `spacing_percentile`
+      - `facilitating_percentile`
+      - `rim_protection_percentile`
+      - `defense_percentile`
+      - `finishing_percentile`
+    - Maps from existing frontend fields:
+      - `skill_spacing_percentile`
+      - `skill_facilitating_percentile`
+      - `skill_rim_protection_percentile`
+      - `skill_defense_percentile`
+      - `skill_finishing_percentile`
+    - Excludes optimizer candidates missing required fields.
+    - Candidate rules:
+      - transfers only if status is `entered` or `committed`.
+      - HS recruits only if uncommitted.
+      - returning players are current-roster context only, not recommendation candidates.
+    - Team rating formula uses:
+      - `sum(projected_bpr * skill_percentile) / sum(abs(projected_bpr))`
+    - Implements ranking helpers for recommended sets, individual fits, and hidden fits.
+- Added optimizer roster localStorage handoff:
+  - `frontend_site/lib/optimizerStorage.ts`
+    - Storage key: `roster-lab-optimizer-roster`
+    - Stores selected `teamName`, active roster `playerIds`, and `loadedAt`.
+- Updated Roster Management:
+  - `frontend_site/components/PortalSimulator.tsx`
+    - Added `Load to Optimizer` button.
+    - Saves the active roster management state:
+      - default team roster
+      - minus user removals
+      - plus transfer/HS additions
+    - Routes to `/optimizer`.
+  - `frontend_site/app/simulator/page.tsx`
+    - Renamed visible page title from `Transfer Portal Simulator` to `Roster Management`.
+- Updated navigation:
+  - `frontend_site/components/Shell.tsx`
+    - Renamed sidebar item `Simulator` to `Roster Management`.
+    - Changed icon to a clipboard-style icon.
+    - Added new `Optimizer` tab with a science-style icon.
+- Added new Optimizer route and UI:
+  - `frontend_site/app/optimizer/page.tsx`
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Optimizer UI/functionality:
+  - Loads roster from Roster Management localStorage payload.
+  - Shows loaded team and roster count.
+  - Target controls default to:
+    - `G = 5`
+    - `F = 6`
+    - `C = 4`
+    - total max `15`.
+  - Enforces:
+    - target total cannot exceed 15.
+    - optimizer disabled if active roster has more than 15 players.
+    - optimizer disabled if current G/F/C count exceeds target G/F/C count.
+  - Shows red warning messages for invalid states.
+  - Hides/disables ratings and single-player optimization when roster exceeds 15.
+  - Uses `glpk.js` browser solver to solve MILP roster-addition models.
+  - Applies top-200-per-position cap after eligibility and needed-position filtering.
+  - Runs multiple objective variants:
+    - total contribution.
+    - each five-category specialist objective.
+    - current-weakness objective.
+    - weakness-balanced objective.
+  - Iteratively excludes prior selected sets to collect alternate solutions.
+  - Exact-ranks solution sets after GLPK by:
+    - final total rating.
+    - final weakest category.
+    - added projected BPR.
+  - Displays:
+    - full recommended sets.
+    - top individual fits by position.
+    - hidden fits.
+  - Supports sorting/view modes:
+    - Best Overall Fit.
+    - Total Gain.
+    - Weakest Category Gain.
+    - Added BPR.
+    - category-specific gains for all five active categories.
+  - Supports category filter:
+    - All Categories.
+    - Spacing.
+    - Facilitating.
+    - Rim Protection.
+    - Defense.
+    - Finishing.
+  - Shows marginal gains and before/after category deltas.
+  - Full roster mode includes a clean half-court lineup:
+    - top 2 guards in spots 1 and 2.
+    - top 2 forwards in spots 3 and 4.
+    - top center in spot 5.
+    - remaining players shown under the court.
+  - Single-player mode hides the court and shows a scrollable single-player recommendation pane.
+- Small HS Players-page fix:
+  - `frontend_site/components/PlayerTable.tsx`
+    - In HS Recruit view, uncommitted recruits display team as `N/A` instead of `Uncommitted`.
+    - Added an `Uncommitted` checkbox filter in HS Recruit view.
+    - No HS recruit data source was changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+  - New route appears in build output:
+    - `/optimizer`
+
+### 2026-06-10 02:34:25 CDT Optimizer iteration: persistence, manual mode, court, and overlay polish
+
+- User reviewed the first optimizer run and requested focused improvements while keeping the rest of the site unchanged.
+- Updated:
+  - `frontend_site/components/PortalSimulator.tsx`
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Roster Management persistence:
+  - Added local persistence for:
+    - selected team.
+    - removed/staying/leaving IDs.
+    - added player IDs.
+    - target pool.
+    - roster/browse workbench tab.
+  - Storage key:
+    - `roster-lab-roster-management-state`
+  - State now survives navigating away from and back to Roster Management.
+  - Switching schools or clicking Reset clears the scenario as requested.
+- Over-limit return flow:
+  - Optimizer now shows a `Back to Roster Management` button when loaded roster size exceeds 15.
+  - Because Roster Management state is persisted, this returns to the prior stay/leave/add state instead of resetting it.
+- Optimized roster court:
+  - Reworked the court into a cleaner half-court style.
+  - Reduced player tag size.
+  - Improved text contrast so names/BPR are readable.
+  - Kept player headshots visible.
+  - Uses 1/2 as the top two guards, 3/4 as top forwards, and 5 as top center.
+- Roster rating overlay:
+  - Kept original baseline pentagon as gray.
+  - Changed edited/final overlay from a fully colored polygon to:
+    - subtle edited polygon outline/fill.
+    - five vertex dots.
+    - dot is green when that category improved vs baseline.
+    - dot is red when that category declined vs baseline.
+- Added Manual Optimizer mode:
+  - Top optimizer mode toggle now has:
+    - Full Roster Optimization.
+    - Single Player Optimization.
+    - Manual Optimizer.
+  - Manual mode shows a scrollable transfer/uncommitted-HS candidate pane.
+  - Users can click `Add` or drag candidates onto the court/bench area.
+  - Manual additions are added to the current loaded roster.
+  - Manual mode has no roster limit or positional limit.
+  - Manual mode recalculates:
+    - final team ratings.
+    - category deltas.
+    - total gain.
+    - weakest-category gain.
+    - added BPR.
+  - Manual mode updates the court and rating overlay live.
+- Recommendation filters:
+  - The `Recommendation View` control is now available only in:
+    - Single Player Optimization.
+    - Manual Optimizer.
+  - It is hidden in Full Roster Optimization.
+  - Primary dropdown now only includes:
+    - Best Overall Fit.
+    - Total Gain.
+    - Weakest Category Gain.
+    - Added BPR.
+  - Category dropdown appears only when primary mode is:
+    - Total Gain.
+    - Weakest Category Gain.
+  - Category dropdown contains:
+    - All Categories.
+    - Spacing.
+    - Facilitating.
+    - Rim Protection.
+    - Defense.
+    - Finishing.
+  - Full roster set display defaults back to Best Overall Fit when filter controls are hidden.
+- No generated data or recruit sourcing files were changed for this iteration.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.

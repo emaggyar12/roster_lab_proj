@@ -1,0 +1,7499 @@
+[
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 102.3,
+    "idHash": "1275-1276-1280-16104-16105",
+    "netRating": 29,
+    "offenseRating": 131.3,
+    "opponentStats": {
+      "assists": 99,
+      "blocks": 23,
+      "defensiveRebounds": 134,
+      "fieldGoals": {
+        "attempted": 349,
+        "made": 144,
+        "pct": 41.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 48.7,
+        "freeThrowRate": 24.1,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0.29
+      },
+      "freeThrows": {
+        "attempted": 84,
+        "made": 58,
+        "pct": 69
+      },
+      "offensiveRebounds": 66,
+      "points": 398,
+      "possessions": 389,
+      "steals": 25,
+      "threePointers": {
+        "attempted": 162,
+        "made": 52,
+        "pct": 32.1
+      },
+      "trueShooting": 51.6,
+      "turnovers": 111,
+      "twoPointers": {
+        "attempted": 187,
+        "dunks": {
+          "attempted": 10,
+          "made": 8,
+          "pct": 80
+        },
+        "jumpers": {
+          "attempted": 73,
+          "made": 30,
+          "pct": 41.1
+        },
+        "layups": {
+          "attempted": 104,
+          "made": 54,
+          "pct": 51.9
+        },
+        "made": 92,
+        "pct": 49.2,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 61.5,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 94,
+      "blocks": 22,
+      "defensiveRebounds": 159,
+      "fieldGoals": {
+        "attempted": 413,
+        "made": 213,
+        "pct": 51.6
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 57.4,
+        "freeThrowRate": 32.2,
+        "offensiveReboundPct": 41.7,
+        "turnoverRatio": 0.13
+      },
+      "freeThrows": {
+        "attempted": 133,
+        "made": 88,
+        "pct": 66.2
+      },
+      "offensiveRebounds": 93,
+      "points": 562,
+      "possessions": 428,
+      "steals": 74,
+      "threePointers": {
+        "attempted": 124,
+        "made": 48,
+        "pct": 38.7
+      },
+      "trueShooting": 59.6,
+      "turnovers": 56,
+      "twoPointers": {
+        "attempted": 289,
+        "dunks": {
+          "attempted": 15,
+          "made": 12,
+          "pct": 80
+        },
+        "jumpers": {
+          "attempted": 81,
+          "made": 34,
+          "pct": 42
+        },
+        "layups": {
+          "attempted": 192,
+          "made": 118,
+          "pct": 61.5
+        },
+        "made": 165,
+        "pct": 57.1,
+        "tipIns": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        }
+      }
+    },
+    "totalSeconds": 15949.7
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 101,
+    "idHash": "1275-1276-1286-16104-16105",
+    "netRating": 10.5,
+    "offenseRating": 111.4,
+    "opponentStats": {
+      "assists": 65,
+      "blocks": 16,
+      "defensiveRebounds": 129,
+      "fieldGoals": {
+        "attempted": 273,
+        "made": 112,
+        "pct": 41
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 48.7,
+        "freeThrowRate": 20.9,
+        "offensiveReboundPct": 27.7,
+        "turnoverRatio": 0.21
+      },
+      "freeThrows": {
+        "attempted": 57,
+        "made": 43,
+        "pct": 75.4
+      },
+      "offensiveRebounds": 49,
+      "points": 310,
+      "possessions": 307,
+      "steals": 25,
+      "threePointers": {
+        "attempted": 123,
+        "made": 42,
+        "pct": 34.1
+      },
+      "trueShooting": 52,
+      "turnovers": 64,
+      "twoPointers": {
+        "attempted": 150,
+        "dunks": {
+          "attempted": 6,
+          "made": 4,
+          "pct": 66.7
+        },
+        "jumpers": {
+          "attempted": 46,
+          "made": 20,
+          "pct": 43.5
+        },
+        "layups": {
+          "attempted": 98,
+          "made": 46,
+          "pct": 46.9
+        },
+        "made": 70,
+        "pct": 46.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 59.4,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 72,
+      "blocks": 12,
+      "defensiveRebounds": 120,
+      "fieldGoals": {
+        "attempted": 304,
+        "made": 131,
+        "pct": 43.1
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 49,
+        "freeThrowRate": 18.4,
+        "offensiveReboundPct": 43.3,
+        "turnoverRatio": 0.15
+      },
+      "freeThrows": {
+        "attempted": 56,
+        "made": 33,
+        "pct": 58.9
+      },
+      "offensiveRebounds": 55,
+      "points": 331,
+      "possessions": 297,
+      "steals": 42,
+      "threePointers": {
+        "attempted": 99,
+        "made": 36,
+        "pct": 36.4
+      },
+      "trueShooting": 50.4,
+      "turnovers": 46,
+      "twoPointers": {
+        "attempted": 205,
+        "dunks": {
+          "attempted": 13,
+          "made": 12,
+          "pct": 92.3
+        },
+        "jumpers": {
+          "attempted": 77,
+          "made": 30,
+          "pct": 39
+        },
+        "layups": {
+          "attempted": 115,
+          "made": 53,
+          "pct": 46.1
+        },
+        "made": 95,
+        "pct": 46.3,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 12196.2
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      },
+      {
+        "id": 16108,
+        "name": "CJ Felder"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 111.8,
+    "idHash": "1275-1276-1280-16105-16108",
+    "netRating": 43.6,
+    "offenseRating": 155.5,
+    "opponentStats": {
+      "assists": 28,
+      "blocks": 11,
+      "defensiveRebounds": 54,
+      "fieldGoals": {
+        "attempted": 147,
+        "made": 53,
+        "pct": 36.1
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 41.5,
+        "freeThrowRate": 39.5,
+        "offensiveReboundPct": 63.6,
+        "turnoverRatio": 0.3
+      },
+      "freeThrows": {
+        "attempted": 58,
+        "made": 48,
+        "pct": 82.8
+      },
+      "offensiveRebounds": 35,
+      "points": 170,
+      "possessions": 152,
+      "steals": 10,
+      "threePointers": {
+        "attempted": 73,
+        "made": 16,
+        "pct": 21.9
+      },
+      "trueShooting": 49.3,
+      "turnovers": 45,
+      "twoPointers": {
+        "attempted": 74,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 25,
+          "made": 9,
+          "pct": 36
+        },
+        "layups": {
+          "attempted": 48,
+          "made": 27,
+          "pct": 56.3
+        },
+        "made": 37,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 59.6,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 48,
+      "blocks": 11,
+      "defensiveRebounds": 62,
+      "fieldGoals": {
+        "attempted": 156,
+        "made": 81,
+        "pct": 51.9
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 61.2,
+        "freeThrowRate": 54.5,
+        "offensiveReboundPct": 58.7,
+        "turnoverRatio": 0.13
+      },
+      "freeThrows": {
+        "attempted": 85,
+        "made": 64,
+        "pct": 75.3
+      },
+      "offensiveRebounds": 37,
+      "points": 255,
+      "possessions": 164,
+      "steals": 26,
+      "threePointers": {
+        "attempted": 58,
+        "made": 29,
+        "pct": 50
+      },
+      "trueShooting": 65.9,
+      "turnovers": 21,
+      "twoPointers": {
+        "attempted": 98,
+        "dunks": {
+          "attempted": 14,
+          "made": 14,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 26,
+          "made": 9,
+          "pct": 34.6
+        },
+        "layups": {
+          "attempted": 58,
+          "made": 29,
+          "pct": 50
+        },
+        "made": 52,
+        "pct": 53.1,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 6360.4
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 109,
+    "idHash": "1275-1280-1286-16104-16105",
+    "netRating": 1.8,
+    "offenseRating": 110.8,
+    "opponentStats": {
+      "assists": 19,
+      "blocks": 6,
+      "defensiveRebounds": 37,
+      "fieldGoals": {
+        "attempted": 83,
+        "made": 33,
+        "pct": 39.8
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 51.2,
+        "freeThrowRate": 21.7,
+        "offensiveReboundPct": 28.9,
+        "turnoverRatio": 0.21
+      },
+      "freeThrows": {
+        "attempted": 18,
+        "made": 12,
+        "pct": 66.7
+      },
+      "offensiveRebounds": 13,
+      "points": 97,
+      "possessions": 89,
+      "steals": 10,
+      "threePointers": {
+        "attempted": 48,
+        "made": 19,
+        "pct": 39.6
+      },
+      "trueShooting": 53.3,
+      "turnovers": 19,
+      "twoPointers": {
+        "attempted": 35,
+        "dunks": {
+          "attempted": 3,
+          "made": 2,
+          "pct": 66.7
+        },
+        "jumpers": {
+          "attempted": 8,
+          "made": 3,
+          "pct": 37.5
+        },
+        "layups": {
+          "attempted": 24,
+          "made": 9,
+          "pct": 37.5
+        },
+        "made": 14,
+        "pct": 40,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 60.8,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 13,
+      "blocks": 6,
+      "defensiveRebounds": 39,
+      "fieldGoals": {
+        "attempted": 86,
+        "made": 36,
+        "pct": 41.9
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 45.9,
+        "freeThrowRate": 37.2,
+        "offensiveReboundPct": 38.2,
+        "turnoverRatio": 0.19
+      },
+      "freeThrows": {
+        "attempted": 32,
+        "made": 24,
+        "pct": 75
+      },
+      "offensiveRebounds": 21,
+      "points": 103,
+      "possessions": 93,
+      "steals": 12,
+      "threePointers": {
+        "attempted": 27,
+        "made": 7,
+        "pct": 25.9
+      },
+      "trueShooting": 51.5,
+      "turnovers": 18,
+      "twoPointers": {
+        "attempted": 59,
+        "dunks": {
+          "attempted": 2,
+          "made": 2,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 18,
+          "made": 7,
+          "pct": 38.9
+        },
+        "layups": {
+          "attempted": 39,
+          "made": 20,
+          "pct": 51.3
+        },
+        "made": 29,
+        "pct": 49.2,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 3589.6
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1289,
+        "name": "Mike Saunders Jr."
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      },
+      {
+        "id": 16108,
+        "name": "CJ Felder"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 96.3,
+    "idHash": "1275-1280-1289-16105-16108",
+    "netRating": 51.7,
+    "offenseRating": 147.9,
+    "opponentStats": {
+      "assists": 12,
+      "blocks": 1,
+      "defensiveRebounds": 29,
+      "fieldGoals": {
+        "attempted": 56,
+        "made": 25,
+        "pct": 44.6
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 53.6,
+        "freeThrowRate": 41.1,
+        "offensiveReboundPct": 31,
+        "turnoverRatio": 0.33
+      },
+      "freeThrows": {
+        "attempted": 23,
+        "made": 17,
+        "pct": 73.9
+      },
+      "offensiveRebounds": 9,
+      "points": 77,
+      "possessions": 80,
+      "steals": 5,
+      "threePointers": {
+        "attempted": 26,
+        "made": 10,
+        "pct": 38.5
+      },
+      "trueShooting": 58.2,
+      "turnovers": 26,
+      "twoPointers": {
+        "attempted": 30,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 10,
+          "made": 4,
+          "pct": 40
+        },
+        "layups": {
+          "attempted": 19,
+          "made": 10,
+          "pct": 52.6
+        },
+        "made": 15,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 55,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 23,
+      "blocks": 3,
+      "defensiveRebounds": 27,
+      "fieldGoals": {
+        "attempted": 76,
+        "made": 38,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 58.6,
+        "freeThrowRate": 36.8,
+        "offensiveReboundPct": 59.3,
+        "turnoverRatio": 0.11
+      },
+      "freeThrows": {
+        "attempted": 28,
+        "made": 19,
+        "pct": 67.9
+      },
+      "offensiveRebounds": 16,
+      "points": 108,
+      "possessions": 73,
+      "steals": 12,
+      "threePointers": {
+        "attempted": 25,
+        "made": 13,
+        "pct": 52
+      },
+      "trueShooting": 61.1,
+      "turnovers": 8,
+      "twoPointers": {
+        "attempted": 51,
+        "dunks": {
+          "attempted": 9,
+          "made": 9,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 14,
+          "made": 4,
+          "pct": 28.6
+        },
+        "layups": {
+          "attempted": 27,
+          "made": 11,
+          "pct": 40.7
+        },
+        "made": 25,
+        "pct": 49,
+        "tipIns": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        }
+      }
+    },
+    "totalSeconds": 3339
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1289,
+        "name": "Mike Saunders Jr."
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 96.9,
+    "idHash": "1275-1280-1289-16104-16105",
+    "netRating": 39.6,
+    "offenseRating": 136.5,
+    "opponentStats": {
+      "assists": 14,
+      "blocks": 4,
+      "defensiveRebounds": 26,
+      "fieldGoals": {
+        "attempted": 47,
+        "made": 21,
+        "pct": 44.7
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 52.1,
+        "freeThrowRate": 34,
+        "offensiveReboundPct": 41.9,
+        "turnoverRatio": 0.26
+      },
+      "freeThrows": {
+        "attempted": 16,
+        "made": 14,
+        "pct": 87.5
+      },
+      "offensiveRebounds": 13,
+      "points": 63,
+      "possessions": 65,
+      "steals": 4,
+      "threePointers": {
+        "attempted": 17,
+        "made": 7,
+        "pct": 41.2
+      },
+      "trueShooting": 58.3,
+      "turnovers": 17,
+      "twoPointers": {
+        "attempted": 30,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 10,
+          "made": 3,
+          "pct": 30
+        },
+        "layups": {
+          "attempted": 19,
+          "made": 10,
+          "pct": 52.6
+        },
+        "made": 14,
+        "pct": 46.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 55.2,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 15,
+      "blocks": 2,
+      "defensiveRebounds": 16,
+      "fieldGoals": {
+        "attempted": 60,
+        "made": 28,
+        "pct": 46.7
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 53.3,
+        "freeThrowRate": 25,
+        "offensiveReboundPct": 42.9,
+        "turnoverRatio": 0.15
+      },
+      "freeThrows": {
+        "attempted": 15,
+        "made": 7,
+        "pct": 46.7
+      },
+      "offensiveRebounds": 12,
+      "points": 71,
+      "possessions": 52,
+      "steals": 12,
+      "threePointers": {
+        "attempted": 21,
+        "made": 8,
+        "pct": 38.1
+      },
+      "trueShooting": 53.3,
+      "turnovers": 8,
+      "twoPointers": {
+        "attempted": 39,
+        "dunks": {
+          "attempted": 4,
+          "made": 4,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 6,
+          "made": 2,
+          "pct": 33.3
+        },
+        "layups": {
+          "attempted": 28,
+          "made": 14,
+          "pct": 50
+        },
+        "made": 20,
+        "pct": 51.3,
+        "tipIns": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 2544.4
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1289,
+        "name": "Mike Saunders Jr."
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      },
+      {
+        "id": 16108,
+        "name": "CJ Felder"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 137.9,
+    "idHash": "1275-1276-1289-16105-16108",
+    "netRating": -3.2,
+    "offenseRating": 134.7,
+    "opponentStats": {
+      "assists": 6,
+      "blocks": 0,
+      "defensiveRebounds": 7,
+      "fieldGoals": {
+        "attempted": 30,
+        "made": 11,
+        "pct": 36.7
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 43.3,
+        "freeThrowRate": 60,
+        "offensiveReboundPct": 71.4,
+        "turnoverRatio": 0.38
+      },
+      "freeThrows": {
+        "attempted": 18,
+        "made": 14,
+        "pct": 77.8
+      },
+      "offensiveRebounds": 5,
+      "points": 40,
+      "possessions": 29,
+      "steals": 4,
+      "threePointers": {
+        "attempted": 15,
+        "made": 4,
+        "pct": 26.7
+      },
+      "trueShooting": 52.7,
+      "turnovers": 11,
+      "twoPointers": {
+        "attempted": 15,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 5,
+          "made": 2,
+          "pct": 40
+        },
+        "layups": {
+          "attempted": 9,
+          "made": 4,
+          "pct": 44.4
+        },
+        "made": 7,
+        "pct": 46.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 48.7,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 11,
+      "blocks": 2,
+      "defensiveRebounds": 17,
+      "fieldGoals": {
+        "attempted": 35,
+        "made": 25,
+        "pct": 71.4
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 74.3,
+        "freeThrowRate": 51.4,
+        "offensiveReboundPct": 26.1,
+        "turnoverRatio": 0.14
+      },
+      "freeThrows": {
+        "attempted": 18,
+        "made": 14,
+        "pct": 77.8
+      },
+      "offensiveRebounds": 6,
+      "points": 66,
+      "possessions": 49,
+      "steals": 8,
+      "threePointers": {
+        "attempted": 5,
+        "made": 2,
+        "pct": 40
+      },
+      "trueShooting": 76.9,
+      "turnovers": 7,
+      "twoPointers": {
+        "attempted": 30,
+        "dunks": {
+          "attempted": 4,
+          "made": 4,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 11,
+          "made": 8,
+          "pct": 72.7
+        },
+        "layups": {
+          "attempted": 15,
+          "made": 11,
+          "pct": 73.3
+        },
+        "made": 23,
+        "pct": 76.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 1921.3
+  },
+  {
+    "athletes": [
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      },
+      {
+        "id": 16108,
+        "name": "CJ Felder"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 100,
+    "idHash": "1276-1280-16104-16105-16108",
+    "netRating": 21.7,
+    "offenseRating": 121.7,
+    "opponentStats": {
+      "assists": 4,
+      "blocks": 3,
+      "defensiveRebounds": 20,
+      "fieldGoals": {
+        "attempted": 44,
+        "made": 17,
+        "pct": 38.6
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 42,
+        "freeThrowRate": 43.2,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0.24
+      },
+      "freeThrows": {
+        "attempted": 19,
+        "made": 12,
+        "pct": 63.2
+      },
+      "offensiveRebounds": 10,
+      "points": 49,
+      "possessions": 49,
+      "steals": 4,
+      "threePointers": {
+        "attempted": 19,
+        "made": 3,
+        "pct": 15.8
+      },
+      "trueShooting": 46.8,
+      "turnovers": 12,
+      "twoPointers": {
+        "attempted": 25,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 9,
+          "made": 4,
+          "pct": 44.4
+        },
+        "layups": {
+          "attempted": 16,
+          "made": 10,
+          "pct": 62.5
+        },
+        "made": 14,
+        "pct": 56,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 61.4,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 7,
+      "blocks": 2,
+      "defensiveRebounds": 22,
+      "fieldGoals": {
+        "attempted": 40,
+        "made": 16,
+        "pct": 40
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 47.5,
+        "freeThrowRate": 52.5,
+        "offensiveReboundPct": 21.7,
+        "turnoverRatio": 0.17
+      },
+      "freeThrows": {
+        "attempted": 21,
+        "made": 18,
+        "pct": 85.7
+      },
+      "offensiveRebounds": 5,
+      "points": 56,
+      "possessions": 46,
+      "steals": 8,
+      "threePointers": {
+        "attempted": 16,
+        "made": 6,
+        "pct": 37.5
+      },
+      "trueShooting": 56.9,
+      "turnovers": 8,
+      "twoPointers": {
+        "attempted": 24,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 7,
+          "made": 3,
+          "pct": 42.9
+        },
+        "layups": {
+          "attempted": 16,
+          "made": 6,
+          "pct": 37.5
+        },
+        "made": 10,
+        "pct": 41.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 1855.4
+  },
+  {
+    "athletes": [
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1289,
+        "name": "Mike Saunders Jr."
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      },
+      {
+        "id": 16108,
+        "name": "CJ Felder"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 100,
+    "idHash": "1280-1289-16104-16105-16108",
+    "netRating": 34.4,
+    "offenseRating": 134.4,
+    "opponentStats": {
+      "assists": 6,
+      "blocks": 1,
+      "defensiveRebounds": 8,
+      "fieldGoals": {
+        "attempted": 28,
+        "made": 10,
+        "pct": 35.7
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 42.9,
+        "freeThrowRate": 14.3,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.33
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 3,
+        "pct": 75
+      },
+      "offensiveRebounds": 8,
+      "points": 27,
+      "possessions": 27,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 14,
+        "made": 4,
+        "pct": 28.6
+      },
+      "trueShooting": 45.4,
+      "turnovers": 9,
+      "twoPointers": {
+        "attempted": 14,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 5,
+          "made": 2,
+          "pct": 40
+        },
+        "layups": {
+          "attempted": 9,
+          "made": 4,
+          "pct": 44.4
+        },
+        "made": 6,
+        "pct": 42.9,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 52.7,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 12,
+      "blocks": 4,
+      "defensiveRebounds": 11,
+      "fieldGoals": {
+        "attempted": 27,
+        "made": 16,
+        "pct": 59.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 64.8,
+        "freeThrowRate": 33.3,
+        "offensiveReboundPct": 27.3,
+        "turnoverRatio": 0.13
+      },
+      "freeThrows": {
+        "attempted": 9,
+        "made": 8,
+        "pct": 88.9
+      },
+      "offensiveRebounds": 3,
+      "points": 43,
+      "possessions": 32,
+      "steals": 5,
+      "threePointers": {
+        "attempted": 7,
+        "made": 3,
+        "pct": 42.9
+      },
+      "trueShooting": 69.4,
+      "turnovers": 4,
+      "twoPointers": {
+        "attempted": 20,
+        "dunks": {
+          "attempted": 2,
+          "made": 2,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 4,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 14,
+          "made": 11,
+          "pct": 78.6
+        },
+        "made": 13,
+        "pct": 65,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 1343
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1289,
+        "name": "Mike Saunders Jr."
+      },
+      {
+        "id": 16108,
+        "name": "CJ Felder"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 129.2,
+    "idHash": "1275-1276-1280-1289-16108",
+    "netRating": -20.8,
+    "offenseRating": 108.3,
+    "opponentStats": {
+      "assists": 7,
+      "blocks": 0,
+      "defensiveRebounds": 8,
+      "fieldGoals": {
+        "attempted": 22,
+        "made": 9,
+        "pct": 40.9
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 54.5,
+        "freeThrowRate": 50,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.29
+      },
+      "freeThrows": {
+        "attempted": 11,
+        "made": 7,
+        "pct": 63.6
+      },
+      "offensiveRebounds": 8,
+      "points": 31,
+      "possessions": 24,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 12,
+        "made": 6,
+        "pct": 50
+      },
+      "trueShooting": 57.7,
+      "turnovers": 7,
+      "twoPointers": {
+        "attempted": 10,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 3,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 7,
+          "made": 3,
+          "pct": 42.9
+        },
+        "made": 3,
+        "pct": 30,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 53.6,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 3,
+      "blocks": 2,
+      "defensiveRebounds": 8,
+      "fieldGoals": {
+        "attempted": 20,
+        "made": 9,
+        "pct": 45
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 52.5,
+        "freeThrowRate": 35,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0.29
+      },
+      "freeThrows": {
+        "attempted": 7,
+        "made": 5,
+        "pct": 71.4
+      },
+      "offensiveRebounds": 4,
+      "points": 26,
+      "possessions": 24,
+      "steals": 6,
+      "threePointers": {
+        "attempted": 8,
+        "made": 3,
+        "pct": 37.5
+      },
+      "trueShooting": 56.3,
+      "turnovers": 7,
+      "twoPointers": {
+        "attempted": 12,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 5,
+          "made": 1,
+          "pct": 20
+        },
+        "layups": {
+          "attempted": 6,
+          "made": 4,
+          "pct": 66.7
+        },
+        "made": 6,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 1075
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1289,
+        "name": "Mike Saunders Jr."
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 74.1,
+    "idHash": "1275-1276-1289-16104-16105",
+    "netRating": 71.8,
+    "offenseRating": 145.8,
+    "opponentStats": {
+      "assists": 3,
+      "blocks": 1,
+      "defensiveRebounds": 12,
+      "fieldGoals": {
+        "attempted": 16,
+        "made": 4,
+        "pct": 25
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 31.3,
+        "freeThrowRate": 62.5,
+        "offensiveReboundPct": 20,
+        "turnoverRatio": 0.37
+      },
+      "freeThrows": {
+        "attempted": 10,
+        "made": 10,
+        "pct": 100
+      },
+      "offensiveRebounds": 3,
+      "points": 20,
+      "possessions": 27,
+      "steals": 3,
+      "threePointers": {
+        "attempted": 5,
+        "made": 2,
+        "pct": 40
+      },
+      "trueShooting": 49,
+      "turnovers": 10,
+      "twoPointers": {
+        "attempted": 11,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 7,
+          "made": 1,
+          "pct": 14.3
+        },
+        "layups": {
+          "attempted": 3,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 2,
+        "pct": 18.2,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 62.7,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 8,
+      "blocks": 4,
+      "defensiveRebounds": 10,
+      "fieldGoals": {
+        "attempted": 21,
+        "made": 11,
+        "pct": 52.4
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 64.3,
+        "freeThrowRate": 61.9,
+        "offensiveReboundPct": 20,
+        "turnoverRatio": 0.13
+      },
+      "freeThrows": {
+        "attempted": 13,
+        "made": 8,
+        "pct": 61.5
+      },
+      "offensiveRebounds": 2,
+      "points": 35,
+      "possessions": 24,
+      "steals": 7,
+      "threePointers": {
+        "attempted": 9,
+        "made": 5,
+        "pct": 55.6
+      },
+      "trueShooting": 65.5,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 12,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 3,
+          "made": 1,
+          "pct": 33.3
+        },
+        "layups": {
+          "attempted": 8,
+          "made": 4,
+          "pct": 50
+        },
+        "made": 6,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 975.6
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      },
+      {
+        "id": 16108,
+        "name": "CJ Felder"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 110,
+    "idHash": "1275-1280-1286-16105-16108",
+    "netRating": 3,
+    "offenseRating": 113,
+    "opponentStats": {
+      "assists": 5,
+      "blocks": 0,
+      "defensiveRebounds": 5,
+      "fieldGoals": {
+        "attempted": 20,
+        "made": 8,
+        "pct": 40
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 55,
+        "freeThrowRate": 5,
+        "offensiveReboundPct": 80,
+        "turnoverRatio": 0.35
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 4,
+      "points": 22,
+      "possessions": 20,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 12,
+        "made": 6,
+        "pct": 50
+      },
+      "trueShooting": 53.8,
+      "turnovers": 7,
+      "twoPointers": {
+        "attempted": 8,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 4,
+          "made": 1,
+          "pct": 25
+        },
+        "layups": {
+          "attempted": 4,
+          "made": 1,
+          "pct": 25
+        },
+        "made": 2,
+        "pct": 25,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 60.6,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 5,
+      "blocks": 1,
+      "defensiveRebounds": 10,
+      "fieldGoals": {
+        "attempted": 13,
+        "made": 8,
+        "pct": 61.5
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 65.4,
+        "freeThrowRate": 130.8,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0.22
+      },
+      "freeThrows": {
+        "attempted": 17,
+        "made": 9,
+        "pct": 52.9
+      },
+      "offensiveRebounds": 5,
+      "points": 26,
+      "possessions": 23,
+      "steals": 4,
+      "threePointers": {
+        "attempted": 5,
+        "made": 1,
+        "pct": 20
+      },
+      "trueShooting": 63.5,
+      "turnovers": 5,
+      "twoPointers": {
+        "attempted": 8,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 2,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 5,
+          "made": 4,
+          "pct": 80
+        },
+        "made": 7,
+        "pct": 87.5,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 851
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      },
+      {
+        "id": 16108,
+        "name": "CJ Felder"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 81.8,
+    "idHash": "1275-1276-1286-16105-16108",
+    "netRating": 33,
+    "offenseRating": 114.8,
+    "opponentStats": {
+      "assists": 5,
+      "blocks": 0,
+      "defensiveRebounds": 4,
+      "fieldGoals": {
+        "attempted": 23,
+        "made": 8,
+        "pct": 34.8
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 39.1,
+        "freeThrowRate": 8.7,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.45
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 6,
+      "points": 18,
+      "possessions": 22,
+      "steals": 4,
+      "threePointers": {
+        "attempted": 10,
+        "made": 2,
+        "pct": 20
+      },
+      "trueShooting": 37.7,
+      "turnovers": 10,
+      "twoPointers": {
+        "attempted": 13,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 3,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 9,
+          "made": 5,
+          "pct": 55.6
+        },
+        "made": 6,
+        "pct": 46.2,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 74,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 5,
+      "blocks": 5,
+      "defensiveRebounds": 11,
+      "fieldGoals": {
+        "attempted": 14,
+        "made": 8,
+        "pct": 57.1
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 64.3,
+        "freeThrowRate": 135.7,
+        "offensiveReboundPct": 72.7,
+        "turnoverRatio": 0.3
+      },
+      "freeThrows": {
+        "attempted": 19,
+        "made": 13,
+        "pct": 68.4
+      },
+      "offensiveRebounds": 8,
+      "points": 31,
+      "possessions": 27,
+      "steals": 3,
+      "threePointers": {
+        "attempted": 4,
+        "made": 2,
+        "pct": 50
+      },
+      "trueShooting": 69.3,
+      "turnovers": 8,
+      "twoPointers": {
+        "attempted": 10,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 4,
+          "made": 2,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 5,
+          "made": 3,
+          "pct": 60
+        },
+        "made": 6,
+        "pct": 60,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 795.1
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 106.7,
+    "idHash": "1275-1276-1280-1286-16104",
+    "netRating": -6.7,
+    "offenseRating": 100,
+    "opponentStats": {
+      "assists": 4,
+      "blocks": 0,
+      "defensiveRebounds": 8,
+      "fieldGoals": {
+        "attempted": 15,
+        "made": 5,
+        "pct": 33.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 43.3,
+        "freeThrowRate": 33.3,
+        "offensiveReboundPct": 20,
+        "turnoverRatio": 0.13
+      },
+      "freeThrows": {
+        "attempted": 5,
+        "made": 3,
+        "pct": 60
+      },
+      "offensiveRebounds": 2,
+      "points": 16,
+      "possessions": 15,
+      "steals": 3,
+      "threePointers": {
+        "attempted": 10,
+        "made": 3,
+        "pct": 30
+      },
+      "trueShooting": 46.5,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 5,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 3,
+          "made": 2,
+          "pct": 66.7
+        },
+        "made": 2,
+        "pct": 40,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 53.3,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 3,
+      "blocks": 0,
+      "defensiveRebounds": 9,
+      "fieldGoals": {
+        "attempted": 20,
+        "made": 7,
+        "pct": 35
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 40,
+        "freeThrowRate": 35,
+        "offensiveReboundPct": 46.7,
+        "turnoverRatio": 0.2
+      },
+      "freeThrows": {
+        "attempted": 7,
+        "made": 4,
+        "pct": 57.1
+      },
+      "offensiveRebounds": 7,
+      "points": 20,
+      "possessions": 20,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 4,
+        "made": 2,
+        "pct": 50
+      },
+      "trueShooting": 43.3,
+      "turnovers": 4,
+      "twoPointers": {
+        "attempted": 16,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 6,
+          "made": 1,
+          "pct": 16.7
+        },
+        "layups": {
+          "attempted": 9,
+          "made": 3,
+          "pct": 33.3
+        },
+        "made": 5,
+        "pct": 31.3,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 788.2
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16106,
+        "name": "Roberts Berze"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 40,
+    "idHash": "1275-1280-1286-16104-16106",
+    "netRating": 86.7,
+    "offenseRating": 126.7,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 9,
+      "fieldGoals": {
+        "attempted": 16,
+        "made": 3,
+        "pct": 18.8
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 25,
+        "freeThrowRate": 6.3,
+        "offensiveReboundPct": 40,
+        "turnoverRatio": 0.4
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 6,
+      "points": 8,
+      "possessions": 20,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 8,
+        "made": 2,
+        "pct": 25
+      },
+      "trueShooting": 24.3,
+      "turnovers": 8,
+      "twoPointers": {
+        "attempted": 8,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 5,
+          "made": 1,
+          "pct": 20
+        },
+        "layups": {
+          "attempted": 3,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 12.5,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 67.9,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 7,
+      "blocks": 1,
+      "defensiveRebounds": 7,
+      "fieldGoals": {
+        "attempted": 18,
+        "made": 8,
+        "pct": 44.4
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 27.8,
+        "offensiveReboundPct": 71.4,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 5,
+        "made": 1,
+        "pct": 20
+      },
+      "offensiveRebounds": 5,
+      "points": 19,
+      "possessions": 15,
+      "steals": 4,
+      "threePointers": {
+        "attempted": 9,
+        "made": 2,
+        "pct": 22.2
+      },
+      "trueShooting": 47,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 9,
+        "dunks": {
+          "attempted": 2,
+          "made": 2,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 6,
+          "made": 4,
+          "pct": 66.7
+        },
+        "made": 6,
+        "pct": 66.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 619
+  },
+  {
+    "athletes": [
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1289,
+        "name": "Mike Saunders Jr."
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      },
+      {
+        "id": 16108,
+        "name": "CJ Felder"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 115.4,
+    "idHash": "1276-1289-16104-16105-16108",
+    "netRating": 17.9,
+    "offenseRating": 133.3,
+    "opponentStats": {
+      "assists": 3,
+      "blocks": 0,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 12,
+        "made": 6,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 58.3,
+        "freeThrowRate": 25,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.23
+      },
+      "freeThrows": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "offensiveRebounds": 3,
+      "points": 15,
+      "possessions": 13,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 7,
+        "made": 2,
+        "pct": 28.6
+      },
+      "trueShooting": 56.3,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 5,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 4,
+          "made": 3,
+          "pct": 75
+        },
+        "made": 4,
+        "pct": 80,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 48.8,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 4,
+      "fieldGoals": {
+        "attempted": 9,
+        "made": 5,
+        "pct": 55.6
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 55.6,
+        "freeThrowRate": 44.4,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 2,
+        "pct": 50
+      },
+      "offensiveRebounds": 2,
+      "points": 12,
+      "possessions": 9,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 55.8,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 7,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 5,
+          "made": 4,
+          "pct": 80
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "made": 5,
+        "pct": 71.4,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 541.4
+  },
+  {
+    "athletes": [
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1289,
+        "name": "Mike Saunders Jr."
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16108,
+        "name": "CJ Felder"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 212.5,
+    "idHash": "1276-1280-1289-16104-16108",
+    "netRating": -118.1,
+    "offenseRating": 94.4,
+    "opponentStats": {
+      "assists": 5,
+      "blocks": 1,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 13,
+        "made": 5,
+        "pct": 38.5
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 53.8,
+        "offensiveReboundPct": 66.7,
+        "turnoverRatio": 0.25
+      },
+      "freeThrows": {
+        "attempted": 7,
+        "made": 4,
+        "pct": 57.1
+      },
+      "offensiveRebounds": 2,
+      "points": 17,
+      "possessions": 8,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 8,
+        "made": 3,
+        "pct": 37.5
+      },
+      "trueShooting": 52.9,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 5,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 4,
+          "made": 1,
+          "pct": 25
+        },
+        "made": 2,
+        "pct": 40,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 58.6,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 4,
+      "blocks": 1,
+      "defensiveRebounds": 7,
+      "fieldGoals": {
+        "attempted": 8,
+        "made": 7,
+        "pct": 87.5
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 93.8,
+        "freeThrowRate": 25,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.22
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 0,
+      "points": 17,
+      "possessions": 18,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "trueShooting": 95.7,
+      "turnovers": 4,
+      "twoPointers": {
+        "attempted": 7,
+        "dunks": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 5,
+          "made": 5,
+          "pct": 100
+        },
+        "made": 6,
+        "pct": 85.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 532
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      },
+      {
+        "id": 16106,
+        "name": "Roberts Berze"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 127.3,
+    "idHash": "1275-1286-16104-16105-16106",
+    "netRating": 82.7,
+    "offenseRating": 210,
+    "opponentStats": {
+      "assists": 2,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 13,
+        "made": 6,
+        "pct": 46.2
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 53.8,
+        "freeThrowRate": 15.4,
+        "offensiveReboundPct": 71.4,
+        "turnoverRatio": 0.27
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 5,
+      "points": 14,
+      "possessions": 11,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 5,
+        "made": 2,
+        "pct": 40
+      },
+      "trueShooting": 50.4,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 8,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 4,
+          "made": 2,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 3,
+          "made": 1,
+          "pct": 33.3
+        },
+        "made": 4,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 56,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 5,
+      "blocks": 2,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 9,
+        "made": 7,
+        "pct": 77.8
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 111.1,
+        "freeThrowRate": 22.2,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.1
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "offensiveRebounds": 0,
+      "points": 21,
+      "possessions": 10,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 6,
+        "made": 6,
+        "pct": 100
+      },
+      "trueShooting": 106.3,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 3,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 33.3,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 450
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1289,
+        "name": "Mike Saunders Jr."
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 200,
+    "idHash": "1275-1276-1280-1289-16104",
+    "netRating": -100,
+    "offenseRating": 100,
+    "opponentStats": {
+      "assists": 3,
+      "blocks": 1,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 13,
+        "made": 6,
+        "pct": 46.2
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 61.5,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 2,
+      "points": 16,
+      "possessions": 8,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 7,
+        "made": 4,
+        "pct": 57.1
+      },
+      "trueShooting": 61.5,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 6,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 4,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 2,
+        "pct": 33.3,
+        "tipIns": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        }
+      }
+    },
+    "pace": 53.7,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 5,
+      "fieldGoals": {
+        "attempted": 9,
+        "made": 3,
+        "pct": 33.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 33.3,
+        "freeThrowRate": 55.6,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.2
+      },
+      "freeThrows": {
+        "attempted": 5,
+        "made": 4,
+        "pct": 80
+      },
+      "offensiveRebounds": 5,
+      "points": 10,
+      "possessions": 10,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 44.6,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 7,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 3,
+          "made": 1,
+          "pct": 33.3
+        },
+        "layups": {
+          "attempted": 3,
+          "made": 1,
+          "pct": 33.3
+        },
+        "made": 3,
+        "pct": 42.9,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 402
+  },
+  {
+    "athletes": [
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      },
+      {
+        "id": 16108,
+        "name": "CJ Felder"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 0,
+    "idHash": "1280-1286-16104-16105-16108",
+    "netRating": 116.7,
+    "offenseRating": 116.7,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 5,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0.33
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 0,
+      "possessions": 3,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 4,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 46.6,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 1,
+      "defensiveRebounds": 4,
+      "fieldGoals": {
+        "attempted": 4,
+        "made": 1,
+        "pct": 25
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 37.5,
+        "freeThrowRate": 100,
+        "offensiveReboundPct": 20,
+        "turnoverRatio": 0.17
+      },
+      "freeThrows": {
+        "attempted": 4,
+        "made": 4,
+        "pct": 100
+      },
+      "offensiveRebounds": 1,
+      "points": 7,
+      "possessions": 6,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "trueShooting": 60.8,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 3,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 232
+  },
+  {
+    "athletes": [
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 3258,
+        "name": "Nasir Mann"
+      },
+      {
+        "id": 6450,
+        "name": "Dionjahe Thomas"
+      },
+      {
+        "id": 16106,
+        "name": "Roberts Berze"
+      },
+      {
+        "id": 16110,
+        "name": "Wesley Fields"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 66.7,
+    "idHash": "1280-3258-6450-16106-16110",
+    "netRating": 61.9,
+    "offenseRating": 128.6,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 1,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 4,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 50,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.33
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 3,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 20.5,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 52.2,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 4,
+      "fieldGoals": {
+        "attempted": 6,
+        "made": 3,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 58.3,
+        "freeThrowRate": 33.3,
+        "offensiveReboundPct": 20,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 1,
+      "points": 9,
+      "possessions": 7,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "trueShooting": 65.4,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 3,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 3,
+          "made": 2,
+          "pct": 66.7
+        },
+        "made": 2,
+        "pct": 66.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 230
+  },
+  {
+    "athletes": [
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 1289,
+        "name": "Mike Saunders Jr."
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      },
+      {
+        "id": 16108,
+        "name": "CJ Felder"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 60,
+    "idHash": "1286-1289-16104-16105-16108",
+    "netRating": -2.9,
+    "offenseRating": 57.1,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 1,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 6,
+        "made": 3,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0.5
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 6,
+      "possessions": 10,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 50,
+      "turnovers": 5,
+      "twoPointers": {
+        "attempted": 5,
+        "dunks": {
+          "attempted": 2,
+          "made": 2,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "made": 3,
+        "pct": 60,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 90.7,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 4,
+        "made": 1,
+        "pct": 25
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 25,
+        "freeThrowRate": 50,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0.57
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 1,
+      "points": 4,
+      "possessions": 7,
+      "steals": 3,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 41,
+      "turnovers": 4,
+      "twoPointers": {
+        "attempted": 3,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "made": 1,
+        "pct": 33.3,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 225
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 1289,
+        "name": "Mike Saunders Jr."
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 71.4,
+    "idHash": "1275-1276-1286-1289-16104",
+    "netRating": -21.4,
+    "offenseRating": 50,
+    "opponentStats": {
+      "assists": 2,
+      "blocks": 0,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 2,
+        "pct": 66.7
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 83.3,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.29
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 5,
+      "possessions": 7,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "trueShooting": 83.3,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 59.7,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 33.3,
+        "freeThrowRate": 33.3,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.5
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 4,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 29.1,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 3,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 33.3,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 221
+  },
+  {
+    "athletes": [
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      },
+      {
+        "id": 16106,
+        "name": "Roberts Berze"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 75,
+    "idHash": "1276-1280-16104-16105-16106",
+    "netRating": -75,
+    "offenseRating": 0,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 1,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 4,
+        "made": 1,
+        "pct": 25
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 37.5,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 3,
+      "possessions": 4,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 4,
+        "made": 1,
+        "pct": 25
+      },
+      "trueShooting": 37.5,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 57.8,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 6,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0.4
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 3,
+      "points": 0,
+      "possessions": 5,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 3,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 3,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 187
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 1289,
+        "name": "Mike Saunders Jr."
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      },
+      {
+        "id": 16108,
+        "name": "CJ Felder"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 0,
+    "idHash": "1275-1286-1289-16105-16108",
+    "netRating": 0,
+    "offenseRating": 0,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.6
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 5,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 3,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 42.6,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 0,
+      "possessions": 1,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 169
+  },
+  {
+    "athletes": [
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1289,
+        "name": "Mike Saunders Jr."
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16106,
+        "name": "Roberts Berze"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 140,
+    "idHash": "1276-1280-1289-16104-16106",
+    "netRating": -20,
+    "offenseRating": 120,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 1,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 4,
+        "made": 2,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 62.5,
+        "freeThrowRate": 75,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 3,
+        "made": 2,
+        "pct": 66.7
+      },
+      "offensiveRebounds": 1,
+      "points": 7,
+      "possessions": 5,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "trueShooting": 65.8,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 73.2,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 5,
+        "made": 2,
+        "pct": 40
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 20,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "offensiveRebounds": 0,
+      "points": 6,
+      "possessions": 5,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "trueShooting": 55.1,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 164
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      },
+      {
+        "id": 16106,
+        "name": "Roberts Berze"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 75,
+    "idHash": "1275-1280-1286-16105-16106",
+    "netRating": 45,
+    "offenseRating": 120,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 4,
+        "made": 1,
+        "pct": 25
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 37.5,
+        "freeThrowRate": 25,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.25
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 3,
+      "possessions": 4,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "trueShooting": 33.8,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 68.2,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 5,
+        "made": 2,
+        "pct": 40
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 40,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "offensiveRebounds": 1,
+      "points": 6,
+      "possessions": 5,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 4,
+        "made": 1,
+        "pct": 25
+      },
+      "trueShooting": 51,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 158.3
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      },
+      {
+        "id": 16106,
+        "name": "Roberts Berze"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 83.3,
+    "idHash": "1275-1276-1286-16105-16106",
+    "netRating": -8.3,
+    "offenseRating": 75,
+    "opponentStats": {
+      "assists": 2,
+      "blocks": 1,
+      "defensiveRebounds": 4,
+      "fieldGoals": {
+        "attempted": 6,
+        "made": 2,
+        "pct": 33.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 41.7,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 20,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 5,
+      "possessions": 6,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 4,
+        "made": 1,
+        "pct": 25
+      },
+      "trueShooting": 41.7,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 77.4,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 4,
+        "made": 1,
+        "pct": 25
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 25,
+        "freeThrowRate": 150,
+        "offensiveReboundPct": 66.7,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 6,
+        "made": 1,
+        "pct": 16.7
+      },
+      "offensiveRebounds": 2,
+      "points": 3,
+      "possessions": 4,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 22.6,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 4,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 25,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 155
+  },
+  {
+    "athletes": [
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1289,
+        "name": "Mike Saunders Jr."
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      },
+      {
+        "id": 16106,
+        "name": "Roberts Berze"
+      },
+      {
+        "id": 16108,
+        "name": "CJ Felder"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 166.7,
+    "idHash": "1280-1289-16105-16106-16108",
+    "netRating": 0,
+    "offenseRating": 166.7,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 4,
+        "made": 2,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 62.5,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 5,
+      "possessions": 3,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "trueShooting": 62.5,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 52.9,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 125,
+        "freeThrowRate": 100,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 5,
+      "possessions": 3,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "trueShooting": 86.8,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 136
+  },
+  {
+    "athletes": [
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16108,
+        "name": "CJ Felder"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 120,
+    "idHash": "1276-1280-1286-16104-16108",
+    "netRating": -20,
+    "offenseRating": 100,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 5,
+        "made": 3,
+        "pct": 60
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 60,
+        "freeThrowRate": 20,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 6,
+      "possessions": 5,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 55.1,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 4,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 3,
+          "made": 2,
+          "pct": 66.7
+        },
+        "made": 3,
+        "pct": 75,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 99.2,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 3,
+      "blocks": 0,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 5,
+        "made": 3,
+        "pct": 60
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 60,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 6,
+      "possessions": 6,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 60,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 4,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 4,
+          "made": 3,
+          "pct": 75
+        },
+        "made": 3,
+        "pct": 75,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 133
+  },
+  {
+    "athletes": [
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 133.3,
+    "idHash": "1276-1280-1286-16104-16105",
+    "netRating": 16.7,
+    "offenseRating": 150,
+    "opponentStats": {
+      "assists": 3,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 4,
+        "made": 3,
+        "pct": 75
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 87.5,
+        "freeThrowRate": 25,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0.17
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "offensiveRebounds": 1,
+      "points": 8,
+      "possessions": 6,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "trueShooting": 90.1,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 3,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "made": 2,
+        "pct": 66.7,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 82.1,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 1,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.5
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 3,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "trueShooting": 50,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 117
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 3258,
+        "name": "Nasir Mann"
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 0,
+    "idHash": "1275-1280-1286-3258-16104",
+    "netRating": 140,
+    "offenseRating": 140,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.67
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 3,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 83.5,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 2,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 5,
+        "made": 3,
+        "pct": 60
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 70,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 33.3,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 7,
+      "possessions": 5,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "trueShooting": 70,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 2,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 115
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 16108,
+        "name": "CJ Felder"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 150,
+    "idHash": "1275-1276-1280-1286-16108",
+    "netRating": -100,
+    "offenseRating": 50,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 4,
+        "made": 1,
+        "pct": 25
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 37.5,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 3,
+      "possessions": 2,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "trueShooting": 37.5,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 3,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 3,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 63.5,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 1,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 200,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.25
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 4,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 53.2,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 113.3
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      },
+      {
+        "id": 16106,
+        "name": "Roberts Berze"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 66.7,
+    "idHash": "1275-1276-1280-16105-16106",
+    "netRating": 66.7,
+    "offenseRating": 133.3,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 50,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.33
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 3,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 41,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 109.1,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 3,
+      "blocks": 0,
+      "defensiveRebounds": 3,
+      "fieldGoals": {
+        "attempted": 4,
+        "made": 3,
+        "pct": 75
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 100,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 8,
+      "possessions": 6,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 3,
+        "made": 2,
+        "pct": 66.7
+      },
+      "trueShooting": 100,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 99
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1288,
+        "name": "T'Johnn Brown"
+      },
+      {
+        "id": 3258,
+        "name": "Nasir Mann"
+      },
+      {
+        "id": 6450,
+        "name": "Dionjahe Thomas"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 66.7,
+    "idHash": "1275-1280-1288-3258-6450",
+    "netRating": 33.3,
+    "offenseRating": 100,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 50,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.67
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 3,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 50,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 97,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 2,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 125,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.4
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 5,
+      "possessions": 5,
+      "steals": 2,
+      "threePointers": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "trueShooting": 125,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 99
+  },
+  {
+    "athletes": [
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      },
+      {
+        "id": 16106,
+        "name": "Roberts Berze"
+      },
+      {
+        "id": 16108,
+        "name": "CJ Felder"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 200,
+    "idHash": "1276-1280-16105-16106-16108",
+    "netRating": 0,
+    "offenseRating": 200,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 100,
+        "freeThrowRate": 200,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 0,
+      "points": 4,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 106.4,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 40,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 33.3,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 2,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 33.3,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 1,
+          "pct": 50
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 50,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 90
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 1288,
+        "name": "T'Johnn Brown"
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16106,
+        "name": "Roberts Berze"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 0,
+    "idHash": "1275-1286-1288-16104-16106",
+    "netRating": 40,
+    "offenseRating": 40,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 100,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 1
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 2,
+      "points": 0,
+      "possessions": 1,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 83.7,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 1,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 100,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.4
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 5,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 100,
+      "turnovers": 2,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 86
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 1289,
+        "name": "Mike Saunders Jr."
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 200,
+    "idHash": "1275-1280-1286-1289-16104",
+    "netRating": 100,
+    "offenseRating": 300,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 100,
+        "freeThrowRate": 300,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 3,
+        "made": 2,
+        "pct": 66.7
+      },
+      "offensiveRebounds": 0,
+      "points": 4,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 86.2,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 44.4,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 75,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 3,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "trueShooting": 75,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 81
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 16106,
+        "name": "Roberts Berze"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 300,
+    "idHash": "1275-1276-1280-1286-16106",
+    "netRating": -100,
+    "offenseRating": 200,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 1,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 75,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 3,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "trueShooting": 75,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 49.3,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 3,
+        "made": 1,
+        "pct": 33.3
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 33.3,
+        "freeThrowRate": 66.7,
+        "offensiveReboundPct": 66.7,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 2,
+      "points": 4,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 51.5,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 3,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 2,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 33.3,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 73
+  },
+  {
+    "athletes": [
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      },
+      {
+        "id": 16108,
+        "name": "CJ Felder"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": null,
+    "idHash": "1276-1286-16104-16105-16108",
+    "netRating": null,
+    "offenseRating": 250,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 44,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 125,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 5,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "trueShooting": 125,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 54.6
+  },
+  {
+    "athletes": [
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 1288,
+        "name": "T'Johnn Brown"
+      },
+      {
+        "id": 16106,
+        "name": "Roberts Berze"
+      },
+      {
+        "id": 16108,
+        "name": "CJ Felder"
+      },
+      {
+        "id": 16110,
+        "name": "Wesley Fields"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 100,
+    "idHash": "1286-1288-16106-16108-16110",
+    "netRating": null,
+    "offenseRating": null,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 100,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 100,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 46.2,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 52
+  },
+  {
+    "athletes": [
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 1288,
+        "name": "T'Johnn Brown"
+      },
+      {
+        "id": 16106,
+        "name": "Roberts Berze"
+      },
+      {
+        "id": 16108,
+        "name": "CJ Felder"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 0,
+    "idHash": "1280-1286-1288-16106-16108",
+    "netRating": 50,
+    "offenseRating": 50,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 73.5,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 2,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 200,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "offensiveRebounds": 0,
+      "points": 1,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 26.6,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 49
+  },
+  {
+    "athletes": [
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 3258,
+        "name": "Nasir Mann"
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16106,
+        "name": "Roberts Berze"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 0,
+    "idHash": "1280-1286-3258-16104-16106",
+    "netRating": null,
+    "offenseRating": null,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.5
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": null,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 53.3,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 0,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 45
+  },
+  {
+    "athletes": [
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 1289,
+        "name": "Mike Saunders Jr."
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16106,
+        "name": "Roberts Berze"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 0,
+    "idHash": "1280-1286-1289-16104-16106",
+    "netRating": null,
+    "offenseRating": null,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 0,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 28.6,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 42
+  },
+  {
+    "athletes": [
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16106,
+        "name": "Roberts Berze"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": null,
+    "idHash": "1276-1280-1286-16104-16106",
+    "netRating": null,
+    "offenseRating": 100,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 60,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.5
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 113.6,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 40
+  },
+  {
+    "athletes": [
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 1289,
+        "name": "Mike Saunders Jr."
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16106,
+        "name": "Roberts Berze"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 250,
+    "idHash": "1276-1286-1289-16104-16106",
+    "netRating": -250,
+    "offenseRating": 0,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 1,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 1,
+        "pct": 50
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 75,
+        "freeThrowRate": 100,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 0,
+      "points": 5,
+      "possessions": 2,
+      "steals": 1,
+      "threePointers": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "trueShooting": 86.8,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 129.7,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 1,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.5
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 37
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 1289,
+        "name": "Mike Saunders Jr."
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": null,
+    "idHash": "1275-1286-1289-16104-16105",
+    "netRating": null,
+    "offenseRating": 100,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 2,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 100,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 1,
+      "points": 0,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 2,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 2,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 70.6,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 100,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 100,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 34
+  },
+  {
+    "athletes": [
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 1289,
+        "name": "Mike Saunders Jr."
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16108,
+        "name": "CJ Felder"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 0,
+    "idHash": "1280-1286-1289-16104-16108",
+    "netRating": null,
+    "offenseRating": null,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0.5
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 2,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": null,
+      "turnovers": 1,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 82.8,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 29
+  },
+  {
+    "athletes": [
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      },
+      {
+        "id": 16106,
+        "name": "Roberts Berze"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 200,
+    "idHash": "1276-1286-16104-16105-16106",
+    "netRating": -200,
+    "offenseRating": 0,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 1,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 200,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 2,
+        "made": 2,
+        "pct": 100
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 53.2,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 85.7,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 28
+  },
+  {
+    "athletes": [
+      {
+        "id": 1276,
+        "name": "Javohn Garcia"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1289,
+        "name": "Mike Saunders Jr."
+      },
+      {
+        "id": 16104,
+        "name": "Antavion Collum"
+      },
+      {
+        "id": 16105,
+        "name": "Shahada Wells"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": 200,
+    "idHash": "1276-1280-1289-16104-16105",
+    "netRating": 0,
+    "offenseRating": 200,
+    "opponentStats": {
+      "assists": 1,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 100,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 100,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 100,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 1,
+        "pct": 100
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 100,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 2,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 100,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 1,
+          "pct": 100
+        },
+        "made": 1,
+        "pct": 100,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 24
+  },
+  {
+    "athletes": [
+      {
+        "id": 1275,
+        "name": "Christian Shumate"
+      },
+      {
+        "id": 1280,
+        "name": "DJ Richards Jr."
+      },
+      {
+        "id": 1286,
+        "name": "Omar Cooper"
+      },
+      {
+        "id": 1289,
+        "name": "Mike Saunders Jr."
+      },
+      {
+        "id": 16108,
+        "name": "CJ Felder"
+      }
+    ],
+    "conference": "Southland",
+    "defenseRating": null,
+    "idHash": "1275-1280-1286-1289-16108",
+    "netRating": null,
+    "offenseRating": 0,
+    "opponentStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 0,
+      "fieldGoals": {
+        "attempted": 1,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 0,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": 0,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 1,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 1,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "pace": 57.1,
+    "team": "McNeese",
+    "teamId": 162,
+    "teamStats": {
+      "assists": 0,
+      "blocks": 0,
+      "defensiveRebounds": 1,
+      "fieldGoals": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "fourFactors": {
+        "effectiveFieldGoalPct": 0,
+        "freeThrowRate": 0,
+        "offensiveReboundPct": 0,
+        "turnoverRatio": 0
+      },
+      "freeThrows": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "offensiveRebounds": 0,
+      "points": 0,
+      "possessions": 1,
+      "steals": 0,
+      "threePointers": {
+        "attempted": 0,
+        "made": 0,
+        "pct": 0
+      },
+      "trueShooting": null,
+      "turnovers": 0,
+      "twoPointers": {
+        "attempted": 0,
+        "dunks": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "jumpers": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "layups": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        },
+        "made": 0,
+        "pct": 0,
+        "tipIns": {
+          "attempted": 0,
+          "made": 0,
+          "pct": 0
+        }
+      }
+    },
+    "totalSeconds": 21
+  }
+]

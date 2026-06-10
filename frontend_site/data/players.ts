@@ -1,4 +1,7 @@
+import { draftPlayerIds } from "./draftPlayers";
 import { hsRecruitPlayers } from "./hsRecruits";
+import { returningPlayers } from "./returningPlayers";
+import { canonicalizeInstitution } from "./teamAliases";
 import { transferPlayers } from "./transferPlayers";
 
 export type PortalStatus = "not_in_portal" | "entered" | "committed" | "enrolled" | "withdrawn";
@@ -36,305 +39,52 @@ export type Player = {
   transfer_247_rank?: number | null;
   transfer_247_weight?: number | null;
   transfer_247_player_key?: number | null;
+  transfer_barttorvik_trid?: number | null;
+  transfer_bpr?: number | null;
+  returning_bvt_pid?: number | null;
+  returning_barttorvik_trid?: number | null;
+  returning_role?: string | null;
+  returning_current_bpr?: number | null;
+  returning_projected_bpr?: number | null;
+  season_basic_bpr?: number | null;
+  season_gp?: number | null;
+  season_mp?: number | null;
+  season_oreb?: number | null;
+  season_dreb?: number | null;
+  season_treb?: number | null;
+  season_ast?: number | null;
+  season_stl?: number | null;
+  season_blk?: number | null;
+  season_pts?: number | null;
+  season_ft_pct?: number | null;
+  skill_spacing_percentile?: number | null;
+  skill_facilitating_percentile?: number | null;
+  skill_rim_protection_percentile?: number | null;
+  skill_defense_percentile?: number | null;
+  skill_finishing_percentile?: number | null;
   hs_rating?: number | null;
   hs_stars?: number | null;
   hs_national_rank?: number | null;
   hs_position_rank?: number | null;
+  hs_bpr?: number | null;
   hs_player_key?: number;
+  draft_status?: boolean;
   top3_roles?: Array<{ label: string | null; probability: number | null }>;
 };
 
-export const basePlayers: Player[] = [
-  {
-    player_id: "p001",
-    player_name: "Malik Carter",
-    player_source: "transfer",
-    position: "PG",
-    height: "6-2",
-    weight: 188,
-    class_year: "Jr",
-    current_team: "Marquette",
-    previous_team: "Marquette",
-    conference: "Big East",
-    portal_status: "entered",
-    is_in_portal: true,
-    projected_bpr: 6.8,
-    projected_minutes: 31,
-    projected_points: 13.7,
-    projected_rebounds: 3.2,
-    projected_assists: 5.8,
-    playtype_probabilities: { "Pure PG": 0.46, "Scoring PG": 0.24, "Combo G": 0.19, "Wing G": 0.11 },
-    fit_score: 92,
-    recommendation_rank: 1,
-    fit_explanation: "High-usage creator with enough pull-up gravity to stabilize late-clock offense.",
-    scouting_summary: "Compact lead guard, reliable paint touch, strong assist profile, average switch defender.",
-  },
-  {
-    player_id: "p002",
-    player_name: "Darius Holt",
-    player_source: "transfer",
-    position: "SF",
-    height: "6-7",
-    weight: 214,
-    class_year: "So",
-    current_team: "Kansas State",
-    previous_team: "Kansas State",
-    new_team: "UCLA",
-    conference: "Big 12",
-    portal_status: "committed",
-    is_in_portal: true,
-    committed_team: "UCLA",
-    projected_bpr: 6.2,
-    projected_minutes: 29,
-    projected_points: 12.1,
-    projected_rebounds: 5.4,
-    projected_assists: 2.1,
-    playtype_probabilities: { "Wing F": 0.42, "Wing G": 0.25, "Stretch 4": 0.19, "PF/C": 0.14 },
-    fit_score: 87,
-    recommendation_rank: 4,
-    fit_explanation: "Best with a rim-running five and a downhill guard who can create spot-up attempts.",
-    scouting_summary: "Physical wing with rebounding pop and developing off-ball shooting profile.",
-  },
-  {
-    player_id: "p003",
-    player_name: "Cam Whitaker",
-    player_source: "roster",
-    position: "C",
-    height: "6-11",
-    weight: 245,
-    class_year: "Sr",
-    current_team: "Virginia",
-    conference: "ACC",
-    portal_status: "not_in_portal",
-    is_in_portal: false,
-    projected_bpr: 5.9,
-    projected_minutes: 27,
-    projected_points: 10.4,
-    projected_rebounds: 8.2,
-    projected_assists: 1.1,
-    playtype_probabilities: { C: 0.71, "PF/C": 0.17, "Stretch 4": 0.08, "Wing F": 0.04 },
-    fit_score: 79,
-    recommendation_rank: 12,
-    fit_explanation: "Anchors drop coverage and improves defensive rebounding immediately.",
-    scouting_summary: "Low-mistake big with verticality, glass work, and short-roll limitations.",
-  },
-  {
-    player_id: "p004",
-    player_name: "Noah Price",
-    player_source: "transfer",
-    position: "SG",
-    height: "6-4",
-    weight: 198,
-    class_year: "Gr",
-    current_team: "Washington",
-    previous_team: "Washington",
-    conference: "Big Ten",
-    portal_status: "entered",
-    is_in_portal: true,
-    projected_bpr: 5.5,
-    projected_minutes: 30,
-    projected_points: 14.4,
-    projected_rebounds: 3.9,
-    projected_assists: 2.7,
-    playtype_probabilities: { "Wing G": 0.38, "Scoring PG": 0.26, "Combo G": 0.25, "Pure PG": 0.11 },
-    fit_score: 84,
-    recommendation_rank: 6,
-    fit_explanation: "Clean fit for teams needing movement shooting without surrendering guard size.",
-    scouting_summary: "Volume shooter, solid secondary passer, best as second-side attacker.",
-  },
-  {
-    player_id: "p005",
-    player_name: "Tyrese Nolan",
-    player_source: "transfer",
-    position: "PF",
-    height: "6-9",
-    weight: 232,
-    class_year: "Jr",
-    current_team: "Memphis",
-    previous_team: "Memphis",
-    new_team: "Indiana",
-    conference: "AAC",
-    portal_status: "enrolled",
-    is_in_portal: true,
-    committed_team: "Indiana",
-    projected_bpr: 5.2,
-    projected_minutes: 24,
-    projected_points: 9.6,
-    projected_rebounds: 6.7,
-    projected_assists: 1.6,
-    playtype_probabilities: { "PF/C": 0.4, "Stretch 4": 0.24, C: 0.22, "Wing F": 0.14 },
-    fit_score: 81,
-    recommendation_rank: 9,
-    fit_explanation: "Most valuable in lineups that need frontcourt mobility more than pure rim size.",
-    scouting_summary: "Hybrid frontcourt defender, good motor, workable corner shooter.",
-  },
-  {
-    player_id: "p006",
-    player_name: "Eli Sanders",
-    player_source: "roster",
-    position: "PG",
-    height: "6-1",
-    weight: 176,
-    class_year: "Fr",
-    current_team: "Duke",
-    conference: "ACC",
-    portal_status: "not_in_portal",
-    is_in_portal: false,
-    projected_bpr: 4.8,
-    projected_minutes: 21,
-    projected_points: 8.3,
-    projected_rebounds: 2.4,
-    projected_assists: 4.2,
-    playtype_probabilities: { "Pure PG": 0.35, "Scoring PG": 0.29, "Combo G": 0.22, "Wing G": 0.14 },
-    fit_score: 88,
-    recommendation_rank: 3,
-    fit_explanation: "Best with two plus shooters and a lob threat because his first step creates rotations.",
-    scouting_summary: "Freshman creator with real pace, advanced handle, and strength questions.",
-  },
-  {
-    player_id: "p007",
-    player_name: "Kobe Daniels",
-    player_source: "transfer",
-    position: "SG",
-    height: "6-5",
-    weight: 205,
-    class_year: "So",
-    current_team: "Florida",
-    previous_team: "Florida",
-    conference: "SEC",
-    portal_status: "entered",
-    is_in_portal: true,
-    projected_bpr: 4.6,
-    projected_minutes: 25,
-    projected_points: 11.2,
-    projected_rebounds: 4.1,
-    projected_assists: 1.9,
-    playtype_probabilities: { "Wing G": 0.49, "Combo G": 0.19, "Wing F": 0.18, "Scoring PG": 0.14 },
-    fit_score: 76,
-    recommendation_rank: 15,
-    fit_explanation: "Useful floor spacer for teams with a primary point guard already in place.",
-    scouting_summary: "Long guard, catch-and-shoot profile, needs tighter live-dribble reads.",
-  },
-  {
-    player_id: "p008",
-    player_name: "Jonas Keller",
-    player_source: "transfer",
-    position: "C",
-    height: "7-0",
-    weight: 250,
-    class_year: "Jr",
-    current_team: "Utah State",
-    previous_team: "Utah State",
-    conference: "Mountain West",
-    portal_status: "entered",
-    is_in_portal: true,
-    projected_bpr: 4.4,
-    projected_minutes: 23,
-    projected_points: 9.1,
-    projected_rebounds: 7.5,
-    projected_assists: 0.8,
-    playtype_probabilities: { C: 0.66, "PF/C": 0.23, "Stretch 4": 0.07, "Wing F": 0.04 },
-    fit_score: 73,
-    recommendation_rank: 18,
-    fit_explanation: "Raises the defensive floor for teams comfortable playing slower half-court possessions.",
-    scouting_summary: "Traditional center with rim size, limited range, and solid screen setting.",
-  },
-  {
-    player_id: "p009",
-    player_name: "Marcus Bell",
-    player_source: "roster",
-    position: "SF",
-    height: "6-6",
-    weight: 210,
-    class_year: "Sr",
-    current_team: "Texas Tech",
-    conference: "Big 12",
-    portal_status: "not_in_portal",
-    is_in_portal: false,
-    projected_bpr: 4.1,
-    projected_minutes: 24,
-    projected_points: 8.7,
-    projected_rebounds: 4.8,
-    projected_assists: 2.2,
-    playtype_probabilities: { "Wing F": 0.36, "Wing G": 0.27, "Stretch 4": 0.2, "PF/C": 0.17 },
-    fit_score: 74,
-    recommendation_rank: 17,
-    fit_explanation: "Defensive connector who fits best next to high-usage perimeter creators.",
-    scouting_summary: "Versatile defender, low-usage cutter, reliable but low-volume shooter.",
-  },
-  {
-    player_id: "p010",
-    player_name: "Andre Mills",
-    player_source: "transfer",
-    position: "PF",
-    height: "6-8",
-    weight: 225,
-    class_year: "So",
-    current_team: "Cincinnati",
-    previous_team: "Cincinnati",
-    conference: "Big 12",
-    portal_status: "committed",
-    is_in_portal: true,
-    committed_team: "Providence",
-    projected_bpr: 3.7,
-    projected_minutes: 20,
-    projected_points: 7.6,
-    projected_rebounds: 5.5,
-    projected_assists: 1.1,
-    playtype_probabilities: { "PF/C": 0.39, "Wing F": 0.25, "Stretch 4": 0.21, C: 0.15 },
-    fit_score: 69,
-    recommendation_rank: 22,
-    fit_explanation: "Depth frontcourt piece who can cover bench minutes at either big slot.",
-    scouting_summary: "Strong frame, developing touch, most comfortable around the elbows and dunker spot.",
-  },
-  {
-    player_id: "p011",
-    player_name: "Jalen Ware",
-    player_source: "roster",
-    position: "SG",
-    height: "6-3",
-    weight: 184,
-    class_year: "Fr",
-    current_team: "Arizona",
-    conference: "Big 12",
-    portal_status: "not_in_portal",
-    is_in_portal: false,
-    projected_bpr: 3.5,
-    projected_minutes: 18,
-    projected_points: 7.1,
-    projected_rebounds: 2.3,
-    projected_assists: 2.0,
-    playtype_probabilities: { "Combo G": 0.34, "Scoring PG": 0.29, "Wing G": 0.25, "Pure PG": 0.12 },
-    fit_score: 83,
-    recommendation_rank: 8,
-    fit_explanation: "Developmental bench guard with enough downhill pressure to earn early rotation minutes.",
-    scouting_summary: "Explosive freshman scorer, streaky jumper, best in tempo lineups.",
-  },
-  {
-    player_id: "p012",
-    player_name: "Sam Okoro",
-    player_source: "roster",
-    position: "C",
-    height: "6-10",
-    weight: 238,
-    class_year: "Fr",
-    current_team: "UConn",
-    conference: "Big East",
-    portal_status: "not_in_portal",
-    is_in_portal: false,
-    projected_bpr: 3.2,
-    projected_minutes: 15,
-    projected_points: 5.9,
-    projected_rebounds: 5.2,
-    projected_assists: 0.6,
-    playtype_probabilities: { C: 0.58, "PF/C": 0.28, "Stretch 4": 0.09, "Wing F": 0.05 },
-    fit_score: 85,
-    recommendation_rank: 5,
-    fit_explanation: "Projects as a high-impact backup center if foul rate stays manageable.",
-    scouting_summary: "Young rim protector with strong hands, raw post counters, and real vertical pop.",
-  },
-];
+export const basePlayers: Player[] = [];
 
 const rosterPlayers = basePlayers.filter((player) => player.player_source !== "transfer");
 
-export const players: Player[] = [...rosterPlayers, ...transferPlayers, ...hsRecruitPlayers];
+function canonicalizePlayerInstitutions(player: Player): Player {
+  return {
+    ...player,
+    draft_status: draftPlayerIds.has(player.player_id) || undefined,
+    current_team: canonicalizeInstitution(player.current_team) ?? player.current_team,
+    previous_team: canonicalizeInstitution(player.previous_team),
+    new_team: canonicalizeInstitution(player.new_team),
+    committed_team: canonicalizeInstitution(player.committed_team),
+  };
+}
+
+export const players: Player[] = [...rosterPlayers, ...returningPlayers, ...transferPlayers, ...hsRecruitPlayers].map(canonicalizePlayerInstitutions);

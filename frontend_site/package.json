@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "clsx": "^2.1.1",
+    "glpk.js": "^5.0.0",
     "lucide-react": "^0.468.0",
     "next": "^14.2.18",
     "react": "^18.3.1",

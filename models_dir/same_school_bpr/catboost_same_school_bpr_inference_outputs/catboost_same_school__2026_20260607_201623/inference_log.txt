@@ -1,0 +1,127 @@
+Starting CatBoost same school BPR inference
+Run directory: catboost_same_school_bpr_inference_outputs/catboost_same_school__2026_20260607_201623
+DB path: /Users/anirudhhaharsha/Desktop/sports_analytics_projects/Basketball/College Basketball Project/uiuc_proj/data_dir/evan_miya_barttorvik_matched.db
+Table name: evan_miya_barttorvik_matched
+Filter year column: year
+Inference year: 2026
+Model path: /Users/anirudhhaharsha/Desktop/sports_analytics_projects/Basketball/College Basketball Project/uiuc_proj/models_dir/same_school_bpr/catboost_transfer_bpr_refactored_outputs/catboost_transfer_refactored_run_20260607_195230/catboost_transfer_refactored_production_train_valid_model.cbm
+Prediction column: pred_next_basic_bpr
+
+Raw inference rows loaded: 3,743
+Raw columns loaded: 128
+Query:
+
+SELECT *
+FROM "evan_miya_barttorvik_matched"
+WHERE "year" = 2026
+;
+
+Saved raw inference rows: catboost_same_school_bpr_inference_outputs/catboost_same_school__2026_20260607_201623/raw_inference_rows_2026.csv
+
+Height source used: bvt_ht
+Rows with non-null bvt_ht: 3,743
+Rows filled from bvt_ht: 3,743
+Remaining missing player_height_in: 0
+
+Height source used: bvt_player_height
+Rows with non-null bvt_player_height: 3,743
+Rows filled from bvt_player_height: 0
+Remaining missing player_height_in: 0
+
+Final height feature summary:
+Non-null player_height_in: 3,743
+Missing player_height_in: 0
+Saved internal model frame before dtype prep: catboost_same_school_bpr_inference_outputs/catboost_same_school__2026_20260607_201623/internal_model_frame_before_dtype_prep.csv
+Saved internal model frame after dtype prep: catboost_same_school_bpr_inference_outputs/catboost_same_school__2026_20260607_201623/internal_model_frame_after_dtype_prep.csv
+
+Inference missingness report:
+                                feature  missing_rate
+                       old_bvt_Rec Rank      0.744056
+old_bvt_dunksmade/(dunksmade+dunksmiss)      0.298958
+      old_bvt_midmade/(midmade+midmiss)      0.005878
+      old_bvt_rimmade/(rimmade+rimmiss)      0.002137
+                          old_basic_bpr      0.000000
+                         old_basic_poss      0.000000
+                     old_basic_box_obpr      0.000000
+                     old_basic_box_dbpr      0.000000
+                      old_basic_box_bpr      0.000000
+             old_basic_adj_team_off_eff      0.000000
+             old_basic_adj_team_def_eff      0.000000
+          old_basic_adj_team_eff_margin      0.000000
+                   old_basic_plus_minus      0.000000
+                  old_advanced_position      0.000000
+                      old_advanced_role      0.000000
+                             old_bvt_GP      0.000000
+                        old_bvt_Min_per      0.000000
+                           old_bvt_ORtg      0.000000
+                            old_bvt_usg      0.000000
+                            old_bvt_eFG      0.000000
+                         old_bvt_TS_per      0.000000
+                        old_bvt_ORB_per      0.000000
+                        old_bvt_DRB_per      0.000000
+                        old_bvt_AST_per      0.000000
+                         old_bvt_TO_per      0.000000
+                            old_bvt_FTM      0.000000
+                            old_bvt_FTA      0.000000
+                         old_bvt_FT_per      0.000000
+                          old_bvt_twoPM      0.000000
+                          old_bvt_twoPA      0.000000
+                       old_bvt_twoP_per      0.000000
+                            old_bvt_TPM      0.000000
+                            old_bvt_TPA      0.000000
+                         old_bvt_TP_per      0.000000
+                        old_bvt_blk_per      0.000000
+                        old_bvt_stl_per      0.000000
+                            old_bvt_ftr      0.000000
+                         old_bvt_porpag      0.000000
+                          old_bvt_adjoe      0.000000
+                            old_bvt_pfr      0.000000
+                         old_basic_dbpr      0.000000
+                        old_bvt_ast/tov      0.000000
+                        old_bvt_rimmade      0.000000
+                old_bvt_rimmade+rimmiss      0.000000
+                        old_bvt_midmade      0.000000
+                old_bvt_midmade+midmiss      0.000000
+                         old_basic_obpr      0.000000
+                               old_rank      0.000000
+                      old_bvt_dunksmade      0.000000
+            old_bvt_dunksmiss+dunksmade      0.000000
+                               old_year      0.000000
+                           old_bvt_drtg      0.000000
+                          old_bvt_adrtg      0.000000
+                        old_bvt_dporpag      0.000000
+                          old_bvt_stops      0.000000
+                            old_bvt_bpm      0.000000
+                           old_bvt_obpm      0.000000
+                           old_bvt_dbpm      0.000000
+                           old_bvt_gbpm      0.000000
+                             old_bvt_mp      0.000000
+                          old_bvt_ogbpm      0.000000
+                          old_bvt_dgbpm      0.000000
+                           old_bvt_oreb      0.000000
+                           old_bvt_dreb      0.000000
+                           old_bvt_treb      0.000000
+                            old_bvt_ast      0.000000
+                            old_bvt_stl      0.000000
+                            old_bvt_blk      0.000000
+                            old_bvt_pts      0.000000
+                        old_bvt_3p/100?      0.000000
+                       player_height_in      0.000000
+                     old_advanced_class      0.000000
+                           old_bvt_role      0.000000
+
+Loaded CatBoost model.
+
+Prediction summary:
+Rows predicted: 3,743
+pred_next_basic_bpr mean: 0.9153
+pred_next_basic_bpr std:  2.4761
+pred_next_basic_bpr min:  -4.1264
+pred_next_basic_bpr max:  8.8490
+
+Saved full predictions: catboost_same_school_bpr_inference_outputs/catboost_same_school__2026_20260607_201623/catboost_same_school_predictions_2026.csv
+Saved summary predictions: catboost_same_school_bpr_inference_outputs/catboost_same_school__2026_20260607_201623/catboost_same_school_predictions_2026_summary.csv
+Saved inference config: catboost_same_school_bpr_inference_outputs/catboost_same_school__2026_20260607_201623/inference_config.json
+
+Done.
+Outputs saved to: catboost_same_school_bpr_inference_outputs/catboost_same_school__2026_20260607_201623

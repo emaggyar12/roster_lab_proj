@@ -1,0 +1,48 @@
+
+Cluster 0
+------------------------------------------------------------
+1. bvt_eFG | mean pull=3.4790 | median pull=2.9663 | players=7038
+2. bvt_TS_per | mean pull=3.4082 | median pull=2.9278 | players=7051
+3. bvt_twoP_per | mean pull=3.0629 | median pull=2.5851 | players=5288
+4. bvt_ORtg | mean pull=2.9990 | median pull=2.6266 | players=7829
+5. bvt_rimmade/(rimmade+rimmiss) | mean pull=2.7682 | median pull=2.3676 | players=4347
+
+Cluster 1
+------------------------------------------------------------
+1. bvt_blk | mean pull=2.3204 | median pull=2.3109 | players=352
+2. bvt_mp | mean pull=2.1106 | median pull=1.9820 | players=6301
+3. basic_dbpr | mean pull=2.0280 | median pull=1.8475 | players=2236
+4. bvt_ast | mean pull=2.0137 | median pull=1.6229 | players=4293
+5. basic_box_dbpr | mean pull=1.9293 | median pull=1.7626 | players=1898
+
+Cluster 2
+------------------------------------------------------------
+1. bvt_TP_per | mean pull=2.5013 | median pull=1.9857 | players=3073
+2. bvt_3p/100? | mean pull=2.3774 | median pull=1.9429 | players=2364
+3. bvt_ast/tov | mean pull=2.2396 | median pull=1.5405 | players=2444
+4. bvt_mp | mean pull=1.9446 | median pull=1.7347 | players=3546
+5. bvt_blk_per | mean pull=1.9127 | median pull=1.9666 | players=2106
+
+Cluster 3
+------------------------------------------------------------
+1. bvt_blk | mean pull=5.3050 | median pull=4.0916 | players=3903
+2. bvt_oreb | mean pull=4.4400 | median pull=3.8078 | players=4767
+3. bvt_blk_per | mean pull=3.8680 | median pull=3.1418 | players=1968
+4. bvt_treb | mean pull=3.4681 | median pull=3.1044 | players=4469
+5. bvt_TPM | mean pull=3.4529 | median pull=3.5517 | players=3387
+
+Cluster 4
+------------------------------------------------------------
+1. bvt_blk_per | mean pull=3.3973 | median pull=2.7594 | players=3772
+2. bvt_eFG | mean pull=2.8624 | median pull=2.4753 | players=1545
+3. bvt_ftr | mean pull=2.8519 | median pull=2.2654 | players=3452
+4. bvt_TP_per | mean pull=2.7255 | median pull=1.4978 | players=5661
+5. bvt_pfr | mean pull=2.6735 | median pull=2.2867 | players=4810
+
+Cluster 5
+------------------------------------------------------------
+1. bvt_TPM | mean pull=3.4442 | median pull=2.7295 | players=4609
+2. bvt_oreb | mean pull=3.4069 | median pull=3.4984 | players=2136
+3. bvt_TPA | mean pull=3.2211 | median pull=2.5383 | players=4219
+4. bvt_ast | mean pull=3.1717 | median pull=2.5332 | players=3261
+5. bvt_blk | mean pull=3.1079 | median pull=3.1875 | players=2487

@@ -1,0 +1,484 @@
+feature,gain,weight,cover
+num__hs_stars,359.3708190917969,17.0,2476.721923828125
+num__hs_rating,200.53619384765625,96.0,1666.46435546875
+num__hs_national_rank,102.53573608398438,67.0,2010.578857421875
+num__hs_position_rank,68.3543930053711,87.0,2302.610107421875
+cat__hs_school_fin___MISSING__,42.283851623535156,15.0,2907.95703125
+cat__hs_position_PG,25.03597068786621,10.0,2504.45458984375
+cat__hs_school_fin_San Jose State,21.008180618286133,9.0,3152.954833984375
+cat__hs_school_fin_Iowa,20.832420349121094,11.0,3198.5146484375
+cat__hs_hometown_state_UT,20.340702056884766,11.0,2721.187255859375
+num__hs_state_rank,19.194364547729492,65.0,2304.813720703125
+cat__hs_position_C,19.06298065185547,17.0,2455.0576171875
+cat__hs_school_fin_Murray State,18.964818954467773,15.0,3137.94677734375
+cat__hs_school_fin_Houston Christian,18.95270538330078,10.0,3194.93115234375
+cat__hs_school_fin_Duke,18.302045822143555,12.0,3178.5458984375
+cat__hs_school_fin_West Virginia,18.138093948364258,13.0,3190.537841796875
+cat__hs_hometown_state_CA,17.633010864257812,3.0,1743.7066650390625
+cat__hs_school_fin_San Diego State,17.54184913635254,13.0,3141.30908203125
+cat__hs_school_fin_Gonzaga,16.89133644104004,16.0,3190.7314453125
+cat__hs_hometown_state_NC,16.68689727783203,1.0,341.3897399902344
+cat__hs_school_fin_Michigan,16.402606964111328,15.0,3166.970947265625
+cat__hs_school_fin_Houston,16.154129028320312,10.0,3211.395751953125
+cat__hs_school_fin_Richmond,15.611050605773926,11.0,3131.787353515625
+cat__hs_school_fin_Texas Tech,15.334906578063965,14.0,3088.75927734375
+cat__hs_hometown_state_MS,14.964070320129395,7.0,2928.528076171875
+cat__hs_position_PF,14.742151260375977,10.0,2154.87548828125
+cat__hs_school_fin_Washington,14.580673217773438,1.0,3215.036376953125
+cat__hs_school_fin_Kentucky,14.517351150512695,13.0,2893.019287109375
+cat__hs_school_fin_Virginia,14.337157249450684,11.0,3200.381103515625
+cat__hs_school_fin_East Carolina,14.159197807312012,4.0,2989.98876953125
+cat__hs_position_SG,14.056153297424316,7.0,1251.5858154296875
+cat__hs_school_fin_Wisconsin,14.041131973266602,10.0,3150.98291015625
+num__hs_height_in,13.9313383102417,75.0,2214.732421875
+cat__hs_hometown_state_TX,13.649918556213379,3.0,89.18852996826172
+cat__hs_school_fin_Iowa State,13.647506713867188,13.0,3171.2509765625
+cat__hs_hometown_state_OK,13.585896492004395,6.0,2802.995361328125
+num__hs_year,13.400331497192383,72.0,1237.4544677734375
+cat__hs_hometown_state_AZ,13.296457290649414,2.0,2132.948486328125
+cat__hs_school_fin_Binghamton,13.228018760681152,8.0,3191.8076171875
+num__hs_weight,13.042076110839844,90.0,2007.760986328125
+cat__hs_school_fin_Ohio State,13.003689765930176,9.0,3222.485595703125
+cat__hs_school_fin_Oregon,12.963248252868652,11.0,3111.901611328125
+cat__hs_hometown_state_IA,12.805472373962402,7.0,3210.92822265625
+cat__hs_hometown_state_GA,12.789955139160156,6.0,3085.400634765625
+cat__hs_hometown_state_MN,12.756486892700195,5.0,2749.202880859375
+cat__hs_hometown_state_AR,12.719098091125488,3.0,701.8956909179688
+cat__hs_school_fin_Wichita State,12.553567886352539,10.0,3186.864501953125
+cat__hs_school_fin_Syracuse,12.550762176513672,12.0,3105.438720703125
+cat__hs_hometown_state_KY,12.385643005371094,7.0,3134.553955078125
+cat__hs_school_fin_Kansas State,12.007368087768555,5.0,3194.1796875
+cat__hs_hometown_state_SC,12.00326919555664,6.0,2792.299560546875
+cat__hs_school_fin_Davidson,11.987035751342773,10.0,3203.30615234375
+cat__hs_hometown_state_NJ,11.8068208694458,2.0,1042.20458984375
+cat__hs_hometown_state_SW,11.78842830657959,7.0,3193.79638671875
+cat__hs_school_fin_Louisville,11.699488639831543,12.0,3209.351806640625
+cat__hs_hometown_state_NV,11.616021156311035,4.0,2874.4169921875
+cat__hs_school_fin_Tennessee,11.548272132873535,9.0,3120.01513671875
+cat__hs_school_fin_Oklahoma,11.526111602783203,9.0,3082.75634765625
+cat__hs_hometown_state_IN,11.447473526000977,4.0,3190.087158203125
+cat__hs_school_fin_New Hampshire,11.339303016662598,4.0,3204.348876953125
+cat__hs_school_fin_William & Mary,11.270118713378906,6.0,3203.957763671875
+cat__hs_hometown_state_MI,11.197234153747559,4.0,3196.259521484375
+cat__hs_school_fin_The Citadel,11.188050270080566,6.0,3196.564208984375
+cat__hs_school_fin_Appalachian State,11.176257133483887,3.0,2979.592041015625
+cat__hs_school_fin_St. Bonaventure,11.081411361694336,10.0,3206.18310546875
+cat__hs_hometown_state_FL,11.069284439086914,7.0,2352.912841796875
+cat__hs_school_fin_Louisiana Tech,11.035143852233887,9.0,3180.30908203125
+cat__hs_school_fin_Florida State,10.98943042755127,12.0,3078.344482421875
+cat__hs_hometown_state_WV,10.885665893554688,5.0,3191.63623046875
+cat__hs_school_fin_Texas,10.800186157226562,10.0,3181.805908203125
+cat__hs_school_fin_Washington State,10.740880966186523,2.0,2698.51806640625
+cat__hs_school_fin_Oklahoma State,10.46220874786377,7.0,3190.489990234375
+cat__hs_position_SF,10.442556381225586,6.0,978.9784545898438
+cat__hs_school_fin_UNLV,10.43315315246582,2.0,3221.677001953125
+cat__hs_school_fin_Howard,10.403425216674805,5.0,3218.02490234375
+cat__hs_school_fin_Auburn,10.400789260864258,2.0,1609.914794921875
+cat__hs_hometown_state_OH,10.337440490722656,3.0,1416.8909912109375
+cat__hs_school_fin_Virginia Tech,10.236384391784668,7.0,2865.18994140625
+cat__hs_school_fin_Florida,10.222434043884277,7.0,3106.932861328125
+cat__hs_school_fin_San Diego,10.192978858947754,6.0,3194.342041015625
+cat__hs_school_fin_Arkansas,10.15276050567627,9.0,3213.006103515625
+cat__hs_school_fin_Purdue,10.115331649780273,4.0,3216.8681640625
+cat__hs_school_fin_Duquesne,9.997458457946777,7.0,3184.437744140625
+cat__hs_school_fin_TCU,9.919586181640625,1.0,3209.436279296875
+cat__hs_hometown_state_WI,9.914349555969238,4.0,2624.9296875
+cat__hs_hometown_state_ME,9.901779174804688,5.0,3210.84033203125
+cat__hs_school_fin_Belmont,9.889933586120605,6.0,3197.5087890625
+cat__hs_school_fin_Cincinnati,9.875655174255371,7.0,3203.912109375
+cat__hs_school_fin_Valparaiso,9.825855255126953,9.0,3180.7744140625
+cat__hs_school_fin_Bradley,9.782806396484375,5.0,3223.85888671875
+cat__hs_hometown_state_OR,9.769630432128906,6.0,3208.271728515625
+cat__hs_hometown_state_MD,9.702141761779785,3.0,3191.912109375
+cat__hs_school_fin_Pittsburgh,9.651885986328125,1.0,3236.282470703125
+cat__hs_school_fin_Butler,9.629656791687012,10.0,3131.697998046875
+cat__hs_school_fin_Towson,9.567522048950195,4.0,3199.533935546875
+cat__hs_hometown_state_MA,9.516044616699219,5.0,3190.86181640625
+cat__hs_school_fin_VCU,9.512530326843262,8.0,3150.8701171875
+cat__hs_school_fin_Utah State,9.500237464904785,5.0,3225.48486328125
+cat__hs_school_fin_St. John's,9.49693489074707,2.0,3197.0830078125
+cat__hs_school_fin_Arizona,9.408134460449219,9.0,3188.11083984375
+cat__hs_school_fin_Vermont,9.300175666809082,2.0,3208.18896484375
+cat__hs_hometown_state_IL,9.282999992370605,4.0,1684.8922119140625
+cat__hs_school_fin_Western Kentucky,9.281562805175781,3.0,3226.391357421875
+cat__hs_school_fin_Colorado,9.264519691467285,5.0,3205.35009765625
+cat__hs_school_fin_Memphis,9.260383605957031,4.0,2628.381103515625
+cat__hs_hometown_state_NY,9.255682945251465,1.0,643.9091796875
+cat__hs_hometown_state_AL,9.178155899047852,5.0,3043.559814453125
+cat__hs_school_fin_Lehigh,9.145805358886719,1.0,3204.30517578125
+cat__hs_school_fin_Indiana,9.088255882263184,7.0,3219.726318359375
+cat__hs_school_fin_BYU,9.000598907470703,6.0,3193.9443359375
+cat__hs_school_fin_Dayton,8.992671012878418,6.0,3188.910400390625
+cat__hs_school_fin_Fresno State,8.955046653747559,5.0,3170.755859375
+cat__hs_hometown_state_VA,8.921072006225586,2.0,2885.20458984375
+cat__hs_school_fin_Tulane,8.918702125549316,5.0,3219.57861328125
+cat__hs_hometown_state_MO,8.877349853515625,2.0,2526.195068359375
+cat__hs_school_fin_Maryland,8.848169326782227,10.0,3211.381591796875
+cat__hs_school_fin_UCLA,8.845592498779297,5.0,3201.89990234375
+cat__hs_school_fin_Missouri State,8.841038703918457,6.0,3196.039306640625
+cat__hs_school_fin_Saint Joseph's,8.788442611694336,2.0,3197.0400390625
+cat__hs_hometown_state_ON,8.765307426452637,4.0,2977.119873046875
+cat__hs_school_fin_Villanova,8.727129936218262,3.0,3164.575927734375
+cat__hs_school_fin_Northern Illinois,8.716097831726074,4.0,3212.593994140625
+cat__hs_hometown_state_NE,8.679787635803223,1.0,3232.41796875
+cat__hs_school_fin_South Alabama,8.633983612060547,4.0,3188.82275390625
+cat__hs_school_fin_LSU,8.555258750915527,3.0,2938.382568359375
+cat__hs_school_fin_Michigan State,8.53601360321045,7.0,2756.217529296875
+cat__hs_school_fin_Georgetown,8.46258544921875,4.0,3158.089111328125
+cat__hs_school_fin_UNC Greensboro,8.431503295898438,1.0,3224.352783203125
+cat__hs_hometown_state_CT,8.4029541015625,2.0,3200.714599609375
+cat__hs_school_fin_Nebraska,8.397957801818848,1.0,3248.043701171875
+cat__hs_school_fin_UConn,8.371068954467773,6.0,2881.449462890625
+cat__hs_school_fin_Rhode Island,8.276976585388184,3.0,3223.318359375
+cat__hs_school_fin_Georgia Tech,8.276280403137207,8.0,3198.508544921875
+cat__hs_school_fin_Alabama,8.25985050201416,5.0,3216.887939453125
+cat__hs_school_fin_Wake Forest,8.128501892089844,2.0,2724.27099609375
+cat__hs_school_fin_Northwestern,8.10645866394043,3.0,3208.184814453125
+cat__hs_school_fin_Arizona State,8.093342781066895,2.0,2389.03369140625
+cat__hs_school_fin_Utah,8.074697494506836,3.0,2554.257568359375
+cat__hs_school_fin_Boston College,8.041548728942871,2.0,3074.81787109375
+cat__hs_school_fin_Bowling Green,7.965889930725098,4.0,3199.32275390625
+cat__hs_school_fin_Ball State,7.945826530456543,4.0,3189.708251953125
+cat__hs_school_fin_Baylor,7.900746822357178,5.0,3209.6435546875
+cat__hs_school_fin_George Mason,7.89849853515625,1.0,3230.232421875
+cat__hs_school_fin_Colorado State,7.889124393463135,4.0,3176.51904296875
+cat__hs_school_fin_Siena,7.812621116638184,4.0,3205.879150390625
+cat__hs_school_fin_Furman,7.804665565490723,2.0,3178.53076171875
+cat__hs_school_fin_Loyola,7.754640102386475,3.0,3205.867431640625
+cat__hs_school_fin_Minnesota,7.709280014038086,1.0,3225.318603515625
+cat__hs_school_fin_Illinois,7.674148082733154,4.0,3019.435546875
+cat__hs_school_fin_Creighton,7.647488117218018,2.0,3205.967529296875
+cat__hs_school_fin_Rutgers,7.579561233520508,2.0,3227.79833984375
+cat__hs_school_fin_Western Michigan,7.5724077224731445,4.0,3161.623046875
+cat__hs_school_fin_George Washington,7.556291103363037,1.0,3231.4375
+cat__hs_school_fin_Charleston Southern,7.5411882400512695,1.0,3225.6103515625
+cat__hs_school_fin_Seton Hall,7.495353698730469,3.0,3211.692626953125
+cat__hs_school_fin_Illinois-Chicago,7.473355770111084,3.0,3191.615478515625
+cat__hs_school_fin_Ohio,7.385374069213867,3.0,3199.930419921875
+cat__hs_school_fin_Georgia State,7.378304958343506,1.0,3221.698974609375
+cat__hs_school_fin_UTSA,7.374691486358643,1.0,3223.710205078125
+cat__hs_school_fin_Kansas,7.356761932373047,3.0,3196.882080078125
+cat__hs_school_fin_USC,7.356260776519775,2.0,3063.08984375
+cat__hs_hometown_state_NH,7.315823078155518,1.0,3195.047607421875
+cat__hs_school_fin_High Point,7.29819393157959,1.0,3180.448486328125
+cat__hs_school_fin_Princeton,7.288826942443848,2.0,3195.7060546875
+cat__hs_school_fin_Nevada,7.25412654876709,2.0,3223.092041015625
+cat__hs_hometown_state_KS,7.248456954956055,2.0,3191.238525390625
+cat__hs_school_fin_Marquette,7.238672733306885,3.0,3208.861572265625
+cat__hs_school_fin_Texas A&M,7.154794692993164,1.0,3195.849853515625
+cat__hs_school_fin_Clemson,7.100718975067139,1.0,3181.1513671875
+cat__hs_school_fin_UAB,7.083683013916016,1.0,3219.092529296875
+cat__hs_school_fin_James Madison,7.059330463409424,1.0,3226.32421875
+cat__hs_school_fin_DePaul,7.054983615875244,1.0,2793.44677734375
+cat__hs_school_fin_Cleveland State,7.047245025634766,1.0,3235.09228515625
+cat__hs_school_fin_UMass,7.014772891998291,1.0,3232.8701171875
+cat__hs_school_fin_New Mexico,6.883879661560059,1.0,3225.90380859375
+cat__hs_school_fin_Miami,6.877840042114258,2.0,3215.73876953125
+cat__hs_school_fin_Presbyterian,6.81181001663208,1.0,3182.5966796875
+cat__hs_school_fin_Southeast Missouri State,6.78846549987793,1.0,3231.85546875
+cat__hs_school_fin_UTEP,6.760656356811523,1.0,3166.50634765625
+cat__hs_school_fin_Fordham,6.734136581420898,1.0,3210.427734375
+cat__hs_school_fin_Temple,6.695777893066406,2.0,3204.595703125
+cat__hs_school_fin_UT-Arlington,6.633434772491455,1.0,3237.522216796875
+cat__hs_school_fin_Brown,0.0,0.0,0.0
+cat__hs_school_fin_Bryant,0.0,0.0,0.0
+cat__hs_school_fin_Austin Peay,0.0,0.0,0.0
+cat__hs_school_fin_Boston University,0.0,0.0,0.0
+cat__hs_school_fin_Boise State,0.0,0.0,0.0
+cat__hs_school_fin_Bellarmine,0.0,0.0,0.0
+cat__hs_school_fin_Bethune-Cookman,0.0,0.0,0.0
+cat__hs_school_fin_American,0.0,0.0,0.0
+cat__hs_school_fin_California,0.0,0.0,0.0
+cat__hs_school_fin_Arkansas State,0.0,0.0,0.0
+cat__hs_school_fin_Arkansas-Pine Bluff,0.0,0.0,0.0
+cat__hs_school_fin_Army,0.0,0.0,0.0
+cat__hs_school_fin_Cal State Northridge,0.0,0.0,0.0
+cat__hs_school_fin_Delaware,0.0,0.0,0.0
+cat__hs_school_fin_Delaware State,0.0,0.0,0.0
+cat__hs_school_fin_Denver,0.0,0.0,0.0
+cat__hs_school_fin_Detroit Mercy,0.0,0.0,0.0
+cat__hs_school_fin_Drake,0.0,0.0,0.0
+cat__hs_school_fin_Drexel,0.0,0.0,0.0
+cat__hs_school_fin_Cal State Fullerton,0.0,0.0,0.0
+cat__hs_school_fin_Columbia,0.0,0.0,0.0
+cat__hs_school_fin_Coppin State,0.0,0.0,0.0
+cat__hs_school_fin_Cornell,0.0,0.0,0.0
+cat__hs_school_fin_Cal State Bakersfield,0.0,0.0,0.0
+cat__hs_school_fin_Dartmouth,0.0,0.0,0.0
+cat__hs_school_fin_Chattanooga,0.0,0.0,0.0
+cat__hs_school_fin_Chicago State,0.0,0.0,0.0
+cat__hs_school_fin_Cal Poly,0.0,0.0,0.0
+cat__hs_school_fin_Buffalo,0.0,0.0,0.0
+cat__hs_school_fin_Coastal Carolina,0.0,0.0,0.0
+cat__hs_school_fin_Colgate,0.0,0.0,0.0
+cat__hs_school_fin_College of Charleston,0.0,0.0,0.0
+cat__hs_school_fin_California Baptist,0.0,0.0,0.0
+cat__hs_school_fin_Campbell,0.0,0.0,0.0
+cat__hs_school_fin_Canisius,0.0,0.0,0.0
+cat__hs_school_fin_Central Arkansas,0.0,0.0,0.0
+cat__hs_school_fin_Central Connecticut State,0.0,0.0,0.0
+cat__hs_school_fin_Central Michigan,0.0,0.0,0.0
+cat__hs_school_fin_Bucknell,0.0,0.0,0.0
+cat__hs_school_fin_Charlotte,0.0,0.0,0.0
+cat__hs_hometown_state_SOUT,0.0,0.0,0.0
+cat__hs_school_fin_Georgia,0.0,0.0,0.0
+cat__hs_school_fin_Georgia Southern,0.0,0.0,0.0
+cat__hs_hometown_state_SLOV,0.0,0.0,0.0
+cat__hs_hometown_state_AN,0.0,0.0,0.0
+cat__hs_school_fin_Grambling State,0.0,0.0,0.0
+cat__hs_school_fin_Florida Atlantic,0.0,0.0,0.0
+cat__hs_school_fin_Florida Gulf Coast,0.0,0.0,0.0
+cat__hs_hometown_state_AK,0.0,0.0,0.0
+cat__hs_hometown_state_AC,0.0,0.0,0.0
+cat__hs_school_fin_Gardner-Webb,0.0,0.0,0.0
+cat__hs_hometown_state_CAME,0.0,0.0,0.0
+cat__hs_school_fin_Eastern Washington,0.0,0.0,0.0
+cat__hs_school_fin_Elon,0.0,0.0,0.0
+cat__hs_school_fin_Evansville,0.0,0.0,0.0
+cat__hs_school_fin_FIU,0.0,0.0,0.0
+cat__hs_school_fin_Fairfield,0.0,0.0,0.0
+cat__hs_school_fin_Fairleigh Dickinson,0.0,0.0,0.0
+cat__hs_school_fin_Florida A&M,0.0,0.0,0.0
+cat__hs_school_fin_Duplicate,0.0,0.0,0.0
+cat__hs_school_fin_East Tennessee State,0.0,0.0,0.0
+cat__hs_school_fin_Eastern Illinois,0.0,0.0,0.0
+cat__hs_school_fin_Eastern Kentucky,0.0,0.0,0.0
+cat__hs_school_fin_Eastern Michigan,0.0,0.0,0.0
+cat__hs_school_fin_Jackson State,0.0,0.0,0.0
+cat__hs_school_fin_Jacksonville,0.0,0.0,0.0
+cat__hs_school_fin_Jacksonville State,0.0,0.0,0.0
+cat__hs_hometown_state_BV,0.0,0.0,0.0
+cat__hs_position_CG,0.0,0.0,0.0
+cat__hs_school_fin_Kansas City,0.0,0.0,0.0
+cat__hs_school_fin_Kennesaw State,0.0,0.0,0.0
+cat__hs_school_fin_Illinois State,0.0,0.0,0.0
+cat__hs_school_fin_Vanderbilt,0.0,0.0,0.0
+cat__hs_school_fin_Incarnate Word,0.0,0.0,0.0
+cat__hs_school_fin_Indiana State,0.0,0.0,0.0
+cat__hs_school_fin_Iona,0.0,0.0,0.0
+cat__hs_school_fin_Holy Cross,0.0,0.0,0.0
+cat__hs_school_fin_IU Indy,0.0,0.0,0.0
+cat__hs_school_fin_Idaho,0.0,0.0,0.0
+cat__hs_school_fin_Idaho State,0.0,0.0,0.0
+cat__hs_school_fin_VMI,0.0,0.0,0.0
+cat__hs_school_fin_Grand Canyon,0.0,0.0,0.0
+cat__hs_school_fin_Green Bay,0.0,0.0,0.0
+cat__hs_school_fin_Hampton,0.0,0.0,0.0
+cat__hs_school_fin_Hartford,0.0,0.0,0.0
+cat__hs_school_fin_Harvard,0.0,0.0,0.0
+cat__hs_school_fin_Hawaii,0.0,0.0,0.0
+cat__hs_hometown_state_NB,0.0,0.0,0.0
+cat__hs_school_fin_Abilene Christian,0.0,0.0,0.0
+cat__hs_school_fin_Air Force,0.0,0.0,0.0
+cat__hs_school_fin_Akron,0.0,0.0,0.0
+cat__hs_school_fin_Utah Valley,0.0,0.0,0.0
+cat__hs_school_fin_Alabama A&M,0.0,0.0,0.0
+cat__hs_school_fin_Alabama State,0.0,0.0,0.0
+cat__hs_school_fin_Albany,0.0,0.0,0.0
+cat__hs_school_fin_Alcorn State,0.0,0.0,0.0
+cat__hs_hometown_state_VC,0.0,0.0,0.0
+cat__hs_hometown_state_VT,0.0,0.0,0.0
+cat__hs_hometown_state_WA,0.0,0.0,0.0
+cat__hs_hometown_state_WY,0.0,0.0,0.0
+cat__hs_hometown_state___MISSING__,0.0,0.0,0.0
+cat__hs_hometown_state_SPAI,0.0,0.0,0.0
+cat__hs_hometown_state_SWED,0.0,0.0,0.0
+cat__hs_hometown_state_TN,0.0,0.0,0.0
+cat__hs_hometown_state_UKRA,0.0,0.0,0.0
+cat__hs_hometown_state_URUG,0.0,0.0,0.0
+cat__hs_hometown_state_RI,0.0,0.0,0.0
+cat__hs_hometown_state_SCOT,0.0,0.0,0.0
+cat__hs_hometown_state_SD,0.0,0.0,0.0
+cat__hs_hometown_state_SENE,0.0,0.0,0.0
+cat__hs_hometown_state_SERB,0.0,0.0,0.0
+cat__hs_school_fin_Weber State,0.0,0.0,0.0
+cat__hs_school_fin_Hofstra,0.0,0.0,0.0
+cat__hs_school_fin_Maryland Eastern Shore,0.0,0.0,0.0
+cat__hs_school_fin_McNeese,0.0,0.0,0.0
+cat__hs_school_fin_Mercer,0.0,0.0,0.0
+cat__hs_school_fin_Merrimack,0.0,0.0,0.0
+cat__hs_school_fin_Wagner,0.0,0.0,0.0
+cat__hs_school_fin_Miami (OH),0.0,0.0,0.0
+cat__hs_school_fin_Virginia Military Institute,0.0,0.0,0.0
+cat__hs_school_fin_Loyola Maryland,0.0,0.0,0.0
+cat__hs_school_fin_Loyola Marymount,0.0,0.0,0.0
+cat__hs_school_fin_Maine,0.0,0.0,0.0
+cat__hs_school_fin_Manhattan,0.0,0.0,0.0
+cat__hs_school_fin_Marist,0.0,0.0,0.0
+cat__hs_school_fin_Winthrop,0.0,0.0,0.0
+cat__hs_school_fin_Marshall,0.0,0.0,0.0
+cat__hs_school_fin_Lipscomb,0.0,0.0,0.0
+cat__hs_school_fin_Little Rock,0.0,0.0,0.0
+cat__hs_school_fin_Long Beach State,0.0,0.0,0.0
+cat__hs_school_fin_Longwood,0.0,0.0,0.0
+cat__hs_school_fin_Louisiana,0.0,0.0,0.0
+cat__hs_school_fin_Louisiana-Monroe,0.0,0.0,0.0
+cat__hs_school_fin_Kent State,0.0,0.0,0.0
+cat__hs_school_fin_La Salle,0.0,0.0,0.0
+cat__hs_school_fin_Lafayette,0.0,0.0,0.0
+cat__hs_school_fin_Lamar,0.0,0.0,0.0
+cat__hs_school_fin_Liberty,0.0,0.0,0.0
+cat__hs_school_fin_New Orleans,0.0,0.0,0.0
+cat__hs_school_fin_Niagara,0.0,0.0,0.0
+cat__hs_school_fin_Nicholls,0.0,0.0,0.0
+cat__hs_school_fin_Norfolk State,0.0,0.0,0.0
+cat__hs_school_fin_North Alabama,0.0,0.0,0.0
+cat__hs_school_fin_North Carolina,0.0,0.0,0.0
+cat__hs_school_fin_North Carolina A&T,0.0,0.0,0.0
+cat__hs_school_fin_North Carolina Central,0.0,0.0,0.0
+cat__hs_school_fin_NC State,0.0,0.0,0.0
+cat__hs_school_fin_NJIT,0.0,0.0,0.0
+cat__hs_school_fin_Navy,0.0,0.0,0.0
+cat__hs_school_fin_Western Illinois,0.0,0.0,0.0
+cat__hs_school_fin_Western Carolina,0.0,0.0,0.0
+cat__hs_school_fin_New Mexico State,0.0,0.0,0.0
+cat__hs_school_fin_Monmouth,0.0,0.0,0.0
+cat__hs_school_fin_Montana,0.0,0.0,0.0
+cat__hs_school_fin_Montana State,0.0,0.0,0.0
+cat__hs_school_fin_Morehead State,0.0,0.0,0.0
+cat__hs_school_fin_Morgan State,0.0,0.0,0.0
+cat__hs_school_fin_Mount St. Mary's,0.0,0.0,0.0
+cat__hs_school_fin_Middle Tennessee,0.0,0.0,0.0
+cat__hs_school_fin_Milwaukee,0.0,0.0,0.0
+cat__hs_school_fin_Youngstown State,0.0,0.0,0.0
+cat__hs_school_fin_Mississippi State,0.0,0.0,0.0
+cat__hs_school_fin_Mississippi Valley State,0.0,0.0,0.0
+cat__hs_school_fin_Missouri,0.0,0.0,0.0
+cat__hs_school_fin_Pacific,0.0,0.0,0.0
+cat__hs_school_fin_Penn State,0.0,0.0,0.0
+cat__hs_school_fin_Pennsylvania,0.0,0.0,0.0
+cat__hs_school_fin_Pepperdine,0.0,0.0,0.0
+cat__hs_school_fin_Portland,0.0,0.0,0.0
+cat__hs_school_fin_Portland State,0.0,0.0,0.0
+cat__hs_school_fin_Prairie View A&M,0.0,0.0,0.0
+cat__hs_school_fin_Old Dominion,0.0,0.0,0.0
+cat__hs_school_fin_Ole Miss,0.0,0.0,0.0
+cat__hs_school_fin_Omaha,0.0,0.0,0.0
+cat__hs_school_fin_Oral Roberts,0.0,0.0,0.0
+cat__hs_school_fin_Oregon State,0.0,0.0,0.0
+cat__hs_school_fin_Northern Iowa,0.0,0.0,0.0
+cat__hs_school_fin_Northern Kentucky,0.0,0.0,0.0
+cat__hs_school_fin_Yale,0.0,0.0,0.0
+cat__hs_school_fin_Northwestern State,0.0,0.0,0.0
+cat__hs_school_fin_Notre Dame,0.0,0.0,0.0
+cat__hs_school_fin_Oakland,0.0,0.0,0.0
+cat__hs_school_fin_Xavier,0.0,0.0,0.0
+cat__hs_school_fin_North Dakota,0.0,0.0,0.0
+cat__hs_school_fin_North Dakota State,0.0,0.0,0.0
+cat__hs_school_fin_North Florida,0.0,0.0,0.0
+cat__hs_school_fin_North Texas,0.0,0.0,0.0
+cat__hs_school_fin_Northeastern,0.0,0.0,0.0
+cat__hs_school_fin_Northern Arizona,0.0,0.0,0.0
+cat__hs_hometown_state_ESTO,0.0,0.0,0.0
+cat__hs_hometown_state_FINL,0.0,0.0,0.0
+cat__hs_hometown_state_POLA,0.0,0.0,0.0
+cat__hs_hometown_state_PORT,0.0,0.0,0.0
+cat__hs_hometown_state_PR,0.0,0.0,0.0
+cat__hs_hometown_state_PUER,0.0,0.0,0.0
+cat__hs_hometown_state_QC,0.0,0.0,0.0
+cat__hs_hometown_state_QL,0.0,0.0,0.0
+cat__hs_hometown_state_RE,0.0,0.0,0.0
+cat__hs_hometown_state_REPU,0.0,0.0,0.0
+cat__hs_hometown_state_NZ,0.0,0.0,0.0
+cat__hs_hometown_state_PA,0.0,0.0,0.0
+cat__hs_hometown_state_ND,0.0,0.0,0.0
+cat__hs_hometown_state_NETH,0.0,0.0,0.0
+cat__hs_hometown_state_NEW ,0.0,0.0,0.0
+cat__hs_school_fin_Wyoming,0.0,0.0,0.0
+cat__hs_hometown_state_NIGE,0.0,0.0,0.0
+cat__hs_hometown_state_NM,0.0,0.0,0.0
+cat__hs_hometown_state_MT,0.0,0.0,0.0
+cat__hs_hometown_state_NA,0.0,0.0,0.0
+cat__hs_school_fin_Northern Colorado,0.0,0.0,0.0
+cat__hs_school_fin_Samford,0.0,0.0,0.0
+cat__hs_school_fin_San Francisco,0.0,0.0,0.0
+cat__hs_school_fin_Santa Clara,0.0,0.0,0.0
+cat__hs_school_fin_Seattle,0.0,0.0,0.0
+cat__hs_school_fin_Wright State,0.0,0.0,0.0
+cat__hs_school_fin_Sacramento State,0.0,0.0,0.0
+cat__hs_school_fin_Sacred Heart,0.0,0.0,0.0
+cat__hs_school_fin_Saint Francis (PA),0.0,0.0,0.0
+cat__hs_school_fin_Saint Louis,0.0,0.0,0.0
+cat__hs_school_fin_Saint Mary's,0.0,0.0,0.0
+cat__hs_school_fin_Saint Peter's,0.0,0.0,0.0
+cat__hs_school_fin_Sam Houston,0.0,0.0,0.0
+cat__hs_school_fin_Wofford,0.0,0.0,0.0
+cat__hs_school_fin_Rice,0.0,0.0,0.0
+cat__hs_school_fin_Rider,0.0,0.0,0.0
+cat__hs_school_fin_Robert Morris,0.0,0.0,0.0
+cat__hs_school_fin_South Florida,0.0,0.0,0.0
+cat__hs_school_fin_SIU Edwardsville,0.0,0.0,0.0
+cat__hs_school_fin_SMU,0.0,0.0,0.0
+cat__hs_school_fin_South Dakota State,0.0,0.0,0.0
+cat__hs_hometown_state_ENGL,0.0,0.0,0.0
+cat__hs_school_fin_Professional,0.0,0.0,0.0
+cat__hs_school_fin_Providence,0.0,0.0,0.0
+cat__hs_school_fin_Purdue Fort Wayne,0.0,0.0,0.0
+cat__hs_school_fin_Quinnipiac,0.0,0.0,0.0
+cat__hs_school_fin_Radford,0.0,0.0,0.0
+cat__hs_hometown_state_EN,0.0,0.0,0.0
+cat__hs_school_fin_Tennessee State,0.0,0.0,0.0
+cat__hs_hometown_state_EGYP,0.0,0.0,0.0
+cat__hs_hometown_state_DOMI,0.0,0.0,0.0
+cat__hs_hometown_state_DE,0.0,0.0,0.0
+cat__hs_hometown_state_ICEL,0.0,0.0,0.0
+cat__hs_hometown_state_HI,0.0,0.0,0.0
+cat__hs_school_fin_UMBC,0.0,0.0,0.0
+cat__hs_hometown_state_GERM,0.0,0.0,0.0
+cat__hs_hometown_state_DP,0.0,0.0,0.0
+cat__hs_school_fin_UNC Asheville,0.0,0.0,0.0
+cat__hs_school_fin_UNC Wilmington,0.0,0.0,0.0
+cat__hs_school_fin_Tulsa,0.0,0.0,0.0
+cat__hs_hometown_state_FRAN,0.0,0.0,0.0
+cat__hs_school_fin_UC Davis,0.0,0.0,0.0
+cat__hs_school_fin_UC Irvine,0.0,0.0,0.0
+cat__hs_school_fin_UC Riverside,0.0,0.0,0.0
+cat__hs_school_fin_UC San Diego,0.0,0.0,0.0
+cat__hs_school_fin_UC Santa Barbara,0.0,0.0,0.0
+cat__hs_school_fin_UCF,0.0,0.0,0.0
+cat__hs_school_fin_Texas State,0.0,0.0,0.0
+cat__hs_school_fin_Texas-Rio Grande Valley,0.0,0.0,0.0
+cat__hs_school_fin_Toledo,0.0,0.0,0.0
+cat__hs_hometown_state_CANA,0.0,0.0,0.0
+cat__hs_hometown_state_CO,0.0,0.0,0.0
+cat__hs_hometown_state_CONG,0.0,0.0,0.0
+cat__hs_hometown_state_CROA,0.0,0.0,0.0
+cat__hs_hometown_state_CY,0.0,0.0,0.0
+cat__hs_hometown_state_CZEC,0.0,0.0,0.0
+cat__hs_hometown_state_DC,0.0,0.0,0.0
+cat__hs_hometown_state_AUST,0.0,0.0,0.0
+cat__hs_hometown_state_BAHA,0.0,0.0,0.0
+cat__hs_hometown_state_BC,0.0,0.0,0.0
+cat__hs_school_fin_dupe NJIT,0.0,0.0,0.0
+cat__hs_school_fin_Tennessee Tech,0.0,0.0,0.0
+cat__hs_hometown_state_FR,0.0,0.0,0.0
+cat__hs_school_fin_Texas A&M Corpus Christi,0.0,0.0,0.0
+cat__hs_school_fin_Texas Southern,0.0,0.0,0.0
+cat__hs_school_fin_Stanford,0.0,0.0,0.0
+cat__hs_school_fin_Stephen F. Austin,0.0,0.0,0.0
+cat__hs_school_fin_Stetson,0.0,0.0,0.0
+cat__hs_school_fin_UMass Lowell,0.0,0.0,0.0
+cat__hs_school_fin_Tarleton State,0.0,0.0,0.0
+cat__hs_hometown_state_BELG,0.0,0.0,0.0
+cat__hs_school_fin_Southeastern Louisiana,0.0,0.0,0.0
+cat__hs_school_fin_Southern,0.0,0.0,0.0
+cat__hs_school_fin_Southern Illinois,0.0,0.0,0.0
+cat__hs_school_fin_Southern Indiana,0.0,0.0,0.0
+cat__hs_school_fin_Southern Miss,0.0,0.0,0.0
+cat__hs_school_fin_Southern Utah,0.0,0.0,0.0
+cat__hs_school_fin_Stony Brook,0.0,0.0,0.0
+cat__hs_school_fin_South Carolina,0.0,0.0,0.0
+cat__hs_school_fin_South Carolina State,0.0,0.0,0.0
+cat__hs_school_fin_South Carolina Upstate,0.0,0.0,0.0
+cat__hs_school_fin_South Dakota,0.0,0.0,0.0
+cat__hs_school_fin_Troy,0.0,0.0,0.0
+cat__hs_hometown_state_LA,0.0,0.0,0.0
+cat__hs_hometown_state_LITH,0.0,0.0,0.0
+cat__hs_hometown_state_MACE,0.0,0.0,0.0
+cat__hs_hometown_state_MALI,0.0,0.0,0.0
+cat__hs_hometown_state_MEXI,0.0,0.0,0.0
+cat__hs_hometown_state_ID,0.0,0.0,0.0
+cat__hs_hometown_state_IS,0.0,0.0,0.0
+cat__hs_hometown_state_ITAL,0.0,0.0,0.0
+cat__hs_hometown_state_JP,0.0,0.0,0.0
+cat__hs_school_fin_UT Martin,0.0,0.0,0.0

@@ -1,0 +1,55 @@
+{
+  "db_path": "/Users/anirudhhaharsha/Desktop/sports_analytics_projects/Basketball/College Basketball Project/uiuc_proj/data_dir/hs_to_evan_match.db",
+  "target_col": "college_basic_bpr",
+  "sample_weight_col": "college_basic_poss",
+  "min_possessions": 150,
+  "sample_weight_k": 300,
+  "features": [
+    "hs_year",
+    "hs_position",
+    "hs_weight",
+    "hs_stars",
+    "hs_rating",
+    "hs_national_rank",
+    "hs_position_rank",
+    "hs_state_rank",
+    "hs_height_in",
+    "hs_hometown_state",
+    "hs_school_fin"
+  ],
+  "numeric_features": [
+    "hs_year",
+    "hs_weight",
+    "hs_stars",
+    "hs_rating",
+    "hs_national_rank",
+    "hs_position_rank",
+    "hs_state_rank",
+    "hs_height_in"
+  ],
+  "categorical_features": [
+    "hs_position",
+    "hs_hometown_state",
+    "hs_school_fin"
+  ],
+  "alphas": [
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1.0,
+    3.0,
+    10.0,
+    30.0,
+    100.0,
+    300.0,
+    1000.0
+  ],
+  "best_alpha": 3.0,
+  "split": {
+    "train": "2009 <= hs_year < 2022",
+    "valid": "2022 <= hs_year <= 2023",
+    "test": "2024 <= hs_year <= 2025"
+  },
+  "query": "\nSELECT\n    hs_year,\n    hs_position,\n    hs_height,\n    hs_height_in,\n    hs_weight,\n    hs_stars,\n    hs_rating,\n    hs_national_rank,\n    hs_position_rank,\n    hs_state_rank,\n    hs_hometown_state,\n    hs_school_fin,\n\n    college_basic_bpr,\n    college_basic_poss\nFROM hs_to_evan_global_matched\nWHERE college_basic_bpr IS NOT NULL\n  AND college_basic_poss IS NOT NULL\n;\n"
+}

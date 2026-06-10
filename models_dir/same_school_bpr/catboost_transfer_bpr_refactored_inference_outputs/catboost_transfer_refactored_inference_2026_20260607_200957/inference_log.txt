@@ -1,0 +1,26 @@
+Starting CatBoost transfer BPR inference
+Run directory: catboost_transfer_bpr_refactored_inference_outputs/catboost_transfer_refactored_inference_2026_20260607_200957
+DB path: /Users/anirudhhaharsha/Desktop/sports_analytics_projects/Basketball/College Basketball Project/uiuc_proj/data_dir/evan_miya_barttorvik_matched.db
+Table name: evan_miya_barttorvik_matched
+Filter year column: year
+Inference year: 2026
+Model path: /Users/anirudhhaharsha/Desktop/sports_analytics_projects/Basketball/College Basketball Project/uiuc_proj/models_dir/same_school_bpr/catboost_transfer_bpr_refactored_outputs/catboost_transfer_refactored_run_20260607_195230/catboost_transfer_refactored_production_train_valid_model.cbm
+Prediction column: pred_next_basic_bpr
+
+Raw inference rows loaded: 3,743
+Raw columns loaded: 128
+Query:
+
+SELECT *
+FROM "evan_miya_barttorvik_matched"
+WHERE "year" = 2026
+;
+
+Saved raw inference rows: catboost_transfer_bpr_refactored_inference_outputs/catboost_transfer_refactored_inference_2026_20260607_200957/raw_inference_rows_2026.csv
+Height source missing: old_bvt_ht
+Height source missing: old_bvt_player_height
+
+Final height feature summary:
+Non-null player_height_in: 0
+Missing player_height_in: 3,743
+Saved data after height feature: catboost_transfer_bpr_refactored_inference_outputs/catboost_transfer_refactored_inference_2026_20260607_200957/inference_data_after_height_feature.csv

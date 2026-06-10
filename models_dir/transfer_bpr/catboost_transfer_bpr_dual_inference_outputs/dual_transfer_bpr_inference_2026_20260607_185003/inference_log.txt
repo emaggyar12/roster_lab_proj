@@ -1,0 +1,200 @@
+Starting dual CatBoost transfer BPR inference
+Run directory: catboost_transfer_bpr_dual_inference_outputs/dual_transfer_bpr_inference_2026_20260607_185003
+DB path: /Users/anirudhhaharsha/Desktop/sports_analytics_projects/Basketball/College Basketball Project/uiuc_proj/data_dir/table1_with_next_year_bpr.db
+Table name: table1_with_next_year_bpr
+Year column: allyears_year
+Inference year: 2026
+Model with destination path: /Users/anirudhhaharsha/Desktop/sports_analytics_projects/Basketball/College Basketball Project/uiuc_proj/models_dir/transfer_bpr/catboost_transfer_bpr_school_no_weight_outputs/catboost_transfer_bpr_no_weight_run_20260607_182627/catboost_transfer_bpr_no_weight_production_train_valid_model.cbm
+Model no destination path: /Users/anirudhhaharsha/Desktop/sports_analytics_projects/Basketball/College Basketball Project/uiuc_proj/models_dir/transfer_bpr/catboost_transfer_bpr_no_school_no_weight_outputs/catboost_transfer_bpr_no_weight_run_20260607_183125/catboost_transfer_bpr_no_weight_production_train_valid_model.cbm
+Config with destination path: None
+Config no destination path: None
+
+Using fallback with-destination feature lists from script.
+Using fallback no-destination feature lists from script.
+
+Feature counts:
+With-destination total features: 68
+No-destination total features:   66
+Union numeric features:          57
+Union categorical features:      11
+
+Raw inference rows loaded: 1,512
+Raw columns loaded: 218
+Query:
+
+SELECT *
+FROM "table1_with_next_year_bpr"
+WHERE "allyears_year" = 2026
+;
+
+
+Height source used: allyears_player_height
+Rows with non-null allyears_player_height: 1,512
+Rows filled from allyears_player_height: 1,512
+Remaining missing player_height_in: 0
+
+Height source used: transfer_player_height
+Rows with non-null transfer_player_height: 1,100
+Rows filled from transfer_player_height: 0
+Remaining missing player_height_in: 0
+
+Height source used: 247_height
+Rows with non-null 247_height: 1,511
+Rows filled from 247_height: 0
+Remaining missing player_height_in: 0
+
+Height source used: allyears_ht
+Rows with non-null allyears_ht: 1,512
+Rows filled from allyears_ht: 0
+Remaining missing player_height_in: 0
+
+Final height feature summary:
+Non-null player_height_in: 1,512
+Missing player_height_in: 0
+
+Routing summary:
+Rows with real transfer_new_team: 1,127
+Rows with missing/uncommitted transfer_new_team: 385
+Total routed rows: 1,512
+
+Missingness for destination-routed rows:
+                       feature  missing_rate
+             247_transfer_rank      0.597161
+           247_transfer_rating      0.596273
+                    247_rating      0.351375
+                     247_stars      0.351375
+         evan_basic_plus_minus      0.139308
+evan_basic_adj_team_eff_margin      0.139308
+   evan_basic_adj_team_def_eff      0.139308
+   evan_basic_adj_team_off_eff      0.139308
+            evan_basic_box_bpr      0.139308
+           evan_basic_box_dbpr      0.139308
+           evan_basic_box_obpr      0.139308
+               evan_basic_poss      0.139308
+                evan_basic_bpr      0.139308
+               evan_basic_dbpr      0.139308
+               evan_basic_obpr      0.139308
+                  allyears_ftr      0.000000
+               allyears_porpag      0.000000
+                allyears_adjoe      0.000000
+                  allyears_pfr      0.000000
+              allyears_ast_tov      0.000000
+                 allyears_drtg      0.000000
+                allyears_adrtg      0.000000
+              allyears_dporpag      0.000000
+                allyears_stops      0.000000
+                  allyears_bpm      0.000000
+                 allyears_obpm      0.000000
+                 allyears_dbpm      0.000000
+                 allyears_gbpm      0.000000
+                   allyears_mp      0.000000
+                allyears_ogbpm      0.000000
+                allyears_dgbpm      0.000000
+                 allyears_oreb      0.000000
+                 allyears_dreb      0.000000
+                 allyears_treb      0.000000
+                  allyears_ast      0.000000
+                  allyears_stl      0.000000
+                  allyears_blk      0.000000
+                  allyears_pts      0.000000
+               allyears_3p_100      0.000000
+              player_height_in      0.000000
+                    247_weight      0.000000
+              allyears_stl_per      0.000000
+              allyears_blk_per      0.000000
+               allyears_tp_per      0.000000
+                   allyears_gp      0.000000
+ 247_destination_options_count      0.000000
+               allyears_ft_per      0.000000
+               allyears_to_per      0.000000
+              allyears_ast_per      0.000000
+              allyears_drb_per      0.000000
+              allyears_orb_per      0.000000
+               allyears_ts_per      0.000000
+                  allyears_efg      0.000000
+             allyears_twop_per      0.000000
+             transfer_old_team      0.000000
+                  allyears_usg      0.000000
+                 allyears_ortg      0.000000
+         allyears_player_class      0.000000
+                 allyears_role      0.000000
+        transfer_new_team_conf      0.000000
+        transfer_old_team_conf      0.000000
+                  247_position      0.000000
+            247_position_group      0.000000
+        evan_advanced_position      0.000000
+            evan_advanced_role      0.000000
+           evan_advanced_class      0.000000
+             transfer_new_team      0.000000
+              allyears_min_per      0.000000
+
+Missingness for no-destination-routed rows:
+                       feature  missing_rate
+             247_transfer_rank      0.909091
+           247_transfer_rating      0.898701
+                    247_rating      0.566234
+                     247_stars      0.566234
+         evan_basic_plus_minus      0.259740
+evan_basic_adj_team_eff_margin      0.259740
+   evan_basic_adj_team_def_eff      0.259740
+   evan_basic_adj_team_off_eff      0.259740
+            evan_basic_box_bpr      0.259740
+           evan_basic_box_dbpr      0.259740
+           evan_basic_box_obpr      0.259740
+               evan_basic_poss      0.259740
+                evan_basic_bpr      0.259740
+               evan_basic_dbpr      0.259740
+               evan_basic_obpr      0.259740
+                  allyears_ftr      0.000000
+               allyears_porpag      0.000000
+                allyears_adjoe      0.000000
+                  allyears_pfr      0.000000
+              allyears_ast_tov      0.000000
+                 allyears_drtg      0.000000
+                allyears_adrtg      0.000000
+              allyears_dporpag      0.000000
+                allyears_stops      0.000000
+                  allyears_bpm      0.000000
+                 allyears_obpm      0.000000
+                 allyears_dbpm      0.000000
+                 allyears_gbpm      0.000000
+                   allyears_mp      0.000000
+                allyears_ogbpm      0.000000
+                allyears_dgbpm      0.000000
+                 allyears_oreb      0.000000
+                 allyears_dreb      0.000000
+                 allyears_treb      0.000000
+                  allyears_ast      0.000000
+                  allyears_stl      0.000000
+                  allyears_blk      0.000000
+                  allyears_pts      0.000000
+               allyears_3p_100      0.000000
+              player_height_in      0.000000
+                    247_weight      0.000000
+              allyears_stl_per      0.000000
+              allyears_blk_per      0.000000
+               allyears_tp_per      0.000000
+             allyears_twop_per      0.000000
+ 247_destination_options_count      0.000000
+               allyears_ft_per      0.000000
+              allyears_min_per      0.000000
+              allyears_ast_per      0.000000
+              allyears_drb_per      0.000000
+              allyears_orb_per      0.000000
+               allyears_ts_per      0.000000
+                  allyears_efg      0.000000
+                  allyears_usg      0.000000
+                 allyears_ortg      0.000000
+           evan_advanced_class      0.000000
+               allyears_to_per      0.000000
+                   allyears_gp      0.000000
+                 allyears_role      0.000000
+             transfer_old_team      0.000000
+        transfer_old_team_conf      0.000000
+                  247_position      0.000000
+            247_position_group      0.000000
+        evan_advanced_position      0.000000
+            evan_advanced_role      0.000000
+         allyears_player_class      0.000000
+
+Loaded both CatBoost models.
