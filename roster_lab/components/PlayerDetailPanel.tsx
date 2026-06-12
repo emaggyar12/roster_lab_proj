@@ -21,7 +21,7 @@ export function PlayerDetailPanel({ player }: { player: Player }) {
   if (isReturning) {
     return (
       <div className="border-t border-line bg-white px-4 py-4 text-sm">
-        <div className="grid gap-4 xl:grid-cols-[1.2fr_.8fr] xl:items-stretch">
+        <div className="grid gap-4 xl:grid-cols-[.95fr_1.05fr] xl:items-stretch">
           <ReturningSeasonStats player={player} />
           <SkillRadar player={player} animate={animateBars} />
         </div>
@@ -348,38 +348,68 @@ function ReturningSeasonStats({ player }: { player: Player }) {
     { label: "GP", value: formatStat(player.season_gp, 0) },
     { label: "MP", value: formatStat(player.season_mp, 2) },
     { label: "FT", value: formatPercent(player.season_ft_pct) },
-    { label: "BPR", value: formatStat(player.season_basic_bpr, 2), emphasized: true },
+    { label: "BPR", value: formatStat(player.season_basic_bpr, 2), emphasized: Boolean(player.draft_status) },
   ];
+  const hasStats = [...primaryStats, ...secondaryStats].some((stat) => stat.value !== "N/A");
 
   return (
     <section className="rounded border border-line bg-panel px-4 py-4">
-      <div className="mb-4 text-xs font-semibold uppercase tracking-wide text-slate-500">2025-26 Season Stats</div>
-      <div className="grid gap-4">
-        <div className="grid grid-cols-2 justify-items-center gap-4 sm:grid-cols-5">
-          {primaryStats.map((stat) => (
-            <ReturningStat key={stat.label} stat={stat} />
-          ))}
-        </div>
-        <div className="grid grid-cols-2 justify-items-center gap-4 border-t border-line pt-4 sm:grid-cols-4">
-          {secondaryStats.map((stat) => (
-            <ReturningStat key={stat.label} stat={stat} />
-          ))}
+      <div className="mb-4 flex flex-wrap items-start justify-between gap-3">
+        <div>
+          <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
+            <Activity className="h-4 w-4" />
+            2025-26 Season Profile
+          </div>
+          <div className="mt-2 flex flex-wrap items-center gap-2">
+            {player.draft_status ? <DetailDraftBadge /> : <SourceBadge source={player.player_source} />}
+            <span className="rounded border border-line bg-white px-2 py-1 text-xs font-semibold text-slate-600">
+              {player.current_team}
+            </span>
+          </div>
         </div>
       </div>
+
+      {hasStats ? (
+        <div className="space-y-3">
+          <div className="grid grid-cols-2 gap-2 sm:grid-cols-5">
+            {primaryStats.map((stat) => (
+              <ReturningStat key={stat.label} stat={stat} />
+            ))}
+          </div>
+          <div className="grid grid-cols-2 gap-2 border-t border-line pt-3 sm:grid-cols-4">
+            {secondaryStats.map((stat) => (
+              <ReturningStat key={stat.label} stat={stat} compact />
+            ))}
+          </div>
+        </div>
+      ) : (
+        <div className="rounded border border-line bg-white px-3 py-6 text-center text-sm font-semibold text-slate-500">
+          No season stats available.
+        </div>
+      )}
     </section>
   );
 }
 
-function ReturningStat({ stat }: { stat: { label: string; value: string; emphasized?: boolean } }) {
+function DetailDraftBadge() {
+  return (
+    <span className="inline-flex h-7 items-center whitespace-nowrap rounded border border-orange-300 bg-orange-100 px-2 text-xs font-semibold text-orange-800 dark:border-orange-500 dark:bg-orange-950 dark:text-orange-200">
+      Draft
+    </span>
+  );
+}
+
+function ReturningStat({ stat, compact = false }: { stat: { label: string; value: string; emphasized?: boolean }; compact?: boolean }) {
   return (
     <div
       className={clsx(
-        "min-w-20 text-center",
-        stat.emphasized && "rounded border border-sky-300 bg-white px-4 py-2 shadow-soft dark:border-sky-600",
+        "rounded border border-line bg-white px-3 py-3 text-center",
+        compact && "py-2",
+        stat.emphasized && "border-sky-300 shadow-soft dark:border-sky-600",
       )}
     >
-      <div className="text-xl font-semibold tabular-nums text-ink">{stat.value}</div>
-      <div className="mt-1 text-xs font-medium uppercase tracking-wide text-slate-500">{stat.label}</div>
+      <div className={clsx("font-semibold tabular-nums text-ink", compact ? "text-lg" : "text-xl")}>{stat.value}</div>
+      <div className="mt-1 text-[10px] font-semibold uppercase tracking-wide text-slate-500">{stat.label}</div>
     </div>
   );
 }

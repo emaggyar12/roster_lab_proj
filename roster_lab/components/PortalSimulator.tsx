@@ -162,7 +162,7 @@ export function PortalSimulator() {
           <div className="grid grid-cols-2 rounded border border-line bg-panel p-1">
             {[
               ["roster", "Current Roster"],
-              ["browse", "Browse Portal"],
+              ["browse", "Browse Recruits"],
             ].map(([value, label]) => (
               <button
                 key={value}
@@ -555,7 +555,7 @@ function FilterSelect({
       <option value="all">{label}: All</option>
       {options.map((option) => (
         <option key={option} value={option}>
-          {label}: {option}
+          {option}
         </option>
       ))}
     </select>

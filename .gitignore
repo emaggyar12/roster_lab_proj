@@ -21,6 +21,22 @@ scrapers_web/cache/
 # Database files
 *.db
 
+# Unused model outputs
+models_dir/same_school_bpr/catboost_transfer_bpr_refactored_inference_outputs/
+models_dir/transfer_bpr/catboost_transfer_bpr_dual_inference_outputs/dual_transfer_bpr_inference_2026_20260607_185003/
+models_dir/transfer_bpr/catboost_transfer_bpr_dual_inference_outputs/dual_transfer_bpr_inference_2026_20260607_185507/
+models_dir/transfer_bpr/catboost_transfer_bpr_no_school_no_weight_outputs/
+models_dir/transfer_bpr/catboost_transfer_bpr_school_no_weight_outputs/
+models_dir/transfer_playtype_pred_247_NOTUSED/
+models_dir/transfer_playtype_prediction/outputs/catboost_transfer_role_future_top3_predictions_with_247_cols.csv
+models_dir/baseline_model_hs_playtype/jun_4_optuna/
+models_dir/hs_bpr/catboost_model/catboost_bpr_inference_outputs/
+models_dir/hs_bpr/catboost_model/catboost_bpr_no_weight_inference_outputs/
+models_dir/hs_bpr/catboost_model/catboost_bpr_no_weight_outputs/
+models_dir/hs_bpr/catboost_model/catboost_bpr_outputs/
+models_dir/hs_bpr/catboost_model/catboost_dual_bpr_inference_outputs/dual_bpr_inference_20260607_154651/
+
+
 # Frontend site generated files
 roster_lab/node_modules/
 roster_lab/.next/

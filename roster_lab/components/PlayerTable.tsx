@@ -161,10 +161,14 @@ export function PlayerTable({
         modePlayers.flatMap((player) => [player.current_team, player.committed_team ?? "", player.new_team ?? ""]),
       ),
       conferences: unique(modePlayers.map((player) => player.conference)),
-      playtypes: unique(modePlayers.map((player) => getTopPlaytypes(player, 1)[0]?.label ?? "")),
+      playtypes: unique(
+        modePlayers.map((player) =>
+          isReturningMode ? (player.returning_role ?? "") : (getTopPlaytypes(player, 1)[0]?.label ?? ""),
+        ),
+      ),
       stars: unique(modePlayers.map((player) => (player.hs_stars ? `${player.hs_stars}` : ""))),
     };
-  }, [modePlayers]);
+  }, [isReturningMode, modePlayers]);
 
   const playerSuggestions = useMemo(
     () => Array.from(new Set(modePlayers.map((player) => player.player_name))).sort(),
@@ -176,7 +180,7 @@ export function PlayerTable({
     const normalizedTeamQuery = teamQuery.trim().toLowerCase();
     return modePlayers
       .filter((player) => {
-        const topPlaytype = getTopPlaytypes(player, 1)[0]?.label;
+        const topPlaytype = isReturningMode ? player.returning_role : getTopPlaytypes(player, 1)[0]?.label;
         const transferStatus = toPortalStatus(player.transfer_247_status) ?? toPortalStatus(player.portal_status);
         return (
           (!normalizedQuery || player.player_name.toLowerCase().includes(normalizedQuery)) &&
@@ -187,7 +191,7 @@ export function PlayerTable({
             player.committed_team?.toLowerCase().includes(normalizedTeamQuery) ||
             player.new_team?.toLowerCase().includes(normalizedTeamQuery)) &&
           (isHsMode || classYear === "all" || player.class_year === classYear) &&
-          (isHsMode || conference === "all" || player.conference === conference) &&
+          (isHsMode || isReturningMode || conference === "all" || player.conference === conference) &&
           (playtype === "all" || topPlaytype === playtype) &&
           (!isHsMode || stars === "all" || `${player.hs_stars}` === stars) &&
           (!isHsMode || !uncommittedOnly || isUncommittedHsRecruit(player)) &&
@@ -211,7 +215,7 @@ export function PlayerTable({
         }
         return multiplier * (a[sortKey] - b[sortKey]);
       });
-  }, [classYear, conference, isDraftMode, isHsMode, modePlayers, playtype, portalOnly, position, query, sortDirection, sortKey, stars, status, teamQuery, uncommittedOnly]);
+  }, [classYear, conference, isDraftMode, isHsMode, isReturningMode, modePlayers, playtype, portalOnly, position, query, sortDirection, sortKey, stars, status, teamQuery, uncommittedOnly]);
 
   const visiblePlayers = useMemo(() => {
     if (displayCount === "all") return filteredPlayers;
@@ -254,7 +258,7 @@ export function PlayerTable({
             />
           ) : null}
           <AutocompleteInput label="Team" value={teamQuery} onChange={updateTeamQuery} suggestions={options.teams} />
-          {!isHsMode && !isDraftMode ? <FilterSelect label="Conference" value={conference} onChange={updateConference} options={["all", ...options.conferences]} /> : null}
+          {!isHsMode && !isReturningMode && !isDraftMode ? <FilterSelect label="Conference" value={conference} onChange={updateConference} options={["all", ...options.conferences]} /> : null}
           {!isDraftMode ? <FilterSelect label="Playtype" value={playtype} onChange={updatePlaytype} options={["all", ...options.playtypes]} /> : null}
           {isHsMode ? <FilterSelect label="Stars" value={stars} onChange={updateStars} options={["all", ...options.stars]} /> : null}
           {isHsMode ? (
