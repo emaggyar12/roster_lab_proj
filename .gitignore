@@ -22,27 +22,27 @@ scrapers_web/cache/
 *.db
 
 # Frontend site generated files
-frontend_site/node_modules/
-frontend_site/.next/
-frontend_site/out/
+roster_lab/node_modules/
+roster_lab/.next/
+roster_lab/out/
 
 # Frontend site local env files
-frontend_site/.env
-frontend_site/.env.local
-frontend_site/.env.development.local
-frontend_site/.env.test.local
-frontend_site/.env.production.local
+roster_lab/.env
+roster_lab/.env.local
+roster_lab/.env.development.local
+roster_lab/.env.test.local
+roster_lab/.env.production.local
 
 # Frontend site package manager logs
-frontend_site/npm-debug.log*
-frontend_site/yarn-debug.log*
-frontend_site/yarn-error.log*
-frontend_site/pnpm-debug.log*
+roster_lab/npm-debug.log*
+roster_lab/yarn-debug.log*
+roster_lab/yarn-error.log*
+roster_lab/pnpm-debug.log*
 
 # Stale frontend routes
-frontend_site/app/portal
-frontend_site/app/recommendations
-frontend_site/app/simulator
+roster_lab/app/portal
+roster_lab/app/recommendations
+roster_lab/app/simulator
 
 # Autogluon
 *autogluon*
@@ -54,10 +54,10 @@ models_dir/kmeans_players/kmeans_cluster_outputs/kmeans_player_assignment_explan
 models_dir/same_school_bpr/catboost_transfer_bpr_refactored_outputs/
 
 # Other files
-frontend_site/components/RosterOptimizer_backup.tsx
-frontend_site/components/RosterOptimizer_old.tsx
-frontend_site/codex_instructions
-frontend_site/data/data_sources.txt
+roster_lab/components/RosterOptimizer_backup.tsx
+roster_lab/components/RosterOptimizer_old.tsx
+roster_lab/codex_instructions
+roster_labe/data/data_sources.txt
 good_websites/
 BACKUPS/
 .vscode/
