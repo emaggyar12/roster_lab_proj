@@ -2,10 +2,15 @@
 __pycache__/
 *.py[cod]
 
+# Codex Stuff
+codex_context/
+
 # Data
 db_files/
 scrapers_web/outputs/actual_db_files/
 data_dir/
+scrapers_web/missing_data
+scrapers_web/outputs
 
 # Cached recruit profiles
 scrapers_web/cache/
@@ -34,6 +39,11 @@ frontend_site/yarn-debug.log*
 frontend_site/yarn-error.log*
 frontend_site/pnpm-debug.log*
 
+# Stale frontend routes
+frontend_site/app/portal
+frontend_site/app/recommendations
+frontend_site/app/simulator
+
 # Autogluon
 *autogluon*
 
@@ -45,3 +55,9 @@ models_dir/same_school_bpr/catboost_transfer_bpr_refactored_outputs/
 
 # Other files
 frontend_site/components/RosterOptimizer_backup.tsx
+frontend_site/components/RosterOptimizer_old.tsx
+frontend_site/codex_instructions
+frontend_site/data/data_sources.txt
+good_websites/
+BACKUPS/
+.vscode/
