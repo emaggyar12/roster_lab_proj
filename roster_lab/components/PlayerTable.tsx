@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { ArrowUpDown, ChevronDown, ChevronLeft, ChevronRight, Search } from "lucide-react";
+import { ArrowUpDown, ChevronDown, ChevronLeft, ChevronRight, RotateCcw, Search } from "lucide-react";
 import clsx from "clsx";
 import type { Player, PlayerSource } from "@/data/players";
 import { getTopPlaytypes } from "@/lib/data";
@@ -39,7 +39,6 @@ export function PlayerTable({
   const [conference, setConference] = useState("all");
   const [playtype, setPlaytype] = useState("all");
   const [stars, setStars] = useState("all");
-  const [minRating, setMinRating] = useState(0);
   const [uncommittedOnly, setUncommittedOnly] = useState(false);
   const [portalOnly, setPortalOnly] = useState(portalDefault);
   const [sortKey, setSortKey] = useState<SortKey>("projected_bpr");
@@ -97,11 +96,6 @@ export function PlayerTable({
     resetDisplayCount();
   }
 
-  function updateMinRating(value: number) {
-    setMinRating(value);
-    resetDisplayCount();
-  }
-
   function updateUncommittedOnly(nextValue: boolean) {
     setUncommittedOnly(nextValue);
     resetDisplayCount();
@@ -110,6 +104,22 @@ export function PlayerTable({
   function updatePortalOnly(nextValue: boolean) {
     setPortalOnly(nextValue);
     resetDisplayCount();
+  }
+
+  function resetFilters() {
+    setQuery("");
+    setPosition("all");
+    setStatus("all");
+    setTeamQuery("");
+    setClassYear("all");
+    setConference("all");
+    setPlaytype("all");
+    setStars("all");
+    setUncommittedOnly(false);
+    setPortalOnly(portalDefault);
+    setDisplayCount("20");
+    setCurrentPage(1);
+    setExpandedIds(new Set());
   }
 
   const modePlayers = useMemo(
@@ -129,14 +139,13 @@ export function PlayerTable({
     setConference("all");
     setPlaytype("all");
     setStars("all");
-    setMinRating(0);
     setUncommittedOnly(false);
     setPortalOnly(portalDefault);
     setSortKey(
       playerMode === "hs"
-        ? "hs_rating"
+        ? "hs_bpr"
         : playerMode === "transfer"
-          ? "transfer_247_rating"
+          ? "transfer_bpr"
           : "projected_bpr",
     );
     setSortDirection("desc");
@@ -181,7 +190,6 @@ export function PlayerTable({
           (isHsMode || conference === "all" || player.conference === conference) &&
           (playtype === "all" || topPlaytype === playtype) &&
           (!isHsMode || stars === "all" || `${player.hs_stars}` === stars) &&
-          (!isHsMode || !minRating || (player.hs_rating ?? 0) >= minRating) &&
           (!isHsMode || !uncommittedOnly || isUncommittedHsRecruit(player)) &&
           (isHsMode || !portalOnly || player.is_in_portal)
         );
@@ -203,7 +211,7 @@ export function PlayerTable({
         }
         return multiplier * (a[sortKey] - b[sortKey]);
       });
-  }, [classYear, conference, isDraftMode, isHsMode, minRating, modePlayers, playtype, portalOnly, position, query, sortDirection, sortKey, stars, status, teamQuery, uncommittedOnly]);
+  }, [classYear, conference, isDraftMode, isHsMode, modePlayers, playtype, portalOnly, position, query, sortDirection, sortKey, stars, status, teamQuery, uncommittedOnly]);
 
   const visiblePlayers = useMemo(() => {
     if (displayCount === "all") return filteredPlayers;
@@ -260,24 +268,17 @@ export function PlayerTable({
               Uncommitted
             </label>
           ) : null}
-          {isHsMode ? (
-            <label className="grid h-10 grid-cols-[1fr_56px] items-center rounded border border-line bg-panel px-2 text-xs font-semibold text-slate-500">
-              Rating
-              <input
-                type="number"
-                min={0}
-                max={100}
-                step={0.5}
-                value={minRating}
-                onChange={(event) => updateMinRating(Number(event.target.value))}
-                className="h-7 rounded border border-line bg-white px-2 text-sm text-ink outline-none"
-              />
-            </label>
-          ) : null}
         </div>
 
         <div className="mt-3 flex flex-wrap items-center justify-between gap-3">
-          <div />
+          <button
+            type="button"
+            onClick={resetFilters}
+            className="inline-flex h-9 items-center gap-2 rounded border border-line bg-panel px-3 text-sm font-semibold text-slate-600 hover:border-slate-400 hover:text-ink"
+          >
+            <RotateCcw className="h-4 w-4" />
+            Reset Filters
+          </button>
           <div className="text-sm text-slate-600">
             Showing {currentStart}-{currentEnd} of {filteredPlayers.length} players
           </div>

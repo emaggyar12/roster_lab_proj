@@ -1,13 +1,13 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, type DragEvent } from "react";
 import Link from "next/link";
 import basketballCourtPackage from "basketball-court";
 import GLPK, { type GLPK as GLPKInstance, type LP } from "glpk.js";
-import { Activity, AlertTriangle, ArrowRight, ChevronDown, Loader2, RotateCcw, SlidersHorizontal, Trophy } from "lucide-react";
+import { Activity, AlertTriangle, ArrowRight, ChevronDown, Info, Loader2, RotateCcw, SlidersHorizontal, Trophy } from "lucide-react";
 import clsx from "clsx";
 import { players } from "@/data/players";
-import { getHsPlayers, getPortalPlayers, getTeamPlayers, getTeams } from "@/lib/data";
+import { getHsPlayers, getPortalPlayers, getTeamPlayers, getTeams, isTransferOutgoingFromTeam } from "@/lib/data";
 import {
   DEFAULT_TARGET_COUNTS,
   MAX_ROSTER_SIZE,
@@ -21,7 +21,6 @@ import {
   displayOptimizerTeam,
   getOpenSlots,
   getPositionCounts,
-  isValidTargetTotal,
   normalizeCandidate,
   normalizeOptimizerPlayer,
   rankIndividualFits,
@@ -69,23 +68,22 @@ const makeBasketballCourt = basketballCourtPackage as unknown as (options: Recor
 const COURT_THEME = {
   global: {
     fill: "none",
-    stroke: "rgba(226,232,240,.72)",
-    "stroke-width": 2.4,
+    stroke: "#F8FAFC",
+    "stroke-width": "3",
     "stroke-linecap": "round",
     "stroke-linejoin": "round",
   },
-  court: { stroke: "rgba(148,163,184,.62)", "stroke-width": 2.2 },
-  centerCircle: { stroke: "rgba(226,232,240,.46)" },
-  restrainCircle: { stroke: "rgba(16,185,129,.56)" },
-  hcline: { stroke: "rgba(148,163,184,.38)" },
-  tpline: { stroke: "rgba(226,232,240,.74)", "stroke-width": 2.7 },
-  lane: { stroke: "rgba(226,232,240,.68)" },
-  innerLane: { stroke: "rgba(16,185,129,.48)" },
-  ftCircleHigh: { stroke: "rgba(226,232,240,.58)" },
-  ftCircleLow: { stroke: "rgba(226,232,240,.42)" },
-  restricted: { stroke: "rgba(16,185,129,.66)" },
-  backboard: { stroke: "rgba(248,250,252,.82)", "stroke-width": 3.2 },
-  rim: { stroke: "rgba(52,211,153,.86)", "stroke-width": 3 },
+  court: { fill: "#0F172A" },
+  centerCircle: { fill: "#1E293B", stroke: "#CBD5E1", "stroke-width": "2" },
+  restrainCircle: false,
+  lane: { fill: "#1E293B", stroke: "#F8FAFC", "stroke-width": "3" },
+  innerLane: { fill: "#0F172A", stroke: "#CBD5E1", "stroke-width": "2" },
+  tpline: { fill: "none", stroke: "#F8FAFC", "stroke-width": "3.5" },
+  ftCircleHigh: { fill: "none", stroke: "#F8FAFC", "stroke-width": "3" },
+  ftCircleLow: { fill: "none", stroke: "#94A3B8", "stroke-width": "2.5" },
+  restricted: { fill: "none", stroke: "#CBD5E1", "stroke-width": "2.5" },
+  backboard: { stroke: "#E2E8F0", "stroke-width": "5" },
+  rim: { fill: "none", stroke: "#FB923C", "stroke-width": "4" },
 };
 
 let glpkPromise: Promise<GLPKInstance> | null = null;
@@ -157,7 +155,11 @@ export function RosterOptimizer() {
 
   const playerById = useMemo(() => new Map(players.map((player) => [player.player_id, player])), []);
   const loadedPlayers = useMemo(
-    () => payload?.playerIds.map((id) => playerById.get(id)).filter((player): player is NonNullable<typeof player> => Boolean(player)) ?? [],
+    () =>
+      payload?.playerIds
+        .map((id) => playerById.get(id))
+        .filter((player): player is NonNullable<typeof player> => Boolean(player))
+        .filter((player) => !isTransferOutgoingFromTeam(player, payload.teamName)) ?? [],
     [payload, playerById],
   );
   const currentRoster = useMemo(
@@ -185,6 +187,10 @@ export function RosterOptimizer() {
         return true;
       });
   }, [currentRoster]);
+  const fullRosterCandidates = useMemo(() => {
+    if (!payload?.teamName) return candidates;
+    return candidates.filter((candidate) => !isTransferOutgoingFromTeam(candidate.player, payload.teamName));
+  }, [candidates, payload?.teamName]);
 
   const effectiveSortMode: SortMode =
     (sortMode === "total_gain" || sortMode === "weakest_gain") && categoryFilter !== "all"
@@ -218,7 +224,7 @@ export function RosterOptimizer() {
     try {
       const nextResult = await solveOptimizer({
         currentRoster,
-        candidates,
+        candidates: fullRosterCandidates,
         openSlots,
         currentRatings,
       });
@@ -244,20 +250,14 @@ export function RosterOptimizer() {
     setTargetCounts((counts) => {
       if (delta === 0) return counts;
       if (delta < 0 && counts[position] <= 0) return counts;
-      const next = { ...counts, [position]: counts[position] + delta };
-      const others = POSITION_GROUPS.filter((group) => group !== position);
-      if (delta > 0) {
-        const donor = [...others].sort((left, right) => next[right] - next[left])[0];
-        if (!donor || next[donor] <= 0) return counts;
-        next[donor] -= 1;
-      } else {
-        const recipient = [...others].sort((left, right) => next[right] - next[left])[0];
-        if (!recipient) return counts;
-        next[recipient] += 1;
-      }
-      if (!isValidTargetTotal(next)) return counts;
-      return next;
+      return { ...counts, [position]: Math.max(0, counts[position] + delta) };
     });
+    setResult(null);
+  }
+
+  function setTarget(position: PositionGroup, value: number) {
+    if (!Number.isFinite(value)) return;
+    setTargetCounts((counts) => ({ ...counts, [position]: Math.max(0, Math.floor(value)) }));
     setResult(null);
   }
 
@@ -268,7 +268,7 @@ export function RosterOptimizer() {
         <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-600">
           Open Roster Management, make any additions or removals, then click Load to Optimizer.
         </p>
-        <Link href="/simulator" className="mt-4 inline-flex h-10 items-center rounded bg-emerald-600 px-4 text-sm font-semibold text-white">
+        <Link href="/rosters" className="mt-4 inline-flex h-10 items-center rounded bg-emerald-600 px-4 text-sm font-semibold text-white">
           Go to Roster Management
         </Link>
       </div>
@@ -278,7 +278,7 @@ export function RosterOptimizer() {
   return (
     <section className="space-y-4">
       <div className="-mt-20 mb-10 flex justify-end gap-2">
-        <Link href="/simulator" className="inline-flex h-9 items-center justify-center rounded border border-line bg-panel px-4 text-sm font-semibold text-slate-700">
+        <Link href="/rosters" className="inline-flex h-9 items-center justify-center rounded border border-line bg-panel px-4 text-sm font-semibold text-slate-700">
           Back
         </Link>
         <button
@@ -321,7 +321,7 @@ export function RosterOptimizer() {
           {view === "sets" ? (
             <div className="border-t border-line bg-panel p-4 xl:border-l xl:border-t-0">
               <div className="space-y-3">
-                <TargetControls targetCounts={targetCounts} currentCounts={currentCounts} onChange={updateTarget} rosterSize={loadedPlayers.length} />
+                <TargetControls targetCounts={targetCounts} currentCounts={currentCounts} onChange={updateTarget} onSet={setTarget} rosterSize={loadedPlayers.length} />
                 <button
                   type="button"
                   onClick={runOptimizer}
@@ -749,18 +749,32 @@ function TargetControls({
   currentCounts,
   rosterSize,
   onChange,
+  onSet,
 }: {
   targetCounts: TargetCounts;
   currentCounts: TargetCounts;
   rosterSize: number;
   onChange: (position: PositionGroup, delta: number) => void;
+  onSet: (position: PositionGroup, value: number) => void;
 }) {
+  const targetTotalIsValid = targetCounts.G + targetCounts.F + targetCounts.C === MAX_ROSTER_SIZE;
   return (
     <div className="grid gap-2">
-        <CountPill label="Roster Size" current={rosterSize} target={MAX_ROSTER_SIZE} />
+        <CountPill
+          label="Roster Size"
+          current={rosterSize}
+          target={MAX_ROSTER_SIZE}
+          tooltip="Optimizer only runs if total roster count equals 15. Adjust positional limits with +/- buttons or manually adjust in text fields until roster count is 15."
+        />
         {POSITION_GROUPS.map((position) => (
           <div key={position} className="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-2 rounded border border-line bg-white px-3 py-2 dark:bg-panel">
-            <CountPill label={positionLabel(position)} current={currentCounts[position]} target={targetCounts[position]} compact />
+            <EditableCountPill
+              label={positionLabel(position)}
+              current={currentCounts[position]}
+              target={targetCounts[position]}
+              invalidTotal={!targetTotalIsValid}
+              onTargetChange={(value) => onSet(position, value)}
+            />
             <div className="flex items-center gap-1">
               <button type="button" onClick={() => onChange(position, -1)} className="h-8 w-8 rounded border border-line bg-panel text-sm font-semibold">-</button>
               <button type="button" onClick={() => onChange(position, 1)} className="h-8 w-8 rounded border border-line bg-panel text-sm font-semibold">+</button>
@@ -771,12 +785,90 @@ function TargetControls({
   );
 }
 
-function CountPill({ label, current, target, compact = false }: { label: string; current: number; target: number; compact?: boolean }) {
+function EditableCountPill({
+  label,
+  current,
+  target,
+  invalidTotal,
+  onTargetChange,
+}: {
+  label: string;
+  current: number;
+  target: number;
+  invalidTotal: boolean;
+  onTargetChange: (value: number) => void;
+}) {
+  const [draftTarget, setDraftTarget] = useState(String(target));
+
+  useEffect(() => {
+    setDraftTarget(String(target));
+  }, [target]);
+
+  const tone = current > target || invalidTotal ? "text-rose-600" : current === target ? "text-emerald-700" : "text-slate-600";
+  const displayLabel = label.replace("Guards", "Guard").replace("Forwards", "Forward").replace("Centers", "Center");
+  function handleTargetInput(value: string) {
+    const digits = value.replace(/\D/g, "");
+    if (!digits) {
+      setDraftTarget("");
+      return;
+    }
+    const nextValue = String(Number.parseInt(digits, 10));
+    setDraftTarget(nextValue);
+    onTargetChange(Number(nextValue));
+  }
+
+  return (
+    <div className="flex items-center justify-between gap-3 text-sm">
+      <span className="font-semibold text-slate-600">{displayLabel}</span>
+      <span className={clsx("flex items-center gap-1 font-bold tabular-nums", tone)}>
+        {current} /
+        <input
+          type="text"
+          inputMode="numeric"
+          pattern="[0-9]*"
+          value={draftTarget}
+          onChange={(event) => handleTargetInput(event.target.value)}
+          onBlur={() => {
+            if (!draftTarget) setDraftTarget(String(target));
+          }}
+          className={clsx(
+            "h-7 w-11 rounded border bg-panel px-1 text-center font-bold tabular-nums outline-none focus:border-ink",
+            current > target || invalidTotal ? "border-rose-500 text-rose-600" : "border-line text-inherit",
+          )}
+        />
+      </span>
+    </div>
+  );
+}
+
+function CountPill({
+  label,
+  current,
+  target,
+  compact = false,
+  tooltip,
+}: {
+  label: string;
+  current: number;
+  target: number;
+  compact?: boolean;
+  tooltip?: string;
+}) {
   const tone = current > target ? "text-rose-600" : current === target ? "text-emerald-700" : "text-slate-600";
   const displayLabel = compact ? label.replace("Guards", "Guard").replace("Forwards", "Forward").replace("Centers", "Center") : label;
   return (
     <div className={clsx("flex items-center justify-between gap-3", compact ? "text-sm" : "rounded border border-line bg-white px-3 py-2 text-sm dark:bg-panel")}>
-      <span className="font-semibold text-slate-600">{displayLabel}</span>
+      <span className="flex items-center gap-1.5 font-semibold text-slate-600">
+        {tooltip ? (
+          <span className="group relative inline-flex">
+            <Info className="h-3.5 w-3.5 text-slate-500" aria-label={tooltip} />
+            <span className="pointer-events-none absolute left-0 top-5 z-30 hidden w-64 rounded border border-line bg-panel px-2 py-1.5 text-xs font-semibold leading-5 text-slate-700 shadow-soft group-hover:block">
+              {tooltip}
+            </span>
+          </span>
+        ) : null}
+        {displayLabel}
+      </span>
       <span className={clsx("font-bold tabular-nums", tone)}>{current} / {target}</span>
     </div>
   );
@@ -915,6 +1007,86 @@ function ComparisonRadar({ baseline, finalRatings }: { baseline: TeamRatings; fi
   );
 }
 
+type CourtSpot = {
+  key: "guardTop" | "guardWing" | "forwardSlot" | "forwardBaseline" | "centerPaint";
+  label: string;
+  role: "Guard" | "Forward" | "Center";
+  x: number;
+  y: number;
+};
+
+/**
+ * Baseline-bottom layout.
+ *
+ * Percentages are panel coordinates:
+ * - x: 0 left to 100 right
+ * - y: 0 top to 100 bottom
+ *
+ * The basket/baseline is at the bottom of the panel.
+ * This keeps the court visually intuitive and makes player placement easier.
+ */
+const COURT_SPOTS: CourtSpot[] = [
+  // 1 – Point Guard: top of the key, center of the panel
+  { key: "guardTop", label: "1", role: "Guard", x: 50, y: 70 },
+
+  // 2 – Shooting Guard: left wing
+  { key: "guardWing", label: "2", role: "Guard", x: 16, y: 55 },
+
+  // 3 – Small Forward: right wing
+  { key: "forwardSlot", label: "3", role: "Forward", x: 84, y: 38 },
+
+  // 4 – Power Forward: left elbow / high post
+  { key: "forwardBaseline", label: "4", role: "Forward", x: 20, y: 20 },
+
+  // 5 – Center: paint, near the basket
+  { key: "centerPaint", label: "5", role: "Center", x: 52, y: 16 },
+];
+
+function createCourtSvg() {
+  return makeBasketballCourt({
+    width: 510,
+    type: "nba",
+    halfCourt: true,
+    horizontal: false,
+    theme: "plain",
+    trapezoid: false,
+    ftCircleDashCount: 18,
+    data: COURT_THEME,
+  })
+    .toString()
+    // Strip hardcoded width/height so the SVG scales via CSS instead
+    .replace(/\s+width="[^"]*"/, "")
+    .replace(/\s+height="[^"]*"/, "")
+    .replace(
+      "<svg ",
+      '<svg class="court-svg" role="img" aria-label="Clean NBA half court" preserveAspectRatio="xMidYMid meet" style="width:100%;height:100%;display:block;" ',
+    )
+    .replace("<rect ", '<rect rx="18" ry="18" ');
+}
+
+function getCourtAssignments(players: OptimizerPlayer[]) {
+  const guards = players
+    .filter((player) => player.position_group === "G")
+    .sort((a, b) => b.projected_bpr - a.projected_bpr);
+  const forwards = players
+    .filter((player) => player.position_group === "F")
+    .sort((a, b) => b.projected_bpr - a.projected_bpr);
+  const centers = players
+    .filter((player) => player.position_group === "C")
+    .sort((a, b) => b.projected_bpr - a.projected_bpr);
+
+  const assignments = [
+    guards[0] ? { player: guards[0], spot: COURT_SPOTS[0] } : null,
+    guards[1] ? { player: guards[1], spot: COURT_SPOTS[1] } : null,
+    forwards[0] ? { player: forwards[0], spot: COURT_SPOTS[2] } : null,
+    forwards[1] ? { player: forwards[1], spot: COURT_SPOTS[3] } : null,
+    centers[0] ? { player: centers[0], spot: COURT_SPOTS[4] } : null,
+  ].filter((assignment): assignment is { player: OptimizerPlayer; spot: CourtSpot } => Boolean(assignment));
+
+  const starterIds = new Set(assignments.map(({ player }) => player.optimizer_player_id));
+  return { assignments, starterIds };
+}
+
 function CourtLineup({
   players,
   additions,
@@ -924,68 +1096,54 @@ function CourtLineup({
   additions: OptimizerPlayer[];
   onDropCandidate?: (playerId: string) => void;
 }) {
-  const guards = players.filter((player) => player.position_group === "G").sort((a, b) => b.projected_bpr - a.projected_bpr);
-  const forwards = players.filter((player) => player.position_group === "F").sort((a, b) => b.projected_bpr - a.projected_bpr);
-  const centers = players.filter((player) => player.position_group === "C").sort((a, b) => b.projected_bpr - a.projected_bpr);
-  const starters = [guards[0], guards[1], forwards[0], forwards[1], centers[0]].filter(Boolean);
-  const starterIds = new Set(starters.map((player) => player.optimizer_player_id));
-  const bench = players.filter((player) => !starterIds.has(player.optimizer_player_id)).sort((a, b) => b.projected_bpr - a.projected_bpr);
-  const additionIds = new Set(additions.map((player) => player.optimizer_player_id));
-  const courtSvg = useMemo(
-    () =>
-      makeBasketballCourt({
-        width: 1000,
-        type: "nba",
-        halfCourt: true,
-        horizontal: false,
-        trapezoid: false,
-        ftCircleDashCount: 14,
-        data: COURT_THEME,
-      }).toString(),
-    [],
+  const { assignments, starterIds } = useMemo(() => getCourtAssignments(players), [players]);
+  const bench = useMemo(
+    () => players.filter((player) => !starterIds.has(player.optimizer_player_id)).sort((a, b) => b.projected_bpr - a.projected_bpr),
+    [players, starterIds],
   );
-  const spots = [
-    { label: "1", role: "Guard", className: "left-1/2 top-[72%] -translate-x-1/2" },
-    { label: "2", role: "Guard", className: "left-[9%] top-[47%]" },
-    { label: "3", role: "Forward", className: "right-[9%] top-[47%]" },
-    { label: "4", role: "Forward", className: "left-[28%] top-[31%]" },
-    { label: "5", role: "Center", className: "right-[34%] top-[23%]" },
-  ];
+  const additionIds = useMemo(() => new Set(additions.map((player) => player.optimizer_player_id)), [additions]);
+  const courtSvg = useMemo(() => createCourtSvg(), []);
+
+  function handleDrop(event: DragEvent<HTMLDivElement>) {
+    if (!onDropCandidate) return;
+    event.preventDefault();
+    const id = event.dataTransfer.getData("text/plain");
+    if (id) onDropCandidate(id);
+  }
+
   return (
     <div className="rounded border border-line bg-white p-4 shadow-soft">
       <div className="mb-3 text-sm font-semibold text-ink">Optimized Roster Court</div>
       <div
-        className="relative mx-auto h-[400px] max-w-2xl overflow-hidden rounded border border-line bg-slate-950 shadow-inner"
+        // className="relative mx-auto aspect-[47/50] w-full overflow-hidden rounded border border-line bg-slate-950 shadow-inner"
+        className="relative mx-auto h-[510px] w-full overflow-hidden rounded border border-line bg-slate-950 shadow-inner"
         style={{
           backgroundImage:
             "linear-gradient(90deg, rgba(148,163,184,.08) 1px, transparent 1px), linear-gradient(180deg, rgba(14,165,233,.16), rgba(16,185,129,.10) 54%, rgba(15,23,42,.18)), radial-gradient(circle at 50% 20%, rgba(255,255,255,.08), transparent 36%)",
           backgroundSize: "44px 44px, 100% 100%, 100% 100%",
         }}
         onDragOver={onDropCandidate ? (event) => event.preventDefault() : undefined}
-        onDrop={
-          onDropCandidate
-            ? (event) => {
-                event.preventDefault();
-                const id = event.dataTransfer.getData("text/plain");
-                if (id) onDropCandidate(id);
-              }
-            : undefined
-        }
+        onDrop={onDropCandidate ? handleDrop : undefined}
       >
         <div
-          className="pointer-events-none absolute inset-x-14 inset-y-5 flex items-center justify-center opacity-95 drop-shadow-[0_0_8px_rgba(226,232,240,.16)] [&_svg]:h-full [&_svg]:w-auto"
+          className="pointer-events-none absolute inset-3 bottom-[-40px] z-0 opacity-95 drop-shadow-[0_0_8px_rgba(226,232,240,.16)]"
           aria-hidden="true"
           dangerouslySetInnerHTML={{ __html: courtSvg }}
         />
-        <div className="absolute inset-0 bg-emerald-500/[.02]" />
-        {spots.map((spot, index) => {
-          const player = starters[index];
-          return player ? (
-            <div key={spot.label} className={clsx("absolute w-32", spot.className)}>
+
+        <div className="absolute inset-0 z-10 bg-emerald-500/[.02]" />
+
+        <div className="absolute inset-0 z-20">
+          {assignments.map(({ player, spot }) => (
+            <div
+              key={player.optimizer_player_id}
+              className="absolute w-32 -translate-x-1/2 -translate-y-1/2"
+              style={{ left: `${spot.x}%`, top: `${spot.y}%` }}
+            >
               <CourtPlayer player={player} label={spot.label} role={spot.role} added={additionIds.has(player.optimizer_player_id)} />
             </div>
-          ) : null;
-        })}
+          ))}
+        </div>
       </div>
       <div className="mt-3 grid grid-cols-2 gap-2 lg:grid-cols-3 2xl:grid-cols-4">
         {bench.slice(0, 10).map((player) => (
@@ -1002,11 +1160,7 @@ function CourtLineup({
         <div
           className="mt-3 rounded border border-dashed border-line bg-panel p-3 text-center text-sm font-semibold text-slate-500"
           onDragOver={(event) => event.preventDefault()}
-          onDrop={(event) => {
-            event.preventDefault();
-            const id = event.dataTransfer.getData("text/plain");
-            if (id) onDropCandidate(id);
-          }}
+          onDrop={handleDrop}
         >
           Drop players here to add them to the bench.
         </div>
@@ -1028,9 +1182,14 @@ function CourtPlayer({ player, label, role, added }: { player: OptimizerPlayer; 
   );
 }
 
+
 function RecommendedSets({ sets, sortMode, compact = false }: { sets: RecommendationSet[]; sortMode: SortMode; compact?: boolean }) {
   if (!sets.length) return <EmptyResults text="Run the optimizer to see recommended roster sets." />;
-  return <div className="grid gap-3">{sets.map((set) => <SetCard key={set.id} set={set} sortMode={sortMode} compact={compact} />)}</div>;
+  return (
+    <div className={clsx("grid gap-3", !compact && "max-h-[535px] overflow-y-auto pr-1")}>
+      {sets.map((set) => <SetCard key={set.id} set={set} sortMode={sortMode} compact={compact} />)}
+    </div>
+  );
 }
 
 function SetCard({ set, sortMode, compact = false }: { set: RecommendationSet; sortMode: SortMode; compact?: boolean }) {
@@ -1273,7 +1432,7 @@ function ManualOptimizerPane({
                 className="grid grid-cols-[minmax(0,1fr)_auto_auto] items-center gap-2 px-3 py-2 hover:bg-panel"
               >
                 <OptimizerPlayerRow player={candidate} />
-                <MetricCallout {...individualMetric(fit, sortMode)} compact />
+                <MetricCallout {...individualMetric(fit, sortMode)} compact hideAffects />
                 <button
                   type="button"
                   onClick={() => addPlayer(candidate.optimizer_player_id)}
@@ -1339,8 +1498,12 @@ function ManualOptimizerPane({
       </div>
 
       <div className="space-y-4">
-        <CourtLineup players={manualRoster} additions={selected} onDropCandidate={addPlayer} />
+        <div className="mx-auto w-full max-w-[580px]">
+          <CourtLineup players={manualRoster} additions={selected} onDropCandidate={addPlayer} />
+        </div>
+
         <TeamComparisonCard baseline={currentRatings} manualRatings={finalRatings} invalid={false} />
+
         <article className="rounded border border-line bg-white p-4 shadow-soft">
           <div>
             <div>
@@ -1352,6 +1515,7 @@ function ManualOptimizerPane({
           <RatingDeltaGrid changes={changes} />
         </article>
       </div>
+
     </div>
   );
 }
@@ -1362,7 +1526,7 @@ function IndividualFitRow({ fit, sortMode }: { fit: IndividualFitRecommendation;
     <div className="grid gap-3 rounded border border-line bg-white px-3 py-2 shadow-soft md:grid-cols-[1fr_auto] md:items-center">
       <OptimizerPlayerRow player={fit.player} />
       <div className="flex flex-wrap items-center gap-3 md:justify-end">
-        <MetricCallout value={metric.value} label={metric.label} affects={metric.affects} compact />
+        <MetricCallout value={metric.value} label={metric.label} affects={metric.affects} compact hideAffects />
         <div className="text-xs font-semibold text-slate-500">
           Total {formatDelta(fit.individual_total_gain)} | Weak {formatDelta(fit.individual_weakest_gain)}
         </div>
@@ -1474,12 +1638,12 @@ function Select({ value, options, disabled = false, onChange }: { value: string;
   );
 }
 
-function MetricCallout({ value, label, affects, compact = false }: { value: number; label: string; affects: string; compact?: boolean }) {
+function MetricCallout({ value, label, affects, compact = false, hideAffects = false }: { value: number; label: string; affects: string; compact?: boolean; hideAffects?: boolean }) {
   return (
     <div className={clsx("rounded border border-emerald-300 bg-emerald-50 text-right dark:border-emerald-700 dark:bg-emerald-950", compact ? "min-w-[82px] px-1.5 py-1" : "px-3 py-2")}>
       <div className={clsx("font-bold tabular-nums text-emerald-700 dark:text-emerald-200", compact ? "text-xs" : "text-lg")}>{formatDelta(value)}</div>
       <div className={clsx("font-semibold uppercase tracking-wide text-emerald-700 dark:text-emerald-300", compact ? "text-[8px]" : "text-[10px]")}>{label}</div>
-      {!compact ? <div className="text-[10px] text-emerald-700 dark:text-emerald-300">Affects: {affects}</div> : <div className="truncate text-[8px] text-emerald-700 dark:text-emerald-300">{affects}</div>}
+      {hideAffects ? null : !compact ? <div className="text-[10px] text-emerald-700 dark:text-emerald-300">Affects: {affects}</div> : <div className="truncate text-[8px] text-emerald-700 dark:text-emerald-300">{affects}</div>}
     </div>
   );
 }
@@ -1514,7 +1678,8 @@ function individualMetric(fit: IndividualFitRecommendation, sortMode: SortMode) 
 }
 
 function validateRosterState(rosterSize: number, currentCounts: TargetCounts, targetCounts: TargetCounts) {
-  if (!isValidTargetTotal(targetCounts)) return "Target roster counts cannot exceed 15.";
+  const targetTotal = targetCounts.G + targetCounts.F + targetCounts.C;
+  if (targetTotal !== MAX_ROSTER_SIZE) return `Target roster counts must equal 15. Current target total is ${targetTotal}.`;
   if (rosterSize > MAX_ROSTER_SIZE) {
     return `Your roster currently has ${rosterSize} players. Remove ${rosterSize - MAX_ROSTER_SIZE} player(s) to calculate ratings and run the optimizer.`;
   }

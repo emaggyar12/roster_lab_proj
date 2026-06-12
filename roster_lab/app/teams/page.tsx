@@ -1,10 +1,10 @@
 import { ReadOnlyTeamsView } from "@/components/ReadOnlyTeamsView";
 import { Shell } from "@/components/Shell";
 
-export default function TeamPage({ params }: { params: { teamId: string } }) {
+export default function TeamsPage() {
   return (
     <Shell>
-      <ReadOnlyTeamsView initialTeamId={params.teamId} />
+      <ReadOnlyTeamsView />
     </Shell>
   );
 }

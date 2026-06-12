@@ -4,19 +4,17 @@ import { useMemo, useState } from "react";
 import { Activity, ChevronDown, Search, Users } from "lucide-react";
 import clsx from "clsx";
 import type { Player } from "@/data/players";
-import { getPlayers, getTeam, getTeamPlayers, getTeams, getTopPlaytypes } from "@/lib/data";
+import { getPlayers, getTeamPlayers, getTeams, getTopPlaytypes } from "@/lib/data";
 import { SKILL_KEYS, SKILL_LABELS, calculateTeamRatings, normalizeOptimizerPlayer } from "@/lib/optimizer";
 import { PlayerAvatar } from "@/components/PlayerAvatar";
 import { SourceBadge } from "@/components/StatusBadge";
 
-export function ReadOnlyTeamsView({ initialTeamId }: { initialTeamId: string }) {
+export function ReadOnlyTeamsView() {
   const teams = getTeams();
-  const initialTeam = getTeam(initialTeamId) ?? teams[0];
   const allPlayers = getPlayers();
   const teamOptions = useMemo(() => buildTeamOptions(allPlayers, teams), [allPlayers, teams]);
-  const [teamName, setTeamName] = useState(initialTeam?.team_name ?? teamOptions[0] ?? "UConn");
+  const [teamName, setTeamName] = useState(teams[0]?.team_name ?? teamOptions[0] ?? "UConn");
   const roster = useMemo(() => getTeamPlayers(teamName), [teamName]);
-  const team = teams.find((item) => item.team_name === teamName);
 
   return (
     <section className="space-y-4">
@@ -25,7 +23,7 @@ export function ReadOnlyTeamsView({ initialTeamId }: { initialTeamId: string }) 
         <div>
           <h1 className="text-2xl font-semibold text-ink">{teamName}</h1>
           <p className="mt-1 max-w-3xl text-sm leading-6 text-slate-600">
-            {team?.conference ?? "Read-only roster scouting view."}
+            Read-only roster scouting view.
           </p>
         </div>
       </div>

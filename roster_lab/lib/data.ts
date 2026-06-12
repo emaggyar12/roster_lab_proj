@@ -64,24 +64,20 @@ export function getTeam(teamId: string): Team | undefined {
 export function getTeamPlayers(teamName: string) {
   const canonicalTeamName = canonicalizeInstitution(teamName) ?? teamName;
 
-  return players.filter(
-    (player) =>
-      !player.draft_status &&
-      (player.current_team === canonicalTeamName ||
-        player.committed_team === canonicalTeamName ||
-        player.new_team === canonicalTeamName),
-  );
+  return players.filter((player) => {
+    if (player.draft_status) return false;
+    if (player.player_source === "transfer") return isTransferRosterMemberForTeam(player, canonicalTeamName);
+    return player.current_team === canonicalTeamName || player.committed_team === canonicalTeamName || player.new_team === canonicalTeamName;
+  });
 }
 
-export function getRecommendations(teamName: string, source: "all" | PlayerSource = "all") {
-  return players
-    .filter((player) => player.player_source !== "roster")
-    .filter((player) => source === "all" || player.player_source === source)
-    .map((player) => ({
-      ...player,
-      fit_score: Math.min(99, player.fit_score + teamAdjustment(teamName, player.position)),
-    }))
-    .sort((a, b) => b.fit_score - a.fit_score || b.projected_bpr - a.projected_bpr);
+export function isTransferOutgoingFromTeam(player: Player, teamName: string) {
+  if (player.player_source !== "transfer") return false;
+  const canonicalTeamName = canonicalTeam(teamName);
+  if (!canonicalTeamName) return false;
+  const sourceTeams = getTransferSourceTeams(player);
+  if (!sourceTeams.includes(canonicalTeamName)) return false;
+  return !getTransferDestinationTeams(player).includes(canonicalTeamName);
 }
 
 export function getTopPlaytypes(player: Player, count = 3) {
@@ -98,10 +94,33 @@ export function formatStatus(status: PortalStatus) {
     .join(" ");
 }
 
-function teamAdjustment(teamName: string, position: Player["position"]) {
-  if (teamName === "Indiana" && ["PG", "PF", "C"].includes(position)) return 6;
-  if (teamName === "UCLA" && ["SG", "SF", "C"].includes(position)) return 5;
-  if (teamName === "UConn" && ["PG", "PF"].includes(position)) return 4;
-  if (teamName === "Providence" && ["SF", "C"].includes(position)) return 6;
-  return 0;
+function isTransferRosterMemberForTeam(player: Player, canonicalTeamName: string) {
+  const selectedTeam = canonicalTeam(canonicalTeamName);
+  if (!selectedTeam) return false;
+  const destinationTeams = getTransferDestinationTeams(player);
+  if (destinationTeams.includes(selectedTeam)) return true;
+  const sourceTeams = getTransferSourceTeams(player);
+  if (!sourceTeams.includes(selectedTeam)) return false;
+  return destinationTeams.some((destinationTeam) => sourceTeams.includes(destinationTeam));
+}
+
+function getTransferSourceTeams(player: Player) {
+  return uniqueTeams([player.current_team, player.previous_team]);
+}
+
+function getTransferDestinationTeams(player: Player) {
+  return uniqueTeams([player.new_team, player.committed_team]);
+}
+
+function uniqueTeams(values: Array<string | undefined>) {
+  return Array.from(new Set(values.map(canonicalTeam).filter((value): value is string => Boolean(value))));
+}
+
+function canonicalTeam(value: string | undefined) {
+  const rawValue = value?.trim();
+  if (!rawValue) return null;
+  const canonicalValue = canonicalizeInstitution(rawValue) ?? rawValue;
+  const lowerValue = canonicalValue.toLowerCase();
+  if (lowerValue === "n/a" || lowerValue === "na" || lowerValue === "unknown" || lowerValue === "uncommitted") return null;
+  return canonicalValue;
 }

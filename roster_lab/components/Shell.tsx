@@ -9,10 +9,10 @@ import { useState } from "react";
 import { ThemeToggle } from "@/components/ThemeToggle";
 
 const navItems = [
-  { href: "/", label: "Players", icon: BarChart3 },
-  { href: "/simulator", label: "Roster Management", icon: ClipboardList },
+  { href: "/players", label: "Players", icon: BarChart3 },
+  { href: "/rosters", label: "Roster Management", icon: ClipboardList },
   { href: "/optimizer", label: "Optimizer", icon: FlaskConical },
-  { href: "/teams/uconn", label: "Teams", icon: Users },
+  { href: "/teams", label: "Teams", icon: Users },
 ];
 
 export function Shell({ children }: { children: React.ReactNode }) {
@@ -31,7 +31,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
           <div className="flex items-center justify-between gap-3">
             <div className={clsx(collapsed && "sr-only")}>
               <div className="text-lg font-semibold">Roster Lab</div>
-              <div className="mt-1 text-xs text-slate-300">Transfer portal operations</div>
+              <div className="mt-1 text-xs text-slate-300">Recruiting operations</div>
             </div>
             <button
               type="button"
@@ -46,7 +46,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
         <nav className="space-y-1 px-3 py-4">
           {navItems.map((item) => {
             const Icon = item.icon;
-            const active = item.href === "/" ? pathname === "/" : pathname.startsWith(item.href);
+            const active = pathname.startsWith(item.href);
             return (
               <Link
                 key={item.href}
@@ -84,7 +84,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
           <nav className="flex gap-2 overflow-x-auto">
             {navItems.map((item) => {
               const Icon = item.icon;
-              const active = item.href === "/" ? pathname === "/" : pathname.startsWith(item.href);
+              const active = pathname.startsWith(item.href);
               return (
                 <Link
                   key={item.href}

@@ -4359,6 +4359,509 @@ Backups:
 - Validation:
   - Ran `npm run build` from `frontend_site`; production build completed successfully.
 
+### 2026-06-11 Frontend folder rename scare check
+
+- User briefly renamed `frontend_site`, macOS prompted about updating imports, user declined, then renamed the directory back to `frontend_site`.
+- Checked repo state:
+  - `frontend_site` directory exists at the repo root.
+  - Active app route files are present:
+    - `frontend_site/app/page.tsx`
+    - `frontend_site/app/players/page.tsx`
+    - `frontend_site/app/rosters/page.tsx`
+    - `frontend_site/app/optimizer/page.tsx`
+    - `frontend_site/app/teams/page.tsx`
+  - Red `D` entries in Git status correspond to files intentionally deleted earlier:
+    - old `/portal`, `/recommendations`, `/simulator`, old `/teams/[teamId]`, and unused `RecommendationsBoard`.
+  - `frontend_site/package.json` package name is now `roster-lab`; this is safe for a private app and does not need to match the directory name.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+  - Build route table still shows:
+    - `/`
+    - `/players`
+    - `/rosters`
+    - `/optimizer`
+    - `/teams`
+
+### 2026-06-11 Teams route simplified
+
+- User observed that the Teams dropdown state is independent from the URL and requested removing the team ID from the route if feasible.
+- Verified:
+  - The old `/teams/[teamId]` route only used `teamId` for initial dropdown selection.
+  - After load, team selection is controlled by local dropdown state and does not update the URL.
+- Updated:
+  - Added canonical route `frontend_site/app/teams/page.tsx`.
+  - Removed `frontend_site/app/teams/[teamId]/page.tsx`.
+  - Updated `frontend_site/components/Shell.tsx` Teams nav link from `/teams/uconn` to `/teams`.
+  - Updated `frontend_site/components/ReadOnlyTeamsView.tsx` to initialize from the first seeded team instead of a route param.
+- No roster sourcing, Teams page dropdown behavior, roster display logic, or team data logic was changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+  - Build route table now shows `/teams` instead of `/teams/[teamId]`.
+
+### 2026-06-11 Players HS/transfer default BPR sort
+
+- User requested HS Recruits and Transfers tabs default to descending BPR instead of descending rating.
+- Updated `frontend_site/components/PlayerTable.tsx`:
+  - HS Recruit tab default sort key changed from `hs_rating` to `hs_bpr`.
+  - Transfer tab default sort key changed from `transfer_247_rating` to `transfer_bpr`.
+  - Sort direction remains descending.
+- No displayed data, data sourcing, filters, or sortable column behavior was otherwise changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-11 Players reset filters and sidebar copy
+
+- User requested a `Reset Filters` button for all toggles on the Players page and a sidebar subtitle copy change.
+- Updated `frontend_site/components/PlayerTable.tsx`:
+  - Added a `Reset Filters` button to the player filter panel.
+  - Button uses the same reset-style icon treatment as other pages.
+  - Reset clears search/filter state for the current player tab:
+    - player search
+    - position
+    - status
+    - team search
+    - class
+    - conference
+    - playtype
+    - stars
+    - uncommitted-only
+    - portal-only back to tab default
+    - pagination/display count
+    - expanded rows
+  - Did not change data sourcing, player rows, sorting columns, or tab behavior.
+- Updated `frontend_site/components/Shell.tsx`:
+  - Changed sidebar subtitle from `Transfer portal operations` to `Recruiting operations`.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-11 Optimizer roster-size tooltip
+
+- User requested a small information icon to the left of `Roster Size` in the optimizer target controls.
+- Updated `frontend_site/components/RosterOptimizer.tsx`:
+  - Added a small `Info` icon next to the `Roster Size` label.
+  - Hovering the icon displays:
+    - `Optimizer only runs if total roster count equals 15. Adjust positional limits with +/- buttons or manually adjust in text fields until roster count is 15.`
+  - No optimizer math, data sourcing, roster behavior, or layout beyond this tooltip was changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-11 Dummy team metadata and obsolete fit cleanup
+
+- User requested safe removal of remaining dummy team metadata and obsolete fit-rating logic without changing active website behavior or data sourcing.
+- Verified active use before editing:
+  - `frontend_site/data/teams.ts` is used only as a seeded list for team IDs/names in dropdown/default-team flows.
+  - No active page/model used the old `conference`, `roster_limit`, `scholarships_used`, `style`, or `needs` fields from `teams.ts`.
+  - `frontend_site/lib/data.ts` still had obsolete `getRecommendations()` / `teamAdjustment()` fit-score logic, but it was only referenced by the unused `RecommendationsBoard` component from the removed recommendations route.
+- Updated:
+  - `frontend_site/data/teams.ts`
+    - Kept only `team_id` and `team_name`.
+    - Removed dummy `conference`, `roster_limit`, `scholarships_used`, `style`, and `needs`.
+  - `frontend_site/lib/data.ts`
+    - Removed obsolete `getRecommendations()`.
+    - Removed hardcoded `teamAdjustment()` fit-score boosts.
+  - `frontend_site/components/RecommendationsBoard.tsx`
+    - Removed the unused old recommendations component.
+  - `frontend_site/components/PlayerTable.tsx`
+    - Removed only the HS Recruit view's `Rating` filter input.
+    - Did not remove HS rating data, rating display, sorting, or sourcing.
+  - `frontend_site/data/data_sources.txt`
+    - Updated documentation so `teams.ts` is listed only as team ID/name metadata.
+    - Removed the obsolete recommendations/fit-adjustment documentation block.
+- No optimizer math, roster logic, recruit/transfer data sourcing, generated player data, or visible page structure was intentionally changed beyond the requested HS rating filter removal.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-11 Transfer-out roster membership and full optimizer eligibility
+
+- User requested a narrow, high-risk data-display logic fix:
+  - Do not change generated data or data sourcing.
+  - Remove transfer-out players from their old team roster views.
+  - Prevent transfer-out players from being recommended back to their old team in Full Roster Optimization.
+  - Keep those same players visible in Manual Optimizer and Single Player Optimization.
+- Pre-check:
+  - Scanned transfer source/destination team names for close non-equal names.
+  - Found close but distinct school pairs:
+    - Jacksonville -> Jacksonville State.
+    - Northeastern -> Northwestern.
+  - The implementation uses exact canonical team equality only, so close names are not merged.
+- Updated:
+  - `frontend_site/lib/data.ts`
+    - Added transfer roster membership helpers.
+    - `getTeamPlayers()` now treats transfers as destination-first:
+      - Include a transfer on the destination/new/committed team.
+      - Exclude a transfer from the source/current/previous team unless the destination is the same canonical school.
+  - `frontend_site/components/RosterOptimizer.tsx`
+    - Added a Full Roster Optimization-only candidate filter using `isTransferOutgoingFromTeam()`.
+    - Manual Optimizer and Single Player Optimization still receive the full candidate pool.
+    - Also filters stale loaded optimizer payload IDs through the same outgoing-transfer rule so old localStorage cannot re-add a transferred-out player to the loaded roster.
+- Example checked:
+  - Elyjah Freeman raw transfer row is Auburn -> Texas, committed.
+  - Under the new logic, he is excluded from Auburn's roster and Auburn's Full Roster Optimization candidates.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+  - Re-ran `npm run build` after adding the stale optimizer-payload guard; production build completed successfully.
+
+### 2026-06-11 Optimizer target max text inputs restored
+
+- User noticed the editable text/number fields for optimizer max position targets had disappeared.
+- Updated:
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Change:
+  - Reintroduced editable numeric inputs for the Guard/Forward/Center target max values.
+  - Kept the existing +/- buttons.
+  - Manual target edits clear the current optimizer result and preserve existing validation styling.
+- No data sources, roster sourcing, optimizer math, or other frontend sections were changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-11 Optimizer target input behavior cleanup
+
+- User requested cleanup of the restored optimizer max-position inputs.
+- Updated:
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Changes:
+  - Removed native browser up/down spinners by switching the target inputs from number inputs to text inputs with numeric parsing.
+  - Leading zero behavior is normalized, so typing/backspacing does not leave values like `05`.
+  - Removed automatic position target balancing from the +/- buttons.
+  - The optimizer can no longer run unless Guard + Forward + Center targets total exactly 15.
+- No data sources, roster sourcing, optimizer math, or other frontend sections were changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-11 Manual/single optimizer metric callout cleanup
+
+- User requested removing the small third-line category text from green metric boxes in Manual Optimizer and Single Player Optimization only.
+- Updated:
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Change:
+  - Added a `hideAffects` option to `MetricCallout`.
+  - Applied it only to:
+    - manual candidate pool metric boxes.
+    - single-player optimization metric rows.
+  - Full Roster Optimization metric callouts were left unchanged.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-11 Full roster recommended sets scroll pane
+
+- User requested making the Full Roster Optimization recommended sets list a scroll-down pane about the height of the first card.
+- Updated:
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Change:
+  - Wrapped the non-compact `RecommendedSets` list in an internal scroll area.
+  - The list no longer stretches the page as multiple recommended set cards render.
+  - No data sourcing or optimizer logic changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-11 Teams page header dummy artifact removal and scan
+
+- User noticed Teams page headers still showed dummy/static team metadata for teams present in early mock data, e.g. UConn showing `Big East` while other teams showed `Read-only roster scouting view.`
+- Updated:
+  - `frontend_site/components/ReadOnlyTeamsView.tsx`
+- Change:
+  - Teams page subtitle now always displays:
+    - `Read-only roster scouting view.`
+  - Removed the conditional display of `team?.conference` from the Teams page header.
+- Artifact scan findings shared with user:
+  - `frontend_site/data/teams.ts` still contains hand-written early team metadata:
+    - `conference`
+    - `roster_limit`
+    - `scholarships_used`
+    - `style`
+    - `needs`
+    - hardcoded teams: UConn, Duke, Indiana, UCLA, Providence.
+  - `frontend_site/lib/data.ts` still contains `teamAdjustment()` with hardcoded fit-score boosts for Indiana, UCLA, UConn, and Providence.
+  - `frontend_site/data/data_sources.txt` documents those `teams.ts` and `teamAdjustment()` sources because they currently exist.
+  - `frontend_site/codex_instructions/frontend_instructions.md` still contains original mock/dummy build instructions, but this is an instruction/archive file and not active app runtime data.
+  - `frontend_site/components/RosterOptimizer_old.tsx` is a backup file containing older UI logic and should be ignored unless user wants backups cleaned.
+- No generated player data or data sourcing files were changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-11 Route rename cleanup
+
+- User requested route-name cleanup without changing page content or frontend behavior:
+  - Main player page should be `/players`.
+  - Roster Management page should be `/rosters`.
+  - Optimizer and Teams routes were already correctly named.
+  - Old route names should be removed.
+- Updated routes:
+  - Added `frontend_site/app/players/page.tsx` with the existing player leaderboard content.
+  - Added `frontend_site/app/rosters/page.tsx` with the existing roster management content.
+  - Replaced `frontend_site/app/page.tsx` with a redirect to `/players`.
+  - Removed old active route files:
+    - `frontend_site/app/portal/page.tsx`
+    - `frontend_site/app/recommendations/page.tsx`
+    - `frontend_site/app/simulator/page.tsx`
+  - Updated active navigation/internal links:
+    - Sidebar Players link now points to `/players`.
+    - Sidebar Roster Management link now points to `/rosters`.
+    - Optimizer back links now point to `/rosters`.
+- No page content, data sourcing, optimizer logic, or component behavior was intentionally changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+  - Build route table now shows:
+    - `/`
+    - `/optimizer`
+    - `/players`
+    - `/rosters`
+    - `/teams/[teamId]`
+  - Old active routes `/portal`, `/recommendations`, and `/simulator` are no longer in the build output.
+
+### 2026-06-11 Data source inventory source-by-source rewrite
+
+- User said the `data_sources.txt` documentation was useful but wanted each upstream source to list its own contribution directly, instead of listing sources as a group and then describing contributions as a group.
+- Updated:
+  - `frontend_site/data/data_sources.txt`
+- Documentation change:
+  - Rewrote the upstream sections for:
+    - returning/current-roster players.
+    - transfer players.
+    - high-school recruits.
+  - Each upstream CSV/DB/cache path now has its own `Contributes:` list immediately below it.
+- No frontend code, generated player data, data sourcing logic, or app behavior was changed.
+- Validation:
+  - No build run; documentation-only text file change.
+
+### 2026-06-11 Data source glossary added
+
+- User asked for a glossary at the bottom of `data_sources.txt` because some upstream sources are referenced in multiple site sections.
+- Updated:
+  - `frontend_site/data/data_sources.txt`
+- Documentation change:
+  - Added an `Upstream source glossary` section at the bottom.
+  - Each upstream source appears once with a complete combined list of contributions across the frontend data pipeline.
+  - Included model CSVs, DBs, cache directories, draft CSV, alias CSV, and runtime generated data modules where relevant.
+- No frontend code, generated player data, data sourcing logic, or app behavior was changed.
+- Validation:
+  - No build run; documentation-only text file change.
+
+### 2026-06-11 Optimizer court rotation and editable target counts
+
+- User reviewed the new basketball court and requested:
+  - rotate the half-court 90 degrees.
+  - scale it down proportionally so it fits the optimizer court panel.
+  - adjust player locations to match basketball positions after rotation.
+  - make optimizer max position targets editable text/number boxes while keeping +/- controls.
+- Updated:
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Court changes:
+  - Changed the court panel to a landscape 16:9 layout.
+  - Rotated the generated `basketball-court` SVG layer 90 degrees.
+  - Scaled the SVG layer inside the panel to reduce cropping.
+  - Updated formation anchors for the rotated court:
+    - guard at top of key.
+    - guard at wing.
+    - forward inside wing/slot.
+    - forward baseline/short corner.
+    - center in paint.
+- Target controls:
+  - Position targets now show editable numeric inputs for Guard/Forward/Center max counts.
+  - Existing +/- buttons remain.
+  - Manual input can temporarily create an invalid total above 15.
+  - Invalid target rows turn red and show a prompt asking the user to enter another number.
+  - Existing optimizer validation still disables running when target totals exceed 15 or current counts exceed targets.
+- No player data, optimizer math, or data sourcing was changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-11 Frontend data source inventory document
+
+- User asked for an unused documentation-only text file under `frontend_site/data` listing every frontend data source and which displayed/derived data points come from each source.
+- Added:
+  - `frontend_site/data/data_sources.txt`
+- Contents:
+  - Documents active runtime data modules:
+    - `players.ts`
+    - `returningPlayers.ts`
+    - `transferPlayers.ts`
+    - `hsRecruits.ts`
+    - `draftPlayers.ts`
+    - `teams.ts`
+    - `teamAliases.ts`
+  - Documents upstream builder inputs for:
+    - returning players.
+    - transfers.
+    - high-school recruits.
+    - draft status.
+    - institution aliases.
+  - Lists the player fields and displayed/derived data points each source supplies.
+  - Includes optimizer-derived metrics and localStorage state as derived/runtime sources.
+- No frontend app code, generated player data, or data sourcing logic was changed.
+- Validation:
+  - No build run; documentation-only text file change.
+
+### 2026-06-11 Optimizer half-court rebuilt from provided court instructions
+
+- User added:
+  - `frontend_site/codex_instructions/codex_basketball_court_instructions.md`
+  - `frontend_site/codex_instructions/HalfCourt.jsx`
+- Updated:
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Court rendering:
+  - Kept using the `basketball-court` package.
+  - Replaced the previous court theme/options with the exact court theme and package options from the new instruction file:
+    - `width: 900`
+    - `type: "nba"`
+    - `halfCourt: true`
+    - `horizontal: true`
+    - `theme: "plain"`
+    - `ftCircleDashCount: 18`
+  - Added the SVG string replacements from the instruction:
+    - `class="court-svg"`
+    - `role="img"`
+    - `aria-label="Clean NBA half court"`
+    - `preserveAspectRatio="xMidYMid meet"`
+    - rounded outer rect.
+  - Scaled the court into the existing optimizer court panel using an absolute SVG background layer.
+- Player positioning:
+  - Replaced ad hoc player offsets with the requested role-based anchor formation:
+    - guard at top of key.
+    - guard at wing.
+    - forward inside wing/elbow slot.
+    - forward baseline/short corner.
+    - center inside paint.
+  - Preserved existing player card UI and bench/addition behavior.
+- No optimizer math, player data, recruit/transfer sourcing, or roster logic was changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 22:55 CDT Optimizer court switched to `basketball-court` package
+
+- User clarified that the optimizer court should use the npm `basketball-court` package instead of a hand-built SVG.
+- Updated:
+  - `frontend_site/package.json`
+  - `frontend_site/package-lock.json`
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Installed:
+  - `basketball-court@1.1.2`
+- Optimizer court rendering:
+  - Replaced the custom hand-drawn SVG line layer in `CourtLineup` with a generated half-court SVG from `basketball-court`.
+  - Kept the existing player placement, starter/bench selection, drag/drop behavior, and roster optimization logic unchanged.
+  - Added a site-themed court style object using the package-supported keys:
+    - `global`
+    - `court`
+    - `centerCircle`
+    - `restrainCircle`
+    - `hcline`
+    - `tpline`
+    - `lane`
+    - `innerLane`
+    - `ftCircleHigh`
+    - `ftCircleLow`
+    - `restricted`
+    - `backboard`
+    - `rim`
+  - The generated court uses dark-theme-friendly slate/emerald strokes and sits behind the existing player bubbles.
+- Notes:
+  - Did not touch the unused roster optimizer `_backup.tsx`.
+  - Did not change data sourcing, optimizer math, recruit data, transfer data, or roster logic.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 Optimizer court reference-style half-court
+
+- User asked to use the basketball-court reference style instead of manually improvised geometry, using only half of the court and matching the site theme.
+- Updated:
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Visual change:
+  - Reworked the optimizer court SVG into a top-down half-court based on the reference:
+    - top baseline basket
+    - court outline
+    - half-court line and partial center circle
+    - three-point arc with corner lines
+    - lane and inner lane
+    - free-throw circle with dashed upper half
+    - restricted arc, rim, backboard, and lane marks
+  - Adjusted starter bubble positions for the top-down half-court.
+  - Kept dark/emerald site-compatible colors.
+  - No player data or optimizer logic changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 Optimizer court SVG redesign
+
+- User said the revised court still looked weird and provided a side-oriented half-court reference.
+- Updated:
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Visual change:
+  - Replaced stacked CSS court lines with a single SVG court drawing for cleaner geometry.
+  - Court now follows a side-oriented reference:
+    - left-side hoop/backboard
+    - rectangular lane
+    - free-throw circle
+    - large three-point arc
+    - lane hash marks
+    - partial center circle on the far side
+  - Kept the site-compatible dark blue/emerald theme instead of the reference image colors.
+  - Adjusted starter bubble positions to fit the side-oriented court.
+  - Player data/selection logic was not changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 Optimizer court cleanup
+
+- User said the court looked off and requested removing the free-throw lines.
+- Updated:
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Visual change:
+  - Removed the free-throw semicircle and lane hash marks from the optimizer court.
+  - Kept the outer boundary, three-point arc, lane, restricted area, backboard, hoop, and player placement unchanged.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 Optimizer hidden fits tab removal
+
+- User requested removing the `Hidden Fits` tab from the optimizer bottom results panel and noted an unused roster optimizer backup file should be left alone.
+- Updated:
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Behavior/layout change:
+  - Full roster optimization result tabs now show only:
+    - `Recommended Sets`
+    - `Individual Fits`
+  - Removed the visible `Hidden Fits` tab and its rendered panel from the bottom results UI.
+  - Did not edit or touch the unused backup TSX file.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 Optimizer court visual redesign
+
+- User requested that the optimizer basketball court look more like a real half-court while still fitting the dark UI.
+- Updated:
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Visual change:
+  - Replaced the prior tan court block with a darker UI-matched court.
+  - Added structured half-court markings:
+    - outer boundary
+    - three-point arc
+    - lane/key
+    - free-throw semicircle
+    - restricted area
+    - backboard and hoop
+    - lane hash marks
+  - Player placement/data logic was not changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
+### 2026-06-10 Frontend numeric display precision
+
+- User asked whether the website was rounding display values to one decimal and requested changing display values to two decimals without changing frontend behavior/data.
+- Updated display-only formatting in React components:
+  - `frontend_site/components/PlayerDetailPanel.tsx`
+  - `frontend_site/components/PlayerTable.tsx`
+  - `frontend_site/components/PlayerTable_copy.tsx`
+  - `frontend_site/components/PortalSimulator.tsx`
+  - `frontend_site/components/ReadOnlyTeamsView.tsx`
+  - `frontend_site/components/RecommendationsBoard.tsx`
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Behavior change:
+  - Explicit one-decimal display calls (`toFixed(1)`) now render two decimals.
+  - BPR/stat helper calls that requested one decimal now request two decimals.
+  - No model outputs, generated data, or sourcing logic were changed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
+
 ### 2026-06-10 GitHub large-file push cleanup
 
 - User hit GitHub push rejection for files over the 100 MB hard limit and warnings for files over 50 MB.
@@ -4373,6 +4876,19 @@ Backups:
 - Verification:
   - `git ls-tree -r --long HEAD | awk '$4 >= 50000000 {print $4, $5}'` returned no files.
   - `git rev-list --objects origin/main..HEAD | git cat-file ...` returned no blobs over 50 MB.
+
+### 2026-06-10 Manual optimizer additions panel placement
+
+- User requested moving the manual remove-player/additions panel under the player search panel in the Manual Optimizer tab.
+- Updated:
+  - `frontend_site/components/RosterOptimizer.tsx`
+- Behavior/layout change:
+  - `Manual Additions` now appears in the left manual candidate column below the candidate pool.
+  - Selected players are stacked one per row instead of side-by-side.
+  - The selected-player list has a capped scroll area for longer manual selections.
+  - The duplicate/right-column additions panel was removed.
+- Validation:
+  - Ran `npm run build` from `frontend_site`; production build completed successfully.
 
 ### 2026-06-10 05:20:00 CDT Optimizer metric explanation: Flory Bidunga, Sam Orme, and recommendation labels
 

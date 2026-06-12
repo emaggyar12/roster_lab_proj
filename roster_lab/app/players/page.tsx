@@ -6,7 +6,7 @@ import { Shell } from "@/components/Shell";
 import { players } from "@/data/players";
 import { useMemo, useState } from "react";
 
-export default function HomePage() {
+export default function PlayersPage() {
   const [mode, setMode] = useState<PlayerMode>("all");
   const tablePlayers = useMemo(
     () =>

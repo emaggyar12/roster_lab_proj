@@ -1,7 +1,7 @@
 import { PortalSimulator } from "@/components/PortalSimulator";
 import { Shell } from "@/components/Shell";
 
-export default function SimulatorPage() {
+export default function RostersPage() {
   return (
     <Shell>
       <div className="mb-3">
