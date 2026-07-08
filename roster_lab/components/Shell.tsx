@@ -4,7 +4,7 @@ import type React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
-import { BarChart3, ClipboardList, FlaskConical, Menu, Users } from "lucide-react";
+import { BarChart3, ClipboardList, FlaskConical, Github, Linkedin, Mail, Menu, Users } from "lucide-react";
 import { useState } from "react";
 import { ThemeToggle } from "@/components/ThemeToggle";
 
@@ -15,9 +15,23 @@ const navItems = [
   { href: "/teams", label: "Teams", icon: Users },
 ];
 
+const emailAddress = "aharsha@vols.utk.edu";
+
+const socialLinks = [
+  { href: "https://www.linkedin.com/in/anirudhha-harsha-0103a0251/", label: "LinkedIn", icon: Linkedin },
+  { href: "https://github.com/emaggyar12/roster_lab_proj", label: "GitHub", icon: Github },
+];
+
 export function Shell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const [collapsed, setCollapsed] = useState(false);
+  const [emailCopied, setEmailCopied] = useState(false);
+
+  async function copyEmail() {
+    await navigator.clipboard.writeText(emailAddress);
+    setEmailCopied(true);
+    window.setTimeout(() => setEmailCopied(false), 1600);
+  }
 
   return (
     <div className="min-h-screen bg-page">
@@ -67,7 +81,40 @@ export function Shell({ children }: { children: React.ReactNode }) {
           })}
         </nav>
         {!collapsed ? (
-          <div className="absolute bottom-0 left-0 right-0 border-t border-white/10 p-3">
+          <div className="absolute bottom-0 left-0 right-0 space-y-3 border-t border-white/10 p-3">
+            <div className="relative flex items-center justify-center gap-3">
+              {emailCopied ? (
+                <div className="absolute -top-9 rounded border border-white/10 bg-[#f8faf7] px-3 py-1 text-xs font-semibold text-[#17202a] shadow-lg">
+                  Email copied!
+                </div>
+              ) : null}
+              <button
+                type="button"
+                onClick={copyEmail}
+                aria-label="Copy email"
+                title="Copy email"
+                className="flex h-9 w-9 items-center justify-center rounded border border-white/10 bg-white/5 text-slate-300 transition hover:border-white/20 hover:bg-white/10 hover:text-white"
+              >
+                <Mail className="h-4.5 w-4.5" />
+              </button>
+              {socialLinks.map((item) => {
+                const Icon = item.icon;
+
+                return (
+                  <a
+                    key={item.href}
+                    href={item.href}
+                    aria-label={item.label}
+                    title={item.label}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex h-9 w-9 items-center justify-center rounded border border-white/10 bg-white/5 text-slate-300 transition hover:border-white/20 hover:bg-white/10 hover:text-white"
+                  >
+                    <Icon className="h-4.5 w-4.5" />
+                  </a>
+                );
+              })}
+            </div>
             <ThemeToggle />
           </div>
         ) : null}
